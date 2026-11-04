@@ -28,3 +28,10 @@ Bot w turze: zawsze używa Zmiany trasy, gdy może; Bilet używa przy pierwszej 
 - Mediana partii 16-26 tur (60/60): **17** ✔
 - Gracz 80% wygrywa z graczem 50% w 70-85% partii: **88.0%** ✘
 - Przewaga rozpoczynającego < 55% (równe pary): **50.9%** ✔
+
+## Wnioski i korekta parametrów
+
+1. **Zasada z dokumentu v2.0 (1 karta na region) dawała za krótkie partie.** Przy tej samej symulacji (60/60) mediana wynosiła ok. 9 tur, a przewaga rozpoczynającego ok. 55-56%. Zmiana trasy i przechwyty sprawiają, że brakujące regiony zbiera się bardzo szybko.
+2. **Korekta: trzeba zebrać po 2 karty każdego regionu** (parametr `target` = 2, pierwsza karta regionu „zapełnia” go do połowy). Mediana rośnie do 17 tur, przewaga rozpoczynającego spada do ok. 51%. Gra z 1 kartą na region pozostaje dostępna w ustawieniach pokoju jako „krótka gra”.
+3. **Przewaga lepszego gracza (80/50) wynosi ok. 88%**, czyli trochę powyżej celu 70-85%. Wynika to z przechwytów: lepszy gracz zdobywa karty także w turach przeciwnika. Sprawdzone warianty (więcej kart specjalnych, wyłączona twierdza, mniejsza talia) zmieniały ten wynik najwyżej o 2-3 punkty. Wyłączenie przechwytów daje ok. 80% (w celu), ale wydłuża partię do mediany ok. 22 tur.
+4. **Decyzja:** domyślnie przechwyty pozostają włączone (zgodnie z dokumentem), bo to gra o wiedzy dla dwóch dorosłych osób, a lepsza wiedza powinna wygrywać. Kto woli więcej losowości, może wyłączyć przechwyty w ustawieniach pokoju.
