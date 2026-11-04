@@ -1,0 +1,603 @@
+# Źródła
+
+Data dostępu: 2026-11-04. Lista wygenerowana przez build.py.
+
+- <https://whc.unesco.org/en/list/786> (instytucja) · pytania: zab-01
+- <https://en.wikipedia.org/wiki/Schönbrunn_Palace> (wikipedia) · pytania: zab-01
+- <https://www.geschichtewiki.wien.gv.at/Stephansdom> (instytucja) · pytania: zab-02
+- <https://en.wikipedia.org/wiki/St._Stephen's_Cathedral,_Vienna> (wikipedia) · pytania: zab-02
+- <https://www.geschichtewiki.wien.gv.at/Pummerin> (instytucja) · pytania: zab-03
+- <https://de.wikipedia.org/wiki/Pummerin> (wikipedia) · pytania: zab-03
+- <https://www.geschichtewiki.wien.gv.at/Riesenrad> (instytucja) · pytania: zab-04
+- <https://en.wikipedia.org/wiki/Wiener_Riesenrad> (wikipedia) · pytania: zab-04
+- <https://www.geschichtewiki.wien.gv.at/Belvedere> (instytucja) · pytania: zab-05
+- <https://www.belvedere.at/> (strona instytucji) · pytania: zab-05
+- <https://www.geschichtewiki.wien.gv.at/Hofburg> (instytucja) · pytania: zab-06
+- <https://en.wikipedia.org/wiki/Hofburg> (wikipedia) · pytania: zab-06
+- <https://www.srs.at/> (strona instytucji) · pytania: zab-07
+- <https://en.wikipedia.org/wiki/Spanish_Riding_School> (wikipedia) · pytania: zab-07
+- <https://www.secession.at/> (strona instytucji) · pytania: zab-08
+- <https://en.wikipedia.org/wiki/Secession_Building> (wikipedia) · pytania: zab-08
+- <https://www.geschichtewiki.wien.gv.at/Hundertwasserhaus> (instytucja) · pytania: zab-09
+- <https://en.wikipedia.org/wiki/Hundertwasserhaus> (wikipedia) · pytania: zab-09
+- <https://www.geschichtewiki.wien.gv.at/Karlskirche> (instytucja) · pytania: zab-10
+- <https://en.wikipedia.org/wiki/Karlskirche> (wikipedia) · pytania: zab-10
+- <https://www.geschichtewiki.wien.gv.at/Dreifaltigkeitssäule_(1)> (instytucja) · pytania: zab-11
+- <https://en.wikipedia.org/wiki/Plague_Column,_Vienna> (wikipedia) · pytania: zab-11
+- <https://www.geschichtewiki.wien.gv.at/Ringstraße> (instytucja) · pytania: zab-12
+- <https://en.wikipedia.org/wiki/Ringstraße> (wikipedia) · pytania: zab-12
+- <https://www.parlament.gv.at/> (strona instytucji) · pytania: zab-13, his-49, spo-03, spo-04, spo-05
+- <https://en.wikipedia.org/wiki/Austrian_Parliament_Building> (wikipedia) · pytania: zab-13
+- <https://www.wiener-staatsoper.at/> (strona instytucji) · pytania: zab-14, spo-22
+- <https://en.wikipedia.org/wiki/Vienna_State_Opera> (wikipedia) · pytania: zab-14
+- <https://www.geschichtewiki.wien.gv.at/Prater> (instytucja) · pytania: zab-15
+- <https://en.wikipedia.org/wiki/Prater> (wikipedia) · pytania: zab-15
+- <https://www.stiftmelk.at/> (strona instytucji) · pytania: zab-16
+- <https://en.wikipedia.org/wiki/Melk_Abbey> (wikipedia) · pytania: zab-16
+- <https://en.wikipedia.org/wiki/Dürnstein> (wikipedia) · pytania: zab-17
+- <https://www.britannica.com/biography/Richard-I-king-of-England> (encyklopedia) · pytania: zab-17
+- <https://whc.unesco.org/en/list/772> (instytucja) · pytania: zab-18
+- <https://en.wikipedia.org/wiki/Lake_Neusiedl> (wikipedia) · pytania: zab-18
+- <https://esterhazy.at/> (strona instytucji) · pytania: zab-19
+- <https://en.wikipedia.org/wiki/Esterházy_Palace> (wikipedia) · pytania: zab-19
+- <https://whc.unesco.org/en/list/785> (instytucja) · pytania: zab-20
+- <https://en.wikipedia.org/wiki/Semmering_railway> (wikipedia) · pytania: zab-20
+- <https://www.nhm-wien.ac.at/> (strona instytucji) · pytania: zab-21
+- <https://en.wikipedia.org/wiki/Venus_of_Willendorf> (wikipedia) · pytania: zab-21
+- <https://www.carnuntum.at/> (strona instytucji) · pytania: zab-22
+- <https://en.wikipedia.org/wiki/Carnuntum> (wikipedia) · pytania: zab-22
+- <https://www.geschichtewiki.wien.gv.at/Votivkirche> (instytucja) · pytania: zab-23
+- <https://en.wikipedia.org/wiki/Votivkirche> (wikipedia) · pytania: zab-23
+- <https://www.geschichtewiki.wien.gv.at/MuseumsQuartier> (instytucja) · pytania: zab-24
+- <https://en.wikipedia.org/wiki/Museumsquartier> (wikipedia) · pytania: zab-24
+- <https://www.albertina.at/> (strona instytucji) · pytania: zab-25
+- <https://en.wikipedia.org/wiki/Albertina> (wikipedia) · pytania: zab-25
+- <https://www.salzburg-burgen.at/> (strona instytucji) · pytania: zab-26
+- <https://en.wikipedia.org/wiki/Hohensalzburg_Fortress> (wikipedia) · pytania: zab-26
+- <https://whc.unesco.org/en/list/806> (instytucja) · pytania: zab-27
+- <https://en.wikipedia.org/wiki/Hallstatt> (wikipedia) · pytania: zab-27, spo-32
+- <https://www.kaiservilla.at/> (strona instytucji) · pytania: zab-28
+- <https://en.wikipedia.org/wiki/Kaiservilla> (wikipedia) · pytania: zab-28
+- <https://mozarteum.at/> (strona instytucji) · pytania: zab-29
+- <https://en.wikipedia.org/wiki/Mozart's_Birthplace> (wikipedia) · pytania: zab-29
+- <https://www.hellbrunn.at/> (strona instytucji) · pytania: zab-30
+- <https://en.wikipedia.org/wiki/Hellbrunn_Palace> (wikipedia) · pytania: zab-30
+- <https://en.wikipedia.org/wiki/Mirabell_Palace> (wikipedia) · pytania: zab-31
+- <https://www.britannica.com/place/Salzburg-Austria> (encyklopedia) · pytania: zab-31
+- <https://www.salzburger-dom.at/> (strona instytucji) · pytania: zab-32
+- <https://en.wikipedia.org/wiki/Salzburg_Cathedral> (wikipedia) · pytania: zab-32
+- <https://www.britannica.com/biography/Michael-Pacher> (encyklopedia) · pytania: zab-33
+- <https://en.wikipedia.org/wiki/St._Wolfgang_im_Salzkammergut> (wikipedia) · pytania: zab-33
+- <https://www.stift-st-florian.at/> (strona instytucji) · pytania: zab-34
+- <https://en.wikipedia.org/wiki/St._Florian_Monastery> (wikipedia) · pytania: zab-34
+- <https://www.eisriesenwelt.at/> (strona instytucji) · pytania: zab-35
+- <https://en.wikipedia.org/wiki/Eisriesenwelt> (wikipedia) · pytania: zab-35
+- <https://www.britannica.com/place/Gmunden> (encyklopedia) · pytania: zab-36
+- <https://de.wikipedia.org/wiki/Gmundner_Keramik> (wikipedia) · pytania: zab-36
+- <https://whc.unesco.org/en/list/784> (instytucja) · pytania: zab-37
+- <https://en.wikipedia.org/wiki/Historic_Centre_of_the_City_of_Salzburg> (wikipedia) · pytania: zab-37
+- <https://www.stift-kremsmuenster.at/> (strona instytucji) · pytania: zab-38
+- <https://en.wikipedia.org/wiki/Kremsmünster_Abbey> (wikipedia) · pytania: zab-38
+- <https://www.mondsee.at/> (strona instytucji) · pytania: zab-39
+- <https://en.wikipedia.org/wiki/Mondsee_Abbey> (wikipedia) · pytania: zab-39
+- <https://www.britannica.com/place/Graz> (encyklopedia) · pytania: zab-40, geo-05
+- <https://de.wikipedia.org/wiki/Grazer_Uhrturm> (wikipedia) · pytania: zab-40
+- <https://www.museum-joanneum.at/> (strona instytucji) · pytania: zab-41, zab-52
+- <https://en.wikipedia.org/wiki/Kunsthaus_Graz> (wikipedia) · pytania: zab-41
+- <https://whc.unesco.org/en/list/931> (instytucja) · pytania: zab-42
+- <https://en.wikipedia.org/wiki/Schloss_Eggenberg_(Graz)> (wikipedia) · pytania: zab-42
+- <https://www.veste-riegersburg.at/> (strona instytucji) · pytania: zab-43
+- <https://en.wikipedia.org/wiki/Riegersburg_Castle> (wikipedia) · pytania: zab-43
+- <https://www.basilika-mariazell.at/> (strona instytucji) · pytania: zab-44
+- <https://en.wikipedia.org/wiki/Mariazell_Basilica> (wikipedia) · pytania: zab-44
+- <https://www.stiftadmont.at/> (strona instytucji) · pytania: zab-45
+- <https://en.wikipedia.org/wiki/Admont_Abbey> (wikipedia) · pytania: zab-45
+- <https://www.burg-hochosterwitz.com/> (strona instytucji) · pytania: zab-46
+- <https://en.wikipedia.org/wiki/Hochosterwitz_Castle> (wikipedia) · pytania: zab-46
+- <https://de.wikipedia.org/wiki/Lindwurmbrunnen> (wikipedia) · pytania: zab-47
+- <https://www.britannica.com/place/Klagenfurt> (encyklopedia) · pytania: zab-47, geo-06
+- <https://www.minimundus.at/> (strona instytucji) · pytania: zab-48
+- <https://en.wikipedia.org/wiki/Minimundus> (wikipedia) · pytania: zab-48
+- <https://www.grossglockner.at/> (strona instytucji) · pytania: zab-49
+- <https://en.wikipedia.org/wiki/Pasterze_Glacier> (wikipedia) · pytania: zab-49
+- <https://www.pyramidenkogel.info/> (strona instytucji) · pytania: zab-50
+- <https://de.wikipedia.org/wiki/Aussichtsturm_Pyramidenkogel> (wikipedia) · pytania: zab-50
+- <https://www.kath-kirche-kaernten.at/> (strona instytucji) · pytania: zab-51
+- <https://en.wikipedia.org/wiki/Gurk_Cathedral> (wikipedia) · pytania: zab-51
+- <https://en.wikipedia.org/wiki/Landeszeughaus> (wikipedia) · pytania: zab-52
+- <https://en.wikipedia.org/wiki/Coat_of_arms_of_Styria> (wikipedia) · pytania: zab-53
+- <https://www.verwaltung.steiermark.at/> (strona instytucji) · pytania: zab-53
+- <https://www.britannica.com/place/Innsbruck> (encyklopedia) · pytania: zab-54, geo-04
+- <https://en.wikipedia.org/wiki/Goldenes_Dachl> (wikipedia) · pytania: zab-54
+- <https://www.bergisel.info/> (strona instytucji) · pytania: zab-55
+- <https://en.wikipedia.org/wiki/Bergisel_Ski_Jump> (wikipedia) · pytania: zab-55
+- <https://www.schlossambras-innsbruck.at/> (strona instytucji) · pytania: zab-56
+- <https://en.wikipedia.org/wiki/Ambras_Castle> (wikipedia) · pytania: zab-56
+- <https://kristallwelten.swarovski.com/> (strona instytucji) · pytania: zab-57
+- <https://en.wikipedia.org/wiki/Swarovski_Kristallwelten> (wikipedia) · pytania: zab-57
+- <https://www.muenze-hall.at/> (strona instytucji) · pytania: zab-58
+- <https://en.wikipedia.org/wiki/Guldiner> (wikipedia) · pytania: zab-58
+- <https://www.festung.kufstein.at/> (strona instytucji) · pytania: zab-59
+- <https://en.wikipedia.org/wiki/Kufstein_Fortress> (wikipedia) · pytania: zab-59
+- <https://www.kunsthaus-bregenz.at/> (strona instytucji) · pytania: zab-60
+- <https://en.wikipedia.org/wiki/Kunsthaus_Bregenz> (wikipedia) · pytania: zab-60
+- <https://www.schattenburg.at/> (strona instytucji) · pytania: zab-61
+- <https://en.wikipedia.org/wiki/Schattenburg> (wikipedia) · pytania: zab-61
+- <https://www.asfinag.at/> (strona instytucji) · pytania: zab-62, spo-63
+- <https://en.wikipedia.org/wiki/Europabrücke> (wikipedia) · pytania: zab-62
+- <https://en.wikipedia.org/wiki/Coat_of_arms_of_Tyrol> (wikipedia) · pytania: zab-63
+- <https://www.tirol.gv.at/> (strona instytucji) · pytania: zab-63
+- <https://www.tiroler-landesmuseen.at/> (strona instytucji) · pytania: zab-64
+- <https://en.wikipedia.org/wiki/Hofkirche,_Innsbruck> (wikipedia) · pytania: zab-64
+- <https://www.pfaenderbahn.at/> (strona instytucji) · pytania: zab-65
+- <https://en.wikipedia.org/wiki/Pfänder> (wikipedia) · pytania: zab-65
+- <https://www.oesterreich.gv.at/> (strona instytucji) · pytania: zab-66, geo-02, his-07, spo-06, spo-10, spo-15, spo-17, spo-53, spo-54, spo-62, spo-65, spo-66, spo-67
+- <https://en.wikipedia.org/wiki/Coat_of_arms_of_Austria> (wikipedia) · pytania: zab-66, zab-67
+- <https://www.bundeskanzleramt.gv.at/> (strona instytucji) · pytania: zab-67, his-62, spo-09
+- <https://www.britannica.com/topic/flag-of-Austria> (encyklopedia) · pytania: zab-68
+- <https://en.wikipedia.org/wiki/Flag_of_Austria> (wikipedia) · pytania: zab-68
+- <https://www.britannica.com/topic/Deutschlandlied> (encyklopedia) · pytania: zab-69
+- <https://en.wikipedia.org/wiki/Gott_erhalte_Franz_den_Kaiser> (wikipedia) · pytania: zab-69
+- <https://www.oenb.at/> (strona instytucji) · pytania: zab-70, zab-71, his-66
+- <https://en.wikipedia.org/wiki/Austrian_euro_coins> (wikipedia) · pytania: zab-70, zab-71
+- <https://www.britannica.com/place/Grossglockner> (encyklopedia) · pytania: geo-01
+- <https://en.wikipedia.org/wiki/Grossglockner> (wikipedia) · pytania: geo-01
+- <https://en.wikipedia.org/wiki/States_of_Austria> (wikipedia) · pytania: geo-02, geo-65
+- <https://www.britannica.com/place/Danube-River> (encyklopedia) · pytania: geo-03, geo-58, geo-63
+- <https://en.wikipedia.org/wiki/Danube> (wikipedia) · pytania: geo-03, geo-63
+- <https://en.wikipedia.org/wiki/Innsbruck> (wikipedia) · pytania: geo-04
+- <https://en.wikipedia.org/wiki/Graz> (wikipedia) · pytania: geo-05
+- <https://en.wikipedia.org/wiki/Klagenfurt> (wikipedia) · pytania: geo-06
+- <https://www.britannica.com/place/Linz> (encyklopedia) · pytania: geo-07
+- <https://en.wikipedia.org/wiki/Linz> (wikipedia) · pytania: geo-07
+- <https://www.britannica.com/place/Sankt-Polten> (encyklopedia) · pytania: geo-08
+- <https://en.wikipedia.org/wiki/St._Pölten> (wikipedia) · pytania: geo-08
+- <https://www.britannica.com/place/Bregenz> (encyklopedia) · pytania: geo-09
+- <https://en.wikipedia.org/wiki/Bregenz> (wikipedia) · pytania: geo-09
+- <https://www.britannica.com/place/Austria> (encyklopedia) · pytania: geo-10, geo-12, geo-34, geo-53, his-59
+- <https://en.wikipedia.org/wiki/Geography_of_Austria> (wikipedia) · pytania: geo-10, geo-12, geo-34, geo-41, geo-58
+- <https://en.wikipedia.org/wiki/Austria–Liechtenstein_relations> (wikipedia) · pytania: geo-11
+- <https://www.britannica.com/place/Liechtenstein> (encyklopedia) · pytania: geo-11
+- <https://www.britannica.com/place/Inn-River> (encyklopedia) · pytania: geo-13
+- <https://en.wikipedia.org/wiki/Inn_(river)> (wikipedia) · pytania: geo-13
+- <https://austria-forum.org/af/AEIOU/Salzach> (encyklopedia) · pytania: geo-14
+- <https://en.wikipedia.org/wiki/Salzach> (wikipedia) · pytania: geo-14
+- <https://austria-forum.org/af/AEIOU/Mur> (encyklopedia) · pytania: geo-15
+- <https://en.wikipedia.org/wiki/Mur_(river)> (wikipedia) · pytania: geo-15
+- <https://www.britannica.com/place/Drava-River> (encyklopedia) · pytania: geo-16
+- <https://en.wikipedia.org/wiki/Drava> (wikipedia) · pytania: geo-16
+- <https://www.woerthersee.com/> (strona instytucji) · pytania: geo-17
+- <https://en.wikipedia.org/wiki/Wörthersee> (wikipedia) · pytania: geo-17
+- <https://www.weissensee.com/> (strona instytucji) · pytania: geo-18
+- <https://en.wikipedia.org/wiki/Weissensee_(Carinthia)> (wikipedia) · pytania: geo-18
+- <https://www.britannica.com/place/Salzkammergut> (encyklopedia) · pytania: geo-19
+- <https://en.wikipedia.org/wiki/Salzkammergut> (wikipedia) · pytania: geo-19
+- <https://whc.unesco.org/en/list/970> (instytucja) · pytania: geo-20
+- <https://en.wikipedia.org/wiki/Wachau> (wikipedia) · pytania: geo-20
+- <https://www.bpww.at/> (strona instytucji) · pytania: geo-21
+- <https://en.wikipedia.org/wiki/Vienna_Woods> (wikipedia) · pytania: geo-21
+- <https://www.donauauen.at/> (strona instytucji) · pytania: geo-22
+- <https://en.wikipedia.org/wiki/Danube-Auen_National_Park> (wikipedia) · pytania: geo-22
+- <https://hohetauern.at/> (strona instytucji) · pytania: geo-23
+- <https://en.wikipedia.org/wiki/Hohe_Tauern_National_Park> (wikipedia) · pytania: geo-23
+- <https://www.wasserfaelle-krimml.at/> (strona instytucji) · pytania: geo-24
+- <https://en.wikipedia.org/wiki/Krimml_Waterfalls> (wikipedia) · pytania: geo-24
+- <https://www.dachstein.at/> (strona instytucji) · pytania: geo-25
+- <https://en.wikipedia.org/wiki/Dachstein_Mountains> (wikipedia) · pytania: geo-25
+- <https://www.bbt-se.com/> (strona instytucji) · pytania: geo-26
+- <https://en.wikipedia.org/wiki/Brenner_Pass> (wikipedia) · pytania: geo-26
+- <https://austria-forum.org/af/AEIOU/Arlberg> (encyklopedia) · pytania: geo-27
+- <https://en.wikipedia.org/wiki/Arlberg> (wikipedia) · pytania: geo-27
+- <https://www.britannica.com/place/Lake-Constance> (encyklopedia) · pytania: geo-28
+- <https://en.wikipedia.org/wiki/Lake_Constance> (wikipedia) · pytania: geo-28
+- <https://www.britannica.com/place/Rhine-River> (encyklopedia) · pytania: geo-29
+- <https://en.wikipedia.org/wiki/Alpine_Rhine> (wikipedia) · pytania: geo-29
+- <https://www.zillertal.at/> (strona instytucji) · pytania: geo-30
+- <https://en.wikipedia.org/wiki/Zillertal> (wikipedia) · pytania: geo-30
+- <https://www.oetztal.com/> (strona instytucji) · pytania: geo-31
+- <https://en.wikipedia.org/wiki/Ötztal> (wikipedia) · pytania: geo-31
+- <https://vorarlberg.at/> (strona instytucji) · pytania: geo-32
+- <https://en.wikipedia.org/wiki/Vorarlberg> (wikipedia) · pytania: geo-32
+- <https://www.burgenland.at/> (strona instytucji) · pytania: geo-33, his-51
+- <https://en.wikipedia.org/wiki/Apetlon> (wikipedia) · pytania: geo-33
+- <https://www.statistik.at/> (strona instytucji) · pytania: geo-35, geo-65
+- <https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Austria> (wikipedia) · pytania: geo-35
+- <https://www.geschichtewiki.wien.gv.at/Donauinsel> (instytucja) · pytania: geo-36
+- <https://en.wikipedia.org/wiki/Donauinsel> (wikipedia) · pytania: geo-36
+- <https://www.britannica.com/place/Morava-River-Europe> (encyklopedia) · pytania: geo-37
+- <https://en.wikipedia.org/wiki/Morava_(river)> (wikipedia) · pytania: geo-37
+- <https://www.waldviertel.at/> (strona instytucji) · pytania: geo-38
+- <https://en.wikipedia.org/wiki/Waldviertel> (wikipedia) · pytania: geo-38
+- <https://www.geschichtewiki.wien.gv.at/Bezirk> (instytucja) · pytania: geo-39
+- <https://en.wikipedia.org/wiki/Districts_of_Vienna> (wikipedia) · pytania: geo-39
+- <https://www.viennaairport.com/> (strona instytucji) · pytania: geo-40
+- <https://en.wikipedia.org/wiki/Vienna_International_Airport> (wikipedia) · pytania: geo-40
+- <https://www.geosphere.at/> (strona instytucji) · pytania: geo-41
+- <https://www.britannica.com/science/foehn> (encyklopedia) · pytania: geo-42
+- <https://en.wikipedia.org/wiki/Foehn_wind> (wikipedia) · pytania: geo-42
+- <https://www.britannica.com/place/Karawanken> (encyklopedia) · pytania: geo-43
+- <https://en.wikipedia.org/wiki/Karawanks> (wikipedia) · pytania: geo-43
+- <https://www.steiermark.com/> (strona instytucji) · pytania: geo-44
+- <https://en.wikipedia.org/wiki/Styria> (wikipedia) · pytania: geo-44, geo-45
+- <https://www.steiermark.at/> (strona instytucji) · pytania: geo-45
+- <https://www.abenteuer-erzberg.at/> (strona instytucji) · pytania: geo-46
+- <https://en.wikipedia.org/wiki/Erzberg> (wikipedia) · pytania: geo-46
+- <https://www.britannica.com/place/Karnten> (encyklopedia) · pytania: geo-47, his-52
+- <https://en.wikipedia.org/wiki/Carinthia> (wikipedia) · pytania: geo-47
+- <https://www.britannica.com/place/Oberosterreich> (encyklopedia) · pytania: geo-48
+- <https://en.wikipedia.org/wiki/Upper_Austria> (wikipedia) · pytania: geo-48
+- <https://www.britannica.com/place/Attersee> (encyklopedia) · pytania: geo-49
+- <https://en.wikipedia.org/wiki/Attersee> (wikipedia) · pytania: geo-49
+- <https://www.traunsee-almtal.at/> (strona instytucji) · pytania: geo-50
+- <https://en.wikipedia.org/wiki/Traunsee> (wikipedia) · pytania: geo-50
+- <https://www.salzwelten.at/> (strona instytucji) · pytania: geo-51
+- <https://en.wikipedia.org/wiki/Hallein> (wikipedia) · pytania: geo-51
+- <https://www.muehlviertel.at/> (strona instytucji) · pytania: geo-52
+- <https://en.wikipedia.org/wiki/Mühlviertel> (wikipedia) · pytania: geo-52
+- <https://en.wikipedia.org/wiki/Austria> (wikipedia) · pytania: geo-53
+- <https://www.montafon.at/> (strona instytucji) · pytania: geo-54
+- <https://en.wikipedia.org/wiki/Montafon> (wikipedia) · pytania: geo-54
+- <https://www.britannica.com/place/Lienz> (encyklopedia) · pytania: geo-55
+- <https://en.wikipedia.org/wiki/East_Tyrol> (wikipedia) · pytania: geo-55
+- <https://www.britannica.com/place/Zugspitze> (encyklopedia) · pytania: geo-56
+- <https://en.wikipedia.org/wiki/Zugspitze> (wikipedia) · pytania: geo-56
+- <https://www.achensee.com/> (strona instytucji) · pytania: geo-57
+- <https://en.wikipedia.org/wiki/Achensee> (wikipedia) · pytania: geo-57
+- <https://www.oebb.at/> (strona instytucji) · pytania: geo-59, geo-62
+- <https://en.wikipedia.org/wiki/Austrian_Federal_Railways> (wikipedia) · pytania: geo-59
+- <https://www.weinviertel.at/> (strona instytucji) · pytania: geo-60
+- <https://en.wikipedia.org/wiki/Weinviertel> (wikipedia) · pytania: geo-60
+- <https://www.geschichtewiki.wien.gv.at/Wienfluss> (instytucja) · pytania: geo-61
+- <https://en.wikipedia.org/wiki/Wien_(river)> (wikipedia) · pytania: geo-61
+- <https://en.wikipedia.org/wiki/Koralm_Railway> (wikipedia) · pytania: geo-62
+- <https://www.noe.gv.at/> (strona instytucji) · pytania: geo-64
+- <https://en.wikipedia.org/wiki/Lower_Austria> (wikipedia) · pytania: geo-64
+- <https://www.voestalpine.com/> (strona instytucji) · pytania: geo-66
+- <https://en.wikipedia.org/wiki/Voestalpine> (wikipedia) · pytania: geo-66
+- <https://whc.unesco.org/en/list/1613> (instytucja) · pytania: geo-67
+- <https://en.wikipedia.org/wiki/Baden_bei_Wien> (wikipedia) · pytania: geo-67
+- <https://www.geschichtewiki.wien.gv.at/Erste_Hochquellenleitung> (instytucja) · pytania: geo-68
+- <https://de.wikipedia.org/wiki/I._Wiener_Hochquellenleitung> (wikipedia) · pytania: geo-68
+- <https://www.ischgl.com/> (strona instytucji) · pytania: geo-69
+- <https://en.wikipedia.org/wiki/Ischgl> (wikipedia) · pytania: geo-69
+- <https://www.britannica.com/place/Enns> (encyklopedia) · pytania: geo-70
+- <https://en.wikipedia.org/wiki/Enns_(river)> (wikipedia) · pytania: geo-70
+- <https://www.iceman.it/> (strona instytucji) · pytania: his-01
+- <https://en.wikipedia.org/wiki/Ötzi> (wikipedia) · pytania: his-01
+- <https://www.geschichtewiki.wien.gv.at/Vindobona> (instytucja) · pytania: his-02
+- <https://en.wikipedia.org/wiki/Vindobona> (wikipedia) · pytania: his-02
+- <https://www.britannica.com/topic/Hallstatt-culture> (encyklopedia) · pytania: his-03
+- <https://en.wikipedia.org/wiki/Hallstatt_culture> (wikipedia) · pytania: his-03
+- <https://www.britannica.com/place/Noricum> (encyklopedia) · pytania: his-04
+- <https://en.wikipedia.org/wiki/Noricum> (wikipedia) · pytania: his-04
+- <https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor> (encyklopedia) · pytania: his-05
+- <https://en.wikipedia.org/wiki/Meditations> (wikipedia) · pytania: his-05
+- <https://www.britannica.com/topic/House-of-Babenberg> (encyklopedia) · pytania: his-06
+- <https://en.wikipedia.org/wiki/House_of_Babenberg> (wikipedia) · pytania: his-06
+- <https://en.wikipedia.org/wiki/Ostarrîchi> (wikipedia) · pytania: his-07
+- <https://www.britannica.com/topic/Privilegium-Minus> (encyklopedia) · pytania: his-08
+- <https://en.wikipedia.org/wiki/Privilegium_Minus> (wikipedia) · pytania: his-08
+- <https://www.britannica.com/biography/Rudolf-I-king-of-Germany> (encyklopedia) · pytania: his-09
+- <https://en.wikipedia.org/wiki/Battle_on_the_Marchfeld> (wikipedia) · pytania: his-09
+- <https://www.univie.ac.at/> (strona instytucji) · pytania: his-10
+- <https://en.wikipedia.org/wiki/University_of_Vienna> (wikipedia) · pytania: his-10
+- <https://www.britannica.com/biography/Margaret-Maultasch> (encyklopedia) · pytania: his-11
+- <https://en.wikipedia.org/wiki/Margaret,_Countess_of_Tyrol> (wikipedia) · pytania: his-11
+- <https://austria-forum.org/af/AEIOU/AEIOU> (encyklopedia) · pytania: his-12
+- <https://en.wikipedia.org/wiki/A.E.I.O.U.> (wikipedia) · pytania: his-12
+- <https://www.britannica.com/topic/House-of-Habsburg> (encyklopedia) · pytania: his-13, his-14
+- <https://en.wikipedia.org/wiki/Habsburg_Castle> (wikipedia) · pytania: his-13
+- <https://en.wikipedia.org/wiki/House_of_Habsburg> (wikipedia) · pytania: his-14
+- <https://www.britannica.com/topic/First-Congress-of-Vienna> (encyklopedia) · pytania: his-15
+- <https://en.wikipedia.org/wiki/First_Congress_of_Vienna> (wikipedia) · pytania: his-15
+- <https://www.britannica.com/event/Siege-of-Vienna-1529> (encyklopedia) · pytania: his-16
+- <https://en.wikipedia.org/wiki/Siege_of_Vienna> (wikipedia) · pytania: his-16
+- <https://www.britannica.com/event/Siege-of-Vienna-1683> (encyklopedia) · pytania: his-17
+- <https://en.wikipedia.org/wiki/Battle_of_Vienna> (wikipedia) · pytania: his-17
+- <https://www.geschichtewiki.wien.gv.at/Ernst_Rüdiger_Starhemberg> (instytucja) · pytania: his-18
+- <https://en.wikipedia.org/wiki/Ernst_Rüdiger_von_Starhemberg> (wikipedia) · pytania: his-18
+- <https://www.geschichtewiki.wien.gv.at/Josefskirche_(19)> (instytucja) · pytania: his-19
+- <https://en.wikipedia.org/wiki/Kahlenberg> (wikipedia) · pytania: his-19
+- <https://www.britannica.com/event/Battle-of-Zenta> (encyklopedia) · pytania: his-20
+- <https://en.wikipedia.org/wiki/Battle_of_Zenta> (wikipedia) · pytania: his-20
+- <https://www.britannica.com/biography/Maria-Theresa> (encyklopedia) · pytania: his-21
+- <https://en.wikipedia.org/wiki/Maria_Theresa> (wikipedia) · pytania: his-21
+- <https://www.britannica.com/topic/Pragmatic-Sanction-of-Emperor-Charles-VI> (encyklopedia) · pytania: his-22
+- <https://en.wikipedia.org/wiki/Pragmatic_Sanction_of_1713> (wikipedia) · pytania: his-22
+- <https://www.britannica.com/event/War-of-the-Austrian-Succession> (encyklopedia) · pytania: his-23
+- <https://en.wikipedia.org/wiki/Silesian_Wars> (wikipedia) · pytania: his-23
+- <https://www.britannica.com/biography/Marie-Antoinette-queen-of-France> (encyklopedia) · pytania: his-24
+- <https://en.wikipedia.org/wiki/Marie_Antoinette> (wikipedia) · pytania: his-24
+- <https://www.britannica.com/event/Partitions-of-Poland> (encyklopedia) · pytania: his-25
+- <https://en.wikipedia.org/wiki/Partitions_of_Poland> (wikipedia) · pytania: his-25
+- <https://austria-forum.org/af/AEIOU/Galizien> (encyklopedia) · pytania: his-26, his-29
+- <https://en.wikipedia.org/wiki/Kingdom_of_Galicia_and_Lodomeria> (wikipedia) · pytania: his-26
+- <https://www.britannica.com/biography/Joseph-II> (encyklopedia) · pytania: his-27
+- <https://en.wikipedia.org/wiki/Joseph_II,_Holy_Roman_Emperor> (wikipedia) · pytania: his-27
+- <https://www.britannica.com/biography/Charles-V-Holy-Roman-emperor> (encyklopedia) · pytania: his-28
+- <https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor> (wikipedia) · pytania: his-28
+- <https://en.wikipedia.org/wiki/Galician_autonomy> (wikipedia) · pytania: his-29
+- <https://www.britannica.com/event/Congress-of-Vienna> (encyklopedia) · pytania: his-30
+- <https://en.wikipedia.org/wiki/Congress_of_Vienna> (wikipedia) · pytania: his-30
+- <https://www.britannica.com/topic/Battle-of-Aspern> (encyklopedia) · pytania: his-31
+- <https://en.wikipedia.org/wiki/Battle_of_Aspern-Essling> (wikipedia) · pytania: his-31
+- <https://austria-forum.org/af/AEIOU/Hofer,_Andreas> (encyklopedia) · pytania: his-32
+- <https://en.wikipedia.org/wiki/Andreas_Hofer> (wikipedia) · pytania: his-32
+- <https://www.britannica.com/biography/Francis-II-Holy-Roman-emperor> (encyklopedia) · pytania: his-33
+- <https://en.wikipedia.org/wiki/Francis_II,_Holy_Roman_Emperor> (wikipedia) · pytania: his-33
+- <https://www.britannica.com/biography/Franz-Joseph> (encyklopedia) · pytania: his-34
+- <https://en.wikipedia.org/wiki/Franz_Joseph_I_of_Austria> (wikipedia) · pytania: his-34
+- <https://www.britannica.com/place/Austria-Hungary> (encyklopedia) · pytania: his-35
+- <https://en.wikipedia.org/wiki/Austro-Hungarian_Compromise_of_1867> (wikipedia) · pytania: his-35
+- <https://www.britannica.com/event/Battle-of-Koniggratz> (encyklopedia) · pytania: his-36
+- <https://en.wikipedia.org/wiki/Battle_of_Königgrätz> (wikipedia) · pytania: his-36
+- <https://www.britannica.com/biography/Elizabeth-empress-consort-of-Austria> (encyklopedia) · pytania: his-37
+- <https://en.wikipedia.org/wiki/Empress_Elisabeth_of_Austria> (wikipedia) · pytania: his-37
+- <https://www.britannica.com/biography/Rudolf-Archduke-and-Crown-Prince-of-Austria> (encyklopedia) · pytania: his-38
+- <https://en.wikipedia.org/wiki/Mayerling_incident> (wikipedia) · pytania: his-38
+- <https://www.britannica.com/biography/Kasimir-Felix-count-of-Badeni> (encyklopedia) · pytania: his-39
+- <https://en.wikipedia.org/wiki/Kasimir_Felix_Badeni> (wikipedia) · pytania: his-39
+- <https://www.britannica.com/place/Krakow> (encyklopedia) · pytania: his-40
+- <https://en.wikipedia.org/wiki/Free_City_of_Kraków> (wikipedia) · pytania: his-40
+- <https://www.britannica.com/place/Salzburg-state-Austria> (encyklopedia) · pytania: his-41
+- <https://en.wikipedia.org/wiki/Prince-Archbishopric_of_Salzburg> (wikipedia) · pytania: his-41
+- <https://www.hgm.at/> (strona instytucji) · pytania: his-42, his-58
+- <https://en.wikipedia.org/wiki/Joseph_Radetzky_von_Radetz> (wikipedia) · pytania: his-42
+- <https://austria-forum.org/af/AEIOU/Kudlich,_Hans> (encyklopedia) · pytania: his-43
+- <https://en.wikipedia.org/wiki/Hans_Kudlich> (wikipedia) · pytania: his-43
+- <https://www.britannica.com/art/Biedermeier-style> (encyklopedia) · pytania: his-44
+- <https://en.wikipedia.org/wiki/Biedermeier> (wikipedia) · pytania: his-44
+- <https://www.britannica.com/biography/Franz-Ferdinand-Archduke-of-Austria-Este> (encyklopedia) · pytania: his-45
+- <https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand> (wikipedia) · pytania: his-45
+- <https://muzeumpilsudski.pl/> (strona instytucji) · pytania: his-46
+- <https://en.wikipedia.org/wiki/Polish_Legions_(World_War_I)> (wikipedia) · pytania: his-46
+- <https://www.britannica.com/place/Przemysl> (encyklopedia) · pytania: his-47
+- <https://en.wikipedia.org/wiki/Siege_of_Przemyśl> (wikipedia) · pytania: his-47
+- <https://www.britannica.com/biography/Charles-I-emperor-of-Austria> (encyklopedia) · pytania: his-48
+- <https://en.wikipedia.org/wiki/Charles_I_of_Austria> (wikipedia) · pytania: his-48
+- <https://en.wikipedia.org/wiki/Republic_of_German-Austria> (wikipedia) · pytania: his-49
+- <https://www.britannica.com/event/Treaty-of-Saint-Germain> (encyklopedia) · pytania: his-50
+- <https://en.wikipedia.org/wiki/Treaty_of_Saint-Germain-en-Laye_(1919)> (wikipedia) · pytania: his-50
+- <https://en.wikipedia.org/wiki/Burgenland> (wikipedia) · pytania: his-51
+- <https://en.wikipedia.org/wiki/Carinthian_Plebiscite> (wikipedia) · pytania: his-52
+- <https://www.geschichtewiki.wien.gv.at/Rotes_Wien> (instytucja) · pytania: his-53
+- <https://en.wikipedia.org/wiki/Red_Vienna> (wikipedia) · pytania: his-53
+- <https://www.britannica.com/biography/Engelbert-Dollfuss> (encyklopedia) · pytania: his-54
+- <https://en.wikipedia.org/wiki/Engelbert_Dollfuss> (wikipedia) · pytania: his-54
+- <https://www.britannica.com/event/Anschluss> (encyklopedia) · pytania: his-55
+- <https://en.wikipedia.org/wiki/Anschluss> (wikipedia) · pytania: his-55
+- <https://www.britannica.com/biography/Adolf-Hitler> (encyklopedia) · pytania: his-56
+- <https://en.wikipedia.org/wiki/Braunau_am_Inn> (wikipedia) · pytania: his-56
+- <https://www.mauthausen-memorial.org/> (strona instytucji) · pytania: his-57
+- <https://en.wikipedia.org/wiki/Mauthausen_concentration_camp> (wikipedia) · pytania: his-57
+- <https://en.wikipedia.org/wiki/Vienna_offensive> (wikipedia) · pytania: his-58
+- <https://en.wikipedia.org/wiki/Allied-occupied_Austria> (wikipedia) · pytania: his-59
+- <https://www.britannica.com/biography/Karl-Renner> (encyklopedia) · pytania: his-60
+- <https://en.wikipedia.org/wiki/Karl_Renner> (wikipedia) · pytania: his-60
+- <https://www.britannica.com/topic/Austrian-State-Treaty> (encyklopedia) · pytania: his-61
+- <https://en.wikipedia.org/wiki/Austrian_State_Treaty> (wikipedia) · pytania: his-61
+- <https://de.wikipedia.org/wiki/Österreichische_Neutralität> (wikipedia) · pytania: his-62, spo-12
+- <https://www.britannica.com/event/Hungarian-Revolution-1956> (encyklopedia) · pytania: his-63
+- <https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956> (wikipedia) · pytania: his-63
+- <https://austria-forum.org/af/AEIOU/Paneuropa-Picknick> (encyklopedia) · pytania: his-64
+- <https://en.wikipedia.org/wiki/Pan-European_Picnic> (wikipedia) · pytania: his-64
+- <https://european-union.europa.eu/> (strona instytucji) · pytania: his-65
+- <https://en.wikipedia.org/wiki/1995_enlargement_of_the_European_Union> (wikipedia) · pytania: his-65
+- <https://en.wikipedia.org/wiki/Austrian_schilling> (wikipedia) · pytania: his-66
+- <https://www.britannica.com/biography/Kurt-Waldheim> (encyklopedia) · pytania: his-67
+- <https://en.wikipedia.org/wiki/Kurt_Waldheim> (wikipedia) · pytania: his-67
+- <https://www.britannica.com/biography/Bruno-Kreisky> (encyklopedia) · pytania: his-68
+- <https://en.wikipedia.org/wiki/Bruno_Kreisky> (wikipedia) · pytania: his-68
+- <https://www.jfklibrary.org/> (strona instytucji) · pytania: his-69
+- <https://en.wikipedia.org/wiki/Vienna_summit> (wikipedia) · pytania: his-69
+- <https://www.ris.bka.gv.at/> (strona instytucji) · pytania: his-70, spo-08
+- <https://en.wikipedia.org/wiki/Austrian_nobility> (wikipedia) · pytania: his-70
+- <https://www.britannica.com/biography/Wolfgang-Amadeus-Mozart> (encyklopedia) · pytania: kul-01
+- <https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart> (wikipedia) · pytania: kul-01
+- <https://www.britannica.com/biography/Johann-Strauss-II> (encyklopedia) · pytania: kul-02
+- <https://en.wikipedia.org/wiki/The_Blue_Danube> (wikipedia) · pytania: kul-02
+- <https://www.britannica.com/biography/Johann-Strauss-I> (encyklopedia) · pytania: kul-03
+- <https://en.wikipedia.org/wiki/Radetzky_March> (wikipedia) · pytania: kul-03
+- <https://www.wienerphilharmoniker.at/> (strona instytucji) · pytania: kul-04
+- <https://en.wikipedia.org/wiki/Vienna_New_Year's_Concert> (wikipedia) · pytania: kul-04
+- <https://www.britannica.com/biography/Joseph-Haydn> (encyklopedia) · pytania: kul-05
+- <https://en.wikipedia.org/wiki/Joseph_Haydn> (wikipedia) · pytania: kul-05
+- <https://www.britannica.com/biography/Franz-Schubert> (encyklopedia) · pytania: kul-06
+- <https://en.wikipedia.org/wiki/Franz_Schubert> (wikipedia) · pytania: kul-06
+- <https://www.britannica.com/biography/Ludwig-van-Beethoven> (encyklopedia) · pytania: kul-07
+- <https://en.wikipedia.org/wiki/Ludwig_van_Beethoven> (wikipedia) · pytania: kul-07
+- <https://www.britannica.com/biography/Gustav-Mahler> (encyklopedia) · pytania: kul-08
+- <https://en.wikipedia.org/wiki/Gustav_Mahler> (wikipedia) · pytania: kul-08
+- <https://www.britannica.com/biography/Arnold-Schoenberg> (encyklopedia) · pytania: kul-09
+- <https://en.wikipedia.org/wiki/Arnold_Schoenberg> (wikipedia) · pytania: kul-09
+- <https://www.salzburgerfestspiele.at/> (strona instytucji) · pytania: kul-10
+- <https://en.wikipedia.org/wiki/Salzburg_Festival> (wikipedia) · pytania: kul-10
+- <https://bregenzerfestspiele.com/> (strona instytucji) · pytania: kul-11
+- <https://en.wikipedia.org/wiki/Bregenz_Festival> (wikipedia) · pytania: kul-11
+- <https://ars.electronica.art/> (strona instytucji) · pytania: kul-12
+- <https://en.wikipedia.org/wiki/Ars_Electronica> (wikipedia) · pytania: kul-12
+- <https://www.stillenacht.com/> (strona instytucji) · pytania: kul-13
+- <https://en.wikipedia.org/wiki/Silent_Night> (wikipedia) · pytania: kul-13
+- <https://www.britannica.com/biography/Franz-Lehar> (encyklopedia) · pytania: kul-14
+- <https://en.wikipedia.org/wiki/The_Merry_Widow> (wikipedia) · pytania: kul-14
+- <https://austria-forum.org/af/AEIOU/Falco> (encyklopedia) · pytania: kul-15
+- <https://en.wikipedia.org/wiki/Rock_Me_Amadeus> (wikipedia) · pytania: kul-15
+- <https://eurovision.tv/> (strona instytucji) · pytania: kul-16
+- <https://en.wikipedia.org/wiki/Udo_Jürgens> (wikipedia) · pytania: kul-16
+- <https://www.britannica.com/biography/Gustav-Klimt> (encyklopedia) · pytania: kul-17
+- <https://en.wikipedia.org/wiki/The_Kiss_(Klimt)> (wikipedia) · pytania: kul-17
+- <https://www.neuegalerie.org/> (strona instytucji) · pytania: kul-18
+- <https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I> (wikipedia) · pytania: kul-18
+- <https://www.britannica.com/biography/Egon-Schiele> (encyklopedia) · pytania: kul-19
+- <https://en.wikipedia.org/wiki/Egon_Schiele> (wikipedia) · pytania: kul-19
+- <https://www.britannica.com/biography/Oskar-Kokoschka> (encyklopedia) · pytania: kul-20
+- <https://en.wikipedia.org/wiki/The_Bride_of_the_Wind> (wikipedia) · pytania: kul-20
+- <https://www.hundertwasser.com/> (strona instytucji) · pytania: kul-21
+- <https://en.wikipedia.org/wiki/Friedensreich_Hundertwasser> (wikipedia) · pytania: kul-21
+- <https://www.khm.at/> (strona instytucji) · pytania: kul-22
+- <https://en.wikipedia.org/wiki/Kunsthistorisches_Museum> (wikipedia) · pytania: kul-22
+- <https://www.britannica.com/biography/Otto-Wagner> (encyklopedia) · pytania: kul-23
+- <https://en.wikipedia.org/wiki/Otto_Wagner> (wikipedia) · pytania: kul-23
+- <https://www.britannica.com/biography/Adolf-Loos> (encyklopedia) · pytania: kul-24
+- <https://en.wikipedia.org/wiki/Adolf_Loos> (wikipedia) · pytania: kul-24
+- <https://www.britannica.com/topic/Wiener-Werkstatte> (encyklopedia) · pytania: kul-25
+- <https://en.wikipedia.org/wiki/Wiener_Werkstätte> (wikipedia) · pytania: kul-25
+- <https://www.britannica.com/topic/The-Sound-of-Music-film-by-Wise> (encyklopedia) · pytania: kul-26
+- <https://en.wikipedia.org/wiki/Trapp_Family> (wikipedia) · pytania: kul-26
+- <https://www.britannica.com/biography/Stefan-Zweig> (encyklopedia) · pytania: kul-27
+- <https://en.wikipedia.org/wiki/Stefan_Zweig> (wikipedia) · pytania: kul-27
+- <https://www.britannica.com/biography/Joseph-Roth> (encyklopedia) · pytania: kul-28
+- <https://en.wikipedia.org/wiki/Joseph_Roth> (wikipedia) · pytania: kul-28
+- <https://www.britannica.com/biography/Robert-Musil> (encyklopedia) · pytania: kul-29
+- <https://en.wikipedia.org/wiki/The_Man_Without_Qualities> (wikipedia) · pytania: kul-29
+- <https://www.nobelprize.org/> (strona instytucji) · pytania: kul-30
+- <https://en.wikipedia.org/wiki/Elfriede_Jelinek> (wikipedia) · pytania: kul-30
+- <https://austria-forum.org/af/AEIOU/Nöstlinger,_Christine> (encyklopedia) · pytania: kul-31
+- <https://en.wikipedia.org/wiki/Christine_Nöstlinger> (wikipedia) · pytania: kul-31
+- <https://www.britannica.com/biography/Arthur-Schnitzler> (encyklopedia) · pytania: kul-32
+- <https://en.wikipedia.org/wiki/La_Ronde_(play)> (wikipedia) · pytania: kul-32
+- <https://www.britannica.com/biography/Hugo-von-Hofmannsthal> (encyklopedia) · pytania: kul-33
+- <https://en.wikipedia.org/wiki/Der_Rosenkavalier> (wikipedia) · pytania: kul-33
+- <https://www.freud-museum.at/> (strona instytucji) · pytania: kul-34
+- <https://en.wikipedia.org/wiki/Sigmund_Freud> (wikipedia) · pytania: kul-34
+- <https://www.britannica.com/biography/Christian-Doppler> (encyklopedia) · pytania: kul-35
+- <https://en.wikipedia.org/wiki/Christian_Doppler> (wikipedia) · pytania: kul-35
+- <https://www.britannica.com/biography/Erwin-Schrodinger> (encyklopedia) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/Erwin_Schrödinger> (wikipedia) · pytania: kul-36
+- <https://www.britannica.com/biography/Lise-Meitner> (encyklopedia) · pytania: kul-37
+- <https://en.wikipedia.org/wiki/Lise_Meitner> (wikipedia) · pytania: kul-37
+- <https://www.britannica.com/biography/Hedy-Lamarr> (encyklopedia) · pytania: kul-38
+- <https://en.wikipedia.org/wiki/Hedy_Lamarr> (wikipedia) · pytania: kul-38
+- <https://www.britannica.com/biography/Ernst-Mach> (encyklopedia) · pytania: kul-39
+- <https://en.wikipedia.org/wiki/Ernst_Mach> (wikipedia) · pytania: kul-39
+- <https://www.britannica.com/biography/Ferdinand-Porsche> (encyklopedia) · pytania: kul-40
+- <https://en.wikipedia.org/wiki/Ferdinand_Porsche> (wikipedia) · pytania: kul-40
+- <https://www.britannica.com/biography/Karl-Landsteiner> (encyklopedia) · pytania: kul-41
+- <https://en.wikipedia.org/wiki/Karl_Landsteiner> (wikipedia) · pytania: kul-41
+- <https://www.britannica.com/biography/Kurt-Godel> (encyklopedia) · pytania: kul-42
+- <https://en.wikipedia.org/wiki/Kurt_Gödel> (wikipedia) · pytania: kul-42
+- <https://www.britannica.com/biography/Ludwig-Wittgenstein> (encyklopedia) · pytania: kul-43
+- <https://en.wikipedia.org/wiki/Ludwig_Wittgenstein> (wikipedia) · pytania: kul-43
+- <https://www.britannica.com/biography/Konrad-Lorenz> (encyklopedia) · pytania: kul-44
+- <https://en.wikipedia.org/wiki/Konrad_Lorenz> (wikipedia) · pytania: kul-44
+- <https://www.britannica.com/biography/Arnold-Schwarzenegger> (encyklopedia) · pytania: kul-45
+- <https://en.wikipedia.org/wiki/Arnold_Schwarzenegger> (wikipedia) · pytania: kul-45
+- <https://www.britannica.com/biography/Christoph-Waltz> (encyklopedia) · pytania: kul-46
+- <https://en.wikipedia.org/wiki/Christoph_Waltz> (wikipedia) · pytania: kul-46
+- <https://www.britannica.com/biography/Michael-Haneke> (encyklopedia) · pytania: kul-47
+- <https://en.wikipedia.org/wiki/Michael_Haneke> (wikipedia) · pytania: kul-47
+- <https://www.britannica.com/topic/The-Third-Man> (encyklopedia) · pytania: kul-48
+- <https://en.wikipedia.org/wiki/The_Third_Man> (wikipedia) · pytania: kul-48
+- <https://www.britannica.com/biography/Romy-Schneider> (encyklopedia) · pytania: kul-49
+- <https://en.wikipedia.org/wiki/Romy_Schneider> (wikipedia) · pytania: kul-49
+- <https://hahnenkamm.com/> (strona instytucji) · pytania: kul-50
+- <https://en.wikipedia.org/wiki/Streif> (wikipedia) · pytania: kul-50
+- <https://www.britannica.com/biography/Franz-Klammer> (encyklopedia) · pytania: kul-51
+- <https://en.wikipedia.org/wiki/Franz_Klammer> (wikipedia) · pytania: kul-51
+- <https://www.britannica.com/biography/Anton-Sailer> (encyklopedia) · pytania: kul-52
+- <https://en.wikipedia.org/wiki/Toni_Sailer> (wikipedia) · pytania: kul-52
+- <https://www.britannica.com/biography/Marcel-Hirscher> (encyklopedia) · pytania: kul-53
+- <https://en.wikipedia.org/wiki/Marcel_Hirscher> (wikipedia) · pytania: kul-53
+- <https://www.britannica.com/biography/Hermann-Maier> (encyklopedia) · pytania: kul-54
+- <https://en.wikipedia.org/wiki/Hermann_Maier> (wikipedia) · pytania: kul-54
+- <https://www.britannica.com/biography/Niki-Lauda> (encyklopedia) · pytania: kul-55
+- <https://en.wikipedia.org/wiki/Niki_Lauda> (wikipedia) · pytania: kul-55
+- <https://www.oetv.at/> (strona instytucji) · pytania: kul-56
+- <https://en.wikipedia.org/wiki/Dominic_Thiem> (wikipedia) · pytania: kul-56
+- <https://www.vierschanzentournee.com/> (strona instytucji) · pytania: kul-57
+- <https://en.wikipedia.org/wiki/Gregor_Schlierenzauer> (wikipedia) · pytania: kul-57
+- <https://www.oefb.at/> (strona instytucji) · pytania: kul-58
+- <https://en.wikipedia.org/wiki/Vienna_derby> (wikipedia) · pytania: kul-58
+- <https://austria-forum.org/af/AEIOU/Alaba,_David> (encyklopedia) · pytania: kul-59
+- <https://en.wikipedia.org/wiki/David_Alaba> (wikipedia) · pytania: kul-59
+- <https://www.uefa.com/> (strona instytucji) · pytania: kul-60
+- <https://en.wikipedia.org/wiki/UEFA_Euro_2008> (wikipedia) · pytania: kul-60
+- <https://www.britannica.com/topic/schnitzel> (encyklopedia) · pytania: kul-61
+- <https://en.wikipedia.org/wiki/Wiener_schnitzel> (wikipedia) · pytania: kul-61
+- <https://www.sacher.com/> (strona instytucji) · pytania: kul-62
+- <https://en.wikipedia.org/wiki/Sachertorte> (wikipedia) · pytania: kul-62
+- <https://www.linztourismus.at/> (strona instytucji) · pytania: kul-63
+- <https://en.wikipedia.org/wiki/Linzer_torte> (wikipedia) · pytania: kul-63
+- <https://www.britannica.com/topic/strudel> (encyklopedia) · pytania: kul-64
+- <https://en.wikipedia.org/wiki/Apple_strudel> (wikipedia) · pytania: kul-64
+- <https://www.austria.info/> (strona instytucji) · pytania: kul-65, spo-19, spo-20, spo-30, spo-31, spo-68
+- <https://en.wikipedia.org/wiki/Kaiserschmarrn> (wikipedia) · pytania: kul-65
+- <https://www.original-mozartkugel.com/> (strona instytucji) · pytania: kul-66
+- <https://en.wikipedia.org/wiki/Mozartkugel> (wikipedia) · pytania: kul-66
+- <https://www.wien.info/> (strona instytucji) · pytania: kul-67, spo-24, spo-25, spo-27, spo-70
+- <https://en.wikipedia.org/wiki/Tafelspitz> (wikipedia) · pytania: kul-67
+- <https://www.steirisches-kuerbiskernoel.eu/> (strona instytucji) · pytania: kul-68
+- <https://en.wikipedia.org/wiki/Pumpkin_seed_oil> (wikipedia) · pytania: kul-68
+- <https://www.manner.com/> (strona instytucji) · pytania: kul-69
+- <https://en.wikipedia.org/wiki/Manner_(company)> (wikipedia) · pytania: kul-69
+- <https://www.austrianwine.com/> (strona instytucji) · pytania: kul-70, spo-56
+- <https://en.wikipedia.org/wiki/Grüner_Veltliner> (wikipedia) · pytania: kul-70
+- <https://www.bundespraesident.at/> (strona instytucji) · pytania: spo-01, spo-02
+- <https://en.wikipedia.org/wiki/President_of_Austria> (wikipedia) · pytania: spo-01, spo-02
+- <https://en.wikipedia.org/wiki/National_Council_(Austria)> (wikipedia) · pytania: spo-03, spo-04
+- <https://en.wikipedia.org/wiki/Federal_Council_(Austria)> (wikipedia) · pytania: spo-05
+- <https://en.wikipedia.org/wiki/Elections_in_Austria> (wikipedia) · pytania: spo-06
+- <https://www.vfgh.gv.at/> (strona instytucji) · pytania: spo-07
+- <https://en.wikipedia.org/wiki/Hans_Kelsen> (wikipedia) · pytania: spo-07
+- <https://en.wikipedia.org/wiki/Constitution_of_Austria> (wikipedia) · pytania: spo-08
+- <https://www.geschichtewiki.wien.gv.at/Ballhausplatz> (instytucja) · pytania: spo-09
+- <https://en.wikipedia.org/wiki/Landeshauptmann> (wikipedia) · pytania: spo-10
+- <https://www.bundesheer.at/> (strona instytucji) · pytania: spo-11
+- <https://en.wikipedia.org/wiki/Austrian_Armed_Forces> (wikipedia) · pytania: spo-11
+- <https://www.bmeia.gv.at/> (strona instytucji) · pytania: spo-12
+- <https://www.opec.org/> (strona instytucji) · pytania: spo-13
+- <https://en.wikipedia.org/wiki/OPEC> (wikipedia) · pytania: spo-13
+- <https://www.sozialpartner.at/> (strona instytucji) · pytania: spo-14
+- <https://en.wikipedia.org/wiki/Social_partnership> (wikipedia) · pytania: spo-14
+- <https://en.wikipedia.org/wiki/Carinthian_Slovenes> (wikipedia) · pytania: spo-15
+- <https://der.orf.at/> (strona instytucji) · pytania: spo-16
+- <https://en.wikipedia.org/wiki/ORF_(broadcaster)> (wikipedia) · pytania: spo-16
+- <https://de.wikipedia.org/wiki/Nationalfeiertag_(Österreich)> (wikipedia) · pytania: spo-17
+- <https://www.britannica.com/topic/Krampus> (encyklopedia) · pytania: spo-18
+- <https://en.wikipedia.org/wiki/Krampus> (wikipedia) · pytania: spo-18
+- <https://en.wikipedia.org/wiki/Almabtrieb> (wikipedia) · pytania: spo-19
+- <https://en.wikipedia.org/wiki/Maypole> (wikipedia) · pytania: spo-20
+- <https://www.unesco.at/> (instytucja) · pytania: spo-21, spo-26
+- <https://en.wikipedia.org/wiki/Fasching> (wikipedia) · pytania: spo-21
+- <https://en.wikipedia.org/wiki/Vienna_Opera_Ball> (wikipedia) · pytania: spo-22
+- <https://www.christkindlmarkt.at/> (strona instytucji) · pytania: spo-23
+- <https://en.wikipedia.org/wiki/Christmas_market> (wikipedia) · pytania: spo-23
+- <https://en.wikipedia.org/wiki/Heuriger> (wikipedia) · pytania: spo-24
+- <https://de.wikipedia.org/wiki/Beisl> (wikipedia) · pytania: spo-25
+- <https://en.wikipedia.org/wiki/Viennese_coffee_house> (wikipedia) · pytania: spo-26
+- <https://en.wikipedia.org/wiki/Wiener_Melange> (wikipedia) · pytania: spo-27
+- <https://www.geschichtewiki.wien.gv.at/Georg_Franz_Koltschitzky> (instytucja) · pytania: spo-28
+- <https://en.wikipedia.org/wiki/Jerzy_Franciszek_Kulczycki> (wikipedia) · pytania: spo-28
+- <https://www.cafecentral.wien/> (strona instytucji) · pytania: spo-29
+- <https://en.wikipedia.org/wiki/Café_Central> (wikipedia) · pytania: spo-29
+- <https://en.wikipedia.org/wiki/Molybdomancy> (wikipedia) · pytania: spo-30
+- <https://de.wikipedia.org/wiki/Glücksschwein> (wikipedia) · pytania: spo-31
+- <https://www.salzkammergut.at/> (strona instytucji) · pytania: spo-32
+- <https://www.stift-klosterneuburg.at/> (strona instytucji) · pytania: spo-33
+- <https://en.wikipedia.org/wiki/Leopold_III,_Margrave_of_Austria> (wikipedia) · pytania: spo-33
+- <https://www.burgenland.info/> (strona instytucji) · pytania: spo-34
+- <https://en.wikipedia.org/wiki/Martinmas> (wikipedia) · pytania: spo-34
+- <https://www.salzburgerland.com/> (strona instytucji) · pytania: spo-35
+- <https://en.wikipedia.org/wiki/Perchta> (wikipedia) · pytania: spo-35
+- <https://www.duden.de/> (strona instytucji) · pytania: spo-36, spo-37, spo-38, spo-39, spo-40, spo-41, spo-42, spo-43, spo-44, spo-45, spo-46, spo-47, spo-48, spo-49, spo-50, spo-51, spo-52, spo-55, spo-57, spo-58, spo-59, spo-60, spo-61, spo-69
+- <https://en.wikipedia.org/wiki/Austrian_German> (wikipedia) · pytania: spo-36, spo-37, spo-38, spo-39, spo-40, spo-41, spo-42, spo-43, spo-44, spo-45, spo-46, spo-47, spo-52, spo-57, spo-60, spo-61
+- <https://en.wikipedia.org/wiki/Servus> (wikipedia) · pytania: spo-48
+- <https://en.wikipedia.org/wiki/Grüß_Gott> (wikipedia) · pytania: spo-49
+- <https://de.wikipedia.org/wiki/Wienerisch> (wikipedia) · pytania: spo-50
+- <https://en.wikipedia.org/wiki/Kaiser_roll> (wikipedia) · pytania: spo-51
+- <https://en.wikipedia.org/wiki/Trafik> (wikipedia) · pytania: spo-53
+- <https://en.wikipedia.org/wiki/Matura> (wikipedia) · pytania: spo-54
+- <https://en.wikipedia.org/wiki/Beer_in_Austria> (wikipedia) · pytania: spo-55
+- <https://en.wikipedia.org/wiki/Spritzer> (wikipedia) · pytania: spo-56
+- <https://en.wikipedia.org/wiki/Palatschinke> (wikipedia) · pytania: spo-58
+- <https://de.wikipedia.org/wiki/Powidl> (wikipedia) · pytania: spo-59
+- <https://en.wikipedia.org/wiki/Academic_grading_in_Austria> (wikipedia) · pytania: spo-62
+- <https://en.wikipedia.org/wiki/Motorways_of_Austria> (wikipedia) · pytania: spo-63
+- <https://www.klimaticket.at/> (strona instytucji) · pytania: spo-64
+- <https://en.wikipedia.org/wiki/Klimaticket> (wikipedia) · pytania: spo-64
+- <https://en.wikipedia.org/wiki/Sunday_shopping> (wikipedia) · pytania: spo-65
+- <https://de.wikipedia.org/wiki/Nichtraucherschutz> (wikipedia) · pytania: spo-66
+- <https://en.wikipedia.org/wiki/Emergency_telephone_number> (wikipedia) · pytania: spo-67
+- <https://en.wikipedia.org/wiki/Gratuity> (wikipedia) · pytania: spo-68
+- <https://de.wikipedia.org/wiki/Mahlzeit> (wikipedia) · pytania: spo-69
+- <https://en.wikipedia.org/wiki/Käsekrainer> (wikipedia) · pytania: spo-70
