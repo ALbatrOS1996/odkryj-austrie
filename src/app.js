@@ -118,16 +118,16 @@
     return REGIONS.map((r) => `${REG[r].name}: ${cards[r]}${cards[r] >= tg ? ' (komplet)' : ''}`).join(', ');
   }
 
-  function regionCard(r) {
+  function regionCard(r, enter) {
     const R = REG[r];
-    return `<div class="gcard" style="--rc:var(--r-${r})" aria-label="Karta regionu ${esc(R.name)}">
+    return `<div class="gcard${enter ? ' enter' : ''}" style="--rc:var(--r-${r})" aria-label="Karta regionu ${esc(R.name)}">
       <div class="art"><svg viewBox="0 0 120 90" preserveAspectRatio="xMidYMid slice">${I.REGION_ART[r]}</svg></div>
       <div class="mini">${mapSVG({ highlight: r, small: true })}</div>
       <div class="nm">${esc(R.name)}</div></div>`;
   }
-  function specialCard(k) {
+  function specialCard(k, enter) {
     const S = SPEC[k];
-    return `<div class="gcard special" aria-label="Karta specjalna ${esc(S.name)}">
+    return `<div class="gcard special${enter ? ' enter' : ''}" aria-label="Karta specjalna ${esc(S.name)}">
       <div class="art"><svg viewBox="0 0 120 120" preserveAspectRatio="xMidYMid slice">${I.SPECIAL_ART[k]}</svg></div>
       <div class="nm" style="padding-top:8px">${esc(S.name)}</div><div class="desc">${esc(S.flavor)}</div></div>`;
   }
@@ -447,7 +447,7 @@
   }
 
   function viewKey(v) {
-    const c = Object.assign({}, v); delete c.clock; delete c.deadlineIn;
+    const c = Object.assign({}, v); delete c.clock; delete c.deadlineIn; delete c._at;
     return JSON.stringify(c);
   }
   function currentView() {
@@ -549,6 +549,11 @@
     if (fresh.length) R.lastEv = Math.max(...fresh.map((e) => e.n));
     fresh.forEach((e) => eventToast(e, v));
     const rolled = fresh.find((e) => e.type === 'roll');
+    // animacja odwrócenia tylko dla nowo odsłoniętej karty (nie przy każdym odświeżeniu ekranu)
+    const cardKey = v.top ? v.turnNo + ':' + v.evSeq + ':' + JSON.stringify(v.top) : '';
+    const topKey = v.top ? v.turnNo + ':' + JSON.stringify(v.top) + ':' + v.deckLeft : '';
+    const enter = !!topKey && topKey !== R.lastTopKey;
+    R.lastTopKey = topKey; void cardKey;
     // animacja nowej karty na mapie
     const pop = { 0: [], 1: [] };
     if (R.prevCards) [0, 1].forEach((p) => REGIONS.forEach((r) => { if (P[p].cards[r] > R.prevCards[p][r]) pop[p].push(r); }));
@@ -597,7 +602,7 @@
     switch (v.phase) {
       case 'TURN': {
         const canReroute = myTurn && v.rules.reroute && !v.rerouted && P[me].cards[v.top.r] >= tg;
-        stage = `${regionCard(v.top.r)}
+        stage = `${regionCard(v.top.r, enter)}
           ${myTurn
             ? `<button class="btn primary" data-click="roll">Rzuć kostką</button>
                ${canReroute ? `<button class="btn ghost" data-click="reroute">${I.UI.route}Zmiana trasy (masz już ten region)</button>` : ''}`
@@ -682,7 +687,7 @@
         } else {
           actions = `<div class="status-line">${esc(P[op].name)} odsłania kartę specjalną${info ? '. ' + esc(info) : '.'}</div>`;
         }
-        stage = `${specialCard(k)}${myTurn && info ? `<div class="status-line small">${esc(info)}</div>` : ''}${actions}`;
+        stage = `${specialCard(k, enter)}${myTurn && info ? `<div class="status-line small">${esc(info)}</div>` : ''}${actions}`;
         break;
       }
       case 'TRADE': {
@@ -717,7 +722,7 @@
     if (v.phase !== 'OVER') R.overShown = false;
     const hostWait = R.role === 'guest' ? `<div data-hostwait class="install-tip small" hidden>Brak połączenia z gospodarzem. Gra zatrzymana; wróci, gdy ${esc(P[0].name)} otworzy aplikację.</div>` : '';
     render(`<div class="board">${oppBar}${hostWait}<div class="stage">${stage}</div>${meBar}</div>`, h);
-    if (rolled && (v.phase === 'DUEL' || v.phase === 'CHOOSE')) showDie(rolled.face);
+    if (rolled && (v.phase === 'DUEL' || v.phase === 'CHOOSE')) showDie(rolled.face, rolled.p === me ? 'Twój rzut' : `Rzuca: ${P[rolled.p].name}`);
     renderRoomSoft();
     startTimer(v);
   }
@@ -729,12 +734,33 @@
     const p = R.pair; if (!p) return '';
     return `<b>${p.w[1]} : ${p.w[0]}</b>${p.d ? ` (remisy ${p.d})` : ''}`;
   }
-  function showDie(face) {
+  // Animacja rzutu: kostka „toczy się” przez kolejne ścianki, zwalnia i zatrzymuje na wyniku z serwera
+  function showDie(face, who) {
+    document.querySelectorAll('.die-overlay').forEach((x) => x.remove());
     const d = document.createElement('div');
-    d.className = 'modal-bg'; d.style.alignItems = 'center'; d.style.background = 'rgba(0,0,0,.25)';
-    d.innerHTML = `<div><div class="die rolling" style="--dc:var(--c-${face})">${I.CAT[face]}</div><div class="die-label" style="--dc:var(--c-${face});background:var(--card);border-radius:10px;padding:4px 10px;margin-top:10px">${esc(CAT_NAMES[face])}</div></div>`;
+    d.className = 'modal-bg die-overlay'; d.style.alignItems = 'center'; d.style.background = 'rgba(15,12,10,.82)';
+    d.innerHTML = `<div class="die-stage" role="status" aria-live="polite"><div class="who">${esc(who || 'Rzut kostką')}</div>
+      <div class="die tumble"></div><div class="die-label"></div></div>`;
     document.body.appendChild(d);
-    setTimeout(() => d.remove(), 1100);
+    const die = d.querySelector('.die'), lab = d.querySelector('.die-label');
+    const show = (f) => { die.style.setProperty('--dc', `var(--c-${f})`); die.innerHTML = I.CAT[f]; };
+    const finish = () => {
+      show(face); die.classList.remove('tumble'); die.classList.add('land');
+      lab.textContent = CAT_NAMES[face]; lab.style.color = `var(--c-${face})`; lab.classList.add('on');
+      vibrate(25);
+      setTimeout(() => d.remove(), 900);
+    };
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) { finish(); return; }
+    // sekwencja ścianek: coraz dłuższe przerwy (ok. 1,4 s), ostatnia to wynik
+    const delays = [70, 70, 80, 80, 90, 100, 110, 130, 150, 180, 220];
+    let last = null, i = 0;
+    const step = () => {
+      if (i >= delays.length) return finish();
+      let f; do { f = E.FACES[Math.floor(Math.random() * 6)]; } while (f === last);
+      last = f; show(f);
+      setTimeout(step, delays[i++]);
+    };
+    step();
   }
   function startTimer(v) {
     clearInterval(timerLoop);
@@ -747,7 +773,7 @@
       const live = currentView();
       const paused = live ? live.paused : v.paused;
       const left = paused ? base : Math.max(0, base - (Date.now() - at));
-      el.style.width = (100 * left / total).toFixed(1) + '%';
+      el.style.width = Math.min(100, 100 * left / total).toFixed(1) + '%';
       el.parentElement.classList.toggle('paused', !!paused);
       el.parentElement.setAttribute('aria-label', 'Pozostało ' + Math.ceil(left / 1000) + ' s');
     };

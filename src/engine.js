@@ -23,7 +23,8 @@
     specialsPerType: 3,
     target: 2,            // ile kart każdego regionu trzeba zebrać (1 = jedna karta na region)
     reroute: true,        // Zmiana trasy
-    offlineLimit: 120     // s nieobecności w trakcie pytania, potem brak odpowiedzi
+    offlineLimit: 120,    // s nieobecności w trakcie pytania, potem brak odpowiedzi
+    rollDelay: 2.4        // s doliczane do limitu po rzucie kostką (animacja rzutu)
   };
 
   // ---------- RNG z ziarnem (mulberry32) ----------
@@ -186,7 +187,7 @@
     return cands[cands.length - 1];
   }
 
-  function startDuel(s, cat) {
+  function startDuel(s, cat, extraMs) {
     const q = pickQuestion(s, cat);
     s.used[q.id] = true;
     s.seen[q.id] = (s.seen[q.id] || 0) + 1;
@@ -195,7 +196,7 @@
     s.fiftyRm = [[], []];
     s.off = [0, 0];
     s.phase = 'DUEL';
-    s.deadline = s.clock + s.rules.timeLimit * 1000;
+    s.deadline = s.clock + s.rules.timeLimit * 1000 + (extraMs || 0);
   }
 
   function resolveDuel(s) {
@@ -293,8 +294,9 @@
         if (s.phase !== 'TURN' || p !== s.active) return false;
         s.face = FACES[randInt(s, 6)];
         ev(s, { type: 'roll', p, face: s.face });
-        if (s.face === 'WYB') { s.phase = 'CHOOSE'; s.deadline = s.clock + s.rules.choiceTime * 1000; }
-        else startDuel(s, s.face);
+        const rd = (s.rules.rollDelay || 0) * 1000;
+        if (s.face === 'WYB') { s.phase = 'CHOOSE'; s.deadline = s.clock + s.rules.choiceTime * 1000 + rd; }
+        else startDuel(s, s.face, rd);
         return true;
       }
       case 'choose':

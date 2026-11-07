@@ -166,9 +166,9 @@ input[type=text]:focus, textarea:focus { outline: 2px solid var(--red); border-c
 .gcard {
   width: min(62vw, 230px); aspect-ratio: 63 / 88; margin: 0 auto; border-radius: 16px; background: var(--card);
   box-shadow: var(--shadow); overflow: hidden; display: flex; flex-direction: column; border: 3px solid var(--rc, var(--red));
-  animation: flip .4s ease;
 }
-@keyframes flip { from { transform: perspective(600px) rotateY(80deg); opacity: .3; } to { transform: none; opacity: 1; } }
+.gcard.enter { animation: flip .45s cubic-bezier(.2,.7,.3,1) both; }
+@keyframes flip { from { transform: perspective(700px) rotateY(90deg) scale(.92); } to { transform: none; } }
 .gcard .art { flex: 1.1; min-height: 0; }
 .gcard .art svg { width: 100%; height: 100%; }
 .gcard .mini { padding: 6px 12px 0; }
@@ -183,8 +183,16 @@ input[type=text]:focus, textarea:focus { outline: 2px solid var(--red); border-c
   background: var(--card); box-shadow: var(--shadow); color: var(--dc, var(--ink)); border: 3px solid var(--dc, var(--line));
 }
 .die svg { width: 48px; height: 48px; }
-.die.rolling { animation: roll .7s cubic-bezier(.2,.8,.3,1); }
-@keyframes roll { 0% { transform: rotate(0) scale(.6); } 60% { transform: rotate(540deg) scale(1.1); } 100% { transform: rotate(720deg) scale(1); } }
+.die-stage { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.die-stage .die { width: 120px; height: 120px; border-radius: 26px; border-width: 4px; transition: border-color .08s, color .08s; }
+.die-stage .die svg { width: 68px; height: 68px; }
+.die-stage .die.tumble { animation: tumble .18s linear infinite; }
+@keyframes tumble { 0% { transform: rotate(0) translateY(0); } 25% { transform: rotate(14deg) translateY(-8px); } 50% { transform: rotate(0) translateY(0); } 75% { transform: rotate(-14deg) translateY(-8px); } 100% { transform: rotate(0) translateY(0); } }
+.die-stage .die.land { animation: land .45s cubic-bezier(.2,1.6,.4,1); }
+@keyframes land { 0% { transform: scale(.8); } 60% { transform: scale(1.15); } 100% { transform: scale(1); } }
+.die-stage .who { color: #fff; font-weight: 700; text-shadow: 0 1px 3px rgba(0,0,0,.5); }
+.die-stage .die-label { background: var(--card); border-radius: 10px; padding: 6px 14px; font-size: 18px; opacity: 0; transition: opacity .2s; }
+.die-stage .die-label.on { opacity: 1; }
 .die-label { text-align: center; font-weight: 700; margin-top: 6px; color: var(--dc); }
 
 /* kategoria */
@@ -420,7 +428,8 @@ window.BANK_DATA = "ND9JEw1HVwAXXkRDS0lNPiowW0YcTVcWFQEdR0NGIAa62V8YVQQdFw0AquAY
     specialsPerType: 3,
     target: 2,            // ile kart każdego regionu trzeba zebrać (1 = jedna karta na region)
     reroute: true,        // Zmiana trasy
-    offlineLimit: 120     // s nieobecności w trakcie pytania, potem brak odpowiedzi
+    offlineLimit: 120,    // s nieobecności w trakcie pytania, potem brak odpowiedzi
+    rollDelay: 2.4        // s doliczane do limitu po rzucie kostką (animacja rzutu)
   };
 
   // ---------- RNG z ziarnem (mulberry32) ----------
@@ -583,7 +592,7 @@ window.BANK_DATA = "ND9JEw1HVwAXXkRDS0lNPiowW0YcTVcWFQEdR0NGIAa62V8YVQQdFw0AquAY
     return cands[cands.length - 1];
   }
 
-  function startDuel(s, cat) {
+  function startDuel(s, cat, extraMs) {
     const q = pickQuestion(s, cat);
     s.used[q.id] = true;
     s.seen[q.id] = (s.seen[q.id] || 0) + 1;
@@ -592,7 +601,7 @@ window.BANK_DATA = "ND9JEw1HVwAXXkRDS0lNPiowW0YcTVcWFQEdR0NGIAa62V8YVQQdFw0AquAY
     s.fiftyRm = [[], []];
     s.off = [0, 0];
     s.phase = 'DUEL';
-    s.deadline = s.clock + s.rules.timeLimit * 1000;
+    s.deadline = s.clock + s.rules.timeLimit * 1000 + (extraMs || 0);
   }
 
   function resolveDuel(s) {
@@ -690,8 +699,9 @@ window.BANK_DATA = "ND9JEw1HVwAXXkRDS0lNPiowW0YcTVcWFQEdR0NGIAa62V8YVQQdFw0AquAY
         if (s.phase !== 'TURN' || p !== s.active) return false;
         s.face = FACES[randInt(s, 6)];
         ev(s, { type: 'roll', p, face: s.face });
-        if (s.face === 'WYB') { s.phase = 'CHOOSE'; s.deadline = s.clock + s.rules.choiceTime * 1000; }
-        else startDuel(s, s.face);
+        const rd = (s.rules.rollDelay || 0) * 1000;
+        if (s.face === 'WYB') { s.phase = 'CHOOSE'; s.deadline = s.clock + s.rules.choiceTime * 1000 + rd; }
+        else startDuel(s, s.face, rd);
         return true;
       }
       case 'choose':
@@ -1127,16 +1137,16 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     return REGIONS.map((r) => `${REG[r].name}: ${cards[r]}${cards[r] >= tg ? ' (komplet)' : ''}`).join(', ');
   }
 
-  function regionCard(r) {
+  function regionCard(r, enter) {
     const R = REG[r];
-    return `<div class="gcard" style="--rc:var(--r-${r})" aria-label="Karta regionu ${esc(R.name)}">
+    return `<div class="gcard${enter ? ' enter' : ''}" style="--rc:var(--r-${r})" aria-label="Karta regionu ${esc(R.name)}">
       <div class="art"><svg viewBox="0 0 120 90" preserveAspectRatio="xMidYMid slice">${I.REGION_ART[r]}</svg></div>
       <div class="mini">${mapSVG({ highlight: r, small: true })}</div>
       <div class="nm">${esc(R.name)}</div></div>`;
   }
-  function specialCard(k) {
+  function specialCard(k, enter) {
     const S = SPEC[k];
-    return `<div class="gcard special" aria-label="Karta specjalna ${esc(S.name)}">
+    return `<div class="gcard special${enter ? ' enter' : ''}" aria-label="Karta specjalna ${esc(S.name)}">
       <div class="art"><svg viewBox="0 0 120 120" preserveAspectRatio="xMidYMid slice">${I.SPECIAL_ART[k]}</svg></div>
       <div class="nm" style="padding-top:8px">${esc(S.name)}</div><div class="desc">${esc(S.flavor)}</div></div>`;
   }
@@ -1456,7 +1466,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
   }
 
   function viewKey(v) {
-    const c = Object.assign({}, v); delete c.clock; delete c.deadlineIn;
+    const c = Object.assign({}, v); delete c.clock; delete c.deadlineIn; delete c._at;
     return JSON.stringify(c);
   }
   function currentView() {
@@ -1558,6 +1568,11 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     if (fresh.length) R.lastEv = Math.max(...fresh.map((e) => e.n));
     fresh.forEach((e) => eventToast(e, v));
     const rolled = fresh.find((e) => e.type === 'roll');
+    // animacja odwrócenia tylko dla nowo odsłoniętej karty (nie przy każdym odświeżeniu ekranu)
+    const cardKey = v.top ? v.turnNo + ':' + v.evSeq + ':' + JSON.stringify(v.top) : '';
+    const topKey = v.top ? v.turnNo + ':' + JSON.stringify(v.top) + ':' + v.deckLeft : '';
+    const enter = !!topKey && topKey !== R.lastTopKey;
+    R.lastTopKey = topKey; void cardKey;
     // animacja nowej karty na mapie
     const pop = { 0: [], 1: [] };
     if (R.prevCards) [0, 1].forEach((p) => REGIONS.forEach((r) => { if (P[p].cards[r] > R.prevCards[p][r]) pop[p].push(r); }));
@@ -1606,7 +1621,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     switch (v.phase) {
       case 'TURN': {
         const canReroute = myTurn && v.rules.reroute && !v.rerouted && P[me].cards[v.top.r] >= tg;
-        stage = `${regionCard(v.top.r)}
+        stage = `${regionCard(v.top.r, enter)}
           ${myTurn
             ? `<button class="btn primary" data-click="roll">Rzuć kostką</button>
                ${canReroute ? `<button class="btn ghost" data-click="reroute">${I.UI.route}Zmiana trasy (masz już ten region)</button>` : ''}`
@@ -1691,7 +1706,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
         } else {
           actions = `<div class="status-line">${esc(P[op].name)} odsłania kartę specjalną${info ? '. ' + esc(info) : '.'}</div>`;
         }
-        stage = `${specialCard(k)}${myTurn && info ? `<div class="status-line small">${esc(info)}</div>` : ''}${actions}`;
+        stage = `${specialCard(k, enter)}${myTurn && info ? `<div class="status-line small">${esc(info)}</div>` : ''}${actions}`;
         break;
       }
       case 'TRADE': {
@@ -1726,7 +1741,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     if (v.phase !== 'OVER') R.overShown = false;
     const hostWait = R.role === 'guest' ? `<div data-hostwait class="install-tip small" hidden>Brak połączenia z gospodarzem. Gra zatrzymana; wróci, gdy ${esc(P[0].name)} otworzy aplikację.</div>` : '';
     render(`<div class="board">${oppBar}${hostWait}<div class="stage">${stage}</div>${meBar}</div>`, h);
-    if (rolled && (v.phase === 'DUEL' || v.phase === 'CHOOSE')) showDie(rolled.face);
+    if (rolled && (v.phase === 'DUEL' || v.phase === 'CHOOSE')) showDie(rolled.face, rolled.p === me ? 'Twój rzut' : `Rzuca: ${P[rolled.p].name}`);
     renderRoomSoft();
     startTimer(v);
   }
@@ -1738,12 +1753,33 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     const p = R.pair; if (!p) return '';
     return `<b>${p.w[1]} : ${p.w[0]}</b>${p.d ? ` (remisy ${p.d})` : ''}`;
   }
-  function showDie(face) {
+  // Animacja rzutu: kostka „toczy się” przez kolejne ścianki, zwalnia i zatrzymuje na wyniku z serwera
+  function showDie(face, who) {
+    document.querySelectorAll('.die-overlay').forEach((x) => x.remove());
     const d = document.createElement('div');
-    d.className = 'modal-bg'; d.style.alignItems = 'center'; d.style.background = 'rgba(0,0,0,.25)';
-    d.innerHTML = `<div><div class="die rolling" style="--dc:var(--c-${face})">${I.CAT[face]}</div><div class="die-label" style="--dc:var(--c-${face});background:var(--card);border-radius:10px;padding:4px 10px;margin-top:10px">${esc(CAT_NAMES[face])}</div></div>`;
+    d.className = 'modal-bg die-overlay'; d.style.alignItems = 'center'; d.style.background = 'rgba(15,12,10,.82)';
+    d.innerHTML = `<div class="die-stage" role="status" aria-live="polite"><div class="who">${esc(who || 'Rzut kostką')}</div>
+      <div class="die tumble"></div><div class="die-label"></div></div>`;
     document.body.appendChild(d);
-    setTimeout(() => d.remove(), 1100);
+    const die = d.querySelector('.die'), lab = d.querySelector('.die-label');
+    const show = (f) => { die.style.setProperty('--dc', `var(--c-${f})`); die.innerHTML = I.CAT[f]; };
+    const finish = () => {
+      show(face); die.classList.remove('tumble'); die.classList.add('land');
+      lab.textContent = CAT_NAMES[face]; lab.style.color = `var(--c-${face})`; lab.classList.add('on');
+      vibrate(25);
+      setTimeout(() => d.remove(), 900);
+    };
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) { finish(); return; }
+    // sekwencja ścianek: coraz dłuższe przerwy (ok. 1,4 s), ostatnia to wynik
+    const delays = [70, 70, 80, 80, 90, 100, 110, 130, 150, 180, 220];
+    let last = null, i = 0;
+    const step = () => {
+      if (i >= delays.length) return finish();
+      let f; do { f = E.FACES[Math.floor(Math.random() * 6)]; } while (f === last);
+      last = f; show(f);
+      setTimeout(step, delays[i++]);
+    };
+    step();
   }
   function startTimer(v) {
     clearInterval(timerLoop);
@@ -1756,7 +1792,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
       const live = currentView();
       const paused = live ? live.paused : v.paused;
       const left = paused ? base : Math.max(0, base - (Date.now() - at));
-      el.style.width = (100 * left / total).toFixed(1) + '%';
+      el.style.width = Math.min(100, 100 * left / total).toFixed(1) + '%';
       el.parentElement.classList.toggle('paused', !!paused);
       el.parentElement.setAttribute('aria-label', 'Pozostało ' + Math.ceil(left / 1000) + ' s');
     };

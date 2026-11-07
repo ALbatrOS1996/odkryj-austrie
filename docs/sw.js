@@ -1,5 +1,5 @@
-// Service worker – wersja 289ad8fc47
-const CACHE = 'odkryj-austrie-289ad8fc47';
+// Service worker – wersja 34514bde4a
+const CACHE = 'odkryj-austrie-34514bde4a';
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
