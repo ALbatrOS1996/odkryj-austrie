@@ -2,7 +2,7 @@
 import json, os, sys, urllib.parse, urllib.request, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from content import load
-qs, _ = load()
+qs, _ = load(sys.argv[1] if len(sys.argv) > 1 else 'at')
 by = {}
 for q in qs:
     for s in q['sources']:

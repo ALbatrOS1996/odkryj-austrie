@@ -3,7 +3,7 @@ import json, os, sys, subprocess, concurrent.futures as cf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from content import load
 
-qs, _ = load()
+qs, _ = load(sys.argv[1] if len(sys.argv) > 1 else 'at')
 urls = sorted({s['url'] for q in qs for s in q['sources']})
 UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
 

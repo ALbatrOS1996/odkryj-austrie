@@ -1,10 +1,9 @@
-# Parser i walidator bazy pytań (content-src/*.txt)
+# Parser i walidator bazy pytań (content-src/<kraj>/*.txt): python tools/content.py at|cz
 import os, re, hashlib, json, collections
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, '..')
 CATS = ['ZAB', 'GEO', 'HIS', 'KUL', 'SPO']
-REG = {'e': 'east', 'n': 'north', 's': 'south', 'w': 'west', '-': None}
 ACCESSED = '2026-11-04'
 
 
@@ -13,7 +12,7 @@ def expand_source(s):
         url = s
     else:
         k, _, v = s.partition(':')
-        if k in ('wpl', 'wde', 'wen'):
+        if k in ('wpl', 'wde', 'wen', 'wcs'):
             url = f'https://{k[1:]}.wikipedia.org/wiki/{v}'
         elif k == 'brit':
             url = f'https://www.britannica.com/{v}'
@@ -26,7 +25,7 @@ def expand_source(s):
     host = re.sub(r'^https?://(www\.)?', '', url).split('/')[0]
     if 'wikipedia' in host:
         typ = 'wikipedia'
-    elif 'britannica' in host or 'austria-forum' in host:
+    elif 'britannica' in host or 'austria-forum' in host or 'encyklopedie' in host:
         typ = 'encyklopedia'
     elif 'geschichtewiki' in host:
         typ = 'instytucja'
@@ -62,11 +61,16 @@ def order_options(qid, opts):
     return out, out.index(correct)
 
 
-def load():
+def country(cc):
+    return json.load(open(os.path.join(ROOT, 'content-src', cc, 'country.json'), encoding='utf-8'))
+
+
+def load(cc='at'):
     qs = []
     errors = []
+    REG = dict(country(cc)['regionCodes']); REG['-'] = None
     for cat in CATS:
-        path = os.path.join(ROOT, 'content-src', cat.lower() + '.txt')
+        path = os.path.join(ROOT, 'content-src', cc, cat.lower() + '.txt')
         for ln, line in enumerate(open(path, encoding='utf-8'), 1):
             line = line.rstrip('\n')
             if not line.strip() or line.startswith('#'):
@@ -79,7 +83,9 @@ def load():
                 parts.append('')
             sid, diff, reg, text, opts, expl, srcs, tags = parts[:8]
             opts = [o.strip() for o in opts.split(' ; ')]
-            qid = f'at-{cat.lower()}-{sid[1:]}'
+            qid = f'{cc}-{cat.lower()}-{sid[1:]}'
+            if reg not in REG:
+                errors.append(f'{cat}:{ln} nieznany kod regionu „{reg}”'); continue
             o2, ci = order_options(qid, opts)
             q = {
                 'id': qid, 'category': cat, 'difficulty': int(diff), 'regionRef': REG[reg],
@@ -88,15 +94,15 @@ def load():
                 'sources': [expand_source(s) for s in srcs.split()],
                 'verification': 'checked',
                 'tags': [t.strip() for t in tags.split(',') if t.strip()],
-                '_line': f'{cat.lower()}.txt:{ln}', '_correctText': opts[0]
+                '_line': f'{cc}/{cat.lower()}.txt:{ln}', '_correctText': opts[0]
             }
-            if cat == 'SPO' and sid in ('s11',):
+            if cc == 'at' and cat == 'SPO' and sid in ('s11',):
                 q['timeSensitive'] = True; q['asOf'] = '2026-11'
             qs.append(q)
     return qs, errors
 
 
-def validate(qs, errors):
+def validate(qs, errors, regions=('east', 'north', 'south', 'west')):
     rep = []
     ids = collections.Counter(q['id'] for q in qs)
     for k, v in ids.items():
@@ -145,7 +151,7 @@ def validate(qs, errors):
         if len(cq) < 64:
             errors.append(f'{cat}: tylko {len(cq)} pytań (min. 64)')
     zg = [q for q in qs if q['category'] in ('ZAB', 'GEO')]
-    for reg in ('east', 'north', 'south', 'west'):
+    for reg in regions:
         share = sum(1 for q in zg if q['regionRef'] == reg) / len(zg)
         stats.setdefault('ZAB+GEO', {})[reg] = round(share * 100, 1)
         if share < 0.15:
@@ -166,8 +172,10 @@ def validate(qs, errors):
 
 
 if __name__ == '__main__':
-    qs, errors = load()
-    stats, rep = validate(qs, errors)
+    import sys
+    cc = sys.argv[1] if len(sys.argv) > 1 else 'at'
+    qs, errors = load(cc)
+    stats, rep = validate(qs, errors, [r['id'] for r in country(cc)['regions']])
     print(json.dumps(stats, ensure_ascii=False, indent=1))
     for r in rep:
         print(r)

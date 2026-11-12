@@ -1,0 +1,123 @@
+{
+  "code": "at",
+  "name": "Austria",
+  "nameLocal": "Österreich",
+  "gameTitle": "Odkryj Austrię!",
+  "palette": {
+    "primary": "#C8102E",
+    "secondary": "#FFFFFF",
+    "accent": "#E2712B"
+  },
+  "flag": [
+    "#C8102E",
+    "#FFFFFF",
+    "#C8102E"
+  ],
+  "regions": [
+    {
+      "id": "east",
+      "name": "Wschód",
+      "adminUnits": [
+        "Wiedeń",
+        "Dolna Austria",
+        "Burgenland"
+      ],
+      "color": "#C8102E",
+      "motifs": [
+        "katedra św. Szczepana",
+        "diabelski młyn w Praterze",
+        "winnice Wachau",
+        "Jezioro Nezyderskie"
+      ],
+      "description": "Najludniejsza część kraju: Wiedeń, dolina Dunaju i równiny nad Jeziorem Nezyderskim."
+    },
+    {
+      "id": "north",
+      "name": "Północ",
+      "adminUnits": [
+        "Górna Austria",
+        "Salzburg"
+      ],
+      "color": "#2F6DB5",
+      "motifs": [
+        "twierdza Hohensalzburg",
+        "Hallstatt",
+        "jeziora Salzkammergut",
+        "Dunaj w Linzu"
+      ],
+      "description": "Kraina jezior Salzkammergut, miasto Mozarta i przemysłowy Linz nad Dunajem."
+    },
+    {
+      "id": "south",
+      "name": "Południe",
+      "adminUnits": [
+        "Styria",
+        "Karyntia"
+      ],
+      "color": "#2E8B57",
+      "motifs": [
+        "wieża zegarowa w Grazu",
+        "jezioro Wörthersee",
+        "Grossglockner",
+        "olej z pestek dyni"
+      ],
+      "description": "Zielona Styria z Grazem i ciepłe jeziora Karyntii u stóp Wysokich Taurów."
+    },
+    {
+      "id": "west",
+      "name": "Zachód",
+      "adminUnits": [
+        "Tyrol",
+        "Vorarlberg"
+      ],
+      "color": "#C98A12",
+      "motifs": [
+        "Złoty Dach w Innsbrucku",
+        "Alpy i skocznia Bergisel",
+        "Jezioro Bodeńskie"
+      ],
+      "description": "Najwyższe Alpy, Innsbruck i Jezioro Bodeńskie na styku trzech państw."
+    }
+  ],
+  "regionCodes": {
+    "e": "east",
+    "n": "north",
+    "s": "south",
+    "w": "west"
+  },
+  "specialCards": {
+    "luck": {
+      "name": "Tu felix Austria",
+      "short": "Szczęście",
+      "flavor": "Zabierz przeciwnikowi kartę regionu, którego ci brakuje. Nie działa na gracza w twierdzy."
+    },
+    "detour": {
+      "name": "Lawina",
+      "short": "Objazd",
+      "flavor": "Lawina zasypała drogę! Oddajesz przeciwnikowi jedną kartę regionu, a jeśli masz duplikat, musisz oddać duplikat."
+    },
+    "ticket": {
+      "name": "Kolejka gondolowa",
+      "short": "Bilet",
+      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę regionu."
+    },
+    "express": {
+      "name": "Walc",
+      "short": "Ekspres",
+      "flavor": "Jeszcze jeden takt! Po tej rundzie od razu rozegrasz dodatkową rundę z następną kartą."
+    }
+  },
+  "regionSplitRationale": "Podział opiera się wyłącznie na granicach krajów związkowych. Każdy makroregion ma rozpoznawalne miasto i krajobraz: Wschód (Wiedeń, Dunaj, Jezioro Nezyderskie), Północ (Salzburg, Salzkammergut, Linz), Południe (Graz, jeziora Karyntii, Wysokie Taury), Zachód (Innsbruck, Alpy, Jezioro Bodeńskie). Wschód ma najwięcej zabytków, dlatego w kategoriach ZAB i GEO każdy z pozostałych regionów ma co najmniej 18% pytań (wymóg: 15%). Grossglockner leży na granicy Karyntii i Tyrolu; przypisano go do Południa (Karyntia, droga Grossglockner).",
+  "contentVersion": "1.0.0",
+  "factsAsOf": "2026-11-04",
+  "regionShort": {
+    "east": "Wschód",
+    "north": "Północ",
+    "south": "Południe",
+    "west": "Zachód"
+  },
+  "nameGen": "Austrii",
+  "nameLoc": "Austrii",
+  "unitsLabel": "krajów związkowych",
+  "unitsCount": 9
+}

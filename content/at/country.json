@@ -8,6 +8,11 @@
     "secondary": "#FFFFFF",
     "accent": "#E2712B"
   },
+  "flag": [
+    "#C8102E",
+    "#FFFFFF",
+    "#C8102E"
+  ],
   "regions": [
     {
       "id": "east",
@@ -74,6 +79,12 @@
       "description": "Najwyższe Alpy, Innsbruck i Jezioro Bodeńskie na styku trzech państw."
     }
   ],
+  "regionCodes": {
+    "e": "east",
+    "n": "north",
+    "s": "south",
+    "w": "west"
+  },
   "specialCards": {
     "luck": {
       "name": "Tu felix Austria",
@@ -98,5 +109,15 @@
   },
   "regionSplitRationale": "Podział opiera się wyłącznie na granicach krajów związkowych. Każdy makroregion ma rozpoznawalne miasto i krajobraz: Wschód (Wiedeń, Dunaj, Jezioro Nezyderskie), Północ (Salzburg, Salzkammergut, Linz), Południe (Graz, jeziora Karyntii, Wysokie Taury), Zachód (Innsbruck, Alpy, Jezioro Bodeńskie). Wschód ma najwięcej zabytków, dlatego w kategoriach ZAB i GEO każdy z pozostałych regionów ma co najmniej 18% pytań (wymóg: 15%). Grossglockner leży na granicy Karyntii i Tyrolu; przypisano go do Południa (Karyntia, droga Grossglockner).",
   "contentVersion": "1.0.0",
-  "factsAsOf": "2026-11-04"
+  "factsAsOf": "2026-11-04",
+  "regionShort": {
+    "east": "Wschód",
+    "north": "Północ",
+    "south": "Południe",
+    "west": "Zachód"
+  },
+  "nameGen": "Austrii",
+  "nameLoc": "Austrii",
+  "unitsLabel": "krajów związkowych",
+  "unitsCount": 9
 }

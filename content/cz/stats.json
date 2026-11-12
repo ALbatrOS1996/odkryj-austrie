@@ -1,0 +1,126 @@
+{
+ "ZAB": {
+  "n": 66,
+  "diff": {
+   "1": 26,
+   "2": 27,
+   "3": 13
+  },
+  "region": {
+   "center": 23,
+   "west": 11,
+   "north": 11,
+   "moravia": 15,
+   "None": 6
+  },
+  "correctPos": {
+   "0": 16,
+   "1": 21,
+   "2": 12,
+   "3": 17
+  }
+ },
+ "GEO": {
+  "n": 64,
+  "diff": {
+   "1": 26,
+   "2": 25,
+   "3": 13
+  },
+  "region": {
+   "None": 7,
+   "north": 14,
+   "moravia": 22,
+   "west": 12,
+   "center": 9
+  },
+  "correctPos": {
+   "0": 23,
+   "1": 12,
+   "2": 11,
+   "3": 18
+  }
+ },
+ "HIS": {
+  "n": 70,
+  "diff": {
+   "1": 28,
+   "2": 28,
+   "3": 14
+  },
+  "region": {
+   "moravia": 6,
+   "None": 45,
+   "center": 16,
+   "west": 2,
+   "north": 1
+  },
+  "correctPos": {
+   "0": 17,
+   "1": 19,
+   "2": 20,
+   "3": 14
+  }
+ },
+ "KUL": {
+  "n": 66,
+  "diff": {
+   "1": 26,
+   "2": 27,
+   "3": 13
+  },
+  "region": {
+   "None": 41,
+   "moravia": 9,
+   "north": 4,
+   "center": 7,
+   "west": 5
+  },
+  "correctPos": {
+   "0": 19,
+   "1": 14,
+   "2": 20,
+   "3": 13
+  }
+ },
+ "SPO": {
+  "n": 66,
+  "diff": {
+   "1": 26,
+   "2": 27,
+   "3": 13
+  },
+  "region": {
+   "None": 61,
+   "center": 1,
+   "moravia": 3,
+   "north": 1
+  },
+  "correctPos": {
+   "0": 22,
+   "1": 13,
+   "2": 17,
+   "3": 14
+  }
+ },
+ "ZAB+GEO": {
+  "center": 24.6,
+  "west": 17.7,
+  "north": 19.2,
+  "moravia": 28.5
+ },
+ "HIS epoki": {
+  "historia:starożytność": 3,
+  "historia:średniowiecze": 23,
+  "historia:nowożytność": 10,
+  "historia:xix": 8,
+  "historia:xx": 13,
+  "historia:po1945": 13
+ },
+ "HIS polska-powiazanie": 12,
+ "trudność ogółem %": {
+  "1": 39.8,
+  "2": 40.4,
+  "3": 19.9
+ }
+}

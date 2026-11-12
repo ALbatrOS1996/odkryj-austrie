@@ -1,12 +1,10 @@
-/* Odkryj Austrię! – interfejs aplikacji (PWA). */
+/* Odkryj! – pojedynek wiedzy o krajach (PWA). Kraj = pakiet treści w docs/data/<kod>.js */
 (function () {
   'use strict';
-  const E = window.Engine, C = window.COUNTRY, MAP = window.MAPA, I = window.ICONS, Net = window.Net;
+  const E = window.Engine, I = window.ICONS, Net = window.Net, REGISTRY = window.OA_REGISTRY;
   const $app = document.getElementById('app');
-  const CATS = E.CATS, REGIONS = E.REGIONS;
+  const CATS = E.CATS;
   const CAT_NAMES = { ZAB: 'Zabytki i symbole', GEO: 'Geografia i miasta', HIS: 'Historia', KUL: 'Kultura i ludzie', SPO: 'Społeczeństwo i codzienność', WYB: 'Wybór' };
-  const REG = {}; C.regions.forEach((r) => { REG[r.id] = r; });
-  const SPEC = C.specialCards;
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
   // ---------- baza pytań ----------
@@ -19,9 +17,50 @@
       return { id: r[0], cat: r[1], diff: r[2], region: r[3], q: r[4], o: r[5], c: (r[6] - (h % 4) + 8) % 4, e: r[7], src: r[8], tags: r[9] };
     });
   }
-  const BANK = decodeBank(window.BANK_DATA);
-  const QB = {}; BANK.forEach((q) => { QB[q.id] = q; });
-  E.setBank(BANK.map((q) => ({ id: q.id, cat: q.cat, diff: q.diff, region: q.region, correct: q.c })));
+  // ---------- aktywny kraj ----------
+  // C – konfiguracja kraju, MAP – mapa, BANK/QB – pytania, REG – regiony, SPEC – karty specjalne
+  let C = null, MAP = null, BANK = [], QB = {}, REG = {}, SPEC = {}, REGIONS = [], CC = null;
+  window.OA_DATA = window.OA_DATA || {};
+  const loading = {};
+  function loadCountry(cc) {
+    if (window.OA_DATA[cc]) return Promise.resolve();
+    if (!REGISTRY.some((r) => r.code === cc)) return Promise.reject(new Error('nieznany kraj ' + cc));
+    if (!loading[cc]) {
+      loading[cc] = new Promise((res, rej) => {
+        const s = document.createElement('script');
+        s.src = 'data/' + cc + '.js?v=' + window.OA_VERSION;
+        s.onload = () => (window.OA_DATA[cc] ? res() : rej(new Error('brak danych')));
+        s.onerror = () => { delete loading[cc]; s.remove(); rej(new Error('nie udało się wczytać danych kraju')); };
+        document.head.appendChild(s);
+      });
+    }
+    return loading[cc];
+  }
+  function useCountry(cc) {
+    if (CC === cc) return;
+    const D = window.OA_DATA[cc];
+    CC = cc; C = D.country; MAP = D.map;
+    REG = {}; C.regions.forEach((r) => { REG[r.id] = Object.assign({ short: (C.regionShort || {})[r.id] || r.name }, r); });
+    REGIONS = C.regions.map((r) => r.id);
+    SPEC = C.specialCards;
+    BANK = D.bank || (D.bank = decodeBank(D.bankData));
+    QB = {}; BANK.forEach((q) => { QB[q.id] = q; });
+    E.setBank(BANK.map((q) => ({ id: q.id, cat: q.cat, diff: q.diff, region: q.region, correct: q.c })));
+    REGION_LABEL = null;
+    const root = document.documentElement.style;
+    root.setProperty('--red', C.palette.primary);
+    C.regions.forEach((r) => root.setProperty('--r-' + r.id, r.color));
+    const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = C.palette.primary;
+    document.title = C.gameTitle;
+    migrateStats();
+  }
+  const SK = () => 'stats.' + CC;
+  function migrateStats() {
+    // starsze wersje trzymały statystyki Austrii pod kluczem „stats”
+    const old = store.get('stats', null);
+    if (old && CC === 'at' && !store.get('stats.at', null)) { store.set('stats.at', old); store.del('stats'); }
+  }
+  const countryLogo = (cc) => I.LOGO[cc] || I.LOGO.any;
 
   // ---------- pamięć ----------
   const store = {
@@ -41,10 +80,10 @@
 
   // statystyki odpowiedzi
   function recordAnswer(qid, ok, mode) {
-    const st = store.get('stats', { a: {} });
+    const st = store.get(SK(), { a: {} });
     const x = st.a[qid] || { n: 0, k: 0 };
     x.n++; if (ok) x.k++; x.l = ok ? 1 : 0; x.t = Date.now(); x.m = mode;
-    st.a[qid] = x; store.set('stats', st);
+    st.a[qid] = x; store.set(SK(), st);
   }
 
   // ---------- drobne narzędzia UI ----------
@@ -83,14 +122,17 @@
 
   // ---------- mapa ----------
   let mapUid = 0;
-  const REGION_LABEL = (() => {
+  let REGION_LABEL = null;
+  const LABEL_SHIFT = { at: { east: [-40, 0], north: [0, -10] }, cz: { center: [0, 6], moravia: [10, 0] } };
+  function regionLabels() {
+    if (REGION_LABEL) return REGION_LABEL;
     const pts = {};
     MAP.states.forEach((s) => { (pts[s.region] = pts[s.region] || []).push([s.cx, s.cy]); });
     const out = {};
     Object.entries(pts).forEach(([r, p]) => { out[r] = [p.reduce((a, b) => a + b[0], 0) / p.length, p.reduce((a, b) => a + b[1], 0) / p.length]; });
-    out.east[0] -= 40; out.north[1] -= 10;
-    return out;
-  })();
+    Object.entries(LABEL_SHIFT[CC] || {}).forEach(([r, d]) => { if (out[r]) { out[r][0] += d[0]; out[r][1] += d[1]; } });
+    return (REGION_LABEL = out);
+  }
   /** opts: {cards, target, highlight, progress, full, small, labels, pop:[regions], title} */
   function mapSVG(o) {
     const id = 'm' + (++mapUid);
@@ -108,38 +150,47 @@
       else if (o.progress) { fill = `var(--r-${r})`; op = 0.18 + 0.82 * (o.progress[r] || 0); }
       else if (o.cards) { const n = o.cards[r] || 0; fill = n >= tg ? `var(--r-${r})` : n > 0 ? `url(#${id}${r})` : 'var(--r-none)'; }
       const pop = o.pop && o.pop.includes(r) ? ' pop' : '';
-      return `<path class="st${pop}" d="${s.d}" fill="${fill}" fill-opacity="${op.toFixed(2)}"><title>${esc(s.name)} (${esc(REG[r].name)})</title></path>`;
+      return `<path class="st${pop}" d="${s.d}" fill="${fill}" fill-opacity="${op.toFixed(2)}"><title>${esc(s.name)} (${esc(REG[r].short)})</title></path>`;
     }).join('');
-    const labels = o.labels ? REGIONS.map((r) => `<text class="reg-label" x="${REGION_LABEL[r][0]}" y="${REGION_LABEL[r][1] + 14}">${esc(REG[r].name)}</text>`).join('') : '';
-    const aria = o.title || 'Mapa Austrii';
+    const L = regionLabels();
+    const labels = o.labels ? REGIONS.map((r) => `<text class="reg-label" x="${L[r][0]}" y="${L[r][1] + 14}">${esc(REG[r].short)}</text>`).join('') : '';
+    const aria = o.title || 'Mapa ' + C.nameGen;
     return `<div class="map ${o.small ? 'small' : ''}"><svg viewBox="0 0 ${MAP.w} ${MAP.h}" role="img" aria-label="${esc(aria)}"><defs>${defs}</defs>${paths}${labels}</svg></div>`;
   }
   function cardsAria(cards, tg) {
-    return REGIONS.map((r) => `${REG[r].name}: ${cards[r]}${cards[r] >= tg ? ' (komplet)' : ''}`).join(', ');
+    return REGIONS.map((r) => `${REG[r].short}: ${cards[r]}${cards[r] >= tg ? ' (komplet)' : ''}`).join(', ');
   }
 
   function regionCard(r, enter) {
     const R = REG[r];
     return `<div class="gcard${enter ? ' enter' : ''}" style="--rc:var(--r-${r})" aria-label="Karta regionu ${esc(R.name)}">
-      <div class="art"><svg viewBox="0 0 120 90" preserveAspectRatio="xMidYMid slice">${I.REGION_ART[r]}</svg></div>
+      <div class="art"><svg viewBox="0 0 120 90" preserveAspectRatio="xMidYMid slice">${(I.REGION_ART[CC] || {})[r] || ''}</svg></div>
       <div class="mini">${mapSVG({ highlight: r, small: true })}</div>
-      <div class="nm">${esc(R.name)}</div></div>`;
+      <div class="nm">${esc(R.short)}</div>${R.short !== R.name ? `<div class="desc" style="margin-top:-8px">${esc(R.name)}</div>` : ''}</div>`;
   }
   function specialCard(k, enter) {
     const S = SPEC[k];
     return `<div class="gcard special${enter ? ' enter' : ''}" aria-label="Karta specjalna ${esc(S.name)}">
-      <div class="art"><svg viewBox="0 0 120 120" preserveAspectRatio="xMidYMid slice">${I.SPECIAL_ART[k]}</svg></div>
+      <div class="art"><svg viewBox="0 0 120 120" preserveAspectRatio="xMidYMid slice">${(I.SPECIAL_ART[CC] || I.SPECIAL_ART.at)[k]}</svg></div>
       <div class="nm" style="padding-top:8px">${esc(S.name)}</div><div class="desc">${esc(S.flavor)}</div></div>`;
   }
 
   // ---------- trasy ----------
-  function route() {
+  async function setCountry(cc) {
+    try { await loadCountry(cc); } catch (e) { toast('Nie udało się wczytać pytań. Sprawdź internet.', 4000); return false; }
+    useCountry(cc); return true;
+  }
+  async function route() {
     const h = location.hash.replace(/^#\/?/, '');
     const [p, a] = h.split('/');
     clearInterval(timerLoop);
-    if (p !== 'room' && R) { /* pokój zostaje połączony w tle, by gość nie tracił stanu */ }
+    // pokój ustawia kraj sam (gospodarz – z zapisu, gość – z wiadomości gospodarza)
+    if (p !== 'room') {
+      if (!(await setCountry(profile.country || 'at'))) return;
+    }
     if (!profile.name && p !== 'join' && p !== 'settings') return screenWelcome(h);
     switch (p) {
+      case 'country': return screenCountry();
       case 'new': return screenNew();
       case 'join': return screenJoin(a);
       case 'room': return enterRoom(a);
@@ -154,7 +205,7 @@
 
   // ---------- powitanie ----------
   function screenWelcome(next) {
-    render(`<div class="hero"><div class="logo">${I.logo}</div><h1>${esc(C.gameTitle)}</h1><p>Pojedynek wiedzy o Austrii na dwa telefony</p></div>
+    render(`<div class="hero"><div class="logo">${countryLogo(CC)}</div><h1>${esc(C.gameTitle)}</h1><p>Pojedynek wiedzy o ${esc(C.nameLoc)} na dwa telefony</p></div>
       <div class="hero-map">${mapSVG({ full: true, labels: true })}</div>
       <div class="panel stack"><div class="field"><label for="nm">Jak masz na imię?</label>
       <input id="nm" type="text" maxlength="20" autocomplete="nickname" placeholder="np. Marcin"></div>
@@ -163,7 +214,7 @@
         const v = document.getElementById('nm').value.trim();
         if (!v) return toast('Wpisz imię');
         profile.name = v.slice(0, 20); saveProfile();
-        route();
+        if (!profile.country && REGISTRY.length > 1) location.hash = '#/country'; else route();
       }
     });
   }
@@ -183,10 +234,11 @@
         : `<div class="install-tip">Grę możesz dodać do ekranu głównego jak aplikację. <div class="row" style="margin-top:8px">${deferredInstall ? '<button class="btn small primary" data-click="install">Zainstaluj</button>' : '<span class="small muted">Menu przeglądarki → Zainstaluj aplikację</span>'}<button class="btn small ghost" data-click="tipx">Ukryj</button></div></div>`;
     }
     const resume = rooms.map((r) => `<button class="btn resume" data-click="resume" data-arg="${r.code}">
-      <span class="grow" style="text-align:left">Wróć do gry<br><span class="small muted">${r.opp ? 'z: ' + esc(r.opp) : 'pokój'} · ${r.code}</span></span></button>`).join('');
-    render(`<div class="hero"><div class="logo">${I.logo}</div><h1>${esc(C.gameTitle)}</h1><p>Cześć, ${esc(profile.name)}! Zbierz pełną mapę Austrii.</p></div>
+      <span class="logo-sm">${countryLogo(r.cc || 'at')}</span><span class="grow" style="text-align:left">Wróć do gry<br><span class="small muted">${r.opp ? 'z: ' + esc(r.opp) : 'pokój'} · ${r.code}</span></span></button>`).join('');
+    render(`<div class="hero"><div class="logo">${countryLogo(CC)}</div><h1>${esc(C.gameTitle)}</h1><p>Cześć, ${esc(profile.name)}! Zbierz pełną mapę ${esc(C.nameGen)}.</p></div>
       <div class="hero-map">${mapSVG({ full: true, labels: true })}</div>
       <div class="stack">${tip}${resume}
+      ${REGISTRY.length > 1 ? `<button class="btn ghost" data-click="go" data-arg="country"><span class="logo-sm">${countryLogo(CC)}</span>Kraj: ${esc(C.name)} · zmień</button>` : ''}
       <div class="menu">
         <button class="btn primary wide" data-click="go" data-arg="new">Nowy pojedynek</button>
         <button class="btn wide" data-click="go" data-arg="join">Dołącz do pojedynku</button>
@@ -202,6 +254,18 @@
     });
   }
 
+  // ---------- wybór kraju ----------
+  function screenCountry() {
+    const items = REGISTRY.map((r) => `<button class="btn country-pick ${r.code === CC ? 'on' : ''}" data-click="pick" data-arg="${r.code}">
+      <span class="logo-md">${countryLogo(r.code)}</span><span class="grow" style="text-align:left"><b>${esc(r.gameTitle)}</b><br>
+      <span class="small muted">${r.count} pytań · ${esc(r.regions.join(', '))}</span></span>${r.code === CC ? I.UI.check : ''}</button>`).join('');
+    render(`${top('Wybierz kraj')}<div class="stack">${items}
+      <div class="small muted center">Kolejne kraje to nowe pakiety pytań; zasady gry są wspólne.</div></div>`, {
+      back: goBack,
+      pick: async (cc) => { profile.country = cc; saveProfile(); if (await setCountry(cc)) goBack(); }
+    });
+  }
+
   // ---------- nowy pojedynek ----------
   function screenNew() {
     const rules = Object.assign({}, E.DEFAULT_RULES, store.get('lastRules', {}));
@@ -210,6 +274,7 @@
     const seg = (k, vals, lab) => `<div class="seg" role="group">${vals.map((v) => `<button data-click="seg" data-arg="${k}:${v}" class="${rules[k] === v ? 'on' : ''}">${lab(v)}</button>`).join('')}</div>`;
     render(`${top('Nowy pojedynek')}
       <div class="stack">
+      <button class="btn ghost" data-click="country"><span class="logo-sm">${countryLogo(CC)}</span>Gramy: ${esc(C.gameTitle)} · zmień</button>
       <div class="panel stack"><div class="field"><label for="nm">Twoje imię</label><input id="nm" type="text" maxlength="20" value="${esc(profile.name)}"></div></div>
       <div class="panel stack">
         <div class="lbl">Czas na odpowiedź</div>${seg('timeLimit', [15, 25, 40], (v) => v + ' s')}
@@ -219,20 +284,21 @@
       <div class="panel">
         ${sw('intercepts', 'Przechwyty', 'Gdy gracz w turze się pomyli, a przeciwnik odpowie dobrze, kartę bierze przeciwnik.')}
         ${sw('fifty', 'Koło ratunkowe 50/50', 'Raz na partię usuwa dwie błędne odpowiedzi (tylko na twoim ekranie).')}
-        ${sw('specials', 'Karty specjalne', 'Tu felix Austria, Lawina, Kolejka gondolowa i Walc.')}
+        ${sw('specials', 'Karty specjalne', ['luck', 'detour', 'ticket', 'express'].map((k) => SPEC[k].name).join(', ') + '.')}
         ${sw('fortress', 'Twierdza', 'Gracza z 3 skompletowanymi regionami nie można okraść kartą Szczęście.')}
         ${sw('reroute', 'Zmiana trasy', 'Raz na turę możesz pominąć kartę regionu, który już masz.')}
       </div>
       <button class="btn primary" data-click="create">Utwórz pokój</button></div>`, {
       back: goBack,
       seg: (a) => { const [k, v] = a.split(':'); rules[k] = +v; store.set('lastRules', pick(rules)); screenNewKeep(); },
+      country: () => { location.hash = '#/country'; },
       create: async () => {
         const nm = document.getElementById('nm').value.trim();
         if (nm) { profile.name = nm.slice(0, 20); saveProfile(); }
         readSwitches(rules);
         store.set('lastRules', pick(rules));
         const code = Net.newCode();
-        store.set('host.' + code, { code, rules: pick(rules), me: { id: profile.id, name: profile.name }, guest: null, game: null, history: [], seen: {}, pair: { w: [0, 0], d: 0 }, lastLoser: null, created: Date.now() });
+        store.set('host.' + code, { code, country: CC, rules: pick(rules), me: { id: profile.id, name: profile.name }, guest: null, game: null, history: [], seen: {}, pair: { w: [0, 0], d: 0 }, lastLoser: null, created: Date.now() });
         addRoom(code, 'host', null);
         location.hash = '#/room/' + code;
       }
@@ -246,7 +312,7 @@
   }
   function addRoom(code, role, opp) {
     let rooms = store.get('rooms', []).filter((r) => r.code !== code);
-    rooms.unshift({ code, role, opp, t: Date.now() });
+    rooms.unshift({ code, role, opp, cc: CC, t: Date.now() });
     store.set('rooms', rooms.slice(0, 12));
   }
 
@@ -289,12 +355,16 @@
     code = Net.normCode(code);
     const hostData = store.get('host.' + code, null);
     const role = hostData ? 'host' : 'guest';
+    // kraj pokoju: gospodarz zna go z zapisu, gość z ostatniej wiadomości (albo czeka na pierwszą)
+    const gs = store.get('guest.' + code, {});
+    const roomCC = role === 'host' ? (hostData.country || 'at') : ((gs.lobby && gs.lobby.country) || CC || profile.country || 'at');
+    if (!(await setCountry(roomCC))) return;
     if (role === 'guest' && !store.get('guest.' + code)) { store.set('guest.' + code, { code, joined: Date.now() }); addRoom(code, 'guest', null); }
     if (!R || R.code !== code) {
       closeRoom();
       R = { code, role, me: role === 'host' ? 0 : 1, seq: 0, lastEv: 0, recorded: new Set(), aids: new Set(), lastGuest: 0, lastHost: 0, viewKey: '', prevCards: null, pubKey: '', rolledAt: 0, lastRoll: 0 };
       if (role === 'host') {
-        R.H = hostData;
+        R.H = hostData; R.H.country = R.H.country || 'at';
         R.lastEv = R.H.game ? R.H.game.evSeq : 0;
       } else {
         const g = store.get('guest.' + code, {});
@@ -335,7 +405,7 @@
     const H = R.H;
     const msg = {
       t: 'state',
-      lobby: { code: R.code, host: H.me.name, guest: H.guest ? H.guest.name : null, guestId: H.guest ? H.guest.id : null, rules: H.rules },
+      lobby: { code: R.code, country: H.country || 'at', host: H.me.name, guest: H.guest ? H.guest.name : null, guestId: H.guest ? H.guest.id : null, rules: H.rules },
       view: H.game ? E.view(H.game, 1) : null,
       pair: { names: [H.me.name, H.guest ? H.guest.name : ''], w: H.pair.w, d: H.pair.d, n: H.history.length }
     };
@@ -393,7 +463,7 @@
     H.game = E.createGame({
       seed: crypto.getRandomValues(new Uint32Array(1))[0] || 7,
       players: [{ id: H.me.id, name: H.me.name }, { id: H.guest.id, name: H.guest.name }],
-      rules: H.rules, starter: H.lastLoser, seen: H.seen || {}, now: Date.now()
+      rules: H.rules, starter: H.lastLoser, seen: H.seen || {}, now: Date.now(), regions: REGIONS
     });
     R.recorded = new Set();
   }
@@ -425,6 +495,12 @@
       }
     } else {
       if (msg.t !== 'state') return;
+      // gospodarz gra w innym kraju niż wyświetlany – najpierw wczytaj jego pytania
+      if (msg.lobby && msg.lobby.country && msg.lobby.country !== CC) {
+        const code = R.code;
+        setCountry(msg.lobby.country).then((ok) => { if (ok && R && R.code === code) { R.viewKey = ''; R.prevCards = null; onRoomMsg(msg); } });
+        return;
+      }
       R.lastHost = Date.now();
       if (msg.seq && R.lastSeq && msg.seq < R.lastSeq && msg.ts && R.lastTs && msg.ts < R.lastTs) return;
       R.lastSeq = msg.seq; R.lastTs = msg.ts;
@@ -562,9 +638,9 @@
     const oppBar = `<div class="opp-bar">${mapSVG({ cards: P[op].cards, target: tg, small: true, pop: pop[op], title: 'Mapa przeciwnika: ' + cardsAria(P[op].cards, tg) })}
       <div class="grow"><div class="nm">${esc(P[op].name)}</div>
       <div class="row wrap" style="gap:4px;margin-top:3px"><span data-peer class="pill">${I.UI.dot}</span>${!myTurn && v.phase !== 'OVER' ? '<span class="pill turn">tura przeciwnika</span>' : ''}
-      ${P[op].ticket ? `<span class="pill" title="Ma kolejkę gondolową">${I.UI.gondola}bilet</span>` : ''}
+      ${P[op].ticket ? `<span class="pill" title="Ma kartę ${esc(SPEC.ticket.name)}">${I.UI.gondola}bilet</span>` : ''}
       <span class="pill">${E.distinct(P[op], tg)}/4 regiony</span></div></div></div>`;
-    const counts = REGIONS.map((r) => `<div style="${P[me].cards[r] >= tg ? 'background:color-mix(in srgb,var(--r-' + r + ') 22%,transparent)' : ''}"><b>${P[me].cards[r]}/${tg}</b>${esc(REG[r].name)}</div>`).join('');
+    const counts = REGIONS.map((r) => `<div style="${P[me].cards[r] >= tg ? 'background:color-mix(in srgb,var(--r-' + r + ') 22%,transparent)' : ''}"><b>${P[me].cards[r]}/${tg}</b>${esc(REG[r].short)}</div>`).join('');
     const meBar = `<div class="me-bar"><div class="head"><b class="grow">${esc(P[me].name)} (ty)</b>
       ${myTurn && v.phase !== 'OVER' ? '<span class="pill turn">twoja tura</span>' : ''}
       ${P[me].ticket ? `<span class="pill on">${I.UI.gondola}bilet</span>` : ''}
@@ -607,7 +683,7 @@
             ? `<button class="btn primary" data-click="roll">Rzuć kostką</button>
                ${canReroute ? `<button class="btn ghost" data-click="reroute">${I.UI.route}Zmiana trasy (masz już ten region)</button>` : ''}`
             : `<div class="status-line">Tura gracza ${esc(P[op].name)}. Za chwilę rzut kostką…</div>`}
-          ${v.extra ? `<div class="status-line small">Walc: po tej rundzie jeszcze ${v.extra} dodatkowa runda.</div>` : ''}`;
+          ${v.extra ? `<div class="status-line small">${esc(SPEC.express.name)}: po tej rundzie jeszcze ${v.extra} dodatkowa runda.</div>` : ''}`;
         break;
       }
       case 'CHOOSE': {
@@ -643,10 +719,10 @@
           recordAnswer(v.q.id, ok, 'duel');
           vibrate(ok ? 40 : [80, 60, 80]);
         }
-        const rn = REG[res.card].name;
+        const rn = REG[res.card].short;
         let cls = 'neutral', txt = 'Nikt nie zdobywa karty. Wraca pod spód stosu.';
-        if (res.award === me) { cls = 'good'; txt = res.kind === 'intercept' ? `Przechwyt! Zdobywasz kartę: ${rn}` : res.kind === 'ticket' ? `Kolejka gondolowa! Mimo to zdobywasz kartę: ${rn}` : `Zdobywasz kartę: ${rn}`; }
-        else if (res.award === op) { cls = 'bad'; txt = res.kind === 'intercept' ? `Przechwyt! ${P[op].name} zabiera kartę: ${rn}` : res.kind === 'ticket' ? `${P[op].name} używa kolejki gondolowej i bierze kartę: ${rn}` : `${P[op].name} zdobywa kartę: ${rn}`; }
+        if (res.award === me) { cls = 'good'; txt = res.kind === 'intercept' ? `Przechwyt! Zdobywasz kartę: ${rn}` : res.kind === 'ticket' ? `${SPEC.ticket.name}! Mimo to zdobywasz kartę: ${rn}` : `Zdobywasz kartę: ${rn}`; }
+        else if (res.award === op) { cls = 'bad'; txt = res.kind === 'intercept' ? `Przechwyt! ${P[op].name} zabiera kartę: ${rn}` : res.kind === 'ticket' ? `${P[op].name} używa karty „${SPEC.ticket.name}” i bierze kartę: ${rn}` : `${P[op].name} zdobywa kartę: ${rn}`; }
         const canTicket = myTurn && res.award === -1 && P[me].ticket && v.winner === null;
         const ready = v.ready && v.ready[me];
         const srcs = q.src.map((s) => `<a href="${esc(s[0])}" target="_blank" rel="noopener">${esc(s[1])}</a>`).join('');
@@ -661,7 +737,7 @@
           }).join('')}</div>
           ${v.myAnswer === -1 ? '<div class="small muted">Brak twojej odpowiedzi w czasie.</div>' : ''}
           <div class="panel expl">${esc(q.e)}<div class="sources" style="margin-top:8px">Źródła: ${srcs}</div></div>
-          ${canTicket ? `<button class="btn" data-click="ticket">${I.UI.gondola}Użyj kolejki gondolowej i weź kartę</button>` : ''}
+          ${canTicket ? `<button class="btn" data-click="ticket">${I.UI.gondola}Użyj karty „${esc(SPEC.ticket.name)}” i weź kartę</button>` : ''}
           <div class="row"><button class="btn small ghost" data-click="report" data-arg="${q.id}">${I.UI.flag}Zgłoś błąd</button><span class="spacer"></span>
           <button class="btn primary small" style="min-width:140px" data-click="next" ${ready ? 'disabled' : ''}>${ready ? 'Czekam…' : 'Dalej'}</button></div>
           ${timerBar}
@@ -673,15 +749,15 @@
         let info = '';
         if (pend.note === 'fortress') info = `${esc(P[op].name)} jest w twierdzy, więc karta nie działa.`;
         else if (pend.note === 'nothing') info = k === 'luck' ? 'Przeciwnik nie ma żadnej karty, której ci brakuje.' : 'Nie masz kart do oddania.';
-        else if (pend.note === 'hasTicket') info = 'Masz już kolejkę gondolową; ta karta wraca pod stos.';
+        else if (pend.note === 'hasTicket') info = `Masz już kartę „${SPEC.ticket.name}”; ta wraca pod stos.`;
         let actions = '';
         if (myTurn) {
           if (pend.options.length > 1) {
             actions = `<div class="status-line">${k === 'luck' ? 'Wybierz region, który zabierasz:' : 'Wybierz kartę do oddania:'}</div>
-              <div class="cat-grid">${pend.options.map((r) => `<button class="btn" style="--cc:var(--r-${r})" data-click="special" data-arg="${r}"><span>${esc(REG[r].name)} (${(k === 'luck' ? P[op] : P[me]).cards[r]})</span></button>`).join('')}</div>`;
+              <div class="cat-grid">${pend.options.map((r) => `<button class="btn" style="--cc:var(--r-${r})" data-click="special" data-arg="${r}"><span>${esc(REG[r].short)} (${(k === 'luck' ? P[op] : P[me]).cards[r]})</span></button>`).join('')}</div>`;
           } else {
             const one = pend.options[0];
-            const what = one ? (k === 'luck' ? `Zabierasz kartę: ${REG[one].name}.` : `Oddajesz kartę: ${REG[one].name}.`) : '';
+            const what = one ? (k === 'luck' ? `Zabierasz kartę: ${REG[one].short}.` : `Oddajesz kartę: ${REG[one].short}.`) : '';
             actions = `<div class="status-line">${esc(what || info)}</div><button class="btn primary" data-click="special" data-arg="${one || ''}">OK</button>`;
           }
         } else {
@@ -694,8 +770,8 @@
         const t = v.tradeOpts;
         stage = myTurn
           ? `<div class="panel stack"><b>Wymiana</b><div class="small muted">Masz co najmniej ${tg + 2} karty jednego regionu. Możesz oddać jedną z nich za region, który ${esc(P[op].name)} ma w nadmiarze.</div>
-             <div class="lbl">Oddajesz</div><div class="row wrap">${t.give.map((r) => `<button class="btn small" data-give="${r}" data-click="pickGive">${esc(REG[r].name)}</button>`).join('')}</div>
-             <div class="lbl">Dostajesz</div><div class="row wrap">${t.want.map((r) => `<button class="btn small" data-want="${r}" data-click="pickWant">${esc(REG[r].name)}</button>`).join('')}</div>
+             <div class="lbl">Oddajesz</div><div class="row wrap">${t.give.map((r) => `<button class="btn small" data-give="${r}" data-click="pickGive">${esc(REG[r].short)}</button>`).join('')}</div>
+             <div class="lbl">Dostajesz</div><div class="row wrap">${t.want.map((r) => `<button class="btn small" data-want="${r}" data-click="pickWant">${esc(REG[r].short)}</button>`).join('')}</div>
              <div class="row"><button class="btn ghost" data-click="tradeSkip">Pomiń</button><button class="btn primary" data-click="tradeGo">Wymień</button></div></div>`
           : `<div class="status-line">${esc(P[op].name)} może zaproponować wymianę kart…</div>`;
         break;
@@ -704,7 +780,7 @@
         const w = v.winner;
         const hist = v.hist || [];
         const sc = [0, 1].map((p) => hist.filter((x) => x.a[p] === x.c).length);
-        const reason = { map: 'pełna mapa Austrii zebrana', deck: 'w talii zabrakło kart regionów', time: 'minął czas gry', resign: 'przeciwnik się poddał' }[v.overReason] || '';
+        const reason = { map: 'pełna mapa ' + C.nameGen + ' zebrana', deck: 'w talii zabrakło kart regionów', time: 'minął czas gry', resign: 'przeciwnik się poddał' }[v.overReason] || '';
         const title = w === 'draw' ? 'Remis!' : w === me ? 'Wygrywasz!' : `Wygrywa ${esc(P[w].name)}`;
         const wrong = hist.filter((x) => x.a[me] !== x.c).length;
         stage = `<div class="win-banner"><h2>${title}</h2><div class="muted">${w === 'draw' ? esc(reason) : (w === me ? 'Brawo: ' : '') + esc(reason)}</div></div>
@@ -781,14 +857,14 @@
   }
   function eventToast(e, v) {
     const nm = (p) => (p === v.me ? 'Ty' : v.players[p] ? v.players[p].name : '');
-    const rn = (r) => REG[r] ? REG[r].name : '';
+    const rn = (r) => REG[r] ? REG[r].short : '';
     switch (e.type) {
       case 'start': toast(e.p === v.me ? 'Zaczynasz!' : `Zaczyna ${nm(e.p)}`); break;
       case 'reroute': if (e.p !== v.me) toast(`${nm(e.p)}: zmiana trasy`); break;
-      case 'luck': toast(e.p === v.me ? `Tu felix Austria: zabierasz kartę ${rn(e.r)}` : `Tu felix Austria: ${nm(e.p)} zabiera ci kartę ${rn(e.r)}`, 3500); break;
-      case 'detour': toast(e.p === v.me ? `Lawina: oddajesz kartę ${rn(e.r)}` : `Lawina: dostajesz kartę ${rn(e.r)}`, 3500); break;
-      case 'ticketGain': toast(e.p === v.me ? 'Masz kolejkę gondolową!' : `${nm(e.p)} ma kolejkę gondolową`); break;
-      case 'express': toast('Walc: będzie dodatkowa runda!'); break;
+      case 'luck': toast(e.p === v.me ? `${SPEC.luck.name}: zabierasz kartę ${rn(e.r)}` : `${SPEC.luck.name}: ${nm(e.p)} zabiera ci kartę ${rn(e.r)}`, 3500); break;
+      case 'detour': toast(e.p === v.me ? `${SPEC.detour.name}: oddajesz kartę ${rn(e.r)}` : `${SPEC.detour.name}: dostajesz kartę ${rn(e.r)}`, 3500); break;
+      case 'ticketGain': toast(e.p === v.me ? `Masz kartę „${SPEC.ticket.name}”!` : `${nm(e.p)} ma kartę „${SPEC.ticket.name}”`); break;
+      case 'express': toast(`${SPEC.express.name}: będzie dodatkowa runda!`); break;
       case 'walcRound': toast('Jeszcze jeden takt: dodatkowa runda'); break;
       case 'chosen': if (e.cat === null) toast('Czas minął: kategoria losowa'); break;
       case 'trade': toast(`Wymiana: ${rn(e.give)} za ${rn(e.want)}`, 3500); break;
@@ -832,7 +908,7 @@
   // ======================================================================
   let T = null;
   function mastery() {
-    const st = store.get('stats', { a: {} }).a;
+    const st = store.get(SK(), { a: {} }).a;
     const reg = {}, cat = {};
     REGIONS.forEach((r) => { reg[r] = [0, 0]; });
     CATS.forEach((c) => { cat[c] = [0, 0]; });
@@ -871,7 +947,7 @@
     if (onlyWrong) startTraining(cfg, true);
   }
   function startTraining(cfg, wrongOnly) {
-    const st = store.get('stats', { a: {} }).a;
+    const st = store.get(SK(), { a: {} }).a;
     let pool = BANK.filter((q) => cfg.cats.includes(q.cat) && (!cfg.diff || q.diff === cfg.diff));
     if (wrongOnly) pool = BANK.filter((q) => st[q.id] && st[q.id].l === 0);
     if (!pool.length) return toast('Brak pytań dla tych ustawień');
@@ -880,7 +956,7 @@
   }
   function nextTraining() {
     T.n++;
-    const st = store.get('stats', { a: {} }).a;
+    const st = store.get(SK(), { a: {} }).a;
     const dueIdx = T.due.findIndex((d) => d.at <= T.n);
     let id;
     if (dueIdx >= 0) { id = T.due[dueIdx].id; T.due.splice(dueIdx, 1); }
@@ -960,7 +1036,7 @@
         screenHistory('duels');
       };
     } else if (tab === 'stats') {
-      const st = store.get('stats', { a: {} }).a;
+      const st = store.get(SK(), { a: {} }).a;
       const agg = (key) => {
         const o = {};
         Object.entries(st).forEach(([id, x]) => { const q = QB[id]; if (!q) return; const k = q[key]; if (!k) return; o[k] = o[k] || [0, 0]; o[k][0] += x.k; o[k][1] += x.n; });
@@ -972,10 +1048,10 @@
       const total = Object.values(st).reduce((a, x) => [a[0] + x.k, a[1] + x.n], [0, 0]);
       body = `<div class="panel stack"><div class="row"><b class="grow">Wszystkie odpowiedzi</b><span>${total[1] ? Math.round(100 * total[0] / total[1]) : 0}% dobrych (${total[1]})</span></div></div>
         <div class="panel stack"><div class="lbl">Według kategorii</div>${CATS.map((c) => bar(CAT_NAMES[c], bc[c], `var(--c-${c})`)).join('')}</div>
-        <div class="panel stack"><div class="lbl">Według regionu (pytania przypisane do regionu)</div>${REGIONS.map((r) => bar(REG[r].name, br[r], `var(--r-${r})`)).join('')}</div>
+        <div class="panel stack"><div class="lbl">Według regionu (pytania przypisane do regionu)</div>${REGIONS.map((r) => bar(REG[r].short, br[r], `var(--r-${r})`)).join('')}</div>
         <div class="small muted center">Statystyki dotyczą twoich odpowiedzi w pojedynkach i treningu na tym telefonie.</div>`;
     } else if (tab === 'wrong') {
-      const st = store.get('stats', { a: {} }).a;
+      const st = store.get(SK(), { a: {} }).a;
       const ws = Object.entries(st).filter(([k, x]) => x.l === 0 && QB[k]).sort((a, b) => b[1].t - a[1].t);
       body = ws.length ? `<button class="btn primary" data-click="drill">Powtórz w treningu (${ws.length})</button>` + ws.map(([id]) => {
         const q = QB[id];
@@ -1005,19 +1081,19 @@
   //  ZASADY
   // ======================================================================
   const RULE_SLIDES = [
-    { t: 'Zbierz mapę Austrii', art: () => mapSVG({ full: true, labels: true }), d: 'Austria ma 9 krajów związkowych, które w grze tworzą 4 regiony: Wschód, Północ, Południe i Zachód. Wygrywa, kto pierwszy zbierze komplet kart wszystkich regionów (domyślnie po 2 karty każdego).' },
+    { t: () => 'Zbierz mapę ' + C.nameGen, art: () => mapSVG({ full: true, labels: true }), d: () => `${C.name} ${C.verbHas || 'ma'} ${C.unitsCount} ${C.unitsLabel}, które w grze tworzą 4 regiony: ${C.regions.map((r) => r.name).join(', ')}. Wygrywa, kto pierwszy zbierze komplet kart wszystkich regionów (domyślnie po 2 karty każdego).` },
     { t: 'Twoja tura', art: () => regionCard('north'), d: 'Odsłaniasz kartę regionu i rzucasz kostką: 5 kategorii albo Wybór (wtedy kategorię wskazuje przeciwnik). Jeśli masz już ten region, możesz raz na turę użyć Zmiany trasy.' },
     { t: 'Pojedynek', art: () => `<div class="die" style="--dc:var(--c-HIS)">${I.CAT.HIS}</div>`, d: 'Pytanie widzą obaj gracze naraz i obaj odpowiadają. Odpowiesz dobrze w swojej turze: karta jest twoja. Pomylisz się, a przeciwnik trafi: to przechwyt. Po każdym pytaniu jest krótkie objaśnienie.' },
-    { t: 'Karty specjalne', art: () => specialCard('ticket'), d: 'Tu felix Austria zabiera kartę przeciwnikowi, Lawina każe oddać kartę, Kolejka gondolowa ratuje po złej odpowiedzi, a Walc daje dodatkową rundę. Gracz z 3 kompletnymi regionami jest w twierdzy.' }
+    { t: 'Karty specjalne', art: () => specialCard('ticket'), d: () => `${SPEC.luck.name} zabiera kartę przeciwnikowi, ${SPEC.detour.name} każe oddać kartę, ${SPEC.ticket.name} ratuje po złej odpowiedzi, a ${SPEC.express.name} daje dodatkową rundę. Gracz z 3 kompletnymi regionami jest w twierdzy.` }
   ];
   function screenRules(i) {
     i = i || 0; const s = RULE_SLIDES[i];
     render(`${top('Zasady')}<div class="stack slide">
-      <div>${s.art()}</div><h3>${esc(s.t)}</h3><p style="margin:0">${esc(s.d)}</p>
+      <div>${s.art()}</div><h3>${esc(typeof s.t === 'function' ? s.t() : s.t)}</h3><p style="margin:0">${esc(typeof s.d === 'function' ? s.d() : s.d)}</p>
       <div class="dots">${RULE_SLIDES.map((x, j) => `<i class="${j === i ? 'on' : ''}"></i>`).join('')}</div>
       <div class="row"><button class="btn ghost" data-click="prev" ${i === 0 ? 'disabled' : ''}>Wstecz</button>
       <button class="btn primary" data-click="next">${i === RULE_SLIDES.length - 1 ? 'Gotowe' : 'Dalej'}</button></div>
-      ${i === RULE_SLIDES.length - 1 ? `<details class="panel small" style="text-align:left"><summary><b>Wszystkie zasady</b></summary>${FULL_RULES}</details>` : ''}
+      ${i === RULE_SLIDES.length - 1 ? `<details class="panel small" style="text-align:left"><summary><b>Wszystkie zasady</b></summary>${fullRules()}</details>` : ''}
       </div>`, {
       back: goBack,
       prev: () => screenRules(i - 1),
@@ -1025,15 +1101,15 @@
     });
   }
   function rulesModal() {
-    modal(`<div class="stack"><b>Zasady w skrócie</b><div class="small">${FULL_RULES}</div><button class="btn primary" data-m="c">Zamknij</button></div>`, { c: (a, c) => c() });
+    modal(`<div class="stack"><b>Zasady w skrócie</b><div class="small">${fullRules()}</div><button class="btn primary" data-m="c">Zamknij</button></div>`, { c: (a, c) => c() });
   }
-  const FULL_RULES = `<ol style="padding-left:18px;margin:8px 0">
+  const fullRules = () => `<ol style="padding-left:18px;margin:8px 0">
     <li>Gracze wykonują tury na zmianę, ale na każde pytanie odpowiadają obaj, równocześnie i bez podglądania.</li>
     <li>Wynik pytania: gracz w turze dobrze → bierze kartę; gracz w turze źle, przeciwnik dobrze → przechwyt (kartę bierze przeciwnik); obaj źle → karta wraca pod stos.</li>
     <li>Zmiana trasy: raz na turę możesz odłożyć pod stos kartę regionu, który już skompletowałeś.</li>
     <li>Wybór na kostce: kategorię wskazuje przeciwnik w ciągu 10 s, potem losuje gra.</li>
     <li>Wymiana: mając co najmniej o 2 karty więcej niż potrzeba w jednym regionie, możesz na koniec tury wymienić jedną z nich na region, którego ci brakuje, jeśli przeciwnik ma go w nadmiarze.</li>
-    <li>Twierdza: gracza z 3 kompletnymi regionami nie dotyczy karta Tu felix Austria.</li>
+    <li>Twierdza: gracza z 3 kompletnymi regionami nie dotyczy karta „${esc(SPEC.luck.name)}”.</li>
     <li>Gdy w talii zabraknie kart regionów albo minie czas gry, wygrywa więcej kompletnych regionów, a przy remisie więcej kart.</li>
     <li>Utrata połączenia zatrzymuje zegar. Po 2 minutach nieobecności w trakcie pytania liczy się brak odpowiedzi.</li></ol>`;
 
@@ -1085,5 +1161,5 @@
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
     navigator.serviceWorker.register('sw.js').catch(() => {});
   }
-  window.__OA = { E, BANK, store, get R() { return R; } };
+  window.__OA = { E, store, get BANK() { return BANK; }, get CC() { return CC; }, get R() { return R; } };
 })();

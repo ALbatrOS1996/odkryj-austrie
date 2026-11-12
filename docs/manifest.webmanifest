@@ -1,14 +1,14 @@
 {
- "name": "Odkryj Austrię!",
- "short_name": "Odkryj Austrię",
+ "name": "Odkryj! Pojedynek wiedzy o krajach",
+ "short_name": "Odkryj!",
  "lang": "pl",
- "description": "Pojedynek wiedzy o Austrii na dwa telefony.",
+ "description": "Pojedynek wiedzy o krajach Europy na dwa telefony: Austria, Czechy.",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
  "orientation": "portrait",
  "background_color": "#F5F1EA",
- "theme_color": "#C8102E",
+ "theme_color": "#2B3A55",
  "icons": [
   {
    "src": "icon-192.png",

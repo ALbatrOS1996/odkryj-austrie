@@ -1,8 +1,11 @@
-# Budowanie: python build.py  ->  docs/ (PWA na GitHub Pages) + content/at/ (dane) + dokumentacja/
-import base64, hashlib, json, os, sys, collections, datetime
+# Budowanie: python build.py  ->  docs/ (PWA na GitHub Pages) + content/<kraj>/ (dane w JSON)
+# Każdy kraj to folder content-src/<kod>/ (country.json, map.json, zab/geo/his/kul/spo.txt).
+import base64, hashlib, json, os, sys, collections
 ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
-from content import load, validate, CATS
+from content import load, validate, country as read_country
+
+COUNTRIES = [c for c in ['at', 'cz'] if all(os.path.exists(os.path.join(ROOT, 'content-src', c, f + '.txt')) for f in ('zab', 'geo', 'his', 'kul', 'spo'))]  # kolejność na liście wyboru
 
 def rd(p):
     return open(os.path.join(ROOT, p), encoding='utf-8').read()
@@ -15,51 +18,72 @@ def wr(p, s, binary=False):
     else:
         open(full, 'w', encoding='utf-8', newline='\n').write(s)
 
-# 1. treść + walidacja
-qs, errors = load()
-stats, warn = validate(qs, errors)
-for w in warn:
-    print(w)
-if errors:
-    for e in errors:
-        print('BŁĄD', e)
-    sys.exit('Walidacja nie przeszła – popraw content-src/*.txt')
-country = json.loads(rd('content-src/country.json'))
-
-# 2. bank pytań dla aplikacji (zaciemniony: poprawna odpowiedź nie jest czytelna w kodzie)
 def host_label(s):
     h = s['host']
-    if 'wikipedia' in h:
-        return h.split('.')[0] + '.wikipedia'
-    return h
-rows = []
-for q in qs:
-    hsum = sum(ord(c) for c in q['id'])
-    rows.append([q['id'], q['category'], q['difficulty'], q['regionRef'], q['question'], q['options'],
-                 (q['correct'] + hsum % 4) % 4, q['explanation'], [[s['url'], host_label(s)] for s in q['sources']], q['tags']])
-raw = json.dumps(rows, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
-key = b'odkryj-austrie'
-bank_b64 = base64.b64encode(bytes(b ^ key[i % len(key)] for i, b in enumerate(raw))).decode()
+    return h.split('.')[0] + '.wikipedia' if 'wikipedia' in h else h
 
-# 3. strona
-css = rd('src/style.css')
+registry, data_files, failed = [], {}, False
+for cc in COUNTRIES:
+    qs, errors = load(cc)
+    cfg = read_country(cc)
+    stats, warn = validate(qs, errors, [r['id'] for r in cfg['regions']])
+    for w in warn:
+        print(f'[{cc}]', w)
+    if errors:
+        failed = True
+        for e in errors:
+            print(f'[{cc}] BŁĄD', e)
+        continue
+    # bank pytań (zaciemniony: poprawna odpowiedź nie jest czytelna w kodzie)
+    rows = []
+    for q in qs:
+        hsum = sum(ord(c) for c in q['id'])
+        rows.append([q['id'], q['category'], q['difficulty'], q['regionRef'], q['question'], q['options'],
+                     (q['correct'] + hsum % 4) % 4, q['explanation'], [[s['url'], host_label(s)] for s in q['sources']], q['tags']])
+    raw = json.dumps(rows, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
+    key = b'odkryj-austrie'
+    bank_b64 = base64.b64encode(bytes(b ^ key[i % len(key)] for i, b in enumerate(raw))).decode()
+    mp = json.loads(rd(f'content-src/{cc}/map.json'))
+    data_files[cc] = ('window.OA_DATA = window.OA_DATA || {};\nwindow.OA_DATA[' + json.dumps(cc) + '] = ' +
+                      json.dumps({'country': cfg, 'map': mp, 'bankData': bank_b64}, ensure_ascii=False, separators=(',', ':')) + ';\n')
+    registry.append({'code': cc, 'name': cfg['name'], 'gameTitle': cfg['gameTitle'], 'count': len(qs),
+                     'regions': [cfg.get('regionShort', {}).get(r['id'], r['name']) for r in cfg['regions']]})
+    # dane i dokumentacja treści
+    clean = [{k: v for k, v in q.items() if not k.startswith('_')} for q in qs]
+    wr(f'content/{cc}/questions.json', json.dumps(clean, ensure_ascii=False, indent=1))
+    wr(f'content/{cc}/country.json', json.dumps(cfg, ensure_ascii=False, indent=2))
+    src = collections.OrderedDict()
+    for q in qs:
+        for s in q['sources']:
+            src.setdefault(s['url'], [s, []])[1].append(q['id'])
+    lines = ['# Źródła · ' + cfg['name'], '', f'Data dostępu: {qs[0]["sources"][0]["accessed"]}. Lista wygenerowana przez build.py.', '']
+    for url, (s, ids) in src.items():
+        lines.append(f'- <{url}> ({s["type"]}) · pytania: {", ".join(i.split("-", 1)[1] for i in ids)}')
+    wr(f'content/{cc}/sources.md', '\n'.join(lines) + '\n')
+    wr(f'content/{cc}/stats.json', json.dumps(stats, ensure_ascii=False, indent=1))
+    print(f'[{cc}] {len(qs)} pytań OK')
+
+if failed:
+    sys.exit('Walidacja nie przeszła – popraw content-src/<kraj>/*.txt')
+
+ver = hashlib.sha1(''.join(data_files[c] for c in COUNTRIES).encode() + rd('src/app.js').encode() + rd('src/style.css').encode() + rd('src/engine.js').encode() + rd('src/icons.js').encode()).hexdigest()[:10]
+for cc, s in data_files.items():
+    wr(f'docs/data/{cc}.js', s)
+
 scripts = [
-    'window.COUNTRY = ' + json.dumps(country, ensure_ascii=False) + ';',
-    rd('src/content/map.js'),
-    'window.BANK_DATA = "' + bank_b64 + '";',
+    'window.OA_VERSION = ' + json.dumps(ver) + ';\nwindow.OA_REGISTRY = ' + json.dumps(registry, ensure_ascii=False) + ';',
     rd('src/icons.js'), rd('src/engine.js'), rd('src/net.js'), rd('tools/qrcode.min.js'), rd('src/app.js')
 ]
-html = rd('src/index.html').replace('/*CSS*/', css)
+html = rd('src/index.html').replace('/*CSS*/', rd('src/style.css'))
 html = html.replace('<!--SCRIPTS-->', '\n'.join('<script>\n' + s + '\n</script>' for s in scripts))
-ver = hashlib.sha1(html.encode()).hexdigest()[:10]
 wr('docs/index.html', html)
 wr('docs/.nojekyll', '')
 
 manifest = {
-    'name': country['gameTitle'], 'short_name': 'Odkryj Austrię', 'lang': 'pl',
-    'description': 'Pojedynek wiedzy o Austrii na dwa telefony.',
+    'name': 'Odkryj! Pojedynek wiedzy o krajach', 'short_name': 'Odkryj!', 'lang': 'pl',
+    'description': 'Pojedynek wiedzy o krajach Europy na dwa telefony: ' + ', '.join(r['name'] for r in registry) + '.',
     'start_url': './', 'scope': './', 'display': 'standalone', 'orientation': 'portrait',
-    'background_color': '#F5F1EA', 'theme_color': '#C8102E',
+    'background_color': '#F5F1EA', 'theme_color': '#2B3A55',
     'icons': [
         {'src': 'icon-192.png', 'sizes': '192x192', 'type': 'image/png'},
         {'src': 'icon-512.png', 'sizes': '512x512', 'type': 'image/png'},
@@ -67,9 +91,10 @@ manifest = {
     ]
 }
 wr('docs/manifest.webmanifest', json.dumps(manifest, ensure_ascii=False, indent=1))
+core = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'] + [f'data/{c}.js?v={ver}' for c in COUNTRIES]
 wr('docs/sw.js', f"""// Service worker – wersja {ver}
-const CACHE = 'odkryj-austrie-{ver}';
-const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
+const CACHE = 'odkryj-{ver}';
+const CORE = {json.dumps(core)};
 self.addEventListener('install', (e) => {{ e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())); }});
 self.addEventListener('activate', (e) => {{ e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); }});
 self.addEventListener('fetch', (e) => {{
@@ -85,40 +110,24 @@ self.addEventListener('fetch', (e) => {{
 }});
 """)
 
-# 4. ikony
+# ikony: ogólne (góry na granatowym tle z paskiem barw)
 try:
     from PIL import Image, ImageDraw
     def icon(size, pad=0.0):
-        im = Image.new('RGBA', (size, size), (0, 0, 0, 0))
-        d = ImageDraw.Draw(im)
-        s = size
+        im = Image.new('RGBA', (size, size), (0, 0, 0, 0)); d = ImageDraw.Draw(im); s = size
         if pad:
-            d.rectangle([0, 0, s, s], fill='#C8102E')
+            d.rectangle([0, 0, s, s], fill='#2B3A55')
         else:
-            d.rounded_rectangle([0, 0, s - 1, s - 1], radius=int(s * 0.22), fill='#C8102E')
-        inset = s * pad
-        sc = (s - 2 * inset) / 64
-        X = lambda v: inset + v * sc
-        d.rectangle([0 if pad else X(0), X(22), s if pad else X(64), X(42)], fill='#FFFFFF')
-        d.polygon([(X(8), X(52)), (X(26), X(26)), (X(35), X(38)), (X(41), X(30)), (X(56), X(52))], fill='#FFFFFF', outline='#7a0a1c', width=max(2, int(2.5 * sc)))
-        d.polygon([(X(21), X(33)), (X(26), X(26)), (X(31), X(33)), (X(28.5), X(35)), (X(26), X(33)), (X(23.5), X(35))], fill='#C8102E')
+            d.rounded_rectangle([0, 0, s - 1, s - 1], radius=int(s * 0.22), fill='#2B3A55')
+        inset = s * pad; sc = (s - 2 * inset) / 64; X = lambda v: inset + v * sc
+        d.rectangle([X(10), X(46), X(54), X(50)], fill='#C8102E')
+        d.rectangle([X(10), X(50), X(54), X(54)], fill='#FFFFFF')
+        d.rectangle([X(10), X(54), X(54), X(58)], fill='#11457E')
+        d.polygon([(X(8), X(44)), (X(26), X(16)), (X(35), X(28)), (X(41), X(20)), (X(56), X(44))], fill='#FFFFFF')
+        d.polygon([(X(21), X(23)), (X(26), X(16)), (X(31), X(23)), (X(28.5), X(25)), (X(26), X(23)), (X(23.5), X(25))], fill='#2B3A55')
         return im
     for name, size, pad in [('icon-192.png', 192, 0), ('icon-512.png', 512, 0), ('icon-maskable-512.png', 512, 0.12), ('apple-touch-icon.png', 180, 0.08)]:
         icon(size, pad).save(os.path.join(ROOT, 'docs', name))
 except ImportError:
     print('Brak Pillow – ikony PNG nie zostały wygenerowane')
-
-# 5. dane i dokumentacja treści
-clean = [{k: v for k, v in q.items() if not k.startswith('_')} for q in qs]
-wr('content/at/questions.json', json.dumps(clean, ensure_ascii=False, indent=1))
-wr('content/at/country.json', json.dumps(country, ensure_ascii=False, indent=2))
-src = collections.OrderedDict()
-for q in qs:
-    for s in q['sources']:
-        src.setdefault(s['url'], [s, []])[1].append(q['id'])
-lines = ['# Źródła', '', f'Data dostępu: {qs[0]["sources"][0]["accessed"]}. Lista wygenerowana przez build.py.', '']
-for url, (s, ids) in src.items():
-    lines.append(f'- <{url}> ({s["type"]}) · pytania: {", ".join(i.replace("at-", "") for i in ids)}')
-wr('content/at/sources.md', '\n'.join(lines) + '\n')
-json.dump(stats, open(os.path.join(ROOT, 'content', 'at', 'stats.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-print(f'OK: {len(qs)} pytań, docs/index.html {len(html)//1024} KB, wersja {ver}')
+print(f'OK: wersja {ver}, docs/index.html {len(html)//1024} KB, kraje: {", ".join(r["code"] for r in registry)}')

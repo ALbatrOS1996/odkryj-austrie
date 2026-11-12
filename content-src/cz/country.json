@@ -1,0 +1,126 @@
+{
+  "code": "cz",
+  "name": "Czechy",
+  "nameLocal": "Česko",
+  "gameTitle": "Odkryj Czechy!",
+  "palette": {
+    "primary": "#11457E",
+    "secondary": "#FFFFFF",
+    "accent": "#D7141A"
+  },
+  "flag": "cz",
+  "regions": [
+    {
+      "id": "center",
+      "name": "Praga i Czechy Środkowe",
+      "adminUnits": [
+        "Praga",
+        "Kraj środkowoczeski"
+      ],
+      "color": "#D7141A",
+      "motifs": [
+        "Hradczany",
+        "most Karola",
+        "zamek Karlštejn",
+        "Kutná Hora"
+      ],
+      "description": "Stolica nad Wełtawą i otaczające ją Czechy Środkowe z zamkami i dawnymi miastami górniczymi."
+    },
+    {
+      "id": "west",
+      "name": "Czechy Zachodnie i Południowe",
+      "adminUnits": [
+        "Kraj karlowarski",
+        "Kraj pilzneński",
+        "Kraj południowoczeski"
+      ],
+      "color": "#C98A12",
+      "motifs": [
+        "kolumnada w Karlowych Warach",
+        "browar w Pilźnie",
+        "Český Krumlov",
+        "Szumawa"
+      ],
+      "description": "Uzdrowiska, piwo z Pilzna, Szumawa i renesansowe miasteczka południowych Czech."
+    },
+    {
+      "id": "north",
+      "name": "Czechy Północne i Wschodnie",
+      "adminUnits": [
+        "Kraj usteński",
+        "Kraj liberecki",
+        "Kraj hradecki",
+        "Kraj pardubicki"
+      ],
+      "color": "#2E8B57",
+      "motifs": [
+        "Śnieżka i Karkonosze",
+        "Czeski Raj",
+        "Ještěd",
+        "Brama Czeska"
+      ],
+      "description": "Pogranicze z Polską i Niemcami: Karkonosze, skalne miasta, Czeski Raj i dolina Łaby."
+    },
+    {
+      "id": "moravia",
+      "name": "Morawy i Śląsk",
+      "adminUnits": [
+        "Kraj Wysoczyna",
+        "Kraj południowomorawski",
+        "Kraj ołomuniecki",
+        "Kraj zliński",
+        "Kraj morawsko-śląski"
+      ],
+      "color": "#2F6DB5",
+      "motifs": [
+        "Brno i katedra na Petrovie",
+        "winnice Moraw",
+        "kolumna Trójcy Świętej w Ołomuńcu",
+        "Ostrawa i Beskidy"
+      ],
+      "description": "Wschodnia część kraju: winnice południowych Moraw, Brno, Ołomuniec, Beskidy i Śląsk Cieszyński."
+    }
+  ],
+  "regionCodes": {
+    "p": "center",
+    "w": "west",
+    "n": "north",
+    "m": "moravia"
+  },
+  "regionShort": {
+    "center": "Praga",
+    "west": "Zachód",
+    "north": "Północ",
+    "moravia": "Morawy"
+  },
+  "specialCards": {
+    "luck": {
+      "name": "Golem",
+      "short": "Szczęście",
+      "flavor": "Gliniany olbrzym z praskiej legendy przynosi ci kartę regionu, której brakuje, prosto od przeciwnika. Nie działa na gracza w twierdzy."
+    },
+    "detour": {
+      "name": "Defenestracja",
+      "short": "Objazd",
+      "flavor": "Ktoś wyrzucił twoją kartę przez okno! Oddajesz przeciwnikowi jedną kartę regionu, a jeśli masz duplikat, musisz oddać duplikat."
+    },
+    "ticket": {
+      "name": "Kolejka na Petřín",
+      "short": "Bilet",
+      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę regionu."
+    },
+    "express": {
+      "name": "Polka",
+      "short": "Ekspres",
+      "flavor": "Ten taniec narodził się w Czechach! Po tej rundzie od razu rozegrasz dodatkową rundę z następną kartą."
+    }
+  },
+  "regionSplitRationale": "Podział wyłącznie po granicach 14 krajów (krajů). Praga z krajem środkowoczeskim tworzy centrum; zachód i południe historycznych Czech (kraje karlowarski, pilzneński, południowoczeski) łączą uzdrowiska, Pilzno i Szumawę; północ i wschód Czech (usteński, liberecki, hradecki, pardubicki) to pogranicze z Polską i Niemcami z Sudetami; Morawy i czeski Śląsk tworzą pięć krajów wschodnich. Kraj Wysoczyna leży na pograniczu historycznych Czech i Moraw; jego stolica, Igława, leży na Morawach, dlatego przypisano go do regionu Morawy i Śląsk.",
+  "contentVersion": "1.0.0",
+  "factsAsOf": "2026-11-12",
+  "nameGen": "Czech",
+  "nameLoc": "Czechach",
+  "unitsLabel": "krajów",
+  "unitsCount": 14,
+  "verbHas": "mają"
+}

@@ -1,0 +1,505 @@
+# Źródła · Czechy
+
+Data dostępu: 2026-11-04. Lista wygenerowana przez build.py.
+
+- <https://whc.unesco.org/en/list/616> (instytucja) · pytania: zab-01
+- <https://en.wikipedia.org/wiki/Charles_Bridge> (wikipedia) · pytania: zab-01
+- <https://www.hrad.cz/> (strona instytucji) · pytania: zab-02, zab-03, zab-05, zab-21, zab-65, his-07, his-08, spo-01, spo-02, spo-03
+- <https://en.wikipedia.org/wiki/Prague_Castle> (wikipedia) · pytania: zab-02
+- <https://en.wikipedia.org/wiki/St._Vitus_Cathedral> (wikipedia) · pytania: zab-03
+- <https://www.prague.eu/> (strona instytucji) · pytania: zab-04, zab-10, zab-11, zab-13, zab-16, zab-20, zab-22, zab-23, geo-43, his-19, his-33, kul-64
+- <https://en.wikipedia.org/wiki/Prague_astronomical_clock> (wikipedia) · pytania: zab-04
+- <https://en.wikipedia.org/wiki/Golden_Lane> (wikipedia) · pytania: zab-05
+- <https://www.hrad-karlstejn.cz/> (strona instytucji) · pytania: zab-06
+- <https://en.wikipedia.org/wiki/Karlštejn> (wikipedia) · pytania: zab-06
+- <https://whc.unesco.org/en/list/732> (instytucja) · pytania: zab-07
+- <https://en.wikipedia.org/wiki/Sedlec_Ossuary> (wikipedia) · pytania: zab-07
+- <https://www.zamek-konopiste.cz/> (strona instytucji) · pytania: zab-08
+- <https://en.wikipedia.org/wiki/Konopiště> (wikipedia) · pytania: zab-08
+- <https://www.praha-vysehrad.cz/> (strona instytucji) · pytania: zab-09
+- <https://en.wikipedia.org/wiki/Vyšehrad_Cemetery> (wikipedia) · pytania: zab-09
+- <https://en.wikipedia.org/wiki/Wenceslas_Square> (wikipedia) · pytania: zab-10
+- <https://en.wikipedia.org/wiki/Dancing_House> (wikipedia) · pytania: zab-11
+- <https://www.towerpark.cz/> (strona instytucji) · pytania: zab-12
+- <https://en.wikipedia.org/wiki/Žižkov_Television_Tower> (wikipedia) · pytania: zab-12
+- <https://en.wikipedia.org/wiki/Petřín_Lookout_Tower> (wikipedia) · pytania: zab-13
+- <https://www.jewishmuseum.cz/> (strona instytucji) · pytania: zab-14, geo-63
+- <https://en.wikipedia.org/wiki/Old_Jewish_Cemetery,_Prague> (wikipedia) · pytania: zab-14
+- <https://www.strahovskyklaster.cz/> (strona instytucji) · pytania: zab-15
+- <https://en.wikipedia.org/wiki/Strahov_Monastery> (wikipedia) · pytania: zab-15
+- <https://en.wikipedia.org/wiki/Malá_Strana> (wikipedia) · pytania: zab-16
+- <https://www.rudolfinum.cz/> (strona instytucji) · pytania: zab-17
+- <https://en.wikipedia.org/wiki/Rudolfinum> (wikipedia) · pytania: zab-17
+- <https://www.narodni-divadlo.cz/> (strona instytucji) · pytania: zab-18, his-42, kul-03, kul-06
+- <https://en.wikipedia.org/wiki/National_Theatre_(Prague)> (wikipedia) · pytania: zab-18, his-42
+- <https://www.obecnidum.cz/> (strona instytucji) · pytania: zab-19
+- <https://en.wikipedia.org/wiki/Municipal_House> (wikipedia) · pytania: zab-19
+- <https://en.wikipedia.org/wiki/Church_of_Our_Lady_before_Týn> (wikipedia) · pytania: zab-20
+- <https://en.wikipedia.org/wiki/Lány_(Kladno_District)> (wikipedia) · pytania: zab-21
+- <https://en.wikipedia.org/wiki/Jan_Hus_Memorial> (wikipedia) · pytania: zab-22
+- <https://en.wikipedia.org/wiki/Lennon_Wall> (wikipedia) · pytania: zab-23
+- <https://whc.unesco.org/en/list/1613> (instytucja) · pytania: zab-24, zab-25, zab-32
+- <https://en.wikipedia.org/wiki/Karlovy_Vary> (wikipedia) · pytania: zab-24
+- <https://cs.wikipedia.org/wiki/Západočeský_lázeňský_trojúhelník> (wikipedia) · pytania: zab-25
+- <https://whc.unesco.org/en/list/617> (instytucja) · pytania: zab-26
+- <https://en.wikipedia.org/wiki/Český_Krumlov> (wikipedia) · pytania: zab-26
+- <https://www.zamek-hluboka.cz/> (strona instytucji) · pytania: zab-27
+- <https://en.wikipedia.org/wiki/Hluboká_Castle> (wikipedia) · pytania: zab-27
+- <https://whc.unesco.org/en/list/861> (instytucja) · pytania: zab-28
+- <https://en.wikipedia.org/wiki/Holašovice> (wikipedia) · pytania: zab-28
+- <https://www.katedralaplzen.org/> (strona instytucji) · pytania: zab-29
+- <https://en.wikipedia.org/wiki/Cathedral_of_St._Bartholomew_(Plzeň)> (wikipedia) · pytania: zab-29
+- <https://www.visitczechia.com/> (strona instytucji) · pytania: zab-30, zab-33, zab-66, geo-13, geo-31, geo-47, geo-62, kul-26, kul-42, kul-43, kul-48, kul-50, kul-52, kul-58, spo-12, spo-13, spo-14, spo-15, spo-16, spo-19, spo-20, spo-22, spo-23, spo-50, spo-51, spo-57, spo-63, spo-64
+- <https://en.wikipedia.org/wiki/Třeboň> (wikipedia) · pytania: zab-30
+- <https://www.hradloket.cz/> (strona instytucji) · pytania: zab-31
+- <https://en.wikipedia.org/wiki/Loket_Castle> (wikipedia) · pytania: zab-31
+- <https://en.wikipedia.org/wiki/Mariánské_Lázně> (wikipedia) · pytania: zab-32
+- <https://en.wikipedia.org/wiki/Cheb> (wikipedia) · pytania: zab-33
+- <https://www.zoplzen.cz/> (strona instytucji) · pytania: zab-34
+- <https://en.wikipedia.org/wiki/Great_Synagogue_(Plzeň)> (wikipedia) · pytania: zab-34
+- <https://www.adrspach.cz/> (strona instytucji) · pytania: zab-35
+- <https://en.wikipedia.org/wiki/Adršpach-Teplice_Rocks> (wikipedia) · pytania: zab-35
+- <https://www.npcs.cz/> (strona instytucji) · pytania: zab-36, geo-22, geo-46
+- <https://en.wikipedia.org/wiki/Pravčická_brána> (wikipedia) · pytania: zab-36
+- <https://www.jested.cz/> (strona instytucji) · pytania: zab-37
+- <https://en.wikipedia.org/wiki/Ještěd_Tower> (wikipedia) · pytania: zab-37
+- <https://whc.unesco.org/en/list/901> (instytucja) · pytania: zab-38
+- <https://en.wikipedia.org/wiki/Litomyšl_Castle> (wikipedia) · pytania: zab-38
+- <https://whc.unesco.org/en/list/1589> (instytucja) · pytania: zab-39
+- <https://en.wikipedia.org/wiki/Kladruber> (wikipedia) · pytania: zab-39
+- <https://whc.unesco.org/en/list/1558> (instytucja) · pytania: zab-40
+- <https://en.wikipedia.org/wiki/Žatec> (wikipedia) · pytania: zab-40
+- <https://whc.unesco.org/en/list/1478> (instytucja) · pytania: zab-41
+- <https://en.wikipedia.org/wiki/Ore_Mountains> (wikipedia) · pytania: zab-41
+- <https://www.hospital-kuks.cz/> (strona instytucji) · pytania: zab-42
+- <https://en.wikipedia.org/wiki/Kuks> (wikipedia) · pytania: zab-42
+- <https://www.hrad-trosky.eu/> (strona instytucji) · pytania: zab-43
+- <https://en.wikipedia.org/wiki/Trosky_Castle> (wikipedia) · pytania: zab-43
+- <https://www.teplice.cz/> (strona instytucji) · pytania: zab-44
+- <https://en.wikipedia.org/wiki/Teplice> (wikipedia) · pytania: zab-44
+- <https://whc.unesco.org/en/list/1133> (instytucja) · pytania: zab-45
+- <https://en.wikipedia.org/wiki/Jizera_Mountains> (wikipedia) · pytania: zab-45
+- <https://whc.unesco.org/en/list/763> (instytucja) · pytania: zab-46
+- <https://en.wikipedia.org/wiki/Lednice–Valtice_Cultural_Landscape> (wikipedia) · pytania: zab-46
+- <https://whc.unesco.org/en/list/859> (instytucja) · pytania: zab-47
+- <https://en.wikipedia.org/wiki/Holy_Trinity_Column_in_Olomouc> (wikipedia) · pytania: zab-47
+- <https://www.olomouc.eu/> (strona instytucji) · pytania: zab-48
+- <https://en.wikipedia.org/wiki/Olomouc_astronomical_clock> (wikipedia) · pytania: zab-48
+- <https://whc.unesco.org/en/list/1052> (instytucja) · pytania: zab-49
+- <https://en.wikipedia.org/wiki/Villa_Tugendhat> (wikipedia) · pytania: zab-49
+- <https://www.spilberk.cz/> (strona instytucji) · pytania: zab-50
+- <https://en.wikipedia.org/wiki/Špilberk_Castle> (wikipedia) · pytania: zab-50
+- <https://whc.unesco.org/en/list/860> (instytucja) · pytania: zab-51
+- <https://en.wikipedia.org/wiki/Kroměříž> (wikipedia) · pytania: zab-51
+- <https://whc.unesco.org/en/list/621> (instytucja) · pytania: zab-52
+- <https://en.wikipedia.org/wiki/Telč> (wikipedia) · pytania: zab-52
+- <https://whc.unesco.org/en/list/690> (instytucja) · pytania: zab-53
+- <https://en.wikipedia.org/wiki/Pilgrimage_Church_of_Saint_John_of_Nepomuk> (wikipedia) · pytania: zab-53
+- <https://whc.unesco.org/en/list/1078> (instytucja) · pytania: zab-54
+- <https://en.wikipedia.org/wiki/Třebíč> (wikipedia) · pytania: zab-54
+- <https://www.katedrala-petrov.cz/> (strona instytucji) · pytania: zab-55
+- <https://en.wikipedia.org/wiki/Cathedral_of_St._Peter_and_Paul,_Brno> (wikipedia) · pytania: zab-55
+- <https://www.znojmocity.cz/> (strona instytucji) · pytania: zab-56
+- <https://en.wikipedia.org/wiki/Znojmo_Rotunda> (wikipedia) · pytania: zab-56
+- <https://www.hrad-bouzov.cz/> (strona instytucji) · pytania: zab-57
+- <https://en.wikipedia.org/wiki/Bouzov_Castle> (wikipedia) · pytania: zab-57
+- <https://www.dolnivitkovice.cz/> (strona instytucji) · pytania: zab-58
+- <https://cs.wikipedia.org/wiki/Dolní_oblast_Vítkovice> (wikipedia) · pytania: zab-58
+- <https://vmp.cz/> (strona instytucji) · pytania: zab-59
+- <https://en.wikipedia.org/wiki/Wallachian_Open_Air_Museum> (wikipedia) · pytania: zab-59
+- <https://www.velehrad.cz/> (strona instytucji) · pytania: zab-60
+- <https://en.wikipedia.org/wiki/Velehrad> (wikipedia) · pytania: zab-60
+- <https://www.vlada.cz/> (strona instytucji) · pytania: zab-61, zab-62, zab-63, zab-64, spo-09, spo-10, spo-11, spo-61
+- <https://en.wikipedia.org/wiki/Flag_of_the_Czech_Republic> (wikipedia) · pytania: zab-61
+- <https://en.wikipedia.org/wiki/Coat_of_arms_of_the_Czech_Republic> (wikipedia) · pytania: zab-62
+- <https://en.wikipedia.org/wiki/Coat_of_arms_of_Moravia> (wikipedia) · pytania: zab-63
+- <https://en.wikipedia.org/wiki/Kde_domov_můj> (wikipedia) · pytania: zab-64
+- <https://cs.wikipedia.org/wiki/Vlajka_prezidenta_republiky> (wikipedia) · pytania: zab-65
+- <https://en.wikipedia.org/wiki/Tilia> (wikipedia) · pytania: zab-66
+- <https://www.czso.cz/> (strona instytucji) · pytania: geo-01, geo-29, geo-35, geo-58, spo-21, spo-60
+- <https://en.wikipedia.org/wiki/Regions_of_the_Czech_Republic> (wikipedia) · pytania: geo-01
+- <https://www.krnap.cz/> (strona instytucji) · pytania: geo-02, geo-16, geo-33
+- <https://en.wikipedia.org/wiki/Sněžka> (wikipedia) · pytania: geo-02
+- <https://www.britannica.com/place/Vltava-River> (encyklopedia) · pytania: geo-03
+- <https://en.wikipedia.org/wiki/Vltava> (wikipedia) · pytania: geo-03, geo-48
+- <https://www.britannica.com/place/Elbe-River> (encyklopedia) · pytania: geo-04
+- <https://en.wikipedia.org/wiki/Elbe> (wikipedia) · pytania: geo-04, geo-33
+- <https://www.britannica.com/place/Oder-River> (encyklopedia) · pytania: geo-05
+- <https://en.wikipedia.org/wiki/Oder> (wikipedia) · pytania: geo-05
+- <https://www.britannica.com/place/Morava-River-Europe> (encyklopedia) · pytania: geo-06
+- <https://en.wikipedia.org/wiki/Morava_(river)> (wikipedia) · pytania: geo-06
+- <https://www.britannica.com/place/Czech-Republic> (encyklopedia) · pytania: geo-07, geo-08, geo-42, geo-60, his-38
+- <https://en.wikipedia.org/wiki/Geography_of_the_Czech_Republic> (wikipedia) · pytania: geo-07
+- <https://en.wikipedia.org/wiki/Czech_Republic> (wikipedia) · pytania: geo-08
+- <https://www.britannica.com/place/Brno> (encyklopedia) · pytania: geo-09
+- <https://en.wikipedia.org/wiki/Brno> (wikipedia) · pytania: geo-09, geo-49
+- <https://www.britannica.com/place/Ostrava> (encyklopedia) · pytania: geo-10
+- <https://en.wikipedia.org/wiki/Ostrava> (wikipedia) · pytania: geo-10
+- <https://www.britannica.com/place/Ceske-Budejovice> (encyklopedia) · pytania: geo-11
+- <https://en.wikipedia.org/wiki/České_Budějovice> (wikipedia) · pytania: geo-11
+- <https://www.hradeckralove.org/> (strona instytucji) · pytania: geo-12
+- <https://en.wikipedia.org/wiki/Hradec_Králové> (wikipedia) · pytania: geo-12
+- <https://cs.wikipedia.org/wiki/Porta_Bohemica> (wikipedia) · pytania: geo-13
+- <https://www.britannica.com/place/Moravian-Gate> (encyklopedia) · pytania: geo-14
+- <https://en.wikipedia.org/wiki/Moravian_Gate> (wikipedia) · pytania: geo-14
+- <https://www.npsumava.cz/> (strona instytucji) · pytania: geo-15, geo-32, geo-48
+- <https://en.wikipedia.org/wiki/Šumava_National_Park> (wikipedia) · pytania: geo-15
+- <https://en.wikipedia.org/wiki/Krkonoše_National_Park> (wikipedia) · pytania: geo-16
+- <https://www.nppodyji.cz/> (strona instytucji) · pytania: geo-17
+- <https://en.wikipedia.org/wiki/Podyjí_National_Park> (wikipedia) · pytania: geo-17
+- <https://www.lipno.info/> (strona instytucji) · pytania: geo-18
+- <https://en.wikipedia.org/wiki/Lipno_Reservoir> (wikipedia) · pytania: geo-18
+- <https://www.caves.cz/> (strona instytucji) · pytania: geo-19, geo-28, geo-61
+- <https://en.wikipedia.org/wiki/Moravian_Karst> (wikipedia) · pytania: geo-19
+- <https://www.beskydy.cz/> (strona instytucji) · pytania: geo-20
+- <https://en.wikipedia.org/wiki/Moravian-Silesian_Beskids> (wikipedia) · pytania: geo-20
+- <https://www.jeseniky.cz/> (strona instytucji) · pytania: geo-21
+- <https://en.wikipedia.org/wiki/Praděd> (wikipedia) · pytania: geo-21
+- <https://en.wikipedia.org/wiki/Hřensko> (wikipedia) · pytania: geo-22
+- <https://www.tesin.cz/> (strona instytucji) · pytania: geo-23
+- <https://en.wikipedia.org/wiki/Olza_(river)> (wikipedia) · pytania: geo-23
+- <https://www.szm.cz/> (strona instytucji) · pytania: geo-24
+- <https://en.wikipedia.org/wiki/Opava> (wikipedia) · pytania: geo-24
+- <https://www.kr-stredocesky.cz/> (strona instytucji) · pytania: geo-25
+- <https://en.wikipedia.org/wiki/Central_Bohemian_Region> (wikipedia) · pytania: geo-25, geo-58
+- <https://www.mestokladno.cz/> (strona instytucji) · pytania: geo-26
+- <https://en.wikipedia.org/wiki/Kladno> (wikipedia) · pytania: geo-26
+- <https://www.skoda-storyboard.com/> (strona instytucji) · pytania: geo-27
+- <https://en.wikipedia.org/wiki/Mladá_Boleslav> (wikipedia) · pytania: geo-27
+- <https://cs.wikipedia.org/wiki/Český_kras> (wikipedia) · pytania: geo-28
+- <https://en.wikipedia.org/wiki/Plzeň> (wikipedia) · pytania: geo-29, geo-64
+- <https://www.kraj-jihocesky.cz/> (strona instytucji) · pytania: geo-30
+- <https://en.wikipedia.org/wiki/South_Bohemian_Region> (wikipedia) · pytania: geo-30
+- <https://en.wikipedia.org/wiki/Ohře> (wikipedia) · pytania: geo-31
+- <https://en.wikipedia.org/wiki/Černé_jezero> (wikipedia) · pytania: geo-32
+- <https://www.pardubice.eu/> (strona instytucji) · pytania: geo-34, kul-49
+- <https://en.wikipedia.org/wiki/Pardubice> (wikipedia) · pytania: geo-34, kul-49
+- <https://cs.wikipedia.org/wiki/Severočeská_hnědouhelná_pánev> (wikipedia) · pytania: geo-35
+- <https://www.zlin.eu/> (strona instytucji) · pytania: geo-36, kul-56
+- <https://en.wikipedia.org/wiki/Zlín> (wikipedia) · pytania: geo-36
+- <https://www.jihlava.cz/> (strona instytucji) · pytania: geo-37
+- <https://en.wikipedia.org/wiki/Jihlava> (wikipedia) · pytania: geo-37
+- <https://www.upol.cz/> (strona instytucji) · pytania: geo-38
+- <https://en.wikipedia.org/wiki/Palacký_University_Olomouc> (wikipedia) · pytania: geo-38
+- <https://www.wineofczechrepublic.cz/> (strona instytucji) · pytania: geo-39
+- <https://en.wikipedia.org/wiki/Czech_wine> (wikipedia) · pytania: geo-39
+- <https://www.palava.cz/> (strona instytucji) · pytania: geo-40
+- <https://cs.wikipedia.org/wiki/Pavlovské_vrchy> (wikipedia) · pytania: geo-40
+- <https://www.mzv.cz/> (strona instytucji) · pytania: geo-41
+- <https://en.wikipedia.org/wiki/Name_of_the_Czech_Republic> (wikipedia) · pytania: geo-41
+- <https://en.wikipedia.org/wiki/Czech_lands> (wikipedia) · pytania: geo-42
+- <https://en.wikipedia.org/wiki/Kampa_Island> (wikipedia) · pytania: geo-43
+- <https://www.prg.aero/> (strona instytucji) · pytania: geo-44
+- <https://en.wikipedia.org/wiki/Václav_Havel_Airport_Prague> (wikipedia) · pytania: geo-44
+- <https://www.dpp.cz/> (strona instytucji) · pytania: geo-45
+- <https://en.wikipedia.org/wiki/Prague_Metro> (wikipedia) · pytania: geo-45
+- <https://en.wikipedia.org/wiki/Bohemian_Switzerland> (wikipedia) · pytania: geo-46
+- <https://cs.wikipedia.org/wiki/Máchovo_jezero> (wikipedia) · pytania: geo-47
+- <https://www.brno.cz/> (strona instytucji) · pytania: geo-49
+- <https://www.olomoucky-kraj.cz/> (strona instytucji) · pytania: geo-50
+- <https://en.wikipedia.org/wiki/Haná> (wikipedia) · pytania: geo-50
+- <https://www.slovacko.cz/> (strona instytucji) · pytania: geo-51
+- <https://en.wikipedia.org/wiki/Moravian_Slovakia> (wikipedia) · pytania: geo-51
+- <https://www.domazlice.eu/> (strona instytucji) · pytania: geo-52
+- <https://cs.wikipedia.org/wiki/Chodsko> (wikipedia) · pytania: geo-52
+- <https://www.kr-vysocina.cz/> (strona instytucji) · pytania: geo-53
+- <https://en.wikipedia.org/wiki/Bohemian-Moravian_Highlands> (wikipedia) · pytania: geo-53
+- <https://www.ceskestredohori.cz/> (strona instytucji) · pytania: geo-54
+- <https://en.wikipedia.org/wiki/Central_Bohemian_Uplands> (wikipedia) · pytania: geo-54
+- <https://www.mestonachod.cz/> (strona instytucji) · pytania: geo-55
+- <https://en.wikipedia.org/wiki/Náchod> (wikipedia) · pytania: geo-55
+- <https://www.mesto-pisek.cz/> (strona instytucji) · pytania: geo-56
+- <https://cs.wikipedia.org/wiki/Kamenný_most_(Písek)> (wikipedia) · pytania: geo-56
+- <https://www.c-budejovice.cz/> (strona instytucji) · pytania: geo-57
+- <https://en.wikipedia.org/wiki/Malše> (wikipedia) · pytania: geo-57
+- <https://www.msk.cz/> (strona instytucji) · pytania: geo-59
+- <https://en.wikipedia.org/wiki/Moravian-Silesian_Region> (wikipedia) · pytania: geo-59
+- <https://en.wikipedia.org/wiki/Klepáč> (wikipedia) · pytania: geo-60
+- <https://en.wikipedia.org/wiki/Hranice_Abyss> (wikipedia) · pytania: geo-61
+- <https://en.wikipedia.org/wiki/Lusatian_Neisse> (wikipedia) · pytania: geo-62
+- <https://en.wikipedia.org/wiki/Josefov> (wikipedia) · pytania: geo-63
+- <https://www.plzen.eu/> (strona instytucji) · pytania: geo-64
+- <https://www.mzm.cz/> (strona instytucji) · pytania: his-01
+- <https://en.wikipedia.org/wiki/Venus_of_Dolní_Věstonice> (wikipedia) · pytania: his-01
+- <https://www.britannica.com/place/Bohemia> (encyklopedia) · pytania: his-02, his-27
+- <https://en.wikipedia.org/wiki/Boii> (wikipedia) · pytania: his-02
+- <https://www.britannica.com/topic/Marcomanni> (encyklopedia) · pytania: his-03
+- <https://en.wikipedia.org/wiki/Marcomanni> (wikipedia) · pytania: his-03
+- <https://www.britannica.com/biography/Samo-Frankish-merchant> (encyklopedia) · pytania: his-04
+- <https://en.wikipedia.org/wiki/Samo> (wikipedia) · pytania: his-04
+- <https://www.britannica.com/place/Great-Moravia> (encyklopedia) · pytania: his-05
+- <https://en.wikipedia.org/wiki/Great_Moravia> (wikipedia) · pytania: his-05
+- <https://www.britannica.com/topic/Glagolitic-alphabet> (encyklopedia) · pytania: his-06
+- <https://en.wikipedia.org/wiki/Glagolitic_script> (wikipedia) · pytania: his-06
+- <https://en.wikipedia.org/wiki/Přemyslid_dynasty> (wikipedia) · pytania: his-07
+- <https://en.wikipedia.org/wiki/Wenceslaus_I,_Duke_of_Bohemia> (wikipedia) · pytania: his-08
+- <https://www.britannica.com/biography/Mieszko-I> (encyklopedia) · pytania: his-09
+- <https://pl.wikipedia.org/wiki/Dobrawa> (wikipedia) · pytania: his-09
+- <https://www.britannica.com/biography/Saint-Adalbert> (encyklopedia) · pytania: his-10
+- <https://en.wikipedia.org/wiki/Adalbert_of_Prague> (wikipedia) · pytania: his-10
+- <https://www.britannica.com/biography/Boleslaw-I> (encyklopedia) · pytania: his-11
+- <https://en.wikipedia.org/wiki/Bolesław_I_the_Brave> (wikipedia) · pytania: his-11
+- <https://www.britannica.com/biography/Bretislav-I> (encyklopedia) · pytania: his-12
+- <https://en.wikipedia.org/wiki/Bretislaus_I> (wikipedia) · pytania: his-12
+- <https://www.britannica.com/biography/Otakar-II> (encyklopedia) · pytania: his-13
+- <https://en.wikipedia.org/wiki/Ottokar_II_of_Bohemia> (wikipedia) · pytania: his-13
+- <https://www.britannica.com/biography/Wenceslas-II> (encyklopedia) · pytania: his-14
+- <https://en.wikipedia.org/wiki/Wenceslaus_II_of_Bohemia> (wikipedia) · pytania: his-14
+- <https://cuni.cz/> (strona instytucji) · pytania: his-15
+- <https://en.wikipedia.org/wiki/Charles_University> (wikipedia) · pytania: his-15
+- <https://www.britannica.com/event/Golden-Bull-of-Emperor-Charles-IV> (encyklopedia) · pytania: his-16
+- <https://en.wikipedia.org/wiki/Golden_Bull_of_1356> (wikipedia) · pytania: his-16
+- <https://www.britannica.com/biography/John-king-of-Bohemia> (encyklopedia) · pytania: his-17
+- <https://en.wikipedia.org/wiki/John_of_Bohemia> (wikipedia) · pytania: his-17
+- <https://www.britannica.com/biography/Jan-Hus> (encyklopedia) · pytania: his-18
+- <https://en.wikipedia.org/wiki/Jan_Hus> (wikipedia) · pytania: his-18
+- <https://en.wikipedia.org/wiki/Defenestrations_of_Prague> (wikipedia) · pytania: his-19, his-31
+- <https://www.vhu.cz/> (strona instytucji) · pytania: his-20, his-57
+- <https://en.wikipedia.org/wiki/Jan_Žižka> (wikipedia) · pytania: his-20
+- <https://www.tabor.cz/> (strona instytucji) · pytania: his-21
+- <https://en.wikipedia.org/wiki/Tábor> (wikipedia) · pytania: his-21
+- <https://www.britannica.com/topic/Battle-of-Lipany> (encyklopedia) · pytania: his-22
+- <https://en.wikipedia.org/wiki/Battle_of_Lipany> (wikipedia) · pytania: his-22
+- <https://encyklopedia.pwn.pl/> (strona instytucji) · pytania: his-23, his-30
+- <https://pl.wikipedia.org/wiki/Zygmunt_Korybutowicz> (wikipedia) · pytania: his-23
+- <https://www.podebrady.cz/> (strona instytucji) · pytania: his-24
+- <https://en.wikipedia.org/wiki/George_of_Poděbrady> (wikipedia) · pytania: his-24
+- <https://www.britannica.com/biography/Vladislas-II> (encyklopedia) · pytania: his-25
+- <https://en.wikipedia.org/wiki/Vladislaus_II_of_Hungary> (wikipedia) · pytania: his-25
+- <https://www.britannica.com/biography/Saint-John-of-Nepomuk> (encyklopedia) · pytania: his-26
+- <https://en.wikipedia.org/wiki/John_of_Nepomuk> (wikipedia) · pytania: his-26
+- <https://en.wikipedia.org/wiki/Ferdinand_I,_Holy_Roman_Emperor> (wikipedia) · pytania: his-27
+- <https://www.britannica.com/biography/Rudolf-II-Holy-Roman-emperor> (encyklopedia) · pytania: his-28
+- <https://en.wikipedia.org/wiki/Rudolf_II,_Holy_Roman_Emperor> (wikipedia) · pytania: his-28
+- <https://www.britannica.com/biography/Johannes-Kepler> (encyklopedia) · pytania: his-29
+- <https://en.wikipedia.org/wiki/Johannes_Kepler> (wikipedia) · pytania: his-29
+- <https://pl.wikipedia.org/wiki/Michał_Sędziwój> (wikipedia) · pytania: his-30
+- <https://www.britannica.com/event/Thirty-Years-War> (encyklopedia) · pytania: his-31
+- <https://www.britannica.com/event/Battle-of-White-Mountain> (encyklopedia) · pytania: his-32
+- <https://en.wikipedia.org/wiki/Battle_of_White_Mountain> (wikipedia) · pytania: his-32
+- <https://en.wikipedia.org/wiki/Old_Town_Square_execution> (wikipedia) · pytania: his-33
+- <https://www.britannica.com/biography/John-Amos-Comenius> (encyklopedia) · pytania: his-34
+- <https://en.wikipedia.org/wiki/John_Amos_Comenius> (wikipedia) · pytania: his-34
+- <https://www.britannica.com/biography/Albrecht-von-Wallenstein> (encyklopedia) · pytania: his-35
+- <https://en.wikipedia.org/wiki/Albrecht_von_Wallenstein> (wikipedia) · pytania: his-35
+- <https://www.britannica.com/topic/Letter-of-Majesty> (encyklopedia) · pytania: his-36
+- <https://en.wikipedia.org/wiki/Letter_of_Majesty> (wikipedia) · pytania: his-36
+- <https://www.britannica.com/event/Battle-of-Austerlitz> (encyklopedia) · pytania: his-37
+- <https://en.wikipedia.org/wiki/Battle_of_Austerlitz> (wikipedia) · pytania: his-37
+- <https://en.wikipedia.org/wiki/Czech_National_Revival> (wikipedia) · pytania: his-38
+- <https://www.britannica.com/biography/Frantisek-Palacky> (encyklopedia) · pytania: his-39
+- <https://en.wikipedia.org/wiki/František_Palacký> (wikipedia) · pytania: his-39
+- <https://www.britannica.com/biography/Josef-Jungmann> (encyklopedia) · pytania: his-40
+- <https://en.wikipedia.org/wiki/Josef_Jungmann> (wikipedia) · pytania: his-40
+- <https://www.britannica.com/topic/Slav-Congress> (encyklopedia) · pytania: his-41
+- <https://en.wikipedia.org/wiki/Prague_Slavic_Congress,_1848> (wikipedia) · pytania: his-41
+- <https://www.sokol.eu/> (strona instytucji) · pytania: his-43
+- <https://en.wikipedia.org/wiki/Sokol> (wikipedia) · pytania: his-43
+- <https://www.britannica.com/biography/Emil-von-Skoda> (encyklopedia) · pytania: his-44
+- <https://en.wikipedia.org/wiki/Emil_Škoda> (wikipedia) · pytania: his-44
+- <https://www.britannica.com/place/Czechoslovakia> (encyklopedia) · pytania: his-45
+- <https://en.wikipedia.org/wiki/Czechoslovak_declaration_of_independence> (wikipedia) · pytania: his-45
+- <https://www.britannica.com/biography/Tomas-Masaryk> (encyklopedia) · pytania: his-46
+- <https://en.wikipedia.org/wiki/Tomáš_Garrigue_Masaryk> (wikipedia) · pytania: his-46
+- <https://www.britannica.com/topic/Czechoslovak-Legion> (encyklopedia) · pytania: his-47
+- <https://en.wikipedia.org/wiki/Czechoslovak_Legion> (wikipedia) · pytania: his-47
+- <https://www.ustrcr.cz/> (strona instytucji) · pytania: his-48, his-52, his-58
+- <https://en.wikipedia.org/wiki/Polish–Czechoslovak_War> (wikipedia) · pytania: his-48
+- <https://www.britannica.com/place/Cieszyn> (encyklopedia) · pytania: his-49, his-51
+- <https://en.wikipedia.org/wiki/Cieszyn_Silesia> (wikipedia) · pytania: his-49
+- <https://www.britannica.com/event/Munich-Agreement> (encyklopedia) · pytania: his-50
+- <https://en.wikipedia.org/wiki/Munich_Agreement> (wikipedia) · pytania: his-50
+- <https://en.wikipedia.org/wiki/Trans-Olza> (wikipedia) · pytania: his-51
+- <https://en.wikipedia.org/wiki/Protectorate_of_Bohemia_and_Moravia> (wikipedia) · pytania: his-52
+- <https://www.britannica.com/biography/Emil-Hacha> (encyklopedia) · pytania: his-53
+- <https://en.wikipedia.org/wiki/Emil_Hácha> (wikipedia) · pytania: his-53
+- <https://www.britannica.com/biography/Reinhard-Heydrich> (encyklopedia) · pytania: his-54
+- <https://en.wikipedia.org/wiki/Operation_Anthropoid> (wikipedia) · pytania: his-54
+- <https://www.lidice-memorial.cz/> (strona instytucji) · pytania: his-55
+- <https://en.wikipedia.org/wiki/Lidice_massacre> (wikipedia) · pytania: his-55
+- <https://www.pamatnik-terezin.cz/> (strona instytucji) · pytania: his-56
+- <https://en.wikipedia.org/wiki/Theresienstadt_Ghetto> (wikipedia) · pytania: his-56
+- <https://en.wikipedia.org/wiki/Prague_uprising> (wikipedia) · pytania: his-57
+- <https://en.wikipedia.org/wiki/1948_Czechoslovak_coup_d'état> (wikipedia) · pytania: his-58
+- <https://www.britannica.com/event/Prague-Spring> (encyklopedia) · pytania: his-59, his-60
+- <https://en.wikipedia.org/wiki/Prague_Spring> (wikipedia) · pytania: his-59
+- <https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia> (wikipedia) · pytania: his-60
+- <https://www.britannica.com/biography/Jan-Palach> (encyklopedia) · pytania: his-61
+- <https://en.wikipedia.org/wiki/Jan_Palach> (wikipedia) · pytania: his-61
+- <https://www.britannica.com/topic/Charter-77> (encyklopedia) · pytania: his-62
+- <https://en.wikipedia.org/wiki/Charter_77> (wikipedia) · pytania: his-62
+- <https://www.britannica.com/topic/Velvet-Revolution> (encyklopedia) · pytania: his-63
+- <https://en.wikipedia.org/wiki/Velvet_Revolution> (wikipedia) · pytania: his-63
+- <https://www.britannica.com/biography/Vaclav-Havel> (encyklopedia) · pytania: his-64, kul-65
+- <https://en.wikipedia.org/wiki/Václav_Havel> (wikipedia) · pytania: his-64, kul-65
+- <https://www.britannica.com/topic/Velvet-Divorce> (encyklopedia) · pytania: his-65
+- <https://en.wikipedia.org/wiki/Dissolution_of_Czechoslovakia> (wikipedia) · pytania: his-65
+- <https://www.nato.int/> (strona instytucji) · pytania: his-66
+- <https://en.wikipedia.org/wiki/Czech_Republic–NATO_relations> (wikipedia) · pytania: his-66
+- <https://european-union.europa.eu/> (strona instytucji) · pytania: his-67
+- <https://en.wikipedia.org/wiki/2004_enlargement_of_the_European_Union> (wikipedia) · pytania: his-67
+- <https://www.visegradgroup.eu/> (strona instytucji) · pytania: his-68
+- <https://en.wikipedia.org/wiki/Visegrád_Group> (wikipedia) · pytania: his-68
+- <https://www.britannica.com/biography/Gustav-Husak> (encyklopedia) · pytania: his-69
+- <https://en.wikipedia.org/wiki/Gustáv_Husák> (wikipedia) · pytania: his-69
+- <https://www.britannica.com/biography/Vaclav-Klaus> (encyklopedia) · pytania: his-70
+- <https://en.wikipedia.org/wiki/Václav_Klaus> (wikipedia) · pytania: his-70
+- <https://www.britannica.com/biography/Bedrich-Smetana> (encyklopedia) · pytania: kul-01
+- <https://en.wikipedia.org/wiki/Má_vlast> (wikipedia) · pytania: kul-01
+- <https://www.britannica.com/biography/Antonin-Dvorak> (encyklopedia) · pytania: kul-02
+- <https://en.wikipedia.org/wiki/Symphony_No._9_(Dvořák)> (wikipedia) · pytania: kul-02
+- <https://en.wikipedia.org/wiki/Rusalka> (wikipedia) · pytania: kul-03
+- <https://www.britannica.com/biography/Leos-Janacek> (encyklopedia) · pytania: kul-04
+- <https://en.wikipedia.org/wiki/Leoš_Janáček> (wikipedia) · pytania: kul-04
+- <https://www.martinu.cz/> (strona instytucji) · pytania: kul-05
+- <https://en.wikipedia.org/wiki/Bohuslav_Martinů> (wikipedia) · pytania: kul-05
+- <https://en.wikipedia.org/wiki/Don_Giovanni> (wikipedia) · pytania: kul-06
+- <https://festival.cz/> (strona instytucji) · pytania: kul-07
+- <https://en.wikipedia.org/wiki/Prague_Spring_International_Music_Festival> (wikipedia) · pytania: kul-07
+- <https://www.karelgott.com/> (strona instytucji) · pytania: kul-08
+- <https://en.wikipedia.org/wiki/Karel_Gott> (wikipedia) · pytania: kul-08
+- <https://www.nohavica.cz/> (strona instytucji) · pytania: kul-09
+- <https://en.wikipedia.org/wiki/Jaromír_Nohavica> (wikipedia) · pytania: kul-09
+- <https://www.britannica.com/biography/Jaroslav-Hasek> (encyklopedia) · pytania: kul-10
+- <https://en.wikipedia.org/wiki/The_Good_Soldier_Švejk> (wikipedia) · pytania: kul-10
+- <https://www.britannica.com/biography/Karel-Capek> (encyklopedia) · pytania: kul-11
+- <https://en.wikipedia.org/wiki/R.U.R.> (wikipedia) · pytania: kul-11
+- <https://www.britannica.com/biography/Milan-Kundera> (encyklopedia) · pytania: kul-12
+- <https://en.wikipedia.org/wiki/Milan_Kundera> (wikipedia) · pytania: kul-12
+- <https://www.britannica.com/biography/Bohumil-Hrabal> (encyklopedia) · pytania: kul-13
+- <https://en.wikipedia.org/wiki/Bohumil_Hrabal> (wikipedia) · pytania: kul-13
+- <https://www.nobelprize.org/> (strona instytucji) · pytania: kul-14, kul-24
+- <https://en.wikipedia.org/wiki/Jaroslav_Seifert> (wikipedia) · pytania: kul-14
+- <https://www.britannica.com/biography/Bozena-Nemcova> (encyklopedia) · pytania: kul-15
+- <https://en.wikipedia.org/wiki/Božena_Němcová> (wikipedia) · pytania: kul-15
+- <https://www.britannica.com/biography/Franz-Kafka> (encyklopedia) · pytania: kul-16
+- <https://en.wikipedia.org/wiki/Franz_Kafka> (wikipedia) · pytania: kul-16
+- <https://www.britannica.com/biography/Karel-Hynek-Macha> (encyklopedia) · pytania: kul-17
+- <https://en.wikipedia.org/wiki/Karel_Hynek_Mácha> (wikipedia) · pytania: kul-17
+- <https://www.britannica.com/biography/Alphonse-Mucha> (encyklopedia) · pytania: kul-18
+- <https://en.wikipedia.org/wiki/Alphonse_Mucha> (wikipedia) · pytania: kul-18
+- <https://www.britannica.com/biography/Frantisek-Kupka> (encyklopedia) · pytania: kul-19
+- <https://en.wikipedia.org/wiki/František_Kupka> (wikipedia) · pytania: kul-19
+- <https://www.ngprague.cz/> (strona instytucji) · pytania: kul-20
+- <https://en.wikipedia.org/wiki/Josef_Lada> (wikipedia) · pytania: kul-20
+- <https://www.krtek.cz/> (strona instytucji) · pytania: kul-21
+- <https://en.wikipedia.org/wiki/The_Little_Mole> (wikipedia) · pytania: kul-21
+- <https://www.upm.cz/> (strona instytucji) · pytania: kul-22
+- <https://en.wikipedia.org/wiki/Czech_Cubism> (wikipedia) · pytania: kul-22
+- <https://www.mendelmuseum.muni.cz/> (strona instytucji) · pytania: kul-23
+- <https://en.wikipedia.org/wiki/Gregor_Mendel> (wikipedia) · pytania: kul-23
+- <https://en.wikipedia.org/wiki/Jaroslav_Heyrovský> (wikipedia) · pytania: kul-24
+- <https://www.britannica.com/science/contact-lens> (encyklopedia) · pytania: kul-25
+- <https://en.wikipedia.org/wiki/Otto_Wichterle> (wikipedia) · pytania: kul-25
+- <https://en.wikipedia.org/wiki/Jáchymov> (wikipedia) · pytania: kul-26
+- <https://www.britannica.com/biography/Jan-Evangelista-Purkinje> (encyklopedia) · pytania: kul-27
+- <https://en.wikipedia.org/wiki/Jan_Evangelista_Purkyně> (wikipedia) · pytania: kul-27
+- <https://www.oscars.org/> (strona instytucji) · pytania: kul-28, kul-29, kul-30
+- <https://en.wikipedia.org/wiki/Miloš_Forman> (wikipedia) · pytania: kul-28
+- <https://en.wikipedia.org/wiki/Closely_Watched_Trains> (wikipedia) · pytania: kul-29
+- <https://en.wikipedia.org/wiki/Kolya> (wikipedia) · pytania: kul-30
+- <https://www.barrandov.cz/> (strona instytucji) · pytania: kul-31
+- <https://en.wikipedia.org/wiki/Barrandov_Studios> (wikipedia) · pytania: kul-31
+- <https://www.muzeumkarlazemana.cz/> (strona instytucji) · pytania: kul-32
+- <https://en.wikipedia.org/wiki/Karel_Zeman> (wikipedia) · pytania: kul-32
+- <https://www.nhl.com/> (strona instytucji) · pytania: kul-33
+- <https://en.wikipedia.org/wiki/Jaromír_Jágr> (wikipedia) · pytania: kul-33
+- <https://olympics.com/> (strona instytucji) · pytania: kul-34, kul-35, kul-37
+- <https://en.wikipedia.org/wiki/Ice_hockey_at_the_1998_Winter_Olympics> (wikipedia) · pytania: kul-34
+- <https://en.wikipedia.org/wiki/Emil_Zátopek> (wikipedia) · pytania: kul-35
+- <https://worldathletics.org/> (strona instytucji) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/Jan_Železný> (wikipedia) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/Ester_Ledecká> (wikipedia) · pytania: kul-37
+- <https://www.wimbledon.com/> (strona instytucji) · pytania: kul-38
+- <https://en.wikipedia.org/wiki/Martina_Navratilova> (wikipedia) · pytania: kul-38
+- <https://www.francefootball.fr/> (strona instytucji) · pytania: kul-39
+- <https://en.wikipedia.org/wiki/Pavel_Nedvěd> (wikipedia) · pytania: kul-39
+- <https://www.pardubice-racecourse.cz/> (strona instytucji) · pytania: kul-40
+- <https://en.wikipedia.org/wiki/Velká_pardubická> (wikipedia) · pytania: kul-40
+- <https://www.automotodrombrno.cz/> (strona instytucji) · pytania: kul-41
+- <https://en.wikipedia.org/wiki/Brno_Circuit> (wikipedia) · pytania: kul-41
+- <https://en.wikipedia.org/wiki/Svíčková> (wikipedia) · pytania: kul-42
+- <https://en.wikipedia.org/wiki/Knödel> (wikipedia) · pytania: kul-43
+- <https://www.becherovka.com/> (strona instytucji) · pytania: kul-44
+- <https://en.wikipedia.org/wiki/Becherovka> (wikipedia) · pytania: kul-44
+- <https://www.pilsnerurquell.com/> (strona instytucji) · pytania: kul-45
+- <https://en.wikipedia.org/wiki/Pilsner_Urquell> (wikipedia) · pytania: kul-45
+- <https://www.budejovickybudvar.cz/> (strona instytucji) · pytania: kul-46
+- <https://en.wikipedia.org/wiki/Budweiser_Budvar_Brewery> (wikipedia) · pytania: kul-46
+- <https://www.tvaruzky.cz/> (strona instytucji) · pytania: kul-47
+- <https://en.wikipedia.org/wiki/Olomoucké_tvarůžky> (wikipedia) · pytania: kul-47
+- <https://en.wikipedia.org/wiki/Hermelín> (wikipedia) · pytania: kul-48
+- <https://cs.wikipedia.org/wiki/Lázeňské_oplatky> (wikipedia) · pytania: kul-50
+- <https://www.kofola.cz/> (strona instytucji) · pytania: kul-51
+- <https://en.wikipedia.org/wiki/Kofola> (wikipedia) · pytania: kul-51
+- <https://en.wikipedia.org/wiki/Trdelník> (wikipedia) · pytania: kul-52
+- <https://www.stramberk.cz/> (strona instytucji) · pytania: kul-53
+- <https://en.wikipedia.org/wiki/Štramberk> (wikipedia) · pytania: kul-53
+- <https://www.tatra.cz/> (strona instytucji) · pytania: kul-54
+- <https://en.wikipedia.org/wiki/Tatra_(company)> (wikipedia) · pytania: kul-54
+- <https://www.jawa.eu/> (strona instytucji) · pytania: kul-55
+- <https://en.wikipedia.org/wiki/Jawa_Moto> (wikipedia) · pytania: kul-55
+- <https://en.wikipedia.org/wiki/Tomáš_Baťa> (wikipedia) · pytania: kul-56
+- <https://www.ntm.cz/> (strona instytucji) · pytania: kul-57
+- <https://en.wikipedia.org/wiki/Josef_Ressel> (wikipedia) · pytania: kul-57
+- <https://en.wikipedia.org/wiki/Bohemian_glass> (wikipedia) · pytania: kul-58
+- <https://www.muzeum-turnov.cz/> (strona instytucji) · pytania: kul-59
+- <https://en.wikipedia.org/wiki/Bohemian_garnet> (wikipedia) · pytania: kul-59
+- <https://ich.unesco.org/> (instytucja) · pytania: kul-60, kul-61, spo-17, spo-18
+- <https://cs.wikipedia.org/wiki/Loutkové_divadlo> (wikipedia) · pytania: kul-60
+- <https://en.wikipedia.org/wiki/Verbuňk> (wikipedia) · pytania: kul-61
+- <https://www.britannica.com/art/polka> (encyklopedia) · pytania: kul-62
+- <https://en.wikipedia.org/wiki/Polka> (wikipedia) · pytania: kul-62
+- <https://www.davidcerny.cz/> (strona instytucji) · pytania: kul-63
+- <https://en.wikipedia.org/wiki/David_Černý> (wikipedia) · pytania: kul-63
+- <https://en.wikipedia.org/wiki/Josef_Václav_Myslbek> (wikipedia) · pytania: kul-64
+- <https://www.olympic.cz/> (strona instytucji) · pytania: kul-66
+- <https://en.wikipedia.org/wiki/Olympic_(band)> (wikipedia) · pytania: kul-66
+- <https://en.wikipedia.org/wiki/President_of_the_Czech_Republic> (wikipedia) · pytania: spo-01, spo-03
+- <https://en.wikipedia.org/wiki/Elections_in_the_Czech_Republic> (wikipedia) · pytania: spo-02
+- <https://www.psp.cz/> (strona instytucji) · pytania: spo-04
+- <https://en.wikipedia.org/wiki/Chamber_of_Deputies_(Czech_Republic)> (wikipedia) · pytania: spo-04
+- <https://www.senat.cz/> (strona instytucji) · pytania: spo-05
+- <https://en.wikipedia.org/wiki/Wallenstein_Palace> (wikipedia) · pytania: spo-05
+- <https://www.usoud.cz/> (strona instytucji) · pytania: spo-06
+- <https://en.wikipedia.org/wiki/Constitutional_Court_of_the_Czech_Republic> (wikipedia) · pytania: spo-06
+- <https://www.cnb.cz/> (strona instytucji) · pytania: spo-07, spo-08
+- <https://en.wikipedia.org/wiki/Czech_koruna> (wikipedia) · pytania: spo-07, spo-08
+- <https://en.wikipedia.org/wiki/Public_holidays_in_the_Czech_Republic> (wikipedia) · pytania: spo-09, spo-11
+- <https://en.wikipedia.org/wiki/International_Students'_Day> (wikipedia) · pytania: spo-10
+- <https://en.wikipedia.org/wiki/Christmas_in_the_Czech_Republic> (wikipedia) · pytania: spo-12, spo-13
+- <https://en.wikipedia.org/wiki/Saint_Nicholas_Day> (wikipedia) · pytania: spo-14
+- <https://en.wikipedia.org/wiki/Pomlázka> (wikipedia) · pytania: spo-15
+- <https://en.wikipedia.org/wiki/Walpurgis_Night> (wikipedia) · pytania: spo-16
+- <https://en.wikipedia.org/wiki/Masopust> (wikipedia) · pytania: spo-17
+- <https://en.wikipedia.org/wiki/Ride_of_the_Kings> (wikipedia) · pytania: spo-18
+- <https://en.wikipedia.org/wiki/Cottage> (wikipedia) · pytania: spo-19
+- <https://cs.wikipedia.org/wiki/Tramping> (wikipedia) · pytania: spo-20
+- <https://en.wikipedia.org/wiki/Beer_in_the_Czech_Republic> (wikipedia) · pytania: spo-21, spo-22, spo-23
+- <https://ssjc.ujc.cas.cz/> (strona instytucji) · pytania: spo-24, spo-25, spo-26, spo-27, spo-28, spo-29, spo-30, spo-31, spo-32, spo-33, spo-34, spo-35, spo-36, spo-37, spo-38, spo-39, spo-40, spo-41, spo-42, spo-44, spo-45, spo-46, spo-62, spo-65, spo-66
+- <https://en.wikipedia.org/wiki/Czech_language> (wikipedia) · pytania: spo-24, spo-26, spo-28, spo-30, spo-35, spo-36, spo-37, spo-38, spo-41, spo-42, spo-43, spo-44, spo-45, spo-46, spo-66
+- <https://en.wikipedia.org/wiki/False_friend> (wikipedia) · pytania: spo-25, spo-27, spo-29, spo-31, spo-32, spo-33, spo-34, spo-39, spo-40, spo-62, spo-65
+- <https://www.cd.cz/> (strona instytucji) · pytania: spo-43, spo-54
+- <https://www.britannica.com/topic/Czech-language> (encyklopedia) · pytania: spo-47, spo-48, spo-49
+- <https://en.wikipedia.org/wiki/Caron> (wikipedia) · pytania: spo-47
+- <https://en.wikipedia.org/wiki/Voiced_alveolar_fricative_trill> (wikipedia) · pytania: spo-48
+- <https://en.wikipedia.org/wiki/Czech_orthography> (wikipedia) · pytania: spo-49
+- <https://en.wikipedia.org/wiki/Chlebíček> (wikipedia) · pytania: spo-50
+- <https://en.wikipedia.org/wiki/Smažený_sýr> (wikipedia) · pytania: spo-51
+- <https://www.msmt.cz/> (strona instytucji) · pytania: spo-52
+- <https://en.wikipedia.org/wiki/Academic_grading_in_the_Czech_Republic> (wikipedia) · pytania: spo-52
+- <https://edalnice.cz/> (strona instytucji) · pytania: spo-53
+- <https://en.wikipedia.org/wiki/Highways_in_the_Czech_Republic> (wikipedia) · pytania: spo-53
+- <https://en.wikipedia.org/wiki/České_dráhy> (wikipedia) · pytania: spo-54
+- <https://www.mvcr.cz/> (strona instytucji) · pytania: spo-55, spo-56
+- <https://en.wikipedia.org/wiki/Czech_name> (wikipedia) · pytania: spo-55
+- <https://en.wikipedia.org/wiki/Novák> (wikipedia) · pytania: spo-56
+- <https://en.wikipedia.org/wiki/Name_day> (wikipedia) · pytania: spo-57
+- <https://www.mpo.cz/> (strona instytucji) · pytania: spo-58
+- <https://en.wikipedia.org/wiki/Sunday_shopping> (wikipedia) · pytania: spo-58
+- <https://www.ceskatelevize.cz/> (strona instytucji) · pytania: spo-59
+- <https://en.wikipedia.org/wiki/Česká_televize> (wikipedia) · pytania: spo-59
+- <https://en.wikipedia.org/wiki/Languages_of_the_Czech_Republic> (wikipedia) · pytania: spo-60
+- <https://en.wikipedia.org/wiki/Poles_in_the_Czech_Republic> (wikipedia) · pytania: spo-61
+- <https://en.wikipedia.org/wiki/Mushroom_hunting> (wikipedia) · pytania: spo-63
+- <https://en.wikipedia.org/wiki/Mariáš> (wikipedia) · pytania: spo-64

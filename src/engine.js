@@ -7,7 +7,7 @@
   'use strict';
   const CATS = ['ZAB', 'GEO', 'HIS', 'KUL', 'SPO'];
   const FACES = ['ZAB', 'GEO', 'HIS', 'KUL', 'SPO', 'WYB'];
-  const REGIONS = ['east', 'north', 'south', 'west'];
+  const REGIONS = ['east', 'north', 'south', 'west']; // domyślne (Austria); inne kraje podają własne id regionów
   const SPECIALS = ['luck', 'detour', 'ticket', 'express'];
 
   const DEFAULT_RULES = {
@@ -46,8 +46,8 @@
   // ---------- pomocnicze ----------
   const clone = (o) => JSON.parse(JSON.stringify(o));
   const opp = (p) => 1 - p;
-  function distinct(pl, tg) { tg = tg || 1; return REGIONS.filter((r) => pl.cards[r] >= tg).length; }
-  function total(pl) { return REGIONS.reduce((a, r) => a + pl.cards[r], 0); }
+  function distinct(pl, tg) { tg = tg || 1; return Object.keys(pl.cards).filter((r) => pl.cards[r] >= tg).length; }
+  function total(pl) { return Object.keys(pl.cards).reduce((a, r) => a + pl.cards[r], 0); }
   function inFortress(s, p) { return s.rules.fortress && distinct(s.players[p], s.rules.target) >= 3; }
   function ev(s, e) {
     s.evSeq = (s.evSeq || 0) + 1;
@@ -68,13 +68,14 @@
   function createGame(opts) {
     if (opts.bank) setBank(opts.bank);
     const rules = Object.assign({}, DEFAULT_RULES, opts.rules || {});
+    const regions = (opts.regions && opts.regions.length === 4) ? opts.regions.slice() : REGIONS.slice();
     const s = {
       v: 1,
       rules,
       rng: (opts.seed >>> 0) || 1,
       players: opts.players.map((p) => ({
         id: p.id, name: p.name,
-        cards: { east: 0, north: 0, south: 0, west: 0 },
+        cards: Object.fromEntries(regions.map((r) => [r, 0])),
         ticket: false, fiftyUsed: false
       })),
       deck: [],
@@ -89,7 +90,7 @@
       hist: [], log: [], evSeq: 0
     };
     const deck = [];
-    REGIONS.forEach((r) => { for (let i = 0; i < rules.perRegion; i++) deck.push({ t: 'r', r }); });
+    regions.forEach((r) => { for (let i = 0; i < rules.perRegion; i++) deck.push({ t: 'r', r }); });
     if (rules.specials) SPECIALS.forEach((k) => { for (let i = 0; i < rules.specialsPerType; i++) deck.push({ t: 's', k }); });
     shuffle(s, deck);
     s.deck = deck;
@@ -122,12 +123,12 @@
     switch (s.top.k) {
       case 'luck': {
         if (inFortress(s, o)) return { options: [], note: 'fortress' };
-        const opts = REGIONS.filter((r) => A.cards[r] < tg && O.cards[r] > 0);
+        const opts = Object.keys(A.cards).filter((r) => A.cards[r] < tg && O.cards[r] > 0);
         return { options: opts, note: opts.length ? null : 'nothing' };
       }
       case 'detour': {
-        const dup = REGIONS.filter((r) => A.cards[r] > tg);
-        const opts = dup.length ? dup : REGIONS.filter((r) => A.cards[r] > 0);
+        const dup = Object.keys(A.cards).filter((r) => A.cards[r] > tg);
+        const opts = dup.length ? dup : Object.keys(A.cards).filter((r) => A.cards[r] > 0);
         return { options: opts, note: opts.length ? null : 'nothing' };
       }
       case 'ticket':
@@ -226,8 +227,8 @@
 
   function tradeOptions(s) {
     const a = s.active, o = opp(a), A = s.players[a], O = s.players[o], tg = s.rules.target;
-    const give = REGIONS.filter((r) => A.cards[r] >= tg + 2);
-    const want = REGIONS.filter((r) => A.cards[r] < tg && O.cards[r] > tg);
+    const give = Object.keys(A.cards).filter((r) => A.cards[r] >= tg + 2);
+    const want = Object.keys(A.cards).filter((r) => A.cards[r] < tg && O.cards[r] > tg);
     return give.length && want.length ? { give, want } : null;
   }
 

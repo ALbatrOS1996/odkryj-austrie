@@ -1,12 +1,17 @@
 # Raport weryfikacji treści
 
+## Czechy (2026-11-12)
+332 pytania (ZAB 66, GEO 64, HIS 70, KUL 66, SPO 66), ta sama procedura co dla Austrii: walidacja automatyczna (trudność 40/40/20, regiony, epoki, 12 pytań polsko-czeskich), sprawdzenie wszystkich linków (Wikipedia przez API: 293/293 po poprawkach, Britannica przez przeglądarkę, strony instytucji przez curl). Kontrola krzyżowa osobnym agentem: losowe 25% (82 pytania, ziarno 20261112), 79 OK, 0 błędów, 3 wątpliwe – wszystkie poprawione (cz-zab-23 położenie Ściany Lennona, cz-his-27 „nieprzerwanie”, cz-his-53 rola Beneša) wraz z drobnymi uwagami. Raport: `kontrola-krzyzowa-cz.md`. Recenzja autora jeszcze przed tobą (`content-src/cz/*.txt`).
+
+## Austria (2026-11-04)
+
 Stan na 2026-11-04 · 351 pytań (ZAB 71, GEO 70, HIS 70, KUL 70, SPO 70) · szczegóły liczbowe: `content/at/stats.json`.
 
 ## Co zostało zrobione
 1. **Pisanie:** wszystkie pytania napisano od zera, na faktach stabilnych w czasie. Pytań o liczbę ludności i bieżące urzędy unikano; jedyne pytanie zmienne w czasie (s11, długość służby wojskowej) ma flagę `timeSensitive` i datę „stan na”.
 2. **Walidacja automatyczna** (`tools/content.py`, uruchamiana przy każdym `python build.py`): 4 odpowiedzi, długości (pytanie ≤160, odpowiedź ≤40, objaśnienie ≤280 znaków), brak pauz, co najmniej 2 źródła, w tym jedno spoza Wikipedii, rozkład trudności (40/40/20%), co najmniej 15% pytań ZAB+GEO na każdy region, epoki HIS (każda ≤35%), 12 pytań polsko-austriackich.
 3. **Linki do źródeł:** wszystkie adresy sprawdzono automatycznie. Tytuły Wikipedii sprawdzono przez API Wikipedii, a Britannikę z poziomu przeglądarki. Niedziałające adresy (ok. 50) zastąpiono działającymi, m.in. hasłami z Austria-Forum.
-4. **Kontrola krzyżowa:** osobny agent, który nie pisał pytań, sprawdził od zera losowe 25% pytań (90 sztuk, ziarno 20261104). Wynik: 89 OK, 0 błędów, 1 pytanie wątpliwe. Pytanie at-geo-21 przeformułowano zgodnie z sugestią. Raport: `kontrola-krzyzowa.md`.
+4. **Kontrola krzyżowa:** osobny agent, który nie pisał pytań, sprawdził od zera losowe 25% pytań (90 sztuk, ziarno 20261104). Wynik: 89 OK, 0 błędów, 1 pytanie wątpliwe. Pytanie at-geo-21 przeformułowano zgodnie z sugestią. Raport: `kontrola-krzyzowa-at.md`.
 
 ## Czego NIE zrobiono (uczciwie)
 - Nie każde pytanie ma dwa źródła przeczytane przez człowieka lub agenta zdanie po zdaniu. Źródła są adresami, pod którymi fakt można sprawdzić. Część z nich to strony główne instytucji (np. muzeum, urzędu), a nie konkretne podstrony. Status pytań to `checked` (napisane, sprawdzone automatycznie, z linkami), a nie `verified` w pełnym rozumieniu rozdz. 12.

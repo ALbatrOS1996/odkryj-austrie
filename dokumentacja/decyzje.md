@@ -14,3 +14,7 @@
 3. **Zasada wygranej: 2 karty każdego regionu** (zamiast 1), bo symulacja pokazała za krótkie partie. Szczegóły: `balance-report.md`. Wariant z 1 kartą jest w ustawieniach jako „krótka gra”.
 4. **Przydział pytań do kart** odbywa się w chwili rzutu kostką (pytanie z wylosowanej kategorii, dla GEO z regionu karty; rzadziej widziane mają pierwszeństwo), zamiast stałego pliku `cards.json`. Dla graczy efekt jest ten sam, a pytania nie powtarzają się w obrębie partii.
 5. **Mapa:** granice krajów związkowych z Statistik Austria (CC BY 4.0, oprac. Flooh Perlot), uproszczone do SVG.
+
+6. **Wiele krajów (2026-11-12).** Silnik nie zna nazw regionów (każda partia dostaje własne id regionów), a treść kraju jest osobnym pakietem `docs/data/<kod>.js`, wczytywanym dopiero po wyborze kraju. Pokój zapamiętuje kraj gospodarza; gość przełącza się na niego automatycznie. Statystyki i pomyłki są liczone osobno dla każdego kraju.
+7. **Czechy:** 4 regiony z 14 krajów – Praga i Czechy Środkowe; Czechy Zachodnie i Południowe; Czechy Północne i Wschodnie; Morawy i Śląsk (uzasadnienie w `content-src/cz/country.json`). Karty specjalne: Golem, Defenestracja, Kolejka na Petřín, Polka. Mapa: ČÚZK INSPIRE (CC BY 4.0).
+8. Adres strony pozostał `…/odkryj-austrie/`, żeby nie zepsuć zainstalowanej aplikacji; nazwa aplikacji to teraz „Odkryj!”.
