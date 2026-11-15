@@ -1,5 +1,6 @@
 # Granice jednostek administracyjnych -> uproszczone ścieżki SVG: python tools/geo2svg.py at|cz
 #  at: krajów związkowych – Statistik Austria (CC BY 4.0), oprac. Flooh Perlot
+#  it: regionów – ISTAT (CC BY 4.0), oprac. openpolis/geojson-italy
 #  cz: krajów – ČÚZK INSPIRE „Územní správní jednotky” (CC BY 4.0), oprac. siwekm/czech-geojson
 import json, math, os, sys
 
@@ -15,6 +16,22 @@ if CC == 'at':
     LAT0 = 47.6
     CREDIT = 'Granice krajów związkowych: Statistik Austria (CC BY 4.0), oprac. Flooh Perlot, uproszczone.'
     ident = lambda f, rings: IDS[f['properties']['iso']]
+elif CC == 'it':
+    SRC, ENC = 'it_regioni.json', 'utf-8'
+    IDS = {'01': 'pie', '02': 'vda', '03': 'lom', '04': 'taa', '05': 'ven', '06': 'fvg', '07': 'lig', '08': 'emr', '09': 'tos', '10': 'umb',
+           '11': 'mar', '12': 'laz', '13': 'abr', '14': 'mol', '15': 'cam', '16': 'pug', '17': 'bas', '18': 'cal', '19': 'sic', '20': 'sar'}
+    NAMES = {'pie': 'Piemont', 'vda': 'Dolina Aosty', 'lom': 'Lombardia', 'taa': 'Trydent-Górna Adyga', 'ven': 'Wenecja Euganejska',
+             'fvg': 'Friuli-Wenecja Julijska', 'lig': 'Liguria', 'emr': 'Emilia-Romania', 'tos': 'Toskania', 'umb': 'Umbria', 'mar': 'Marche',
+             'laz': 'Lacjum', 'abr': 'Abruzja', 'mol': 'Molise', 'cam': 'Kampania', 'pug': 'Apulia', 'bas': 'Basilicata', 'cal': 'Kalabria',
+             'sic': 'Sycylia', 'sar': 'Sardynia'}
+    # makroregiony wg podziału ISTAT (Nord-Ovest, Nord-Est, Centro; Sud i Isole połączone)
+    REGION = {'pie': 'nw', 'vda': 'nw', 'lig': 'nw', 'lom': 'nw', 'taa': 'ne', 'ven': 'ne', 'fvg': 'ne', 'emr': 'ne',
+              'tos': 'center', 'umb': 'center', 'mar': 'center', 'laz': 'center',
+              'abr': 'south', 'mol': 'south', 'cam': 'south', 'pug': 'south', 'bas': 'south', 'cal': 'south', 'sic': 'south', 'sar': 'south'}
+    ORDER = ['vda', 'pie', 'lig', 'lom', 'taa', 'ven', 'fvg', 'emr', 'tos', 'umb', 'mar', 'laz', 'abr', 'mol', 'cam', 'pug', 'bas', 'cal', 'sic', 'sar']
+    LAT0 = 42.0
+    CREDIT = 'Granice regionów: ISTAT (CC BY 4.0), oprac. openpolis/geojson-italy, uproszczone.'
+    ident = lambda f, rings: IDS[f['properties']['reg_istat_code']]
 else:
     SRC, ENC = 'cz_kraje.json', 'utf-8'
     # punkt wewnątrz każdego kraju (stolica kraju; dla środkowoczeskiego Kolín, bo Praga jest enklawą)
@@ -71,7 +88,7 @@ for f in d['features']:
             pr = [proj(p) for p in ring]
             out = [pr[0]]
             for q in pr[1:]:
-                if math.hypot(q[0] - out[-1][0], q[1] - out[-1][1]) >= (1.2 if CC == 'at' else 3.0):
+                if math.hypot(q[0] - out[-1][0], q[1] - out[-1][1]) >= {'at': 1.2, 'cz': 3.0}.get(CC, 3.0):
                     out.append(q)
             if len(out) < 4:
                 continue

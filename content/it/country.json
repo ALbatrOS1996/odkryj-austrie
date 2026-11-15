@@ -1,0 +1,132 @@
+{
+  "code": "it",
+  "name": "Włochy",
+  "nameLocal": "Italia",
+  "gameTitle": "Odkryj Włochy!",
+  "palette": {
+    "primary": "#008C45",
+    "secondary": "#F4F5F0",
+    "accent": "#CD212A"
+  },
+  "flag": "it",
+  "regions": [
+    {
+      "id": "nw",
+      "name": "Północny Zachód",
+      "adminUnits": [
+        "Piemont",
+        "Dolina Aosty",
+        "Liguria",
+        "Lombardia"
+      ],
+      "color": "#2F6DB5",
+      "motifs": [
+        "katedra w Mediolanie",
+        "Alpy i Mont Blanc",
+        "Cinque Terre",
+        "Turyn"
+      ],
+      "description": "Mediolan i Turyn, Alpy z Mont Blanc i Wybrzeże Liguryjskie z Genuą i Cinque Terre."
+    },
+    {
+      "id": "ne",
+      "name": "Północny Wschód",
+      "adminUnits": [
+        "Trydent-Górna Adyga",
+        "Wenecja Euganejska",
+        "Friuli-Wenecja Julijska",
+        "Emilia-Romania"
+      ],
+      "color": "#C98A12",
+      "motifs": [
+        "Wenecja i gondole",
+        "Dolomity",
+        "Werona",
+        "Bolonia"
+      ],
+      "description": "Wenecja, Dolomity, Werona, Bolonia i nizina Padu, ojczyzna parmezanu i szynki parmeńskiej."
+    },
+    {
+      "id": "center",
+      "name": "Włochy Środkowe",
+      "adminUnits": [
+        "Toskania",
+        "Umbria",
+        "Marche",
+        "Lacjum"
+      ],
+      "color": "#CD212A",
+      "motifs": [
+        "Koloseum",
+        "krzywa wieża w Pizie",
+        "Florencja",
+        "Asyż"
+      ],
+      "description": "Rzym, Florencja, Piza i Siena, czyli kolebka Imperium Rzymskiego i renesansu."
+    },
+    {
+      "id": "south",
+      "name": "Południe i wyspy",
+      "adminUnits": [
+        "Abruzja",
+        "Molise",
+        "Kampania",
+        "Apulia",
+        "Basilicata",
+        "Kalabria",
+        "Sycylia",
+        "Sardynia"
+      ],
+      "color": "#1B8A7A",
+      "motifs": [
+        "Wezuwiusz i Neapol",
+        "trulli w Alberobello",
+        "Etna",
+        "Sardynia"
+      ],
+      "description": "Neapol z Wezuwiuszem, Pompeje, Apulia, Kalabria oraz dwie największe wyspy: Sycylia i Sardynia."
+    }
+  ],
+  "regionCodes": {
+    "nw": "nw",
+    "ne": "ne",
+    "c": "center",
+    "s": "south"
+  },
+  "regionShort": {
+    "nw": "Płn. Zachód",
+    "ne": "Płn. Wschód",
+    "center": "Centrum",
+    "south": "Południe"
+  },
+  "specialCards": {
+    "luck": {
+      "name": "Fontanna di Trevi",
+      "short": "Szczęście",
+      "flavor": "Rzucona do fontanny moneta przynosi szczęście: zabierz przeciwnikowi kartę regionu, której ci brakuje. Nie działa na gracza w twierdzy."
+    },
+    "detour": {
+      "name": "Wezuwiusz",
+      "short": "Objazd",
+      "flavor": "Wybuch zmusza cię do ucieczki! Oddajesz przeciwnikowi jedną kartę regionu, a jeśli masz duplikat, musisz oddać duplikat."
+    },
+    "ticket": {
+      "name": "Vespa",
+      "short": "Bilet",
+      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć, dojechać skuterem na czas i mimo to zdobyć kartę regionu."
+    },
+    "express": {
+      "name": "Espresso",
+      "short": "Ekspres",
+      "flavor": "Mała czarna dodaje energii! Po tej rundzie od razu rozegrasz dodatkową rundę z następną kartą."
+    }
+  },
+  "regionSplitRationale": "Podział wyłącznie po granicach 20 regionów, zgodny z makroregionami statystycznymi ISTAT (NUTS 1): Nord-Ovest, Nord-Est i Centro, a Sud i Isole połączono w jeden region gry. Południe jest powierzchniowo największe, ale każdy region ma rozpoznawalne miasta, zabytki i krajobrazy.",
+  "contentVersion": "1.0.0",
+  "factsAsOf": "2026-11-15",
+  "nameGen": "Włoch",
+  "nameLoc": "Włoszech",
+  "unitsLabel": "regionów",
+  "unitsCount": 20,
+  "verbHas": "mają"
+}

@@ -1,6 +1,6 @@
-# Odkryj! (Austria, Czechy…)
+# Odkryj! (Austria, Czechy, Włochy…)
 
-Prywatna gra quizowa (PWA) dla dwóch osób na dwóch telefonach: pojedynek wiedzy o wybranym kraju. Na starcie wybiera się kraj (na razie **Austria** – 351 pytań i **Czechy** – 332 pytania). Gracze odpowiadają równocześnie i zbierają karty czterech regionów, aż ktoś złoży pełną mapę kraju.
+Prywatna gra quizowa (PWA) dla dwóch osób na dwóch telefonach: pojedynek wiedzy o wybranym kraju. Na starcie wybiera się kraj (na razie **Austria** – 351 pytań, **Czechy** – 332 pytania i **Włochy** – 332 pytania). Gracze odpowiadają równocześnie i zbierają karty czterech regionów, aż ktoś złoży pełną mapę kraju.
 
 **Gra:** https://albatros1996.github.io/odkryj-austrie/
 

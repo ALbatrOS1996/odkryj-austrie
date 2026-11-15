@@ -12,7 +12,7 @@ def expand_source(s):
         url = s
     else:
         k, _, v = s.partition(':')
-        if k in ('wpl', 'wde', 'wen', 'wcs'):
+        if k in ('wpl', 'wde', 'wen', 'wcs', 'wit'):
             url = f'https://{k[1:]}.wikipedia.org/wiki/{v}'
         elif k == 'brit':
             url = f'https://www.britannica.com/{v}'

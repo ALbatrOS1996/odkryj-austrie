@@ -1,5 +1,8 @@
 # Raport weryfikacji treści
 
+## Włochy (2026-11-15)
+332 pytania (ZAB 66, GEO 64, HIS 70, KUL 66, SPO 66), ta sama procedura: walidacja automatyczna (trudność 40/40/20, regiony, epoki, 11 pytań polsko-włoskich), sprawdzenie linków (Wikipedia przez API: 312/312, Britannica przez przeglądarkę, strony instytucji). Kontrola krzyżowa osobnym agentem: losowe 25% (82 pytania, ziarno 20261115) – 75 OK, 1 błąd (it-his-44: dystraktor „Isonzo” też poprawny), 6 wątpliwych; wszystkie poprawione wraz z drobnymi uwagami. Raport: `kontrola-krzyzowa-it.md`. Recenzja autora jeszcze przed tobą (`content-src/it/*.txt`).
+
 ## Czechy (2026-11-12)
 332 pytania (ZAB 66, GEO 64, HIS 70, KUL 66, SPO 66), ta sama procedura co dla Austrii: walidacja automatyczna (trudność 40/40/20, regiony, epoki, 12 pytań polsko-czeskich), sprawdzenie wszystkich linków (Wikipedia przez API: 293/293 po poprawkach, Britannica przez przeglądarkę, strony instytucji przez curl). Kontrola krzyżowa osobnym agentem: losowe 25% (82 pytania, ziarno 20261112), 79 OK, 0 błędów, 3 wątpliwe – wszystkie poprawione (cz-zab-23 położenie Ściany Lennona, cz-his-27 „nieprzerwanie”, cz-his-53 rola Beneša) wraz z drobnymi uwagami. Raport: `kontrola-krzyzowa-cz.md`. Recenzja autora jeszcze przed tobą (`content-src/cz/*.txt`).
 

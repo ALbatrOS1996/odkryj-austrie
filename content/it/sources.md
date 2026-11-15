@@ -1,0 +1,558 @@
+# Źródła · Włochy
+
+Data dostępu: 2026-11-04. Lista wygenerowana przez build.py.
+
+- <https://www.duomomilano.it/> (strona instytucji) · pytania: zab-01
+- <https://en.wikipedia.org/wiki/Milan_Cathedral> (wikipedia) · pytania: zab-01
+- <https://whc.unesco.org/en/list/93> (instytucja) · pytania: zab-02
+- <https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)> (wikipedia) · pytania: zab-02
+- <https://www.teatroallascala.org/> (strona instytucji) · pytania: zab-03
+- <https://en.wikipedia.org/wiki/La_Scala> (wikipedia) · pytania: zab-03
+- <https://www.yesmilano.it/> (strona instytucji) · pytania: zab-04, kul-57, kul-61
+- <https://en.wikipedia.org/wiki/Galleria_Vittorio_Emanuele_II> (wikipedia) · pytania: zab-04
+- <https://www.museocinema.it/> (strona instytucji) · pytania: zab-05
+- <https://en.wikipedia.org/wiki/Mole_Antonelliana> (wikipedia) · pytania: zab-05
+- <https://www.sindone.org/> (strona instytucji) · pytania: zab-06
+- <https://en.wikipedia.org/wiki/Shroud_of_Turin> (wikipedia) · pytania: zab-06
+- <https://whc.unesco.org/en/list/826> (instytucja) · pytania: zab-07
+- <https://en.wikipedia.org/wiki/Cinque_Terre> (wikipedia) · pytania: zab-07
+- <https://www.visitgenoa.it/> (strona instytucji) · pytania: zab-08, kul-56
+- <https://it.wikipedia.org/wiki/Lanterna_di_Genova> (wikipedia) · pytania: zab-08
+- <https://whc.unesco.org/en/list/1533> (instytucja) · pytania: zab-09
+- <https://en.wikipedia.org/wiki/Bergamo> (wikipedia) · pytania: zab-09
+- <https://www.milanocastello.it/> (strona instytucji) · pytania: zab-10
+- <https://en.wikipedia.org/wiki/Castello_Sforzesco> (wikipedia) · pytania: zab-10
+- <https://www.stefanoboeriarchitetti.net/> (strona instytucji) · pytania: zab-11
+- <https://en.wikipedia.org/wiki/Bosco_Verticale> (wikipedia) · pytania: zab-11
+- <https://www.lovevda.it/> (strona instytucji) · pytania: zab-12
+- <https://en.wikipedia.org/wiki/Aosta> (wikipedia) · pytania: zab-12
+- <https://whc.unesco.org/en/list/394> (instytucja) · pytania: zab-13, zab-14, geo-36
+- <https://en.wikipedia.org/wiki/Piazza_San_Marco> (wikipedia) · pytania: zab-13
+- <https://en.wikipedia.org/wiki/Rialto_Bridge> (wikipedia) · pytania: zab-14
+- <https://palazzoducale.visitmuve.it/> (strona instytucji) · pytania: zab-15
+- <https://en.wikipedia.org/wiki/Bridge_of_Sighs> (wikipedia) · pytania: zab-15
+- <https://www.arena.it/> (strona instytucji) · pytania: zab-16
+- <https://en.wikipedia.org/wiki/Verona_Arena> (wikipedia) · pytania: zab-16
+- <https://www.visitverona.it/> (strona instytucji) · pytania: zab-17
+- <https://it.wikipedia.org/wiki/Casa_di_Giulietta> (wikipedia) · pytania: zab-17
+- <https://whc.unesco.org/en/list/788> (instytucja) · pytania: zab-18
+- <https://en.wikipedia.org/wiki/Ravenna> (wikipedia) · pytania: zab-18
+- <https://www.bolognawelcome.com/> (strona instytucji) · pytania: zab-19
+- <https://en.wikipedia.org/wiki/Two_Towers,_Bologna> (wikipedia) · pytania: zab-19
+- <https://whc.unesco.org/en/list/1623> (instytucja) · pytania: zab-20
+- <https://en.wikipedia.org/wiki/Scrovegni_Chapel> (wikipedia) · pytania: zab-20
+- <https://www.turismofvg.it/> (strona instytucji) · pytania: zab-21
+- <https://en.wikipedia.org/wiki/Miramare_Castle> (wikipedia) · pytania: zab-21
+- <https://whc.unesco.org/en/list/1237> (instytucja) · pytania: zab-22
+- <https://en.wikipedia.org/wiki/Dolomites> (wikipedia) · pytania: zab-22
+- <https://museovetro.visitmuve.it/> (strona instytucji) · pytania: zab-23
+- <https://en.wikipedia.org/wiki/Murano> (wikipedia) · pytania: zab-23
+- <https://whc.unesco.org/en/list/712> (instytucja) · pytania: zab-24
+- <https://en.wikipedia.org/wiki/Andrea_Palladio> (wikipedia) · pytania: zab-24
+- <https://whc.unesco.org/en/list/827> (instytucja) · pytania: zab-25
+- <https://en.wikipedia.org/wiki/Modena_Cathedral> (wikipedia) · pytania: zab-25
+- <https://www.turismoroma.it/> (strona instytucji) · pytania: zab-26, zab-28, zab-29, zab-40, zab-64, zab-65
+- <https://en.wikipedia.org/wiki/Colosseum> (wikipedia) · pytania: zab-26
+- <https://www.pantheonroma.com/> (strona instytucji) · pytania: zab-27
+- <https://en.wikipedia.org/wiki/Pantheon,_Rome> (wikipedia) · pytania: zab-27
+- <https://en.wikipedia.org/wiki/Trevi_Fountain> (wikipedia) · pytania: zab-28
+- <https://en.wikipedia.org/wiki/Spanish_Steps> (wikipedia) · pytania: zab-29
+- <https://whc.unesco.org/en/list/395> (instytucja) · pytania: zab-30
+- <https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa> (wikipedia) · pytania: zab-30
+- <https://duomo.firenze.it/> (strona instytucji) · pytania: zab-31
+- <https://en.wikipedia.org/wiki/Florence_Cathedral> (wikipedia) · pytania: zab-31
+- <https://whc.unesco.org/en/list/174> (instytucja) · pytania: zab-32
+- <https://en.wikipedia.org/wiki/Ponte_Vecchio> (wikipedia) · pytania: zab-32
+- <https://whc.unesco.org/en/list/717> (instytucja) · pytania: zab-33
+- <https://en.wikipedia.org/wiki/Piazza_del_Campo> (wikipedia) · pytania: zab-33
+- <https://whc.unesco.org/en/list/550> (instytucja) · pytania: zab-34
+- <https://en.wikipedia.org/wiki/San_Gimignano> (wikipedia) · pytania: zab-34
+- <https://whc.unesco.org/en/list/990> (instytucja) · pytania: zab-35
+- <https://en.wikipedia.org/wiki/Basilica_of_Saint_Francis_of_Assisi> (wikipedia) · pytania: zab-35
+- <https://whc.unesco.org/en/list/828> (instytucja) · pytania: zab-36
+- <https://en.wikipedia.org/wiki/Urbino> (wikipedia) · pytania: zab-36
+- <https://whc.unesco.org/en/list/1025> (instytucja) · pytania: zab-37
+- <https://en.wikipedia.org/wiki/Villa_d'Este> (wikipedia) · pytania: zab-37
+- <https://www.museicapitolini.org/> (strona instytucji) · pytania: zab-38
+- <https://en.wikipedia.org/wiki/Capitoline_Wolf> (wikipedia) · pytania: zab-38
+- <https://vive.cultura.gov.it/> (strona instytucji) · pytania: zab-39
+- <https://en.wikipedia.org/wiki/Victor_Emmanuel_II_Monument> (wikipedia) · pytania: zab-39
+- <https://en.wikipedia.org/wiki/Ostia_Antica> (wikipedia) · pytania: zab-40
+- <https://www.santuarioloreto.va/> (strona instytucji) · pytania: zab-41
+- <https://en.wikipedia.org/wiki/Basilica_della_Santa_Casa> (wikipedia) · pytania: zab-41
+- <https://www.basilicasanpietro.va/> (strona instytucji) · pytania: zab-42
+- <https://en.wikipedia.org/wiki/St._Peter's_Baldachin> (wikipedia) · pytania: zab-42
+- <https://whc.unesco.org/en/list/829> (instytucja) · pytania: zab-43
+- <https://en.wikipedia.org/wiki/Pompeii> (wikipedia) · pytania: zab-43
+- <https://whc.unesco.org/en/list/830> (instytucja) · pytania: zab-44
+- <https://en.wikipedia.org/wiki/Amalfi_Coast> (wikipedia) · pytania: zab-44
+- <https://whc.unesco.org/en/list/787> (instytucja) · pytania: zab-45
+- <https://en.wikipedia.org/wiki/Trulli> (wikipedia) · pytania: zab-45
+- <https://whc.unesco.org/en/list/670> (instytucja) · pytania: zab-46
+- <https://en.wikipedia.org/wiki/Sassi_di_Matera> (wikipedia) · pytania: zab-46
+- <https://whc.unesco.org/en/list/398> (instytucja) · pytania: zab-47
+- <https://en.wikipedia.org/wiki/Castel_del_Monte,_Apulia> (wikipedia) · pytania: zab-47
+- <https://whc.unesco.org/en/list/549> (instytucja) · pytania: zab-48
+- <https://en.wikipedia.org/wiki/Royal_Palace_of_Caserta> (wikipedia) · pytania: zab-48
+- <https://whc.unesco.org/en/list/831> (instytucja) · pytania: zab-49
+- <https://en.wikipedia.org/wiki/Valle_dei_Templi> (wikipedia) · pytania: zab-49
+- <https://whc.unesco.org/en/list/1487> (instytucja) · pytania: zab-50, zab-66
+- <https://en.wikipedia.org/wiki/Monreale_Cathedral> (wikipedia) · pytania: zab-50
+- <https://www.parconaxostaormina.com/> (strona instytucji) · pytania: zab-51
+- <https://en.wikipedia.org/wiki/Taormina> (wikipedia) · pytania: zab-51
+- <https://whc.unesco.org/en/list/833> (instytucja) · pytania: zab-52
+- <https://en.wikipedia.org/wiki/Nuraghe> (wikipedia) · pytania: zab-52
+- <https://www.capri.net/> (strona instytucji) · pytania: zab-53, geo-47
+- <https://en.wikipedia.org/wiki/Blue_Grotto_(Capri)> (wikipedia) · pytania: zab-53
+- <https://www.basilicasannicola.it/> (strona instytucji) · pytania: zab-54
+- <https://en.wikipedia.org/wiki/Bona_Sforza> (wikipedia) · pytania: zab-54, his-27
+- <https://www.viaggiareinpuglia.it/> (strona instytucji) · pytania: zab-55, geo-56
+- <https://en.wikipedia.org/wiki/Lecce> (wikipedia) · pytania: zab-55
+- <https://www.museoarcheologicoreggiocalabria.it/> (strona instytucji) · pytania: zab-56
+- <https://en.wikipedia.org/wiki/Riace_bronzes> (wikipedia) · pytania: zab-56
+- <https://whc.unesco.org/en/list/842> (instytucja) · pytania: zab-57
+- <https://en.wikipedia.org/wiki/Paestum> (wikipedia) · pytania: zab-57
+- <https://www.quirinale.it/> (strona instytucji) · pytania: zab-58, zab-59, zab-60, his-53, spo-01, spo-02, spo-03, spo-06, spo-07
+- <https://en.wikipedia.org/wiki/Flag_of_Italy> (wikipedia) · pytania: zab-58
+- <https://en.wikipedia.org/wiki/Emblem_of_Italy> (wikipedia) · pytania: zab-59
+- <https://en.wikipedia.org/wiki/Il_Canto_degli_Italiani> (wikipedia) · pytania: zab-60
+- <https://www.bancaditalia.it/> (strona instytucji) · pytania: zab-61, his-59, spo-36
+- <https://en.wikipedia.org/wiki/Italian_euro_coins> (wikipedia) · pytania: zab-61
+- <https://www.vatican.va/> (strona instytucji) · pytania: zab-62, his-55, his-65
+- <https://en.wikipedia.org/wiki/Catherine_of_Siena> (wikipedia) · pytania: zab-62
+- <https://www.veneziaunica.it/> (strona instytucji) · pytania: zab-63
+- <https://en.wikipedia.org/wiki/Gondola> (wikipedia) · pytania: zab-63
+- <https://en.wikipedia.org/wiki/Fontana_dei_Quattro_Fiumi> (wikipedia) · pytania: zab-64
+- <https://en.wikipedia.org/wiki/Castel_Sant'Angelo> (wikipedia) · pytania: zab-65
+- <https://en.wikipedia.org/wiki/Cappella_Palatina> (wikipedia) · pytania: zab-66
+- <https://www.istat.it/> (strona instytucji) · pytania: geo-01, geo-21, geo-61
+- <https://en.wikipedia.org/wiki/Regions_of_Italy> (wikipedia) · pytania: geo-01
+- <https://www.britannica.com/place/Po-River> (encyklopedia) · pytania: geo-02
+- <https://en.wikipedia.org/wiki/Po_(river)> (wikipedia) · pytania: geo-02
+- <https://www.britannica.com/place/Tiber-River> (encyklopedia) · pytania: geo-03
+- <https://en.wikipedia.org/wiki/Tiber> (wikipedia) · pytania: geo-03
+- <https://www.britannica.com/place/Arno-River> (encyklopedia) · pytania: geo-04
+- <https://en.wikipedia.org/wiki/Arno> (wikipedia) · pytania: geo-04
+- <https://www.britannica.com/place/Mont-Blanc-mountain-Europe> (encyklopedia) · pytania: geo-05
+- <https://en.wikipedia.org/wiki/Mont_Blanc> (wikipedia) · pytania: geo-05
+- <https://www.britannica.com/place/Apennine-Range> (encyklopedia) · pytania: geo-06
+- <https://en.wikipedia.org/wiki/Apennine_Mountains> (wikipedia) · pytania: geo-06
+- <https://whc.unesco.org/en/list/1427> (instytucja) · pytania: geo-07
+- <https://en.wikipedia.org/wiki/Mount_Etna> (wikipedia) · pytania: geo-07
+- <https://www.britannica.com/place/Vesuvius> (encyklopedia) · pytania: geo-08
+- <https://en.wikipedia.org/wiki/Mount_Vesuvius> (wikipedia) · pytania: geo-08
+- <https://whc.unesco.org/en/list/908> (instytucja) · pytania: geo-09
+- <https://en.wikipedia.org/wiki/Stromboli> (wikipedia) · pytania: geo-09
+- <https://www.visitgarda.com/> (strona instytucji) · pytania: geo-10
+- <https://en.wikipedia.org/wiki/Lake_Garda> (wikipedia) · pytania: geo-10
+- <https://www.lakecomo.is/> (strona instytucji) · pytania: geo-11
+- <https://en.wikipedia.org/wiki/Lake_Como> (wikipedia) · pytania: geo-11
+- <https://www.illagomaggiore.com/> (strona instytucji) · pytania: geo-12
+- <https://en.wikipedia.org/wiki/Lake_Maggiore> (wikipedia) · pytania: geo-12
+- <https://www.britannica.com/place/Lake-Trasimeno> (encyklopedia) · pytania: geo-13
+- <https://en.wikipedia.org/wiki/Lake_Trasimeno> (wikipedia) · pytania: geo-13
+- <https://www.britannica.com/place/Sicily> (encyklopedia) · pytania: geo-14
+- <https://en.wikipedia.org/wiki/Sicily> (wikipedia) · pytania: geo-14
+- <https://www.britannica.com/place/Strait-of-Messina> (encyklopedia) · pytania: geo-15
+- <https://en.wikipedia.org/wiki/Strait_of_Messina> (wikipedia) · pytania: geo-15
+- <https://www.britannica.com/place/Elba-island-Italy> (encyklopedia) · pytania: geo-16
+- <https://en.wikipedia.org/wiki/Elba> (wikipedia) · pytania: geo-16
+- <https://www.britannica.com/place/San-Marino-republic-Europe> (encyklopedia) · pytania: geo-17
+- <https://en.wikipedia.org/wiki/Enclave_and_exclave> (wikipedia) · pytania: geo-17
+- <https://www.britannica.com/place/Italy> (encyklopedia) · pytania: geo-18, geo-38, his-39
+- <https://en.wikipedia.org/wiki/Borders_of_Italy> (wikipedia) · pytania: geo-18
+- <https://www.britannica.com/place/Adriatic-Sea> (encyklopedia) · pytania: geo-19
+- <https://en.wikipedia.org/wiki/Adriatic_Sea> (wikipedia) · pytania: geo-19
+- <https://www.britannica.com/place/Tyrrhenian-Sea> (encyklopedia) · pytania: geo-20
+- <https://en.wikipedia.org/wiki/Tyrrhenian_Sea> (wikipedia) · pytania: geo-20
+- <https://en.wikipedia.org/wiki/Milan> (wikipedia) · pytania: geo-21
+- <https://whc.unesco.org/en/list/726> (instytucja) · pytania: geo-22
+- <https://en.wikipedia.org/wiki/Naples> (wikipedia) · pytania: geo-22
+- <https://www.britannica.com/place/Turin-Italy> (encyklopedia) · pytania: geo-23
+- <https://en.wikipedia.org/wiki/Turin> (wikipedia) · pytania: geo-23
+- <https://www.britannica.com/place/Genoa-Italy> (encyklopedia) · pytania: geo-24, his-67
+- <https://en.wikipedia.org/wiki/Genoa> (wikipedia) · pytania: geo-24
+- <https://www.britannica.com/place/Bologna-Italy> (encyklopedia) · pytania: geo-25
+- <https://en.wikipedia.org/wiki/Bologna> (wikipedia) · pytania: geo-25
+- <https://www.britannica.com/place/Trieste-Italy> (encyklopedia) · pytania: geo-26
+- <https://en.wikipedia.org/wiki/Trieste> (wikipedia) · pytania: geo-26
+- <https://www.britannica.com/place/Palermo> (encyklopedia) · pytania: geo-27
+- <https://en.wikipedia.org/wiki/Palermo> (wikipedia) · pytania: geo-27
+- <https://www.britannica.com/place/Cagliari-Italy> (encyklopedia) · pytania: geo-28
+- <https://en.wikipedia.org/wiki/Cagliari> (wikipedia) · pytania: geo-28
+- <https://www.britannica.com/place/Bari-Italy> (encyklopedia) · pytania: geo-29
+- <https://en.wikipedia.org/wiki/Bari> (wikipedia) · pytania: geo-29
+- <https://www.britannica.com/place/LAquila-Italy> (encyklopedia) · pytania: geo-30
+- <https://en.wikipedia.org/wiki/L'Aquila> (wikipedia) · pytania: geo-30
+- <https://www.britannica.com/place/Perugia> (encyklopedia) · pytania: geo-31
+- <https://en.wikipedia.org/wiki/Perugia> (wikipedia) · pytania: geo-31
+- <https://www.britannica.com/place/Ancona-Italy> (encyklopedia) · pytania: geo-32
+- <https://en.wikipedia.org/wiki/Ancona> (wikipedia) · pytania: geo-32
+- <https://www.britannica.com/place/Trento-Italy> (encyklopedia) · pytania: geo-33
+- <https://en.wikipedia.org/wiki/Trento> (wikipedia) · pytania: geo-33
+- <https://www.provincia.bz.it/> (strona instytucji) · pytania: geo-34
+- <https://en.wikipedia.org/wiki/South_Tyrol> (wikipedia) · pytania: geo-34
+- <https://www.regione.vda.it/> (strona instytucji) · pytania: geo-35
+- <https://en.wikipedia.org/wiki/Aosta_Valley> (wikipedia) · pytania: geo-35
+- <https://en.wikipedia.org/wiki/Venice> (wikipedia) · pytania: geo-36
+- <https://www.britannica.com/place/Seven-Hills-of-Rome> (encyklopedia) · pytania: geo-37
+- <https://en.wikipedia.org/wiki/Seven_hills_of_Rome> (wikipedia) · pytania: geo-37
+- <https://en.wikipedia.org/wiki/Italian_Peninsula> (wikipedia) · pytania: geo-38
+- <https://www.parcogargano.it/> (strona instytucji) · pytania: geo-39
+- <https://en.wikipedia.org/wiki/Gargano> (wikipedia) · pytania: geo-39
+- <https://www.britannica.com/place/Po-Valley> (encyklopedia) · pytania: geo-40
+- <https://en.wikipedia.org/wiki/Po_Valley> (wikipedia) · pytania: geo-40
+- <https://www.britannica.com/place/Matterhorn-mountain-Europe> (encyklopedia) · pytania: geo-41
+- <https://en.wikipedia.org/wiki/Matterhorn> (wikipedia) · pytania: geo-41
+- <https://www.pngp.it/> (strona instytucji) · pytania: geo-42
+- <https://en.wikipedia.org/wiki/Gran_Paradiso_National_Park> (wikipedia) · pytania: geo-42
+- <https://www.tunnelmb.net/> (strona instytucji) · pytania: geo-43
+- <https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel> (wikipedia) · pytania: geo-43
+- <https://www.britannica.com/place/Brenner-Pass> (encyklopedia) · pytania: geo-44
+- <https://en.wikipedia.org/wiki/Brenner_Pass> (wikipedia) · pytania: geo-44
+- <https://www.comune.campione-d-italia.co.it/> (strona instytucji) · pytania: geo-45
+- <https://en.wikipedia.org/wiki/Campione_d'Italia> (wikipedia) · pytania: geo-45
+- <https://www.comune.lampedusaelinosa.ag.it/> (strona instytucji) · pytania: geo-46
+- <https://en.wikipedia.org/wiki/Lampedusa> (wikipedia) · pytania: geo-46
+- <https://en.wikipedia.org/wiki/Capri> (wikipedia) · pytania: geo-47
+- <https://www.sardegnaturismo.it/> (strona instytucji) · pytania: geo-48
+- <https://en.wikipedia.org/wiki/Costa_Smeralda> (wikipedia) · pytania: geo-48
+- <https://www.comune.bolsena.vt.it/> (strona instytucji) · pytania: geo-49
+- <https://en.wikipedia.org/wiki/Lake_Bolsena> (wikipedia) · pytania: geo-49
+- <https://www.chianticlassico.com/> (strona instytucji) · pytania: geo-50
+- <https://en.wikipedia.org/wiki/Chianti> (wikipedia) · pytania: geo-50
+- <https://whc.unesco.org/en/list/1390> (instytucja) · pytania: geo-51
+- <https://en.wikipedia.org/wiki/Vineyard_Landscape_of_Piedmont> (wikipedia) · pytania: geo-51
+- <https://whc.unesco.org/en/list/1571> (instytucja) · pytania: geo-52
+- <https://it.wikipedia.org/wiki/Colline_del_Prosecco_di_Conegliano_e_Valdobbiadene> (wikipedia) · pytania: geo-52
+- <https://www.ferrari.com/> (strona instytucji) · pytania: geo-53
+- <https://en.wikipedia.org/wiki/Maranello> (wikipedia) · pytania: geo-53
+- <https://whc.unesco.org/en/list/1538> (instytucja) · pytania: geo-54
+- <https://en.wikipedia.org/wiki/Ivrea> (wikipedia) · pytania: geo-54
+- <https://www.visittuscany.com/> (strona instytucji) · pytania: geo-55, kul-62
+- <https://en.wikipedia.org/wiki/Maremma> (wikipedia) · pytania: geo-55
+- <https://en.wikipedia.org/wiki/Salento> (wikipedia) · pytania: geo-56
+- <https://whc.unesco.org/en/list/1200> (instytucja) · pytania: geo-57
+- <https://en.wikipedia.org/wiki/Syracuse,_Sicily> (wikipedia) · pytania: geo-57
+- <https://www.vaticanstate.va/> (strona instytucji) · pytania: geo-58, his-46
+- <https://en.wikipedia.org/wiki/Vatican_City> (wikipedia) · pytania: geo-58
+- <https://www.dolomitiunesco.info/> (instytucja) · pytania: geo-59
+- <https://en.wikipedia.org/wiki/Marmolada> (wikipedia) · pytania: geo-59
+- <https://www.britannica.com/place/Calabria-region-Italy> (encyklopedia) · pytania: geo-60
+- <https://en.wikipedia.org/wiki/Calabria> (wikipedia) · pytania: geo-60
+- <https://en.wikipedia.org/wiki/Molise> (wikipedia) · pytania: geo-61
+- <https://www.trenitalia.com/> (strona instytucji) · pytania: geo-62, spo-57, spo-58
+- <https://en.wikipedia.org/wiki/Frecciarossa> (wikipedia) · pytania: geo-62
+- <https://www.gransassolagapark.it/> (strona instytucji) · pytania: geo-63
+- <https://en.wikipedia.org/wiki/Gran_Sasso_d'Italia> (wikipedia) · pytania: geo-63
+- <https://www.parcodeltapo.it/> (strona instytucji) · pytania: geo-64
+- <https://en.wikipedia.org/wiki/Po_Delta> (wikipedia) · pytania: geo-64
+- <https://www.britannica.com/place/ancient-Rome> (encyklopedia) · pytania: his-01
+- <https://en.wikipedia.org/wiki/Founding_of_Rome> (wikipedia) · pytania: his-01
+- <https://www.britannica.com/topic/Etruscan> (encyklopedia) · pytania: his-02
+- <https://en.wikipedia.org/wiki/Etruscan_civilization> (wikipedia) · pytania: his-02
+- <https://www.britannica.com/biography/Hannibal-Carthaginian-general-247-183-BCE> (encyklopedia) · pytania: his-03
+- <https://en.wikipedia.org/wiki/Hannibal> (wikipedia) · pytania: his-03
+- <https://www.britannica.com/place/Rubicon> (encyklopedia) · pytania: his-04
+- <https://en.wikipedia.org/wiki/Crossing_the_Rubicon> (wikipedia) · pytania: his-04
+- <https://www.britannica.com/biography/Julius-Caesar-Roman-ruler> (encyklopedia) · pytania: his-05
+- <https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar> (wikipedia) · pytania: his-05
+- <https://www.britannica.com/biography/Augustus-Roman-emperor> (encyklopedia) · pytania: his-06
+- <https://en.wikipedia.org/wiki/Augustus> (wikipedia) · pytania: his-06
+- <https://www.britannica.com/biography/Spartacus-Roman-gladiator> (encyklopedia) · pytania: his-07
+- <https://en.wikipedia.org/wiki/Spartacus> (wikipedia) · pytania: his-07
+- <https://www.britannica.com/biography/Nero-Roman-emperor> (encyklopedia) · pytania: his-08
+- <https://en.wikipedia.org/wiki/Great_Fire_of_Rome> (wikipedia) · pytania: his-08
+- <https://www.britannica.com/topic/Edict-of-Milan> (encyklopedia) · pytania: his-09
+- <https://en.wikipedia.org/wiki/Edict_of_Milan> (wikipedia) · pytania: his-09
+- <https://www.britannica.com/biography/Romulus-Augustulus> (encyklopedia) · pytania: his-10
+- <https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire> (wikipedia) · pytania: his-10
+- <https://www.britannica.com/place/Magna-Graecia> (encyklopedia) · pytania: his-11
+- <https://en.wikipedia.org/wiki/Magna_Graecia> (wikipedia) · pytania: his-11
+- <https://www.britannica.com/topic/Appian-Way> (encyklopedia) · pytania: his-12
+- <https://en.wikipedia.org/wiki/Appian_Way> (wikipedia) · pytania: his-12
+- <https://www.ravennamosaici.it/> (strona instytucji) · pytania: his-13
+- <https://en.wikipedia.org/wiki/Theodoric_the_Great> (wikipedia) · pytania: his-13
+- <https://www.britannica.com/topic/Lombard-people> (encyklopedia) · pytania: his-14
+- <https://en.wikipedia.org/wiki/Lombards> (wikipedia) · pytania: his-14
+- <https://www.britannica.com/biography/Charlemagne> (encyklopedia) · pytania: his-15
+- <https://en.wikipedia.org/wiki/Coronation_of_Charlemagne> (wikipedia) · pytania: his-15
+- <https://www.britannica.com/topic/doge> (encyklopedia) · pytania: his-16
+- <https://en.wikipedia.org/wiki/Doge_of_Venice> (wikipedia) · pytania: his-16
+- <https://www.britannica.com/biography/Marco-Polo> (encyklopedia) · pytania: his-17
+- <https://en.wikipedia.org/wiki/Marco_Polo> (wikipedia) · pytania: his-17
+- <https://www.britannica.com/event/Sicilian-Vespers> (encyklopedia) · pytania: his-18
+- <https://en.wikipedia.org/wiki/Sicilian_Vespers> (wikipedia) · pytania: his-18
+- <https://www.britannica.com/biography/Frederick-II-Holy-Roman-emperor> (encyklopedia) · pytania: his-19
+- <https://en.wikipedia.org/wiki/Frederick_II,_Holy_Roman_Emperor> (wikipedia) · pytania: his-19
+- <https://www.britannica.com/biography/Dante-Alighieri> (encyklopedia) · pytania: his-20, kul-22
+- <https://en.wikipedia.org/wiki/Dante_Alighieri> (wikipedia) · pytania: his-20
+- <https://www.unibo.it/> (strona instytucji) · pytania: his-21
+- <https://en.wikipedia.org/wiki/University_of_Bologna> (wikipedia) · pytania: his-21
+- <https://www.britannica.com/topic/Medici-family> (encyklopedia) · pytania: his-22
+- <https://en.wikipedia.org/wiki/House_of_Medici> (wikipedia) · pytania: his-22
+- <https://www.britannica.com/biography/Girolamo-Savonarola> (encyklopedia) · pytania: his-23
+- <https://en.wikipedia.org/wiki/Girolamo_Savonarola> (wikipedia) · pytania: his-23
+- <https://www.britannica.com/biography/Christopher-Columbus> (encyklopedia) · pytania: his-24
+- <https://en.wikipedia.org/wiki/Christopher_Columbus> (wikipedia) · pytania: his-24
+- <https://www.britannica.com/biography/Niccolo-Machiavelli> (encyklopedia) · pytania: his-25
+- <https://en.wikipedia.org/wiki/Niccolò_Machiavelli> (wikipedia) · pytania: his-25
+- <https://www.britannica.com/event/Sack-of-Rome-1527> (encyklopedia) · pytania: his-26
+- <https://en.wikipedia.org/wiki/Sack_of_Rome_(1527)> (wikipedia) · pytania: his-26
+- <https://encyklopedia.pwn.pl/> (strona instytucji) · pytania: his-27, his-41
+- <https://www.unipd.it/> (strona instytucji) · pytania: his-28, his-29
+- <https://en.wikipedia.org/wiki/Nicolaus_Copernicus> (wikipedia) · pytania: his-28
+- <https://pl.wikipedia.org/wiki/Jan_Kochanowski> (wikipedia) · pytania: his-29
+- <https://www.britannica.com/event/Battle-of-Lepanto> (encyklopedia) · pytania: his-30
+- <https://en.wikipedia.org/wiki/Battle_of_Lepanto> (wikipedia) · pytania: his-30
+- <https://www.britannica.com/biography/Galileo-Galilei> (encyklopedia) · pytania: his-31
+- <https://en.wikipedia.org/wiki/Galileo_affair> (wikipedia) · pytania: his-31
+- <https://www.britannica.com/event/Council-of-Trent> (encyklopedia) · pytania: his-32
+- <https://en.wikipedia.org/wiki/Council_of_Trent> (wikipedia) · pytania: his-32
+- <https://www.britannica.com/place/Poland> (encyklopedia) · pytania: his-33
+- <https://pl.wikipedia.org/wiki/Legiony_Polskie_we_Włoszech> (wikipedia) · pytania: his-33
+- <https://www.britannica.com/event/Battle-of-Marengo> (encyklopedia) · pytania: his-34
+- <https://en.wikipedia.org/wiki/Battle_of_Marengo> (wikipedia) · pytania: his-34
+- <https://www.britannica.com/event/Risorgimento> (encyklopedia) · pytania: his-35
+- <https://en.wikipedia.org/wiki/Italian_unification> (wikipedia) · pytania: his-35
+- <https://www.britannica.com/biography/Giuseppe-Mazzini> (encyklopedia) · pytania: his-36
+- <https://en.wikipedia.org/wiki/Giuseppe_Mazzini> (wikipedia) · pytania: his-36
+- <https://www.britannica.com/biography/Giuseppe-Garibaldi> (encyklopedia) · pytania: his-37
+- <https://en.wikipedia.org/wiki/Expedition_of_the_Thousand> (wikipedia) · pytania: his-37
+- <https://www.britannica.com/biography/Camillo-Benso-conte-di-Cavour> (encyklopedia) · pytania: his-38
+- <https://en.wikipedia.org/wiki/Camillo_Benso,_Count_of_Cavour> (wikipedia) · pytania: his-38
+- <https://en.wikipedia.org/wiki/Kingdom_of_Italy> (wikipedia) · pytania: his-39
+- <https://www.britannica.com/place/Papal-States> (encyklopedia) · pytania: his-40, his-66
+- <https://en.wikipedia.org/wiki/Capture_of_Rome> (wikipedia) · pytania: his-40
+- <https://pl.wikipedia.org/wiki/Legion_Mickiewicza> (wikipedia) · pytania: his-41
+- <https://www.britannica.com/biography/Umberto-I> (encyklopedia) · pytania: his-42
+- <https://en.wikipedia.org/wiki/Umberto_I_of_Italy> (wikipedia) · pytania: his-42
+- <https://www.britannica.com/event/World-War-I> (encyklopedia) · pytania: his-43
+- <https://en.wikipedia.org/wiki/Italian_front_(World_War_I)> (wikipedia) · pytania: his-43
+- <https://www.britannica.com/event/Battle-of-Caporetto> (encyklopedia) · pytania: his-44
+- <https://en.wikipedia.org/wiki/Battle_of_Caporetto> (wikipedia) · pytania: his-44
+- <https://www.britannica.com/event/March-on-Rome> (encyklopedia) · pytania: his-45
+- <https://en.wikipedia.org/wiki/March_on_Rome> (wikipedia) · pytania: his-45
+- <https://en.wikipedia.org/wiki/Lateran_Treaty> (wikipedia) · pytania: his-46
+- <https://www.britannica.com/event/Italo-Ethiopian-War-1935-1936> (encyklopedia) · pytania: his-47
+- <https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War> (wikipedia) · pytania: his-47
+- <https://www.montecassino.it/> (strona instytucji) · pytania: his-48
+- <https://en.wikipedia.org/wiki/Battle_of_Monte_Cassino> (wikipedia) · pytania: his-48
+- <https://www.comune.bologna.it/> (strona instytucji) · pytania: his-49
+- <https://pl.wikipedia.org/wiki/Bitwa_o_Bolonię> (wikipedia) · pytania: his-49
+- <https://www.britannica.com/biography/Benito-Mussolini> (encyklopedia) · pytania: his-50, his-52
+- <https://en.wikipedia.org/wiki/Fall_of_the_Fascist_regime_in_Italy> (wikipedia) · pytania: his-50
+- <https://www.anpi.it/> (strona instytucji) · pytania: his-51
+- <https://en.wikipedia.org/wiki/Italian_resistance_movement> (wikipedia) · pytania: his-51
+- <https://en.wikipedia.org/wiki/Death_of_Benito_Mussolini> (wikipedia) · pytania: his-52
+- <https://en.wikipedia.org/wiki/1946_Italian_institutional_referendum> (wikipedia) · pytania: his-53
+- <https://european-union.europa.eu/> (strona instytucji) · pytania: his-54
+- <https://en.wikipedia.org/wiki/Treaty_of_Rome> (wikipedia) · pytania: his-54
+- <https://en.wikipedia.org/wiki/Pope_John_Paul_II> (wikipedia) · pytania: his-55
+- <https://www.britannica.com/biography/Aldo-Moro> (encyklopedia) · pytania: his-56
+- <https://en.wikipedia.org/wiki/Kidnapping_and_murder_of_Aldo_Moro> (wikipedia) · pytania: his-56
+- <https://www.camera.it/> (strona instytucji) · pytania: his-57, spo-04
+- <https://en.wikipedia.org/wiki/Mani_pulite> (wikipedia) · pytania: his-57
+- <https://olympics.com/> (strona instytucji) · pytania: his-58, kul-48
+- <https://en.wikipedia.org/wiki/1960_Summer_Olympics> (wikipedia) · pytania: his-58
+- <https://en.wikipedia.org/wiki/Italian_lira> (wikipedia) · pytania: his-59
+- <https://www.britannica.com/biography/Alcide-De-Gasperi> (encyklopedia) · pytania: his-60
+- <https://en.wikipedia.org/wiki/Alcide_De_Gasperi> (wikipedia) · pytania: his-60
+- <https://www.britannica.com/topic/Carbonari> (encyklopedia) · pytania: his-61
+- <https://en.wikipedia.org/wiki/Carbonari> (wikipedia) · pytania: his-61
+- <https://www.britannica.com/place/Venice> (encyklopedia) · pytania: his-62
+- <https://en.wikipedia.org/wiki/Third_Italian_War_of_Independence> (wikipedia) · pytania: his-62
+- <https://www.britannica.com/place/Kingdom-of-the-Two-Sicilies> (encyklopedia) · pytania: his-63
+- <https://en.wikipedia.org/wiki/Kingdom_of_the_Two_Sicilies> (wikipedia) · pytania: his-63
+- <https://www.britannica.com/topic/house-of-Savoy> (encyklopedia) · pytania: his-64
+- <https://en.wikipedia.org/wiki/House_of_Savoy> (wikipedia) · pytania: his-64
+- <https://en.wikipedia.org/wiki/Pope_Innocent_XI> (wikipedia) · pytania: his-65
+- <https://en.wikipedia.org/wiki/Papal_States> (wikipedia) · pytania: his-66
+- <https://en.wikipedia.org/wiki/Maritime_republics> (wikipedia) · pytania: his-67
+- <https://www.britannica.com/event/Black-Death> (encyklopedia) · pytania: his-68
+- <https://en.wikipedia.org/wiki/Black_Death> (wikipedia) · pytania: his-68
+- <https://www.britannica.com/biography/John-Cabot> (encyklopedia) · pytania: his-69
+- <https://en.wikipedia.org/wiki/John_Cabot> (wikipedia) · pytania: his-69
+- <https://www.britannica.com/topic/Mafia> (encyklopedia) · pytania: his-70
+- <https://en.wikipedia.org/wiki/Sicilian_Mafia> (wikipedia) · pytania: his-70
+- <https://www.britannica.com/biography/Giuseppe-Verdi> (encyklopedia) · pytania: kul-01
+- <https://en.wikipedia.org/wiki/Giuseppe_Verdi> (wikipedia) · pytania: kul-01
+- <https://www.britannica.com/biography/Giacomo-Puccini> (encyklopedia) · pytania: kul-02
+- <https://en.wikipedia.org/wiki/Giacomo_Puccini> (wikipedia) · pytania: kul-02
+- <https://www.britannica.com/biography/Gioachino-Rossini> (encyklopedia) · pytania: kul-03
+- <https://en.wikipedia.org/wiki/The_Barber_of_Seville> (wikipedia) · pytania: kul-03
+- <https://www.britannica.com/biography/Antonio-Vivaldi> (encyklopedia) · pytania: kul-04
+- <https://en.wikipedia.org/wiki/The_Four_Seasons_(Vivaldi)> (wikipedia) · pytania: kul-04
+- <https://www.museodelviolino.org/> (strona instytucji) · pytania: kul-05
+- <https://en.wikipedia.org/wiki/Antonio_Stradivari> (wikipedia) · pytania: kul-05
+- <https://www.britannica.com/biography/Claudio-Monteverdi> (encyklopedia) · pytania: kul-06
+- <https://en.wikipedia.org/wiki/L'Orfeo> (wikipedia) · pytania: kul-06
+- <https://www.britannica.com/biography/Niccolo-Paganini> (encyklopedia) · pytania: kul-07
+- <https://en.wikipedia.org/wiki/Niccolò_Paganini> (wikipedia) · pytania: kul-07
+- <https://www.britannica.com/biography/Luciano-Pavarotti> (encyklopedia) · pytania: kul-08
+- <https://en.wikipedia.org/wiki/Luciano_Pavarotti> (wikipedia) · pytania: kul-08
+- <https://www.rai.it/> (strona instytucji) · pytania: kul-09, spo-59
+- <https://en.wikipedia.org/wiki/Sanremo_Music_Festival> (wikipedia) · pytania: kul-09
+- <https://eurovision.tv/> (strona instytucji) · pytania: kul-10
+- <https://en.wikipedia.org/wiki/Måneskin> (wikipedia) · pytania: kul-10
+- <https://www.oscars.org/> (strona instytucji) · pytania: kul-11, kul-37, kul-38, kul-42
+- <https://en.wikipedia.org/wiki/Ennio_Morricone> (wikipedia) · pytania: kul-11
+- <https://www.britannica.com/biography/Leonardo-da-Vinci> (encyklopedia) · pytania: kul-12
+- <https://en.wikipedia.org/wiki/Mona_Lisa> (wikipedia) · pytania: kul-12
+- <https://www.galleriaaccademiafirenze.it/> (strona instytucji) · pytania: kul-13
+- <https://en.wikipedia.org/wiki/David_(Michelangelo)> (wikipedia) · pytania: kul-13
+- <https://www.museivaticani.va/> (strona instytucji) · pytania: kul-14, kul-15
+- <https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling> (wikipedia) · pytania: kul-14
+- <https://en.wikipedia.org/wiki/The_School_of_Athens> (wikipedia) · pytania: kul-15
+- <https://www.uffizi.it/> (strona instytucji) · pytania: kul-16
+- <https://en.wikipedia.org/wiki/The_Birth_of_Venus> (wikipedia) · pytania: kul-16
+- <https://www.britannica.com/biography/Caravaggio> (encyklopedia) · pytania: kul-17
+- <https://en.wikipedia.org/wiki/Caravaggio> (wikipedia) · pytania: kul-17
+- <https://www.britannica.com/biography/Titian> (encyklopedia) · pytania: kul-18
+- <https://en.wikipedia.org/wiki/Titian> (wikipedia) · pytania: kul-18
+- <https://www.zamek-krolewski.pl/> (strona instytucji) · pytania: kul-19
+- <https://en.wikipedia.org/wiki/Bernardo_Bellotto> (wikipedia) · pytania: kul-19
+- <https://www.britannica.com/biography/Giotto-di-Bondone> (encyklopedia) · pytania: kul-20
+- <https://en.wikipedia.org/wiki/Giotto> (wikipedia) · pytania: kul-20
+- <https://www.britannica.com/biography/Amedeo-Modigliani> (encyklopedia) · pytania: kul-21
+- <https://en.wikipedia.org/wiki/Amedeo_Modigliani> (wikipedia) · pytania: kul-21
+- <https://en.wikipedia.org/wiki/Divine_Comedy> (wikipedia) · pytania: kul-22
+- <https://www.britannica.com/biography/Giovanni-Boccaccio> (encyklopedia) · pytania: kul-23
+- <https://en.wikipedia.org/wiki/The_Decameron> (wikipedia) · pytania: kul-23
+- <https://www.britannica.com/biography/Petrarch> (encyklopedia) · pytania: kul-24
+- <https://en.wikipedia.org/wiki/Petrarch> (wikipedia) · pytania: kul-24
+- <https://www.britannica.com/topic/The-Adventures-of-Pinocchio> (encyklopedia) · pytania: kul-25
+- <https://en.wikipedia.org/wiki/The_Adventures_of_Pinocchio> (wikipedia) · pytania: kul-25
+- <https://www.britannica.com/biography/Umberto-Eco> (encyklopedia) · pytania: kul-26
+- <https://en.wikipedia.org/wiki/The_Name_of_the_Rose> (wikipedia) · pytania: kul-26
+- <https://www.britannica.com/biography/Alessandro-Manzoni> (encyklopedia) · pytania: kul-27
+- <https://en.wikipedia.org/wiki/The_Betrothed> (wikipedia) · pytania: kul-27
+- <https://www.nobelprize.org/> (strona instytucji) · pytania: kul-28, kul-32, kul-33
+- <https://en.wikipedia.org/wiki/Grazia_Deledda> (wikipedia) · pytania: kul-28
+- <https://www.andreacamilleri.net/> (strona instytucji) · pytania: kul-29
+- <https://en.wikipedia.org/wiki/Andrea_Camilleri> (wikipedia) · pytania: kul-29
+- <https://www.edizionieo.it/> (strona instytucji) · pytania: kul-30
+- <https://en.wikipedia.org/wiki/Elena_Ferrante> (wikipedia) · pytania: kul-30
+- <https://www.britannica.com/biography/Alessandro-Volta> (encyklopedia) · pytania: kul-31
+- <https://en.wikipedia.org/wiki/Alessandro_Volta> (wikipedia) · pytania: kul-31
+- <https://en.wikipedia.org/wiki/Guglielmo_Marconi> (wikipedia) · pytania: kul-32
+- <https://en.wikipedia.org/wiki/Enrico_Fermi> (wikipedia) · pytania: kul-33
+- <https://www.britannica.com/biography/Maria-Montessori> (encyklopedia) · pytania: kul-34
+- <https://en.wikipedia.org/wiki/Maria_Montessori> (wikipedia) · pytania: kul-34
+- <https://www.britannica.com/biography/Fibonacci> (encyklopedia) · pytania: kul-35
+- <https://en.wikipedia.org/wiki/Fibonacci> (wikipedia) · pytania: kul-35
+- <https://www.britannica.com/biography/Federico-Fellini> (encyklopedia) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/La_Dolce_Vita> (wikipedia) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/Life_Is_Beautiful> (wikipedia) · pytania: kul-37
+- <https://en.wikipedia.org/wiki/Sophia_Loren> (wikipedia) · pytania: kul-38
+- <https://cinecitta.com/> (strona instytucji) · pytania: kul-39
+- <https://en.wikipedia.org/wiki/Cinecittà> (wikipedia) · pytania: kul-39
+- <https://www.labiennale.org/> (strona instytucji) · pytania: kul-40
+- <https://en.wikipedia.org/wiki/Golden_Lion> (wikipedia) · pytania: kul-40
+- <https://www.britannica.com/biography/Sergio-Leone> (encyklopedia) · pytania: kul-41
+- <https://en.wikipedia.org/wiki/Sergio_Leone> (wikipedia) · pytania: kul-41
+- <https://en.wikipedia.org/wiki/Cinema_Paradiso> (wikipedia) · pytania: kul-42
+- <https://www.figc.it/> (strona instytucji) · pytania: kul-43
+- <https://en.wikipedia.org/wiki/Italy_national_football_team> (wikipedia) · pytania: kul-43
+- <https://www.giroditalia.it/> (strona instytucji) · pytania: kul-44
+- <https://en.wikipedia.org/wiki/Maglia_rosa> (wikipedia) · pytania: kul-44
+- <https://www.monzanet.it/> (strona instytucji) · pytania: kul-45
+- <https://en.wikipedia.org/wiki/Monza_Circuit> (wikipedia) · pytania: kul-45
+- <https://www.motogp.com/> (strona instytucji) · pytania: kul-46
+- <https://en.wikipedia.org/wiki/Valentino_Rossi> (wikipedia) · pytania: kul-46
+- <https://www.atptour.com/> (strona instytucji) · pytania: kul-47
+- <https://en.wikipedia.org/wiki/Jannik_Sinner> (wikipedia) · pytania: kul-47
+- <https://en.wikipedia.org/wiki/Alberto_Tomba> (wikipedia) · pytania: kul-48
+- <https://www.juventus.com/> (strona instytucji) · pytania: kul-49
+- <https://en.wikipedia.org/wiki/Juventus_FC> (wikipedia) · pytania: kul-49
+- <https://sscnapoli.it/> (strona instytucji) · pytania: kul-50
+- <https://en.wikipedia.org/wiki/Stadio_Diego_Armando_Maradona> (wikipedia) · pytania: kul-50
+- <https://ich.unesco.org/> (instytucja) · pytania: kul-51
+- <https://en.wikipedia.org/wiki/Pizza_Margherita> (wikipedia) · pytania: kul-51
+- <https://www.parmigianoreggiano.com/> (strona instytucji) · pytania: kul-52
+- <https://en.wikipedia.org/wiki/Parmigiano_Reggiano> (wikipedia) · pytania: kul-52
+- <https://www.balsamico.it/> (strona instytucji) · pytania: kul-53
+- <https://en.wikipedia.org/wiki/Traditional_balsamic_vinegar> (wikipedia) · pytania: kul-53
+- <https://www.italia.it/> (strona instytucji) · pytania: kul-54, kul-55, kul-59, spo-08, spo-09, spo-12, spo-13, spo-14, spo-15, spo-16, spo-17, spo-34, spo-41, spo-42, spo-44, spo-45, spo-62, spo-63, spo-64, spo-66
+- <https://en.wikipedia.org/wiki/Tiramisu> (wikipedia) · pytania: kul-54
+- <https://en.wikipedia.org/wiki/Carbonara> (wikipedia) · pytania: kul-55
+- <https://en.wikipedia.org/wiki/Pesto> (wikipedia) · pytania: kul-56
+- <https://en.wikipedia.org/wiki/Risotto_alla_milanese> (wikipedia) · pytania: kul-57
+- <https://www.visitsicily.info/> (strona instytucji) · pytania: kul-58
+- <https://en.wikipedia.org/wiki/Cannoli> (wikipedia) · pytania: kul-58
+- <https://en.wikipedia.org/wiki/Limoncello> (wikipedia) · pytania: kul-59
+- <https://www.ferrero.com/> (strona instytucji) · pytania: kul-60
+- <https://en.wikipedia.org/wiki/Nutella> (wikipedia) · pytania: kul-60
+- <https://en.wikipedia.org/wiki/Panettone> (wikipedia) · pytania: kul-61
+- <https://en.wikipedia.org/wiki/Bistecca_alla_fiorentina> (wikipedia) · pytania: kul-62
+- <https://www.prosciuttodiparma.com/> (strona instytucji) · pytania: kul-63
+- <https://en.wikipedia.org/wiki/Prosciutto> (wikipedia) · pytania: kul-63
+- <https://www.armani.com/> (strona instytucji) · pytania: kul-64
+- <https://en.wikipedia.org/wiki/Giorgio_Armani> (wikipedia) · pytania: kul-64
+- <https://www.fiat.com/> (strona instytucji) · pytania: kul-65
+- <https://en.wikipedia.org/wiki/Fiat_500> (wikipedia) · pytania: kul-65
+- <https://www.vespa.com/> (strona instytucji) · pytania: kul-66
+- <https://en.wikipedia.org/wiki/Vespa> (wikipedia) · pytania: kul-66
+- <https://en.wikipedia.org/wiki/President_of_Italy> (wikipedia) · pytania: spo-01, spo-02
+- <https://en.wikipedia.org/wiki/Quirinal_Palace> (wikipedia) · pytania: spo-03
+- <https://en.wikipedia.org/wiki/Chamber_of_Deputies_(Italy)> (wikipedia) · pytania: spo-04
+- <https://www.senato.it/> (strona instytucji) · pytania: spo-05
+- <https://en.wikipedia.org/wiki/Senator_for_life> (wikipedia) · pytania: spo-05
+- <https://en.wikipedia.org/wiki/Festa_della_Repubblica> (wikipedia) · pytania: spo-06
+- <https://en.wikipedia.org/wiki/Liberation_Day_(Italy)> (wikipedia) · pytania: spo-07
+- <https://en.wikipedia.org/wiki/Ferragosto> (wikipedia) · pytania: spo-08
+- <https://en.wikipedia.org/wiki/Befana> (wikipedia) · pytania: spo-09
+- <https://www.carnevale.venezia.it/> (strona instytucji) · pytania: spo-10
+- <https://en.wikipedia.org/wiki/Carnival_of_Venice> (wikipedia) · pytania: spo-10
+- <https://www.comune.siena.it/> (strona instytucji) · pytania: spo-11
+- <https://en.wikipedia.org/wiki/Palio_di_Siena> (wikipedia) · pytania: spo-11
+- <https://en.wikipedia.org/wiki/Easter_Monday> (wikipedia) · pytania: spo-12
+- <https://en.wikipedia.org/wiki/Cappuccino> (wikipedia) · pytania: spo-13
+- <https://en.wikipedia.org/wiki/Coffee_culture> (wikipedia) · pytania: spo-14
+- <https://en.wikipedia.org/wiki/Apéritif_and_digestif> (wikipedia) · pytania: spo-15
+- <https://it.wikipedia.org/wiki/Passeggiata> (wikipedia) · pytania: spo-16
+- <https://en.wikipedia.org/wiki/Cover_charge> (wikipedia) · pytania: spo-17
+- <https://www.treccani.it/> (strona instytucji) · pytania: spo-18, spo-19, spo-20, spo-21, spo-22, spo-23, spo-24, spo-26, spo-27, spo-28, spo-40, spo-43, spo-47, spo-48, spo-49, spo-51, spo-52, spo-53, spo-54, spo-55, spo-56, spo-65
+- <https://en.wikipedia.org/wiki/Ciao> (wikipedia) · pytania: spo-18
+- <https://en.wikipedia.org/wiki/Italian_language> (wikipedia) · pytania: spo-19, spo-26, spo-27, spo-28, spo-38, spo-47, spo-51, spo-56
+- <https://en.wikipedia.org/wiki/False_friend> (wikipedia) · pytania: spo-20, spo-21, spo-22, spo-23, spo-24, spo-52, spo-53, spo-54, spo-55
+- <https://www.mit.gov.it/> (strona instytucji) · pytania: spo-25
+- <https://it.wikipedia.org/wiki/Sciopero> (wikipedia) · pytania: spo-25
+- <https://sjp.pwn.pl/> (strona instytucji) · pytania: spo-29, spo-30
+- <https://pl.wikipedia.org/wiki/Pomidor> (wikipedia) · pytania: spo-29
+- <https://pl.wikipedia.org/wiki/Włoszczyzna> (wikipedia) · pytania: spo-30
+- <https://www.mur.gov.it/> (strona instytucji) · pytania: spo-31
+- <https://en.wikipedia.org/wiki/Academic_grading_in_Italy> (wikipedia) · pytania: spo-31, spo-32
+- <https://www.istruzione.it/> (strona instytucji) · pytania: spo-32
+- <https://www.carabinieri.it/> (strona instytucji) · pytania: spo-33
+- <https://en.wikipedia.org/wiki/Carabinieri> (wikipedia) · pytania: spo-33
+- <https://en.wikipedia.org/wiki/Zona_a_traffico_limitato> (wikipedia) · pytania: spo-34
+- <https://www.autostrade.it/> (strona instytucji) · pytania: spo-35
+- <https://en.wikipedia.org/wiki/Autostrade_of_Italy> (wikipedia) · pytania: spo-35
+- <https://en.wikipedia.org/wiki/Euro> (wikipedia) · pytania: spo-36
+- <https://www.regione.sardegna.it/> (strona instytucji) · pytania: spo-37
+- <https://en.wikipedia.org/wiki/Sardinian_language> (wikipedia) · pytania: spo-37
+- <https://accademiadellacrusca.it/> (strona instytucji) · pytania: spo-38, spo-39
+- <https://en.wikipedia.org/wiki/Accademia_della_Crusca> (wikipedia) · pytania: spo-39
+- <https://en.wikipedia.org/wiki/Italian_meal_structure> (wikipedia) · pytania: spo-40, spo-41
+- <https://en.wikipedia.org/wiki/Spaghetti> (wikipedia) · pytania: spo-42
+- <https://en.wikipedia.org/wiki/Al_dente> (wikipedia) · pytania: spo-43
+- <https://en.wikipedia.org/wiki/Gelato> (wikipedia) · pytania: spo-44
+- <https://en.wikipedia.org/wiki/Trattoria> (wikipedia) · pytania: spo-45
+- <https://www.pizzanapoletana.org/> (strona instytucji) · pytania: spo-46
+- <https://en.wikipedia.org/wiki/Neapolitan_pizza> (wikipedia) · pytania: spo-46
+- <https://en.wikipedia.org/wiki/Name_day> (wikipedia) · pytania: spo-48
+- <https://it.wikipedia.org/wiki/Gestualità_italiana> (wikipedia) · pytania: spo-49
+- <https://www.agenziaentrate.gov.it/> (strona instytucji) · pytania: spo-50
+- <https://en.wikipedia.org/wiki/Receipt> (wikipedia) · pytania: spo-50
+- <https://en.wikipedia.org/wiki/Trenitalia> (wikipedia) · pytania: spo-57, spo-58
+- <https://en.wikipedia.org/wiki/RAI> (wikipedia) · pytania: spo-59
+- <https://www.interno.gov.it/> (strona instytucji) · pytania: spo-60
+- <https://en.wikipedia.org/wiki/112_(emergency_telephone_number)> (wikipedia) · pytania: spo-60
+- <https://www.adm.gov.it/> (strona instytucji) · pytania: spo-61
+- <https://en.wikipedia.org/wiki/Tobacconist> (wikipedia) · pytania: spo-61
+- <https://en.wikipedia.org/wiki/Spritz_Veneziano> (wikipedia) · pytania: spo-62
+- <https://en.wikipedia.org/wiki/Feast_of_the_Seven_Fishes> (wikipedia) · pytania: spo-63
+- <https://en.wikipedia.org/wiki/Santa_Claus> (wikipedia) · pytania: spo-64
+- <https://en.wikipedia.org/wiki/Quartieri_Spagnoli> (wikipedia) · pytania: spo-65
+- <https://en.wikipedia.org/wiki/Siesta> (wikipedia) · pytania: spo-66

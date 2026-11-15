@@ -123,7 +123,7 @@
   // ---------- mapa ----------
   let mapUid = 0;
   let REGION_LABEL = null;
-  const LABEL_SHIFT = { at: { east: [-40, 0], north: [0, -10] }, cz: { center: [0, 6], moravia: [10, 0] } };
+  const LABEL_SHIFT = { at: { east: [-40, 0], north: [0, -10] }, cz: { center: [0, 6], moravia: [10, 0] }, it: { nw: [-20, 30], ne: [10, 10], center: [-30, 0], south: [80, -120] } };
   function regionLabels() {
     if (REGION_LABEL) return REGION_LABEL;
     const pts = {};
@@ -155,7 +155,7 @@
     const L = regionLabels();
     const labels = o.labels ? REGIONS.map((r) => `<text class="reg-label" x="${L[r][0]}" y="${L[r][1] + 14}">${esc(REG[r].short)}</text>`).join('') : '';
     const aria = o.title || 'Mapa ' + C.nameGen;
-    return `<div class="map ${o.small ? 'small' : ''}"><svg viewBox="0 0 ${MAP.w} ${MAP.h}" role="img" aria-label="${esc(aria)}"><defs>${defs}</defs>${paths}${labels}</svg></div>`;
+    return `<div class="map ${o.small ? 'small' : ''} ${MAP.h > MAP.w ? 'tall' : ''}"><svg viewBox="0 0 ${MAP.w} ${MAP.h}" role="img" aria-label="${esc(aria)}"><defs>${defs}</defs>${paths}${labels}</svg></div>`;
   }
   function cardsAria(cards, tg) {
     return REGIONS.map((r) => `${REG[r].short}: ${cards[r]}${cards[r] >= tg ? ' (komplet)' : ''}`).join(', ');

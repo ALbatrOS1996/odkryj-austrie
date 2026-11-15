@@ -1,6 +1,6 @@
-// Service worker – wersja 8fa2067b94
-const CACHE = 'odkryj-8fa2067b94';
-const CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png", "data/at.js?v=8fa2067b94", "data/cz.js?v=8fa2067b94"];
+// Service worker – wersja 977b3b143d
+const CACHE = 'odkryj-977b3b143d';
+const CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png", "data/at.js?v=977b3b143d", "data/cz.js?v=977b3b143d", "data/it.js?v=977b3b143d"];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', (e) => {
