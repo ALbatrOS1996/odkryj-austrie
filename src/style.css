@@ -274,3 +274,10 @@ input[type=text]:focus, textarea:focus { outline: 2px solid var(--red); border-c
 .me-bar .map.tall svg { max-height: 28vh; }
 .opp-bar .map.tall svg { max-height: 96px; }
 .gcard .mini .map svg { max-height: 64px; width: auto; max-width: 100%; margin: 0 auto; }
+
+/* tryb terytorialny: kolory graczy */
+:root { --mine: #C8102E; --theirs: #E8A33D; }
+.sw { display: inline-block; width: 14px; height: 14px; border-radius: 4px; vertical-align: -2px; margin-right: 5px; }
+.sw.mine { background: var(--mine); } .sw.theirs { background: var(--theirs); }
+.opp-bar .sw { width: 18px; height: 40px; border-radius: 6px; margin: 0 4px; }
+.score { display: flex; flex-wrap: wrap; gap: 6px 14px; justify-content: center; font-size: 14px; margin-top: 8px; }

@@ -19,3 +19,10 @@
 7. **Czechy:** 4 regiony z 14 krajów – Praga i Czechy Środkowe; Czechy Zachodnie i Południowe; Czechy Północne i Wschodnie; Morawy i Śląsk (uzasadnienie w `content-src/cz/country.json`). Karty specjalne: Golem, Defenestracja, Kolejka na Petřín, Polka. Mapa: ČÚZK INSPIRE (CC BY 4.0).
 8. Adres strony pozostał `…/odkryj-austrie/`, żeby nie zepsuć zainstalowanej aplikacji; nazwa aplikacji to teraz „Odkryj!”.
 9. **Włochy (2026-11-15):** 4 regiony z 20 regionów według makroregionów ISTAT – Północny Zachód, Północny Wschód, Włochy Środkowe, Południe i wyspy (Sud i Isole połączone). Karty specjalne: Fontanna di Trevi, Wezuwiusz, Vespa, Espresso. Mapa: ISTAT (CC BY 4.0) przez openpolis/geojson-italy. Mapa jest „wysoka”, dlatego interfejs ogranicza jej wysokość na ekranie.
+
+10. **Prawdziwy podział administracyjny (2026-11-21).** Karty to już nie 4 makroregiony, tylko jednostki takie jak polskie województwa: 9 krajów związkowych Austrii, 14 krajów Czech, 20 regionów Włoch. Makroregiony zostały jako grupy (kolory mapy, ilustracje kart, zapasowa pula pytań).
+   - Wygrywa się, zdobywając określoną liczbę jednostek (w ustawieniach można wybrać „cała mapa”): Austria 7 z 9 (2 karty na jednostkę), Czechy 8 z 14 (2 karty), Włochy 11 z 20 (1 karta). Wartości dobrano symulacją (`balance-report.md`), żeby partie trwały podobnie długo.
+   - Jednostka ma jednego właściciela. Wygrana karta zdobywa wolną jednostkę, umacnia własną albo osłabia lub odbiera jednostkę przeciwnika. Karty specjalne przenoszą całe jednostki.
+   - Pytania przypisano do jednostek słowami kluczowymi (`tools/units.py`), ze sprawdzeniem zgodności z makroregionem. Gdy jednostka ma mało własnych pytań, gra bierze pytanie z jej makroregionu.
+   - Stare, niedokończone partie z podziałem na 4 regiony są po aktualizacji zamykane.
+

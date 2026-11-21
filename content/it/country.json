@@ -103,17 +103,17 @@
     "luck": {
       "name": "Fontanna di Trevi",
       "short": "Szczęście",
-      "flavor": "Rzucona do fontanny moneta przynosi szczęście: zabierz przeciwnikowi kartę regionu, której ci brakuje. Nie działa na gracza w twierdzy."
+      "flavor": "Rzucona do fontanny moneta przynosi szczęście: zabierz przeciwnikowi jeden jego region. Nie działa na gracza w twierdzy."
     },
     "detour": {
       "name": "Wezuwiusz",
       "short": "Objazd",
-      "flavor": "Wybuch zmusza cię do ucieczki! Oddajesz przeciwnikowi jedną kartę regionu, a jeśli masz duplikat, musisz oddać duplikat."
+      "flavor": "Wybuch zmusza cię do ucieczki! Oddajesz przeciwnikowi jeden swój region."
     },
     "ticket": {
       "name": "Vespa",
       "short": "Bilet",
-      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć, dojechać skuterem na czas i mimo to zdobyć kartę regionu."
+      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę jednostki."
     },
     "express": {
       "name": "Espresso",
@@ -128,5 +128,9 @@
   "nameLoc": "Włoszech",
   "unitsLabel": "regionów",
   "unitsCount": 20,
-  "verbHas": "mają"
+  "verbHas": "mają",
+  "gameRules": {
+    "perRegion": 1,
+    "winUnits": 11
+  }
 }

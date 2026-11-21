@@ -48,7 +48,9 @@
   const opp = (p) => 1 - p;
   function distinct(pl, tg) { tg = tg || 1; return Object.keys(pl.cards).filter((r) => pl.cards[r] >= tg).length; }
   function total(pl) { return Object.keys(pl.cards).reduce((a, r) => a + pl.cards[r], 0); }
-  function inFortress(s, p) { return s.rules.fortress && distinct(s.players[p], s.rules.target) >= 3; }
+  // ile jednostek (regionów) trzeba mieć do wygranej: rules.winUnits albo wszystkie
+  function winNeed(s) { return s.rules.winUnits || Object.keys(s.players[0].cards).length; }
+  function inFortress(s, p) { return s.rules.fortress && distinct(s.players[p], s.rules.target) >= winNeed(s) - 1; }
   function ev(s, e) {
     s.evSeq = (s.evSeq || 0) + 1;
     e.n = s.evSeq;
@@ -63,12 +65,13 @@
    *         bank:[{id,cat,diff,region,correct}], seen:{qid:count}, now }
    */
   let BANK = [];
-  function setBank(b) { BANK = b || []; }
+  let GROUP = {}; // jednostka (kraj związkowy, region) -> grupa (makroregion), do doboru pytań
+  function setBank(b, groupOf) { BANK = b || []; GROUP = groupOf || {}; }
 
   function createGame(opts) {
     if (opts.bank) setBank(opts.bank);
     const rules = Object.assign({}, DEFAULT_RULES, opts.rules || {});
-    const regions = (opts.regions && opts.regions.length === 4) ? opts.regions.slice() : REGIONS.slice();
+    const regions = (opts.regions && opts.regions.length >= 2) ? opts.regions.slice() : REGIONS.slice();
     const s = {
       v: 1,
       rules,
@@ -127,7 +130,7 @@
         return { options: opts, note: opts.length ? null : 'nothing' };
       }
       case 'detour': {
-        const dup = Object.keys(A.cards).filter((r) => A.cards[r] > tg);
+        const dup = s.rules.takeover ? [] : Object.keys(A.cards).filter((r) => A.cards[r] > tg);
         const opts = dup.length ? dup : Object.keys(A.cards).filter((r) => A.cards[r] > 0);
         return { options: opts, note: opts.length ? null : 'nothing' };
       }
@@ -151,10 +154,12 @@
     let r = null;
     if (opts.length) r = opts.includes(region) ? region : opts[0];
     if (k === 'luck' && r) {
-      s.players[o].cards[r]--; s.players[a].cards[r]++;
+      if (s.rules.takeover) { s.players[a].cards[r] += s.players[o].cards[r]; s.players[o].cards[r] = 0; }
+      else { s.players[o].cards[r]--; s.players[a].cards[r]++; }
       ev(s, { type: 'luck', p: a, r });
     } else if (k === 'detour' && r) {
-      s.players[a].cards[r]--; s.players[o].cards[r]++;
+      if (s.rules.takeover) { s.players[o].cards[r] += s.players[a].cards[r]; s.players[a].cards[r] = 0; }
+      else { s.players[a].cards[r]--; s.players[o].cards[r]++; }
       ev(s, { type: 'detour', p: a, r });
     } else if (k === 'ticket' && !s.players[a].ticket) {
       s.players[a].ticket = true;
@@ -178,7 +183,9 @@
     if (!cands.length) cands = BANK.filter((q) => q.cat === cat);
     if (!cands.length) return null;
     if (cat === 'GEO' || cat === 'ZAB') {
-      const reg = cands.filter((q) => q.region === region);
+      // najpierw pytania o tę jednostkę, potem o jej makroregion
+      let reg = cands.filter((q) => q.region === region);
+      if (!reg.length && GROUP[region]) reg = cands.filter((q) => q.group === GROUP[region]);
       if (reg.length && (cat === 'GEO' || rand(s) < 0.5)) cands = reg;
     }
     // pytania widziane rzadziej mają większą wagę
@@ -200,6 +207,20 @@
     s.deadline = s.clock + s.rules.timeLimit * 1000 + (extraMs || 0);
   }
 
+  // Przydział zdobytej karty jednostki u graczowi p.
+  // Tryb terytorialny (takeover): jednostkę ma zawsze jeden gracz; kolejna karta ją umacnia,
+  // a karta jednostki przeciwnika osłabia ją albo przejmuje, gdy przeciwnik ma tylko jedną kartę.
+  function giveCard(s, p, u) {
+    const me = s.players[p], other = s.players[opp(p)];
+    if (s.rules.takeover && other.cards[u] > 0) {
+      other.cards[u]--;
+      if (other.cards[u] > 0) return 'weakened';
+      me.cards[u] = 1; return 'took';
+    }
+    me.cards[u]++;
+    return me.cards[u] > 1 ? 'fortified' : 'claimed';
+  }
+
   function resolveDuel(s) {
     const a = s.active, o = opp(a), c = s.q.correct;
     const ok = s.answers.map((x) => !!x && x.o === c);
@@ -207,7 +228,7 @@
     if (ok[a]) { award = a; kind = 'active'; }
     else if (ok[o] && s.rules.intercepts) { award = o; kind = 'intercept'; }
     s.result = { ok, award, kind, card: s.top.r };
-    if (award >= 0) s.players[award].cards[s.top.r]++;
+    if (award >= 0) s.result.how = giveCard(s, award, s.top.r);
     s.hist.push({ q: s.q.id, cat: s.q.cat, r: s.top.r, a: s.answers.map((x) => (x ? x.o : -1)), c, act: a, award });
     ev(s, { type: 'award', kind, p: award, r: s.top.r });
     checkWin(s);
@@ -248,7 +269,7 @@
   function checkWin(s) {
     if (s.winner !== null) return true;
     for (const p of [s.active, opp(s.active)]) {
-      if (distinct(s.players[p], s.rules.target) === 4) {
+      if (distinct(s.players[p], s.rules.target) >= winNeed(s)) {
         s.winner = p; s.overReason = 'map';
         ev(s, { type: 'win', p });
         return true;
@@ -323,7 +344,7 @@
         if (s.phase !== 'EXPLAIN' || p !== s.active || !s.players[p].ticket) return false;
         if (!s.result || s.result.award !== -1 || s.winner !== null) return false;
         s.players[p].ticket = false;
-        s.players[p].cards[s.top.r]++;
+        s.result.how = giveCard(s, p, s.top.r);
         s.result.award = p; s.result.kind = 'ticket';
         ev(s, { type: 'award', kind: 'ticket', p, r: s.top.r });
         s.hist[s.hist.length - 1].award = p;
@@ -439,7 +460,7 @@
     return v;
   }
 
-  const api = { setBank, step, CATS, FACES, REGIONS, SPECIALS, DEFAULT_RULES, createGame, reduce, view, distinct, total };
+  const api = { winNeed, setBank, step, CATS, FACES, REGIONS, SPECIALS, DEFAULT_RULES, createGame, reduce, view, distinct, total };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.Engine = api;
 })(typeof self !== 'undefined' ? self : this);

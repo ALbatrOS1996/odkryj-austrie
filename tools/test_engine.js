@@ -144,4 +144,33 @@ t('ten sam seed = ta sama partia (odtwarzalność)', () => {
   const a = E.createGame({ seed: 777, players: P, rules: {}, now: 0 }), b = E.createGame({ seed: 777, players: P, rules: {}, now: 0 });
   assert.deepStrictEqual(a.deck, b.deck);
 });
+
+// ---------- tryb terytorialny (jednostki administracyjne) ----------
+const U = ['u1', 'u2', 'u3', 'u4', 'u5'];
+function tgame(rules) { return E.createGame({ seed: 5, players: P, regions: U, rules: Object.assign({ specials: false, perRegion: 2, target: 1, takeover: true, winUnits: 3 }, rules), starter: 0, now: 0 }); }
+function winCard(s, u, p) { s.top = { t: 'r', r: u }; s.phase = 'TURN'; s.active = p; s = duel(s); s = E.reduce(s, { type: 'answer', p, o: right(s) }); return E.reduce(s, { type: 'answer', p: 1 - p, o: wrong(s) }); }
+t('terytoria: zdobycie, umocnienie, osłabienie i przejęcie jednostki', () => {
+  let s = tgame();
+  s = winCard(s, 'u1', 0); assert.strictEqual(s.result.how, 'claimed'); assert.strictEqual(s.players[0].cards.u1, 1);
+  s = winCard(s, 'u1', 0); assert.strictEqual(s.result.how, 'fortified'); assert.strictEqual(s.players[0].cards.u1, 2);
+  s = winCard(s, 'u1', 1); assert.strictEqual(s.result.how, 'weakened'); assert.strictEqual(s.players[0].cards.u1, 1); assert.strictEqual(s.players[1].cards.u1, 0);
+  s = winCard(s, 'u1', 1); assert.strictEqual(s.result.how, 'took'); assert.strictEqual(s.players[0].cards.u1, 0); assert.strictEqual(s.players[1].cards.u1, 1);
+});
+t('terytoria: wygrana po zdobyciu wymaganej liczby jednostek', () => {
+  let s = tgame();
+  s = winCard(s, 'u1', 0); s = winCard(s, 'u2', 0); assert.strictEqual(s.winner, null);
+  s = winCard(s, 'u3', 0); assert.strictEqual(s.winner, 0);
+});
+t('terytoria: talia ma perRegion kart każdej jednostki', () => {
+  const s = tgame(); const all = s.deck.concat([s.top]); assert.strictEqual(all.filter((c) => c.t === 'r' && c.r === 'u2').length, 2);
+});
+t('terytoria: karta Szczęście zabiera całą jednostkę (także umocnioną)', () => {
+  let s = tgame({ specials: true }); s.players[1].cards.u2 = 2; s.players[0].cards.u1 = 1;
+  s.top = { t: 'r', r: 'u1' }; s.phase = 'TURN'; s.active = 0; s.players[0].cards.u1 = 2;
+  s.deck.unshift({ t: 's', k: 'luck' });
+  s = E.reduce(s, { type: 'reroute', p: 0 });
+  s = E.reduce(s, { type: 'special', p: 0, region: 'u2' });
+  assert.strictEqual(s.players[0].cards.u2, 2); assert.strictEqual(s.players[1].cards.u2, 0);
+});
+
 console.log(`\n${passed} testów zaliczonych`);

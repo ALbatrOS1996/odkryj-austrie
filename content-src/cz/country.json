@@ -97,17 +97,17 @@
     "luck": {
       "name": "Golem",
       "short": "Szczęście",
-      "flavor": "Gliniany olbrzym z praskiej legendy przynosi ci kartę regionu, której brakuje, prosto od przeciwnika. Nie działa na gracza w twierdzy."
+      "flavor": "Gliniany olbrzym z praskiej legendy pomaga ci: zabierz przeciwnikowi jeden jego kraj. Nie działa na gracza w twierdzy."
     },
     "detour": {
       "name": "Defenestracja",
       "short": "Objazd",
-      "flavor": "Ktoś wyrzucił twoją kartę przez okno! Oddajesz przeciwnikowi jedną kartę regionu, a jeśli masz duplikat, musisz oddać duplikat."
+      "flavor": "Ktoś wyrzucił twoje papiery przez okno! Oddajesz przeciwnikowi jeden swój kraj."
     },
     "ticket": {
       "name": "Kolejka na Petřín",
       "short": "Bilet",
-      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę regionu."
+      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę jednostki."
     },
     "express": {
       "name": "Polka",
@@ -122,5 +122,9 @@
   "nameLoc": "Czechach",
   "unitsLabel": "krajów",
   "unitsCount": 14,
-  "verbHas": "mają"
+  "verbHas": "mają",
+  "gameRules": {
+    "perRegion": 2,
+    "winUnits": 8
+  }
 }

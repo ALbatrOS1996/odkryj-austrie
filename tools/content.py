@@ -1,5 +1,6 @@
 # Parser i walidator bazy pytań (content-src/<kraj>/*.txt): python tools/content.py at|cz
 import os, re, hashlib, json, collections
+from units import unit_for
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, '..')
@@ -69,6 +70,7 @@ def load(cc='at'):
     qs = []
     errors = []
     REG = dict(country(cc)['regionCodes']); REG['-'] = None
+    GROUP_OF = {s['id']: s['region'] for s in json.load(open(os.path.join(ROOT, 'content-src', cc, 'map.json'), encoding='utf-8'))['states']}
     for cat in CATS:
         path = os.path.join(ROOT, 'content-src', cc, cat.lower() + '.txt')
         for ln, line in enumerate(open(path, encoding='utf-8'), 1):
@@ -87,8 +89,9 @@ def load(cc='at'):
             if reg not in REG:
                 errors.append(f'{cat}:{ln} nieznany kod regionu „{reg}”'); continue
             o2, ci = order_options(qid, opts)
+            unit = unit_for(cc, text + ' ' + opts[0], REG[reg], GROUP_OF)
             q = {
-                'id': qid, 'category': cat, 'difficulty': int(diff), 'regionRef': REG[reg],
+                'id': qid, 'category': cat, 'difficulty': int(diff), 'regionRef': REG[reg], 'unitRef': unit,
                 'question': text, 'options': o2, 'correct': ci, 'explanation': expl,
                 'timeSensitive': False, 'asOf': None,
                 'sources': [expand_source(s) for s in srcs.split()],

@@ -4,6 +4,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który wiedeński pałac, dawna letnia rezydencja Habsburgów, jest wpisany na listę UNESCO razem z ogrodami?",
   "options": [
    "Hofburg",
@@ -39,6 +40,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywa się gotycka katedra w centrum Wiednia, jeden z najważniejszych symboli miasta?",
   "options": [
    "Kościół św. Karola",
@@ -72,6 +74,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywa się największy dzwon katedry św. Szczepana w Wiedniu?",
   "options": [
    "Zygmunt",
@@ -105,6 +108,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Z jakiej okazji zbudowano w 1897 r. diabelski młyn (Riesenrad) w wiedeńskim Praterze?",
   "options": [
    "Jubileuszu Franciszka Józefa I",
@@ -138,6 +142,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Dla kogo zbudowano wiedeński zespół pałacowy Belweder?",
   "options": [
    "Józefa II",
@@ -171,6 +176,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który kompleks był główną, zimową rezydencją Habsburgów w Wiedniu?",
   "options": [
    "Belweder",
@@ -204,6 +210,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Z jaką rasą koni związana jest wiedeńska Hiszpańska Szkoła Jazdy?",
   "options": [
    "Haflingery",
@@ -237,6 +244,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który wiedeński budynek ze złotą kopułą z liści laurowych zbudowano w 1898 r. jako siedzibę artystów secesji?",
   "options": [
    "Burgtheater",
@@ -272,6 +280,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który kolorowy dom komunalny w Wiedniu, z nierównymi podłogami i drzewami na tarasach, zaprojektował Friedensreich Hundertwasser?",
   "options": [
    "Karl-Marx-Hof",
@@ -305,6 +314,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który barokowy kościół w Wiedniu ufundował cesarz Karol VI jako wotum za koniec epidemii dżumy z 1713 r.?",
   "options": [
    "Kościół św. Piotra",
@@ -338,6 +348,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Kolumnę Morową (Pestsäule) na wiedeńskiej ulicy Graben ufundowano po epidemii dżumy z roku:",
   "options": [
    "1529",
@@ -371,6 +382,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywa się reprezentacyjna ulica okalająca centrum Wiednia, zbudowana w miejscu rozebranych murów miejskich?",
   "options": [
    "Ringstraße",
@@ -404,6 +416,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który gmach przy wiedeńskim Ringu, wzorowany na architekturze starożytnej Grecji, ma przed wejściem fontannę z posągiem Ateny?",
   "options": [
    "Ratusz",
@@ -437,6 +450,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jaką operą otwarto w 1869 r. gmach Opery Wiedeńskiej?",
   "options": [
    "Fidelio",
@@ -472,6 +486,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który rozległy teren zieleni w Wiedniu, dawne cesarskie tereny łowieckie, cesarz Józef II udostępnił mieszkańcom w 1766 r.?",
   "options": [
    "Stadtpark",
@@ -505,6 +520,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Który klasztor benedyktynów z barokowym kościołem na skale nad Dunajem jest symbolem doliny Wachau?",
   "options": [
    "Göttweig",
@@ -538,6 +554,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "W zamku w której miejscowości w Wachau więziono w latach 1192-1193 króla Anglii Ryszarda Lwie Serce?",
   "options": [
    "Dürnstein",
@@ -573,6 +590,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "bgl",
   "question": "Jakie jezioro na granicy Austrii i Węgier jest wraz z okolicą wpisane na listę UNESCO jako krajobraz kulturowy?",
   "options": [
    "Wörthersee",
@@ -608,6 +626,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "bgl",
   "question": "W którym mieście Burgenlandu stoi pałac Esterházych, w którym przez lata pracował Joseph Haydn?",
   "options": [
    "Rust",
@@ -643,6 +662,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Która linia kolejowa w Dolnej Austrii i Styrii, zbudowana w latach 1848-1854, jako pierwsza kolej trafiła na listę UNESCO?",
   "options": [
    "Kolej Taurska",
@@ -678,6 +698,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Ile mniej więcej lat ma figurka Wenus z Willendorfu, znaleziona w 1908 r. w Wachau?",
   "options": [
    "ok. 3 tys. lat",
@@ -713,6 +734,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Który park archeologiczny w Dolnej Austrii chroni pozostałości stolicy rzymskiej prowincji Panonia Górna?",
   "options": [
    "Aguntum",
@@ -748,6 +770,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który neogotycki kościół w Wiedniu zbudowano jako wotum za ocalenie Franciszka Józefa z zamachu w 1853 r.?",
   "options": [
    "Kościół Minorytów",
@@ -781,6 +804,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywa się wiedeński zespół muzeów w dawnych stajniach dworskich, z Leopold Museum i mumok?",
   "options": [
    "Hofburg",
@@ -816,6 +840,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Które wiedeńskie muzeum słynie z kolekcji grafiki, w tym akwareli „Zając” Albrechta Dürera?",
   "options": [
    "MuseumsQuartier",
@@ -851,6 +876,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Jak nazywa się twierdza górująca nad starym miastem Salzburga?",
   "options": [
    "Hohenwerfen",
@@ -886,6 +912,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Które miasteczko nad jeziorem w Górnej Austrii, słynne z widoków i dawnego wydobycia soli, jest wpisane na listę UNESCO?",
   "options": [
    "Gmunden",
@@ -921,6 +948,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "W którym kurorcie w Salzkammergut cesarz Franciszek Józef co roku spędzał lato w Kaiservilli?",
   "options": [
    "Baden",
@@ -954,6 +982,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Przy której salzburskiej ulicy stoi dom, w którym w 1756 r. urodził się Mozart?",
   "options": [
    "Herrengasse",
@@ -989,6 +1018,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Który pałac pod Salzburgiem słynie z „wodnych żartów”, czyli ukrytych fontann tryskających na gości?",
   "options": [
    "Klessheim",
@@ -1022,6 +1052,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Które ogrody w Salzburgu, z widokiem na twierdzę, zagrały w filmie „Dźwięki muzyki”?",
   "options": [
    "Ogrody Augarten",
@@ -1057,6 +1088,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Którym świętym jest poświęcona barokowa katedra w Salzburgu?",
   "options": [
    "Szczepanowi",
@@ -1090,6 +1122,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "W którym miasteczku nad Wolfgangsee stoi kościół z gotyckim ołtarzem Michaela Pachera z 1481 r.?",
   "options": [
    "Hallstatt",
@@ -1125,6 +1158,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Który klasztor w Górnej Austrii słynie z organów, przy których grał Anton Bruckner, pochowany w krypcie pod nimi?",
   "options": [
    "Kremsmünster",
@@ -1160,6 +1194,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Jak nazywa się jaskinia lodowa w Werfen, uważana za największą na świecie?",
   "options": [
    "Hundsalm",
@@ -1193,6 +1228,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Które miasto nad jeziorem Traunsee słynie z ceramiki z zielonymi, „płomienistymi” wzorami?",
   "options": [
    "Gmunden",
@@ -1226,6 +1262,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Stare miasto którego miasta wpisano w 1996 r. na listę UNESCO, m.in. za barokową zabudowę dawnej stolicy arcybiskupów?",
   "options": [
    "Graz",
@@ -1261,6 +1298,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Który klasztor w Górnej Austrii założył w 777 r. bawarski książę Tassilo III?",
   "options": [
    "Kremsmünster",
@@ -1296,6 +1334,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "W bazylice w którym miasteczku nad jeziorem w Górnej Austrii kręcono scenę ślubu w filmie „Dźwięki muzyki”?",
   "options": [
    "Hallstatt",
@@ -1331,6 +1370,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Jaki zabytek na wzgórzu Schlossberg jest symbolem Grazu?",
   "options": [
    "Diabelski młyn",
@@ -1364,6 +1404,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Jaka nowoczesna budowla w Grazu, nazywana „przyjaznym kosmitą”, mieści galerię sztuki współczesnej?",
   "options": [
    "mumok",
@@ -1399,6 +1440,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Który pałac w Grazu dołączono w 2010 r. do wpisu UNESCO obejmującego stare miasto?",
   "options": [
    "Hellbrunn",
@@ -1434,6 +1476,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Który zamek w Styrii stoi na skale pochodzenia wulkanicznego i był potężną twierdzą chroniącą przed najazdami?",
   "options": [
    "Kufstein",
@@ -1467,6 +1510,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Do którego sanktuarium maryjnego w Styrii od XII w. przybywają pielgrzymi z całej Europy Środkowej?",
   "options": [
    "Altötting",
@@ -1500,6 +1544,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Który klasztor benedyktynów w Styrii słynie z jednej z największych klasztornych sal bibliotecznych na świecie?",
   "options": [
    "St. Lambrecht",
@@ -1533,6 +1578,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Do którego zamku w Karyntii prowadzi droga przez 14 bram obronnych?",
   "options": [
    "Hochosterwitz",
@@ -1566,6 +1612,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Jaka legendarna bestia, przedstawiona na renesansowej fontannie, jest symbolem Klagenfurtu?",
   "options": [
    "Smok (Lindwurm)",
@@ -1599,6 +1646,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Jak nazywa się park miniatur nad jeziorem Wörthersee z modelami słynnych budowli świata?",
   "options": [
    "Mini-Europe",
@@ -1632,6 +1680,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Jak nazywa się punkt widokowy przy drodze Grossglockner, z którego widać lodowiec Pasterze?",
   "options": [
    "Kaiser-Franz-Josefs-Höhe",
@@ -1665,6 +1714,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Która wieża nad jeziorem Wörthersee uchodzi za najwyższą drewnianą wieżę widokową świata?",
   "options": [
    "Pyramidenkogel",
@@ -1698,6 +1748,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Która romańska katedra w Karyntii ma kryptę wspartą na 100 marmurowych kolumnach?",
   "options": [
    "Gurk",
@@ -1733,6 +1784,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Co przechowuje Landeszeughaus w Grazu, największy zachowany zbiór tego typu na świecie?",
   "options": [
    "Mapy i globusy",
@@ -1766,6 +1818,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Jakie zwierzę widnieje w herbie Styrii?",
   "options": [
    "Smok",
@@ -1799,6 +1852,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Dla którego władcy zbudowano w Innsbrucku Złoty Dach, wykusz kryty złoconymi płytkami?",
   "options": [
    "Marii Teresy",
@@ -1832,6 +1886,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Jak nazywa się skocznia w Innsbrucku, zaprojektowana przez Zahę Hadid, gdzie odbywa się konkurs Turnieju Czterech Skoczni?",
   "options": [
    "Wielka Krokiew",
@@ -1867,6 +1922,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Który zamek w Innsbrucku słynie z renesansowej Sali Hiszpańskiej i kolekcji osobliwości arcyksięcia Ferdynanda II?",
   "options": [
    "Tratzberg",
@@ -1900,6 +1956,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "W którym tyrolskim miasteczku działa muzeum Swarovski Kristallwelten?",
   "options": [
    "Wattens",
@@ -1933,6 +1990,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "W którym tyrolskim mieście w 1486 r. wybito guldiner, dużą srebrną monetę uznawaną za poprzedniczkę talara?",
   "options": [
    "Kufstein",
@@ -1966,6 +2024,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Na której twierdzy nad rzeką Inn codziennie w południe grają Organy Bohaterów (Heldenorgel)?",
   "options": [
    "Ehrenberg",
@@ -1999,6 +2058,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "vbg",
   "question": "Który szwajcarski architekt zaprojektował Kunsthaus w Bregencji, otwarty w 1997 r.?",
   "options": [
    "Le Corbusier",
@@ -2034,6 +2094,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "vbg",
   "question": "Jak nazywa się średniowieczny zamek górujący nad miastem Feldkirch w Vorarlbergu?",
   "options": [
    "Ambras",
@@ -2067,6 +2128,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Który most w ciągu autostrady do przełęczy Brenner był w chwili otwarcia (1963) najwyższym mostem w Europie?",
   "options": [
    "Most Karola",
@@ -2100,6 +2162,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Jakie zwierzę widnieje w herbie Tyrolu?",
   "options": [
    "Koziorożec",
@@ -2133,6 +2196,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "W którym kościele w Innsbrucku stoi pusty grobowiec cesarza Maksymiliana I, otoczony 28 posągami z brązu?",
   "options": [
    "Katedra św. Jakuba",
@@ -2166,6 +2230,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "vbg",
   "question": "Na jaki szczyt nad Bregencją wjeżdża kolejka, z której widać Jezioro Bodeńskie i trzy kraje?",
   "options": [
    "Pfänder",
@@ -2199,6 +2264,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki ptak widnieje w godle Austrii?",
   "options": [
    "Łabędź",
@@ -2234,6 +2300,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co symbolizują zerwane kajdany na szponach orła w godle Austrii?",
   "options": [
    "Wejście do UE w 1995 r.",
@@ -2269,6 +2336,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak wygląda flaga Austrii?",
   "options": [
    "Biały, czerwony, biały pas",
@@ -2304,6 +2372,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Melodia dawnego cesarskiego hymnu Austrii, skomponowana przez Josepha Haydna, jest dziś hymnem:",
   "options": [
    "Niemiec",
@@ -2340,6 +2409,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki kwiat widnieje na austriackiej monecie 2-centowej?",
   "options": [
    "Róża alpejska",
@@ -2375,6 +2445,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która postać widnieje na austriackiej monecie 2 euro?",
   "options": [
    "Wolfgang A. Mozart",
@@ -2410,6 +2481,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Który szczyt jest najwyższy w Austrii?",
   "options": [
    "Grossvenediger",
@@ -2445,6 +2517,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Ile krajów związkowych liczy Austria?",
   "options": [
    "7",
@@ -2478,6 +2551,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Jaka rzeka przepływa przez Wiedeń, Linz i Krems?",
   "options": [
    "Inn",
@@ -2513,6 +2587,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Które miasto jest stolicą Tyrolu?",
   "options": [
    "Innsbruck",
@@ -2548,6 +2623,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Które miasto jest stolicą Styrii?",
   "options": [
    "Villach",
@@ -2583,6 +2659,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Które miasto jest stolicą Karyntii?",
   "options": [
    "Spittal an der Drau",
@@ -2618,6 +2695,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Które miasto jest stolicą Górnej Austrii?",
   "options": [
    "Wels",
@@ -2653,6 +2731,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Które miasto jest stolicą Dolnej Austrii?",
   "options": [
    "Krems",
@@ -2688,6 +2767,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "vbg",
   "question": "Które miasto jest stolicą Vorarlbergu?",
   "options": [
    "Feldkirch",
@@ -2723,6 +2803,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Z iloma państwami graniczy Austria?",
   "options": [
    "6",
@@ -2756,6 +2837,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": null,
   "question": "Z którym państwem Austria ma najkrótszą granicę?",
   "options": [
    "Słowacja",
@@ -2789,6 +2871,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Które z tych państw NIE graniczy z Austrią?",
   "options": [
    "Słowenia",
@@ -2822,6 +2905,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Która rzeka przepływa przez Innsbruck?",
   "options": [
    "Mura",
@@ -2857,6 +2941,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Która rzeka płynie przez Salzburg?",
   "options": [
    "Enns",
@@ -2892,6 +2977,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Nad jaką rzeką leży Graz?",
   "options": [
    "Drawa",
@@ -2927,6 +3013,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Która rzeka, dopływ Dunaju, płynie przez Lienz i Villach, a dalej przez Słowenię i Chorwację?",
   "options": [
    "Mura",
@@ -2962,6 +3049,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Które jezioro w Karyntii słynie z ciepłej wody i kurortów Velden i Pörtschach?",
   "options": [
    "Weissensee",
@@ -2997,6 +3085,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Na którym jeziorze w Karyntii Holendrzy organizują zimą masowe biegi łyżwiarskie na 200 km?",
   "options": [
    "Ossiacher See",
@@ -3032,6 +3121,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Jak nazywa się kraina jezior i gór na wschód od Salzburga, słynąca z dawnego wydobycia soli?",
   "options": [
    "Montafon",
@@ -3065,6 +3155,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Jak nazywa się dolina Dunaju między Melkiem a Krems, słynąca z winnic i moreli?",
   "options": [
    "Salzkammergut",
@@ -3100,6 +3191,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Jak nazywa się zalesione pasmo wzgórz na skraju Wiednia, stanowiące północno-wschodni kraniec Alp?",
   "options": [
    "Szwarcwald",
@@ -3133,6 +3225,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Który park narodowy chroni lasy łęgowe nad Dunajem między Wiedniem a granicą ze Słowacją?",
   "options": [
    "Gesäuse",
@@ -3168,6 +3261,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Który największy park narodowy Alp obejmuje Grossglockner i leży w Karyntii, Salzburgu i Tyrolu?",
   "options": [
    "Thayatal",
@@ -3203,6 +3297,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Który wodospad w kraju Salzburg jest najwyższy w Austrii?",
   "options": [
    "Wodospady Krimml",
@@ -3238,6 +3333,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Jaki masyw z lodowcami leży na granicy Górnej Austrii, Salzburga i Styrii?",
   "options": [
    "Dachstein",
@@ -3273,6 +3369,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Przez którą przełęcz w Tyrolu biegnie najważniejsza droga i linia kolejowa z Austrii do Włoch?",
   "options": [
    "Timmelsjoch",
@@ -3308,6 +3405,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "vbg",
   "question": "Która przełęcz, z tunelem drogowym i kolejowym, łączy Tyrol z Vorarlbergiem?",
   "options": [
    "Arlberg",
@@ -3343,6 +3441,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "vbg",
   "question": "Nad jakim jeziorem leży Bregencja?",
   "options": [
    "Jeziorem Genewskim",
@@ -3378,6 +3477,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "vbg",
   "question": "Jaka rzeka tworzy granicę Vorarlbergu ze Szwajcarią i Liechtensteinem i wpada do Jeziora Bodeńskiego?",
   "options": [
    "Ren",
@@ -3413,6 +3513,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Która tyrolska dolina słynie z kurortu Mayrhofen i lodowca Hintertux, czynnego przez cały rok?",
   "options": [
    "Stubaital",
@@ -3446,6 +3547,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "W której tyrolskiej dolinie leży Sölden, gdzie jesienią na lodowcu startuje sezon Pucharu Świata w narciarstwie alpejskim?",
   "options": [
    "Zillertal",
@@ -3481,6 +3583,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "vbg",
   "question": "Który kraj związkowy leży najdalej na zachód?",
   "options": [
    "Karyntia",
@@ -3514,6 +3617,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "bgl",
   "question": "W którym kraju związkowym leży najniżej położony punkt Austrii (ok. 114 m n.p.m.)?",
   "options": [
    "Burgenland",
@@ -3547,6 +3651,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaką część powierzchni Austrii zajmują Alpy?",
   "options": [
    "ok. 10%",
@@ -3582,6 +3687,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Które miasto jest drugim co do liczby mieszkańców w Austrii?",
   "options": [
    "Salzburg",
@@ -3615,6 +3721,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywa się długa na ok. 21 km sztuczna wyspa na Dunaju w Wiedniu?",
   "options": [
    "Lobau",
@@ -3648,6 +3755,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": null,
   "question": "Jaka rzeka tworzy granicę Austrii ze Słowacją?",
   "options": [
    "Raba",
@@ -3683,6 +3791,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Jak nazywa się zalesiony, wyżynny region na północnym zachodzie Dolnej Austrii, słynący z granitu i stawów rybnych?",
   "options": [
    "Waldviertel",
@@ -3716,6 +3825,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Na ile dzielnic (Bezirke) podzielony jest Wiedeń?",
   "options": [
    "12",
@@ -3749,6 +3859,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "W której miejscowości leży główny port lotniczy Austrii, obsługujący Wiedeń?",
   "options": [
    "Mödling",
@@ -3784,6 +3895,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": null,
   "question": "W której części Austrii panuje najcieplejszy i najsuchszy klimat, z wpływami panońskimi?",
   "options": [
    "W Vorarlbergu",
@@ -3819,6 +3931,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Jak nazywa się ciepły, suchy wiatr spływający z Alp, częsty np. w Innsbrucku?",
   "options": [
    "Fen",
@@ -3854,6 +3967,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Jakie pasmo górskie tworzy granicę Karyntii ze Słowenią?",
   "options": [
    "Karawanki",
@@ -3889,6 +4003,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Jak nazywa się winiarski region wzgórz przy granicy ze Słowenią, zwany „styryjską Toskanią”?",
   "options": [
    "Wachau",
@@ -3922,6 +4037,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Który kraj związkowy nazywany jest „zielonym sercem Austrii”, bo lasy pokrywają ponad połowę jego powierzchni?",
   "options": [
    "Tyrol",
@@ -3955,6 +4071,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Jak nazywa się góra w Styrii, z której od stuleci wydobywa się rudę żelaza metodą odkrywkową?",
   "options": [
    "Erzberg",
@@ -3990,6 +4107,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Który kraj związkowy graniczy jednocześnie z Włochami i Słowenią?",
   "options": [
    "Karyntia",
@@ -4023,6 +4141,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Z którymi państwami graniczy Górna Austria?",
   "options": [
    "Z Węgrami i Słowacją",
@@ -4056,6 +4175,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Które jezioro jest największym leżącym w całości na terytorium Austrii?",
   "options": [
    "Wörthersee",
@@ -4091,6 +4211,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Które jezioro jest najgłębsze w Austrii?",
   "options": [
    "Traunsee",
@@ -4126,6 +4247,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "W którym mieście koło Salzburga można zwiedzać kopalnię soli na Dürrnbergu i muzeum Celtów?",
   "options": [
    "Werfen",
@@ -4159,6 +4281,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Który region Górnej Austrii leży na północ od Dunaju, przy granicy z Czechami?",
   "options": [
    "Traunviertel",
@@ -4192,6 +4315,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka jest w przybliżeniu powierzchnia Austrii?",
   "options": [
    "ok. 41 tys. km²",
@@ -4225,6 +4349,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "vbg",
   "question": "Jak nazywa się dolina w Vorarlbergu nad rzeką Ill, prowadząca w masyw Silvretta?",
   "options": [
    "Zillertal",
@@ -4258,6 +4383,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Które miasto jest stolicą Tyrolu Wschodniego, oddzielonego lądowo od reszty Tyrolu?",
   "options": [
    "Kufstein",
@@ -4291,6 +4417,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Najwyższy szczyt Niemiec, Zugspitze, leży na granicy z którym krajem związkowym Austrii?",
   "options": [
    "Tyrol",
@@ -4326,6 +4453,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Które jezioro jest największe w Tyrolu?",
   "options": [
    "Zeller See",
@@ -4361,6 +4489,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Do zlewiska jakiego morza należy prawie cała Austria?",
   "options": [
    "Morza Adriatyckiego",
@@ -4396,6 +4525,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywają się austriackie koleje państwowe?",
   "options": [
    "ÖBB",
@@ -4431,6 +4561,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Jak nazywa się największy region winiarski Austrii, w północno-wschodniej części Dolnej Austrii?",
   "options": [
    "Südsteiermark",
@@ -4464,6 +4595,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywa się mniejsza rzeka płynąca przez Wiedeń, od której prawdopodobnie pochodzi nazwa miasta?",
   "options": [
    "Wełtawa",
@@ -4499,6 +4631,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Jaka linia kolejowa z tunelem o długości ok. 33 km połączyła w 2025 r. Graz z Klagenfurtem?",
   "options": [
    "Koralmbahn",
@@ -4534,6 +4667,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Przez ile krajów związkowych przepływa Dunaj?",
   "options": [
    "2",
@@ -4569,6 +4703,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Który kraj związkowy całkowicie otacza Wiedeń?",
   "options": [
    "Górna Austria",
@@ -4602,6 +4737,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Który kraj związkowy jest drugi pod względem powierzchni?",
   "options": [
    "Karyntia",
@@ -4635,6 +4771,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Jaki koncern stalowy ma siedzibę w Linzu?",
   "options": [
    "ThyssenKrupp",
@@ -4670,6 +4807,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Które uzdrowisko pod Wiedniem słynie z gorących źródeł siarczanych i letnich pobytów Beethovena?",
   "options": [
    "Baden",
@@ -4705,6 +4843,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "wien",
   "question": "Skąd pochodzi większość wody pitnej Wiednia?",
   "options": [
    "Ze studni pod miastem",
@@ -4738,6 +4877,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "W której dolinie Tyrolu leży Ischgl, znany z koncertów na otwarcie sezonu narciarskiego?",
   "options": [
    "Paznaun",
@@ -4771,6 +4911,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Która rzeka płynie przez Steyr i tworzy część granicy Górnej i Dolnej Austrii?",
   "options": [
    "Inn",
@@ -4806,6 +4947,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Gdzie dziś przechowywana jest mumia Ötziego, znaleziona w 1991 r. w Alpach Ötztalskich?",
   "options": [
    "W Bolzano we Włoszech",
@@ -4841,6 +4983,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywał się rzymski obóz legionowy w miejscu dzisiejszego Wiednia?",
   "options": [
    "Carnuntum",
@@ -4876,6 +5019,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Od nazwy której austriackiej miejscowości nazwano kulturę wczesnej epoki żelaza w Europie?",
   "options": [
    "Krems",
@@ -4911,6 +5055,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": "ktn",
   "question": "Jak nazywała się rzymska prowincja obejmująca środkową Austrię, m.in. dzisiejszą Karyntię i Salzburg?",
   "options": [
    "Recja",
@@ -4946,6 +5091,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Który rzymski cesarz pisał część „Rozmyślań” w obozie wojskowym w Carnuntum?",
   "options": [
    "Marek Aureliusz",
@@ -4981,6 +5127,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka dynastia władała Austrią przed Habsburgami, w latach 976-1246?",
   "options": [
    "Babenbergowie",
@@ -5016,6 +5163,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Z którego roku pochodzi najstarsza znana wzmianka o nazwie „Ostarrîchi”, od której wywodzi się nazwa Austrii?",
   "options": [
    "996",
@@ -5051,6 +5199,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Na mocy jakiego dokumentu Austria została w 1156 r. księstwem?",
   "options": [
    "Privilegium maius",
@@ -5086,6 +5235,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który Habsburg przejął władzę w Austrii po zwycięstwie nad Przemysłem Ottokarem II w 1278 r.?",
   "options": [
    "Maksymilian I",
@@ -5121,6 +5271,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który książę założył w 1365 r. Uniwersytet Wiedeński?",
   "options": [
    "Rudolf IV Założyciel",
@@ -5156,6 +5307,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "W 1363 r. Tyrol przeszedł pod władzę Habsburgów po zrzeczeniu się go przez hrabinę:",
   "options": [
    "Annę Jagiellonkę",
@@ -5191,6 +5343,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który władca używał tajemniczego skrótu AEIOU na budowlach i przedmiotach?",
   "options": [
    "Karol VI",
@@ -5226,6 +5379,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym dzisiejszym państwie leży zamek Habsburg, od którego dynastia wzięła nazwę?",
   "options": [
    "Niemczech",
@@ -5261,6 +5415,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Słynna maksyma „Niech inni prowadzą wojny, ty, szczęśliwa Austrio, zawieraj małżeństwa” dotyczy polityki:",
   "options": [
    "Habsburgów",
@@ -5296,6 +5451,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "wien",
   "question": "Kto reprezentował Polskę na zjeździe z cesarzem Maksymilianem I w Wiedniu w 1515 r.?",
   "options": [
    "Jan Olbracht",
@@ -5332,6 +5488,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który sułtan oblegał Wiedeń w 1529 r.?",
   "options": [
    "Murad II",
@@ -5367,6 +5524,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "W którym roku wojska pod wodzą Jana III Sobieskiego rozbiły armię turecką pod Wiedniem?",
   "options": [
    "1529",
@@ -5403,6 +5561,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Kto dowodził obroną Wiednia w czasie tureckiego oblężenia w 1683 r.?",
   "options": [
    "Eugeniusz Sabaudzki",
@@ -5439,6 +5598,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który polski zakon opiekuje się kościołem na wiedeńskim wzgórzu Kahlenberg, gdzie upamiętniono odsiecz z 1683 r.?",
   "options": [
    "Zmartwychwstańcy",
@@ -5475,6 +5635,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który wódz cesarski rozbił Turków pod Zentą w 1697 r.?",
   "options": [
    "Karol Lotaryński",
@@ -5510,6 +5671,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która władczyni rządziła krajami habsburskimi w latach 1740-1780?",
   "options": [
    "Elżbieta (Sisi)",
@@ -5545,6 +5707,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki dokument z 1713 r. pozwolił Marii Teresie objąć tron?",
   "options": [
    "Privilegium minus",
@@ -5580,6 +5743,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Którą bogatą prowincję Maria Teresa utraciła na rzecz Prus Fryderyka II?",
   "options": [
    "Tyrol",
@@ -5615,6 +5779,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Królową którego kraju została Maria Antonina, córka Marii Teresy?",
   "options": [
    "Francji",
@@ -5650,6 +5815,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym rozbiorze Polski Austria zajęła Kraków?",
   "options": [
    "Żadnym",
@@ -5686,6 +5852,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazwano ziemie polskie zajęte przez Austrię w 1772 r.?",
   "options": [
    "Królestwo Kongresowe",
@@ -5722,6 +5889,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który cesarz w 1781 r. wydał patent tolerancyjny i zniósł poddaństwo osobiste chłopów?",
   "options": [
    "Józef II",
@@ -5757,6 +5925,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który Habsburg panował nad imperium, „nad którym nie zachodzi słońce”, i abdykował w 1556 r.?",
   "options": [
    "Ferdynand I",
@@ -5792,6 +5961,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Od kiedy Galicja korzystała z szerokiej autonomii, z językiem polskim w urzędach i na uczelniach?",
   "options": [
    "Od 1918 r.",
@@ -5828,6 +5998,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "wien",
   "question": "Kto jako minister spraw zagranicznych Austrii przewodniczył obradom Kongresu wiedeńskiego?",
   "options": [
    "Adam Czartoryski",
@@ -5863,6 +6034,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "W której bitwie pod Wiedniem w 1809 r. Napoleon poniósł pierwszą dużą porażkę?",
   "options": [
    "Pod Austerlitz",
@@ -5898,6 +6070,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Kto przewodził powstaniu tyrolskiemu przeciw Bawarii i Francji w 1809 r.?",
   "options": [
    "Arcyksiążę Jan",
@@ -5933,6 +6106,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który władca w 1804 r. ogłosił się cesarzem Austrii, a w 1806 r. rozwiązał Święte Cesarstwo Rzymskie?",
   "options": [
    "Leopold II",
@@ -5968,6 +6142,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który cesarz wstąpił na tron w 1848 r., mając 18 lat, i panował do 1916 r.?",
   "options": [
    "Ferdynand I",
@@ -6003,6 +6178,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym roku powstały Austro-Węgry?",
   "options": [
    "1815",
@@ -6038,6 +6214,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Po przegranej z Prusami w której bitwie (1866) Austria straciła wpływy w Niemczech?",
   "options": [
    "Pod Sadową",
@@ -6073,6 +6250,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Pod jakim zdrobnieniem znana jest cesarzowa Elżbieta, żona Franciszka Józefa?",
   "options": [
    "Mimi",
@@ -6108,6 +6286,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Gdzie w 1889 r. zginął następca tronu, arcyksiążę Rudolf?",
   "options": [
    "W Miramare",
@@ -6143,6 +6322,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który Polak w latach 1895-1897 był premierem austriackiej części monarchii?",
   "options": [
    "Agenor Gołuchowski",
@@ -6179,6 +6359,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym roku Austria wcieliła do Galicji Wolne Miasto Kraków?",
   "options": [
    "1795",
@@ -6215,6 +6396,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "W którym roku Salzburg, dawne księstwo arcybiskupie, ostatecznie przyłączono do Austrii?",
   "options": [
    "1683",
@@ -6250,6 +6432,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Którego marszałka, zwycięzcę z kampanii włoskich 1848 r., upamiętnia słynny marsz Johanna Straussa ojca?",
   "options": [
    "Josepha Radetzky’ego",
@@ -6285,6 +6468,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym roku zniesiono pańszczyznę w austriackiej części monarchii?",
   "options": [
    "1781",
@@ -6320,6 +6504,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "wien",
   "question": "Jak nazywa się epoka w kulturze Austrii między Kongresem wiedeńskim a Wiosną Ludów, kojarzona z mieszczańskim życiem domowym?",
   "options": [
    "Secesja",
@@ -6355,6 +6540,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Zabójstwo którego arcyksięcia w Sarajewie w 1914 r. stało się pretekstem do I wojny światowej?",
   "options": [
    "Maksymiliana",
@@ -6390,6 +6576,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym mieście Galicji w sierpniu 1914 r. powstały Legiony Polskie, walczące w armii austro-węgierskiej?",
   "options": [
    "W Krakowie",
@@ -6426,6 +6613,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która galicyjska twierdza, oblegana przez Rosjan, skapitulowała w marcu 1915 r.?",
   "options": [
    "Przemyśl",
@@ -6462,6 +6650,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto był ostatnim cesarzem Austrii?",
   "options": [
    "Franciszek Józef I",
@@ -6497,6 +6686,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Którego dnia w 1918 r. proklamowano republikę w Austrii?",
   "options": [
    "12 listopada",
@@ -6532,6 +6722,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który traktat z 1919 r. ustalił granice Republiki Austrii i zakazał jej połączenia z Niemcami?",
   "options": [
    "Traktat z Trianon",
@@ -6567,6 +6758,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "bgl",
   "question": "Który kraj związkowy przyłączono do Austrii w 1921 r. z ziem dawnych Węgier?",
   "options": [
    "Vorarlberg",
@@ -6602,6 +6794,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "W 1920 r. mieszkańcy południowej Karyntii zdecydowali w plebiscycie, że nie przyłączą się do:",
   "options": [
    "Czechosłowacji",
@@ -6637,6 +6830,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywa się okres rządów socjaldemokratów w Wiedniu w latach 1919-1934, słynny z budowy mieszkań komunalnych?",
   "options": [
    "Złoty Wiedeń",
@@ -6672,6 +6866,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który kanclerz Austrii zginął w lipcu 1934 r. podczas próby puczu nazistów?",
   "options": [
    "Karl Renner",
@@ -6707,6 +6902,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym roku III Rzesza dokonała Anschlussu, czyli przyłączenia Austrii?",
   "options": [
    "1934",
@@ -6742,6 +6938,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "W którym austriackim mieście urodził się Adolf Hitler?",
   "options": [
    "Braunau am Inn",
@@ -6777,6 +6974,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "W którym kompleksie obozów koncentracyjnych w Górnej Austrii więziono i zamordowano tysiące Polaków, zwłaszcza w podobozie Gusen?",
   "options": [
    "Dachau",
@@ -6813,6 +7011,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "wien",
   "question": "Która armia zdobyła Wiedeń w kwietniu 1945 r.?",
   "options": [
    "Armia brytyjska",
@@ -6848,6 +7047,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Na ile stref okupacyjnych podzielono Austrię po II wojnie światowej?",
   "options": [
    "2",
@@ -6883,6 +7083,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który polityk stanął na czele rządu tymczasowego w 1945 r., a potem został prezydentem?",
   "options": [
    "Bruno Kreisky",
@@ -6918,6 +7119,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": null,
   "question": "W którym roku podpisano traktat państwowy, który przywrócił Austrii pełną niepodległość?",
   "options": [
    "1945",
@@ -6953,6 +7155,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki status Austria przyjęła ustawą konstytucyjną z 26 października 1955 r.?",
   "options": [
    "Członka NATO",
@@ -6988,6 +7191,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Przez granicę Austrii w 1956 r. uciekło ok. 180 tys. uchodźców z kraju, w którym stłumiono powstanie. Z którego?",
   "options": [
    "Z Czechosłowacji",
@@ -7023,6 +7227,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Na której granicy w sierpniu 1989 r., podczas „pikniku paneuropejskiego”, setki obywateli NRD uciekły do Austrii?",
   "options": [
    "Czechosłowackiej",
@@ -7058,6 +7263,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym roku Austria przystąpiła do Unii Europejskiej?",
   "options": [
    "1973",
@@ -7093,6 +7299,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywała się waluta Austrii przed wprowadzeniem euro?",
   "options": [
    "Szyling",
@@ -7128,6 +7335,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który Austriak był sekretarzem generalnym ONZ w latach 1972-1981?",
   "options": [
    "Alois Mock",
@@ -7163,6 +7371,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który kanclerz rządził Austrią najdłużej w II Republice (1970-1983)?",
   "options": [
    "Leopold Figl",
@@ -7198,6 +7407,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Którzy przywódcy spotkali się na szczycie w Wiedniu w czerwcu 1961 r.?",
   "options": [
    "Nixon i Breżniew",
@@ -7233,6 +7443,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Czego zakazuje ustawa z 1919 r., przez którą austriaccy arystokraci nie mogą oficjalnie używać przydomka „von”?",
   "options": [
    "Służby w wojsku",
@@ -7268,6 +7479,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "W którym mieście urodził się Wolfgang Amadeus Mozart?",
   "options": [
    "Linz",
@@ -7303,6 +7515,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": null,
   "question": "Który kompozytor, nazywany „królem walca”, napisał „Nad pięknym modrym Dunajem”?",
   "options": [
    "Johann Strauss syn",
@@ -7338,6 +7551,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Kto skomponował Marsz Radetzky’ego, którym kończy się Koncert Noworoczny w Wiedniu?",
   "options": [
    "Franz von Suppé",
@@ -7373,6 +7587,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Która orkiestra gra Koncert Noworoczny w Złotej Sali wiedeńskiego Musikverein?",
   "options": [
    "Orkiestra Mozarteum",
@@ -7408,6 +7623,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "bgl",
   "question": "Który kompozytor, nazywany „ojcem symfonii”, przez prawie 30 lat służył książętom Esterházy?",
   "options": [
    "Christoph W. Gluck",
@@ -7443,6 +7659,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który urodzony w Wiedniu kompozytor napisał ponad 600 pieśni, m.in. „Króla olch”?",
   "options": [
    "Robert Schumann",
@@ -7478,6 +7695,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "wien",
   "question": "W którym mieście urodził się Ludwig van Beethoven, związany przez większość życia z Wiedniem?",
   "options": [
    "W Wiedniu",
@@ -7513,6 +7731,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który kompozytor był w latach 1897-1907 dyrektorem Opery Dworskiej w Wiedniu?",
   "options": [
    "Anton Bruckner",
@@ -7548,6 +7767,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który wiedeński kompozytor stworzył dodekafonię, technikę opartą na 12 dźwiękach?",
   "options": [
    "Arnold Schönberg",
@@ -7583,6 +7803,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Jaki słynny festiwal muzyki i teatru odbywa się latem od 1920 r. w Salzburgu?",
   "options": [
    "Salzburger Festspiele",
@@ -7618,6 +7839,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "vbg",
   "question": "Który festiwal słynie z oper wystawianych na scenie na Jeziorze Bodeńskim?",
   "options": [
    "Festiwal w Salzburgu",
@@ -7653,6 +7875,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Jaki festiwal sztuki cyfrowej i nowych technologii odbywa się w Linzu od 1979 r.?",
   "options": [
    "Donaufestival",
@@ -7688,6 +7911,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "W której miejscowości koło Salzburga w 1818 r. po raz pierwszy zaśpiewano kolędę „Cicha noc”?",
   "options": [
    "Hallein",
@@ -7723,6 +7947,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto skomponował operetkę „Wesoła wdówka” (1905)?",
   "options": [
    "Franz von Suppé",
@@ -7758,6 +7983,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który austriacki muzyk dotarł w 1986 r. na szczyt listy przebojów w USA piosenką „Rock Me Amadeus”?",
   "options": [
    "DJ Ötzi",
@@ -7793,6 +8019,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto jako pierwszy wygrał Konkurs Piosenki Eurowizji dla Austrii (1966)?",
   "options": [
    "Conchita Wurst",
@@ -7828,6 +8055,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto namalował „Pocałunek”, obraz ze złotymi ornamentami?",
   "options": [
    "Gustav Klimt",
@@ -7863,6 +8091,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który obraz Klimta po sporze o zwrot dzieł zagrabionych przez nazistów trafił w 2006 r. do Nowego Jorku?",
   "options": [
    "Judyta",
@@ -7898,6 +8127,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który malarz ekspresjonista zmarł w 1918 r. na grypę hiszpankę, w wieku 28 lat?",
   "options": [
    "Richard Gerstl",
@@ -7933,6 +8163,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto namalował „Oblubienicę wiatru” (1913), inspirowaną romansem z Almą Mahler?",
   "options": [
    "Richard Gerstl",
@@ -7968,6 +8199,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "wien",
   "question": "Jakiej linii unikał w architekturze Friedensreich Hundertwasser, nazywając ją „bezbożną”?",
   "options": [
    "Spiralnej",
@@ -8003,6 +8235,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Które wiedeńskie muzeum ma największą na świecie kolekcję obrazów Pietera Bruegla starszego?",
   "options": [
    "Belweder",
@@ -8038,6 +8271,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który architekt zaprojektował stacje wiedeńskiej kolei miejskiej i gmach Pocztowej Kasy Oszczędności?",
   "options": [
    "Joseph Maria Olbrich",
@@ -8073,6 +8307,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Kto napisał esej „Ornament i zbrodnia” i zaprojektował gładki Looshaus naprzeciw Hofburga?",
   "options": [
    "Otto Wagner",
@@ -8108,6 +8343,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jaka pracownia rzemiosła artystycznego powstała w Wiedniu w 1903 r. z inicjatywy Josefa Hoffmanna i Kolomana Mosera?",
   "options": [
    "Bauhaus",
@@ -8143,6 +8379,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Historia której rodziny z Salzburga stała się kanwą musicalu i filmu „Dźwięki muzyki”?",
   "options": [
    "Von Trappów",
@@ -8178,6 +8415,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który wiedeński pisarz napisał wspomnienia „Świat wczorajszy” i opowiadanie „Szachownica”?",
   "options": [
    "Arthur Schnitzler",
@@ -8213,6 +8451,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który pisarz, urodzony w galicyjskich Brodach, napisał powieść „Marsz Radetzky’ego”?",
   "options": [
    "Stefan Zweig",
@@ -8248,6 +8487,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto jest autorem niedokończonej powieści „Człowiek bez właściwości”, której akcja toczy się w „Kakanii”?",
   "options": [
    "Thomas Mann",
@@ -8283,6 +8523,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która austriacka pisarka otrzymała Nagrodę Nobla w dziedzinie literatury w 2004 r.?",
   "options": [
    "Elfriede Jelinek",
@@ -8318,6 +8559,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która austriacka autorka napisała książkę „Konrad, czyli dziecko z puszki”?",
   "options": [
    "Elfriede Jelinek",
@@ -8353,6 +8595,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który wiedeński pisarz i lekarz napisał skandalizującą sztukę „Korowód”?",
   "options": [
    "Karl Kraus",
@@ -8388,6 +8631,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto napisał libretto do opery Richarda Straussa „Kawaler srebrnej róży”?",
   "options": [
    "Hugo von Hofmannsthal",
@@ -8423,6 +8667,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który wiedeński lekarz stworzył psychoanalizę?",
   "options": [
    "Viktor Frankl",
@@ -8458,6 +8703,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Który fizyk z Salzburga opisał zmianę częstotliwości fali zależną od ruchu jej źródła?",
   "options": [
    "Ludwig Boltzmann",
@@ -8493,6 +8739,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który fizyk z Wiednia, laureat Nobla z 1933 r., jest autorem eksperymentu myślowego z kotem?",
   "options": [
    "Victor Franz Hess",
@@ -8528,6 +8775,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Która urodzona w Wiedniu fizyczka współodkryła rozszczepienie jądra atomowego i jest patronką pierwiastka 109?",
   "options": [
    "Marietta Blau",
@@ -8563,6 +8811,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Która aktorka z Wiednia współtworzyła technikę skakania po częstotliwościach, używaną dziś w łączności bezprzewodowej?",
   "options": [
    "Romy Schneider",
@@ -8599,6 +8848,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Od nazwiska którego austriackiego fizyka pochodzi określenie prędkości wyrażanej jako wielokrotność prędkości dźwięku?",
   "options": [
    "Blaise Pascal",
@@ -8634,6 +8884,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": null,
   "question": "Który konstruktor zaprojektował Volkswagena Garbusa i dał nazwisko marce aut sportowych?",
   "options": [
    "Gottlieb Daimler",
@@ -8669,6 +8920,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który wiedeński lekarz odkrył grupy krwi, za co w 1930 r. otrzymał Nagrodę Nobla?",
   "options": [
    "Julius Wagner-Jauregg",
@@ -8704,6 +8956,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który logik związany z Uniwersytetem Wiedeńskim udowodnił twierdzenia o niezupełności?",
   "options": [
    "Moritz Schlick",
@@ -8739,6 +8992,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który filozof z Wiednia napisał „Traktat logiczno-filozoficzny”?",
   "options": [
    "Ernst Mach",
@@ -8774,6 +9028,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który austriacki badacz zachowań zwierząt opisał zjawisko wdrukowania, prowadząc za sobą gąsięta?",
   "options": [
    "Charles Darwin",
@@ -8809,6 +9064,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Niedaleko którego miasta, w miejscowości Thal, urodził się Arnold Schwarzenegger?",
   "options": [
    "Linz",
@@ -8844,6 +9100,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który aktor z Wiednia zdobył dwa Oscary za role w filmach Quentina Tarantino?",
   "options": [
    "Christoph Waltz",
@@ -8879,6 +9136,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który austriacki reżyser dwukrotnie zdobył Złotą Palmę w Cannes (2009, 2012)?",
   "options": [
    "Michael Haneke",
@@ -8914,6 +9172,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": null,
   "question": "Na jakim instrumencie Anton Karas zagrał słynny motyw z filmu „Trzeci człowiek” (1949)?",
   "options": [
    "Na harmonijce",
@@ -8950,6 +9209,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": null,
   "question": "Która aktorka zagrała cesarzową w trylogii filmowej „Sissi” z lat 50.?",
   "options": [
    "Maria Schell",
@@ -8985,6 +9245,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "W którym tyrolskim kurorcie odbywa się słynny zjazd na trasie Streif?",
   "options": [
    "Kitzbühel",
@@ -9020,6 +9281,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "tir",
   "question": "Który narciarz wygrał zjazd olimpijski w Innsbrucku w 1976 r., stając się bohaterem Austrii?",
   "options": [
    "Toni Sailer",
@@ -9055,6 +9317,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który Austriak zdobył w 1956 r. w Cortina d’Ampezzo trzy złote medale olimpijskie w narciarstwie alpejskim?",
   "options": [
    "Toni Sailer",
@@ -9090,6 +9353,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który narciarz zdobył Puchar Świata w klasyfikacji generalnej osiem razy z rzędu (2012-2019)?",
   "options": [
    "Benjamin Raich",
@@ -9125,6 +9389,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który narciarz, zwany „Herminatorem”, po groźnym upadku w Nagano (1998) zdobył dwa złote medale?",
   "options": [
    "Hermann Maier",
@@ -9160,6 +9425,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który Austriak trzykrotnie został mistrzem świata Formuły 1, mimo ciężkiego wypadku na Nürburgringu w 1976 r.?",
   "options": [
    "Alexander Wurz",
@@ -9195,6 +9461,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który austriacki tenisista wygrał US Open w 2020 r.?",
   "options": [
    "Sebastian Ofner",
@@ -9230,6 +9497,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który austriacki skoczek wygrał Turniej Czterech Skoczni dwa razy z rzędu (2012 i 2013)?",
   "options": [
    "Andreas Goldberger",
@@ -9265,6 +9533,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Które dwa kluby rozgrywają piłkarskie derby Wiednia?",
   "options": [
    "Rapid i Austria",
@@ -9300,6 +9569,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Który wiedeński piłkarz zdobywał Ligę Mistrzów z Bayernem Monachium i z Realem Madryt?",
   "options": [
    "Herbert Prohaska",
@@ -9335,6 +9605,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Które państwo współorganizowało z Austrią mistrzostwa Europy w piłce nożnej w 2008 r.?",
   "options": [
    "Szwajcaria",
@@ -9370,6 +9641,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "wien",
   "question": "Z jakiego mięsa przygotowuje się prawdziwy sznycel wiedeński?",
   "options": [
    "Z kurczaka",
@@ -9405,6 +9677,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywa się słynny wiedeński tort czekoladowy z warstwą konfitury morelowej?",
   "options": [
    "Esterházy-Torte",
@@ -9440,6 +9713,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "Który tort z kratką z ciasta i konfiturą z porzeczek uchodzi za najstarszy tort znany z przepisu?",
   "options": [
    "Sachertorte",
@@ -9475,6 +9749,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakim ciastem owija się jabłka w klasycznym Apfelstrudel?",
   "options": [
    "Ciastem drożdżowym",
@@ -9510,6 +9785,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się rwany, słodki omlet z rodzynkami, posypany cukrem pudrem?",
   "options": [
    "Kaiserschmarrn",
@@ -9545,6 +9821,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "sbg",
   "question": "Który salzburski cukiernik wymyślił w 1890 r. czekoladki Mozartkugeln?",
   "options": [
    "Christoph Demel",
@@ -9580,6 +9857,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Czym jest Tafelspitz, ulubione danie Franciszka Józefa?",
   "options": [
    "Gotowaną wołowiną",
@@ -9615,6 +9893,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "stm",
   "question": "Z czego tłoczy się ciemnozielony olej, przysmak Styrii?",
   "options": [
    "Z orzechów włoskich",
@@ -9650,6 +9929,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Wafle której wiedeńskiej firmy, w różowym opakowaniu, mają w logo katedrę św. Szczepana?",
   "options": [
    "Manner",
@@ -9685,6 +9965,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki szczep winorośli jest najczęściej uprawiany w Austrii?",
   "options": [
    "Blaufränkisch",
@@ -9720,6 +10001,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto jest głową państwa w Austrii?",
   "options": [
    "Cesarz",
@@ -9755,6 +10037,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Na ile lat wybierany jest prezydent federalny Austrii?",
   "options": [
    "4",
@@ -9790,6 +10073,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się izba austriackiego parlamentu wybierana w wyborach powszechnych?",
   "options": [
    "Bundestag",
@@ -9825,6 +10109,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Ilu posłów liczy Rada Narodowa?",
   "options": [
    "100",
@@ -9860,6 +10145,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto wybiera członków Rady Federalnej (Bundesrat)?",
   "options": [
    "Sejmy krajów związkowych",
@@ -9895,6 +10181,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Od jakiego wieku można głosować w wyborach do Rady Narodowej?",
   "options": [
    "Od 16 lat",
@@ -9930,6 +10217,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Austria w 1920 r. jako jedno z pierwszych państw utworzyła odrębny trybunał konstytucyjny. Kto był głównym twórcą tej koncepcji?",
   "options": [
    "Friedrich Hayek",
@@ -9965,6 +10253,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Z którego roku pochodzi obowiązująca konstytucja federalna Austrii (z późniejszymi zmianami)?",
   "options": [
    "1867",
@@ -10000,6 +10289,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Przy jakim placu w Wiedniu mieści się Urząd Kanclerza Federalnego, którego nazwa bywa synonimem rządu?",
   "options": [
    "Ballhausplatz",
@@ -10035,6 +10325,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się szef rządu kraju związkowego?",
   "options": [
    "Landeshauptmann",
@@ -10070,6 +10361,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Ile trwa zasadnicza służba wojskowa w Austrii?",
   "options": [
    "6 miesięcy",
@@ -10105,6 +10397,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Do którego sojuszu NIE należy Austria ze względu na neutralność?",
   "options": [
    "ONZ",
@@ -10140,6 +10433,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Która organizacja ma siedzibę w Wiedniu?",
   "options": [
    "OECD",
@@ -10173,6 +10467,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się austriacki system stałej współpracy związków zawodowych, organizacji pracodawców i rządu?",
   "options": [
    "Kohabitacja",
@@ -10208,6 +10503,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "ktn",
   "question": "Który język jest regionalnym językiem urzędowym w części Karyntii?",
   "options": [
    "Włoski",
@@ -10243,6 +10539,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się austriacki publiczny nadawca radia i telewizji?",
   "options": [
    "ARD",
@@ -10276,6 +10573,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kiedy Austria obchodzi Święto Narodowe?",
   "options": [
    "12 listopada",
@@ -10311,6 +10609,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto towarzyszy św. Mikołajowi w Austrii, strasząc niegrzeczne dzieci?",
   "options": [
    "Krampus",
@@ -10346,6 +10645,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": null,
   "question": "Jak nazywa się jesienne sprowadzanie przystrojonego bydła z wysokogórskich pastwisk?",
   "options": [
    "Maibaum",
@@ -10381,6 +10681,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co stawia się 1 maja w wielu austriackich wsiach?",
   "options": [
    "Wysokie, przystrojone drzewko",
@@ -10416,6 +10717,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak w Austrii zwykle nazywa się karnawał?",
   "options": [
    "Kirtag",
@@ -10451,6 +10753,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jakim tańcem tradycyjnie otwiera się wiedeńskie bale, gdy debiutanci wchodzą parami?",
   "options": [
    "Polonezem",
@@ -10486,6 +10789,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "wien",
   "question": "Jak nazywają się jarmarki bożonarodzeniowe, np. na placu przed wiedeńskim ratuszem?",
   "options": [
    "Almabtrieb",
@@ -10521,6 +10825,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywa się wiedeńska winiarnia, w której winiarz podaje młode wino z własnej winnicy?",
   "options": [
    "Beisl",
@@ -10556,6 +10861,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak w Wiedniu nazywa się prosta, tradycyjna gospoda?",
   "options": [
    "Beisl",
@@ -10591,6 +10897,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Co według tradycji kelner w wiedeńskiej kawiarni podaje do kawy bez zamawiania?",
   "options": [
    "Kostkę czekolady",
@@ -10626,6 +10933,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Jak nazywa się wiedeńska kawa z mlekiem i mleczną pianką, podobna do cappuccino?",
   "options": [
    "Melange",
@@ -10661,6 +10969,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Któremu bohaterowi oblężenia z 1683 r. legenda przypisuje otwarcie pierwszej kawiarni w Wiedniu?",
   "options": [
    "Karolowi Lotaryńskiemu",
@@ -10697,6 +11006,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "W której wiedeńskiej kawiarni bywali m.in. Lew Trocki i Peter Altenberg, którego figura siedzi przy wejściu?",
   "options": [
    "Café Sperl",
@@ -10732,6 +11042,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaką sylwestrową wróżbę, podobną do polskich andrzejek, praktykuje się w Austrii?",
   "options": [
    "Lanie roztopionego metalu do wody",
@@ -10767,6 +11078,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki symbol szczęścia Austriacy wręczają sobie w sylwestra?",
   "options": [
    "Królika",
@@ -10802,6 +11114,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ooe",
   "question": "W którym święcie w Hallstatt i Traunkirchen procesja płynie łodziami po jeziorze?",
   "options": [
    "W Trzech Króli",
@@ -10837,6 +11150,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "noe",
   "question": "Który święty, margrabia z rodu Babenbergów, jest patronem Dolnej Austrii i Wiednia (15 listopada)?",
   "options": [
    "Św. Florian",
@@ -10872,6 +11186,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co tradycyjnie je się w Austrii w okolicy 11 listopada, dnia św. Marcina?",
   "options": [
    "Karpia",
@@ -10908,6 +11223,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywają się alpejskie postacie w maskach, które w okresie między Bożym Narodzeniem a Trzech Króli przeganiają zimę i złe duchy?",
   "options": [
    "Kolędnicy",
@@ -10943,6 +11259,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Paradeiser”?",
   "options": [
    "Śliwka",
@@ -10978,6 +11295,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Marille”?",
   "options": [
    "Morela",
@@ -11013,6 +11331,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Erdapfel”?",
   "options": [
    "Burak",
@@ -11048,6 +11367,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Karfiol”?",
   "options": [
    "Brokuł",
@@ -11083,6 +11403,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Kren”?",
   "options": [
    "Koper",
@@ -11118,6 +11439,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Topfen”?",
   "options": [
    "Śmietana",
@@ -11153,6 +11475,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Schlagobers”?",
   "options": [
    "Lody",
@@ -11188,6 +11511,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Faschiertes”?",
   "options": [
    "Kiełbasa",
@@ -11223,6 +11547,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Fisolen”?",
   "options": [
    "Groch",
@@ -11258,6 +11583,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Kukuruz”?",
   "options": [
    "Dynia",
@@ -11293,6 +11619,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki miesiąc to w Austrii „Jänner”?",
   "options": [
    "Lipiec",
@@ -11328,6 +11655,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Sackerl”?",
   "options": [
    "Torebka, reklamówka",
@@ -11363,6 +11691,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kiedy w Austrii używa się nieformalnego pozdrowienia „Servus”?",
   "options": [
    "Tylko na powitanie",
@@ -11398,6 +11727,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie pozdrowienie jest w Austrii typowe zamiast niemieckiego „Guten Tag”?",
   "options": [
    "Moin",
@@ -11433,6 +11763,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Co oznacza wiedeńskie pożegnanie „Baba!”?",
   "options": [
    "Pa, pa!",
@@ -11468,6 +11799,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co kupisz w austriackiej piekarni, prosząc o „Semmel”?",
   "options": [
    "Chleb razowy",
@@ -11503,6 +11835,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Stiege”?",
   "options": [
    "Schody",
@@ -11538,6 +11871,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co można kupić w austriackiej „Trafik”?",
   "options": [
    "Leki bez recepty",
@@ -11573,6 +11907,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się w Austrii egzamin kończący szkołę średnią?",
   "options": [
    "Abitur",
@@ -11608,6 +11943,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co zamówisz, prosząc w austriackiej gospodzie o „Krügerl”?",
   "options": [
    "Pół litra piwa",
@@ -11643,6 +11979,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Czym jest popularny w Austrii „G’spritzter”?",
   "options": [
    "Kawa z rumem",
@@ -11678,6 +12015,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Jause”?",
   "options": [
    "Przekąska między posiłkami",
@@ -11713,6 +12051,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Czym są austriackie „Palatschinken”?",
   "options": [
    "Naleśnikami",
@@ -11748,6 +12087,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Czym są „Powidl”, nadzienie np. do Powidltascherl?",
   "options": [
    "Masą makową",
@@ -11784,6 +12124,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza austriackie słowo „Gelse”?",
   "options": [
    "Gęś",
@@ -11819,6 +12160,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co w Austrii zwykle oznacza słowo „Sessel”?",
   "options": [
    "Krzesło",
@@ -11854,6 +12196,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która ocena jest najlepsza w austriackiej szkole?",
   "options": [
    "1",
@@ -11889,6 +12232,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co musi mieć kierowca samochodu osobowego, by jechać austriacką autostradą?",
   "options": [
    "Bilet z bramki",
@@ -11924,6 +12268,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się roczny bilet na niemal całą komunikację publiczną w Austrii, wprowadzony w 2021 r.?",
   "options": [
    "KlimaTicket",
@@ -11959,6 +12304,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak w Austrii wygląda handel w niedzielę?",
   "options": [
    "Wszystkie sklepy są otwarte",
@@ -11994,6 +12340,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co obowiązuje od listopada 2019 r. w austriackich lokalach gastronomicznych?",
   "options": [
    "Zakaz muzyki na żywo",
@@ -12029,6 +12376,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Pod jakim numerem w Austrii, obok 112, wzywa się pogotowie ratunkowe?",
   "options": [
    "122",
@@ -12064,6 +12412,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki napiwek jest zwyczajowy w austriackiej restauracji?",
   "options": [
    "Ok. 20-25%",
@@ -12099,6 +12448,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza pozdrowienie „Mahlzeit!”, słyszane w pracy w porze obiadu?",
   "options": [
    "Smacznego, czas na obiad",
@@ -12134,6 +12484,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "east",
+  "unitRef": "wien",
   "question": "Gdzie w Wiedniu kupisz Käsekrainer, kiełbasę z kawałkami sera?",
   "options": [
    "W cukierni",

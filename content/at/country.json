@@ -89,17 +89,17 @@
     "luck": {
       "name": "Tu felix Austria",
       "short": "Szczęście",
-      "flavor": "Zabierz przeciwnikowi kartę regionu, którego ci brakuje. Nie działa na gracza w twierdzy."
+      "flavor": "Szczęśliwe małżeństwo przynosi nowe ziemie: zabierz przeciwnikowi jeden jego kraj związkowy. Nie działa na gracza w twierdzy."
     },
     "detour": {
       "name": "Lawina",
       "short": "Objazd",
-      "flavor": "Lawina zasypała drogę! Oddajesz przeciwnikowi jedną kartę regionu, a jeśli masz duplikat, musisz oddać duplikat."
+      "flavor": "Lawina zasypała drogę! Oddajesz przeciwnikowi jeden swój kraj związkowy."
     },
     "ticket": {
       "name": "Kolejka gondolowa",
       "short": "Bilet",
-      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę regionu."
+      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę jednostki."
     },
     "express": {
       "name": "Walc",
@@ -119,5 +119,9 @@
   "nameGen": "Austrii",
   "nameLoc": "Austrii",
   "unitsLabel": "krajów związkowych",
-  "unitsCount": 9
+  "unitsCount": 9,
+  "gameRules": {
+    "perRegion": 2,
+    "winUnits": 7
+  }
 }

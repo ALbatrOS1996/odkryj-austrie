@@ -1,6 +1,6 @@
 # Odkryj! (Austria, Czechy, Włochy…)
 
-Prywatna gra quizowa (PWA) dla dwóch osób na dwóch telefonach: pojedynek wiedzy o wybranym kraju. Na starcie wybiera się kraj (na razie **Austria** – 351 pytań, **Czechy** – 332 pytania i **Włochy** – 332 pytania). Gracze odpowiadają równocześnie i zbierają karty czterech regionów, aż ktoś złoży pełną mapę kraju.
+Prywatna gra quizowa (PWA) dla dwóch osób na dwóch telefonach: pojedynek wiedzy o wybranym kraju. Na starcie wybiera się kraj (na razie **Austria** – 351 pytań, **Czechy** – 332 pytania i **Włochy** – 332 pytania). Gracze odpowiadają równocześnie i zdobywają jednostki administracyjne kraju (9 krajów związkowych Austrii, 14 krajów Czech, 20 regionów Włoch), aż ktoś zdobędzie ich wymaganą liczbę (albo całą mapę).
 
 **Gra:** https://albatros1996.github.io/odkryj-austrie/
 
@@ -13,7 +13,7 @@ Prywatna gra quizowa (PWA) dla dwóch osób na dwóch telefonach: pojedynek wied
 Jest też **Trening** solo (z powtórkami pomyłek po 3, 7 i 15 pytaniach), **Historia** (bilans par, skuteczność, pomyłki, zgłoszenia) i **Zasady**.
 
 ## Struktura
-- `content-src/<kraj>/`: pakiet kraju – `zab/geo/his/kul/spo.txt` (jedna linia = jedno pytanie, poprawna odpowiedź zawsze pierwsza), `country.json` (regiony, kolory, karty specjalne), `map.json` (mapa z `tools/geo2svg.py`)
+- `content-src/<kraj>/`: pakiet kraju – `zab/geo/his/kul/spo.txt` (jedna linia = jedno pytanie, poprawna odpowiedź zawsze pierwsza), `country.json` (makroregiony, kolory, karty specjalne, `gameRules`: karty na jednostkę i cel), `map.json` (mapa z `tools/geo2svg.py`)
 - `src/`: aplikacja (`engine.js` silnik, `net.js` łączność, `app.js` interfejs, `icons.js` grafika)
 - `tools/`: walidator treści, symulator Monte Carlo, testy silnika, sprawdzanie linków, generator mapy
 - `docs/`: zbudowana gra (GitHub Pages; pytania kraju w `docs/data/<kraj>.js`), `content/<kraj>/`: dane w JSON, `dokumentacja/`: projekt, raporty i decyzje
@@ -28,5 +28,6 @@ python tools/check_links.py   # sprawdzenie linków do źródeł
 
 ## Jak dodać kolejny kraj
 1. Folder `content-src/<kod>/` z `country.json` (wzór: `cz`), granice jednostek w `tools/` i wpis w `tools/geo2svg.py` → `python tools/geo2svg.py <kod>`.
-2. Pięć plików pytań `zab/geo/his/kul/spo.txt` (min. 64 na kategorię); `python tools/content.py <kod>` sprawdza zasady.
-3. Ilustracje regionów i kart specjalnych w `src/icons.js` (`REGION_ART`, `SPECIAL_ART`, `LOGO`), kod kraju w `COUNTRIES` w `build.py`.
+2. Słowa kluczowe jednostek w `tools/units.py` (przypisanie pytań do jednostek).
+3. Pięć plików pytań `zab/geo/his/kul/spo.txt` (min. 64 na kategorię); `python tools/content.py <kod>` sprawdza zasady.
+4. Ilustracje regionów i kart specjalnych w `src/icons.js` (`REGION_ART`, `SPECIAL_ART`, `LOGO`), kod kraju w `COUNTRIES` w `build.py`.

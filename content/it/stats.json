@@ -30,8 +30,8 @@
   "region": {
    "None": 8,
    "ne": 13,
-   "center": 13,
-   "south": 18,
+   "center": 12,
+   "south": 19,
    "nw": 12
   },
   "correctPos": {
@@ -106,8 +106,8 @@
  "ZAB+GEO": {
   "nw": 18.5,
   "ne": 20.8,
-  "center": 25.4,
-  "south": 26.2
+  "center": 24.6,
+  "south": 26.9
  },
  "HIS epoki": {
   "historia:starożytność": 12,

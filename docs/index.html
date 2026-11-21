@@ -292,6 +292,13 @@ input[type=text]:focus, textarea:focus { outline: 2px solid var(--red); border-c
 .me-bar .map.tall svg { max-height: 28vh; }
 .opp-bar .map.tall svg { max-height: 96px; }
 .gcard .mini .map svg { max-height: 64px; width: auto; max-width: 100%; margin: 0 auto; }
+
+/* tryb terytorialny: kolory graczy */
+:root { --mine: #C8102E; --theirs: #E8A33D; }
+.sw { display: inline-block; width: 14px; height: 14px; border-radius: 4px; vertical-align: -2px; margin-right: 5px; }
+.sw.mine { background: var(--mine); } .sw.theirs { background: var(--theirs); }
+.opp-bar .sw { width: 18px; height: 40px; border-radius: 6px; margin: 0 4px; }
+.score { display: flex; flex-wrap: wrap; gap: 6px 14px; justify-content: center; font-size: 14px; margin-top: 8px; }
 </style>
 </head>
 <body>
@@ -299,8 +306,8 @@ input[type=text]:focus, textarea:focus { outline: 2px solid var(--red); border-c
 <div id="toasts" aria-live="polite"></div>
 <noscript>Ta gra wymaga włączonej obsługi JavaScriptu.</noscript>
 <script>
-window.OA_VERSION = "977b3b143d";
-window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Austrię!", "count": 351, "regions": ["Wschód", "Północ", "Południe", "Zachód"]}, {"code": "cz", "name": "Czechy", "gameTitle": "Odkryj Czechy!", "count": 332, "regions": ["Praga", "Zachód", "Północ", "Morawy"]}, {"code": "it", "name": "Włochy", "gameTitle": "Odkryj Włochy!", "count": 332, "regions": ["Płn. Zachód", "Płn. Wschód", "Centrum", "Południe"]}];
+window.OA_VERSION = "32159ac8a0";
+window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Austrię!", "count": 351, "regions": ["Wschód", "Północ", "Południe", "Zachód"], "units": "9 krajów związkowych"}, {"code": "cz", "name": "Czechy", "gameTitle": "Odkryj Czechy!", "count": 332, "regions": ["Praga", "Zachód", "Północ", "Morawy"], "units": "14 krajów"}, {"code": "it", "name": "Włochy", "gameTitle": "Odkryj Włochy!", "count": 332, "regions": ["Płn. Zachód", "Płn. Wschód", "Centrum", "Południe"], "units": "20 regionów"}];
 </script>
 <script>
 /* Ikony i ilustracje SVG (własne, płaska grafika z konturem). */
@@ -618,7 +625,9 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
   const opp = (p) => 1 - p;
   function distinct(pl, tg) { tg = tg || 1; return Object.keys(pl.cards).filter((r) => pl.cards[r] >= tg).length; }
   function total(pl) { return Object.keys(pl.cards).reduce((a, r) => a + pl.cards[r], 0); }
-  function inFortress(s, p) { return s.rules.fortress && distinct(s.players[p], s.rules.target) >= 3; }
+  // ile jednostek (regionów) trzeba mieć do wygranej: rules.winUnits albo wszystkie
+  function winNeed(s) { return s.rules.winUnits || Object.keys(s.players[0].cards).length; }
+  function inFortress(s, p) { return s.rules.fortress && distinct(s.players[p], s.rules.target) >= winNeed(s) - 1; }
   function ev(s, e) {
     s.evSeq = (s.evSeq || 0) + 1;
     e.n = s.evSeq;
@@ -633,12 +642,13 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
    *         bank:[{id,cat,diff,region,correct}], seen:{qid:count}, now }
    */
   let BANK = [];
-  function setBank(b) { BANK = b || []; }
+  let GROUP = {}; // jednostka (kraj związkowy, region) -> grupa (makroregion), do doboru pytań
+  function setBank(b, groupOf) { BANK = b || []; GROUP = groupOf || {}; }
 
   function createGame(opts) {
     if (opts.bank) setBank(opts.bank);
     const rules = Object.assign({}, DEFAULT_RULES, opts.rules || {});
-    const regions = (opts.regions && opts.regions.length === 4) ? opts.regions.slice() : REGIONS.slice();
+    const regions = (opts.regions && opts.regions.length >= 2) ? opts.regions.slice() : REGIONS.slice();
     const s = {
       v: 1,
       rules,
@@ -697,7 +707,7 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
         return { options: opts, note: opts.length ? null : 'nothing' };
       }
       case 'detour': {
-        const dup = Object.keys(A.cards).filter((r) => A.cards[r] > tg);
+        const dup = s.rules.takeover ? [] : Object.keys(A.cards).filter((r) => A.cards[r] > tg);
         const opts = dup.length ? dup : Object.keys(A.cards).filter((r) => A.cards[r] > 0);
         return { options: opts, note: opts.length ? null : 'nothing' };
       }
@@ -721,10 +731,12 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
     let r = null;
     if (opts.length) r = opts.includes(region) ? region : opts[0];
     if (k === 'luck' && r) {
-      s.players[o].cards[r]--; s.players[a].cards[r]++;
+      if (s.rules.takeover) { s.players[a].cards[r] += s.players[o].cards[r]; s.players[o].cards[r] = 0; }
+      else { s.players[o].cards[r]--; s.players[a].cards[r]++; }
       ev(s, { type: 'luck', p: a, r });
     } else if (k === 'detour' && r) {
-      s.players[a].cards[r]--; s.players[o].cards[r]++;
+      if (s.rules.takeover) { s.players[o].cards[r] += s.players[a].cards[r]; s.players[a].cards[r] = 0; }
+      else { s.players[a].cards[r]--; s.players[o].cards[r]++; }
       ev(s, { type: 'detour', p: a, r });
     } else if (k === 'ticket' && !s.players[a].ticket) {
       s.players[a].ticket = true;
@@ -748,7 +760,9 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
     if (!cands.length) cands = BANK.filter((q) => q.cat === cat);
     if (!cands.length) return null;
     if (cat === 'GEO' || cat === 'ZAB') {
-      const reg = cands.filter((q) => q.region === region);
+      // najpierw pytania o tę jednostkę, potem o jej makroregion
+      let reg = cands.filter((q) => q.region === region);
+      if (!reg.length && GROUP[region]) reg = cands.filter((q) => q.group === GROUP[region]);
       if (reg.length && (cat === 'GEO' || rand(s) < 0.5)) cands = reg;
     }
     // pytania widziane rzadziej mają większą wagę
@@ -770,6 +784,20 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
     s.deadline = s.clock + s.rules.timeLimit * 1000 + (extraMs || 0);
   }
 
+  // Przydział zdobytej karty jednostki u graczowi p.
+  // Tryb terytorialny (takeover): jednostkę ma zawsze jeden gracz; kolejna karta ją umacnia,
+  // a karta jednostki przeciwnika osłabia ją albo przejmuje, gdy przeciwnik ma tylko jedną kartę.
+  function giveCard(s, p, u) {
+    const me = s.players[p], other = s.players[opp(p)];
+    if (s.rules.takeover && other.cards[u] > 0) {
+      other.cards[u]--;
+      if (other.cards[u] > 0) return 'weakened';
+      me.cards[u] = 1; return 'took';
+    }
+    me.cards[u]++;
+    return me.cards[u] > 1 ? 'fortified' : 'claimed';
+  }
+
   function resolveDuel(s) {
     const a = s.active, o = opp(a), c = s.q.correct;
     const ok = s.answers.map((x) => !!x && x.o === c);
@@ -777,7 +805,7 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
     if (ok[a]) { award = a; kind = 'active'; }
     else if (ok[o] && s.rules.intercepts) { award = o; kind = 'intercept'; }
     s.result = { ok, award, kind, card: s.top.r };
-    if (award >= 0) s.players[award].cards[s.top.r]++;
+    if (award >= 0) s.result.how = giveCard(s, award, s.top.r);
     s.hist.push({ q: s.q.id, cat: s.q.cat, r: s.top.r, a: s.answers.map((x) => (x ? x.o : -1)), c, act: a, award });
     ev(s, { type: 'award', kind, p: award, r: s.top.r });
     checkWin(s);
@@ -818,7 +846,7 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
   function checkWin(s) {
     if (s.winner !== null) return true;
     for (const p of [s.active, opp(s.active)]) {
-      if (distinct(s.players[p], s.rules.target) === 4) {
+      if (distinct(s.players[p], s.rules.target) >= winNeed(s)) {
         s.winner = p; s.overReason = 'map';
         ev(s, { type: 'win', p });
         return true;
@@ -893,7 +921,7 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
         if (s.phase !== 'EXPLAIN' || p !== s.active || !s.players[p].ticket) return false;
         if (!s.result || s.result.award !== -1 || s.winner !== null) return false;
         s.players[p].ticket = false;
-        s.players[p].cards[s.top.r]++;
+        s.result.how = giveCard(s, p, s.top.r);
         s.result.award = p; s.result.kind = 'ticket';
         ev(s, { type: 'award', kind: 'ticket', p, r: s.top.r });
         s.hist[s.hist.length - 1].award = p;
@@ -1009,7 +1037,7 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
     return v;
   }
 
-  const api = { setBank, step, CATS, FACES, REGIONS, SPECIALS, DEFAULT_RULES, createGame, reduce, view, distinct, total };
+  const api = { winNeed, setBank, step, CATS, FACES, REGIONS, SPECIALS, DEFAULT_RULES, createGame, reduce, view, distinct, total };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.Engine = api;
 })(typeof self !== 'undefined' ? self : this);
@@ -1199,12 +1227,12 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i) ^ key.charCodeAt(i % key.length);
     return JSON.parse(new TextDecoder().decode(bytes)).map((r) => {
       let h = 0; for (const ch of r[0]) h += ch.charCodeAt(0);
-      return { id: r[0], cat: r[1], diff: r[2], region: r[3], q: r[4], o: r[5], c: (r[6] - (h % 4) + 8) % 4, e: r[7], src: r[8], tags: r[9] };
+      return { id: r[0], cat: r[1], diff: r[2], region: r[3], q: r[4], o: r[5], c: (r[6] - (h % 4) + 8) % 4, e: r[7], src: r[8], tags: r[9], unit: r[10] || null };
     });
   }
   // ---------- aktywny kraj ----------
   // C – konfiguracja kraju, MAP – mapa, BANK/QB – pytania, REG – regiony, SPEC – karty specjalne
-  let C = null, MAP = null, BANK = [], QB = {}, REG = {}, SPEC = {}, REGIONS = [], CC = null;
+  let C = null, MAP = null, BANK = [], QB = {}, REG = {}, GREG = {}, SPEC = {}, REGIONS = [], GROUPS = [], CC = null;
   window.OA_DATA = window.OA_DATA || {};
   const loading = {};
   function loadCountry(cc) {
@@ -1225,16 +1253,21 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     if (CC === cc) return;
     const D = window.OA_DATA[cc];
     CC = cc; C = D.country; MAP = D.map;
-    REG = {}; C.regions.forEach((r) => { REG[r.id] = Object.assign({ short: (C.regionShort || {})[r.id] || r.name }, r); });
-    REGIONS = C.regions.map((r) => r.id);
+    // GREG: makroregiony (grupy, kolory, ilustracje); REG: jednostki administracyjne = karty w grze
+    GREG = {}; C.regions.forEach((r) => { GREG[r.id] = Object.assign({ short: (C.regionShort || {})[r.id] || r.name }, r); });
+    GROUPS = C.regions.map((r) => r.id);
+    REG = {}; MAP.states.forEach((s) => { REG[s.id] = { id: s.id, name: s.name, short: s.name, group: s.region }; });
+    REGIONS = MAP.states.map((s) => s.id);
     SPEC = C.specialCards;
     BANK = D.bank || (D.bank = decodeBank(D.bankData));
     QB = {}; BANK.forEach((q) => { QB[q.id] = q; });
-    E.setBank(BANK.map((q) => ({ id: q.id, cat: q.cat, diff: q.diff, region: q.region, correct: q.c })));
+    E.setBank(BANK.map((q) => ({ id: q.id, cat: q.cat, diff: q.diff, region: q.unit, group: q.region, correct: q.c })),
+      Object.fromEntries(MAP.states.map((s) => [s.id, s.region])));
     REGION_LABEL = null;
     const root = document.documentElement.style;
     root.setProperty('--red', C.palette.primary);
     C.regions.forEach((r) => root.setProperty('--r-' + r.id, r.color));
+    root.setProperty('--mine', C.palette.primary);
     const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = C.palette.primary;
     document.title = C.gameTitle;
     migrateStats();
@@ -1318,40 +1351,41 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     Object.entries(LABEL_SHIFT[CC] || {}).forEach(([r, d]) => { if (out[r]) { out[r][0] += d[0]; out[r][1] += d[1]; } });
     return (REGION_LABEL = out);
   }
-  /** opts: {cards, target, highlight, progress, full, small, labels, pop:[regions], title} */
+  /** opts: {owners:[mojeKarty, kartyPrzeciwnika], max, highlight, progress, full, small, labels, pop:[jednostki], title} */
   function mapSVG(o) {
-    const id = 'm' + (++mapUid);
-    const tg = o.target || 2;
-    let defs = '';
-    REGIONS.forEach((r) => {
-      defs += `<pattern id="${id}${r}" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-        <rect width="16" height="16" fill="var(--r-${r})" opacity=".28"/><rect width="7" height="16" fill="var(--r-${r})"/></pattern>`;
-    });
+    const max = o.max || 1;
     const paths = MAP.states.map((s) => {
-      const r = s.region;
+      const u = s.id, g = s.region;
       let fill = 'var(--r-none)', op = 1;
-      if (o.full) fill = `var(--r-${r})`;
-      else if (o.highlight) fill = r === o.highlight ? `var(--r-${r})` : 'var(--r-none)';
-      else if (o.progress) { fill = `var(--r-${r})`; op = 0.18 + 0.82 * (o.progress[r] || 0); }
-      else if (o.cards) { const n = o.cards[r] || 0; fill = n >= tg ? `var(--r-${r})` : n > 0 ? `url(#${id}${r})` : 'var(--r-none)'; }
-      const pop = o.pop && o.pop.includes(r) ? ' pop' : '';
-      return `<path class="st${pop}" d="${s.d}" fill="${fill}" fill-opacity="${op.toFixed(2)}"><title>${esc(s.name)} (${esc(REG[r].short)})</title></path>`;
+      if (o.full) fill = `var(--r-${g})`;
+      else if (o.highlight) { if (u === o.highlight) fill = `var(--r-${g})`; else if (REG[o.highlight] && REG[o.highlight].group === g) { fill = `var(--r-${g})`; op = 0.22; } }
+      else if (o.progress) { fill = `var(--r-${g})`; op = 0.15 + 0.85 * (o.progress[u] || 0); }
+      else if (o.owners) {
+        const a = o.owners[0][u] || 0, b = o.owners[1][u] || 0;
+        if (a > 0) { fill = 'var(--mine)'; op = a >= max ? 1 : 0.6; }
+        else if (b > 0) { fill = 'var(--theirs)'; op = b >= max ? 1 : 0.6; }
+      }
+      const pop = o.pop && o.pop.includes(u) ? ' pop' : '';
+      return `<path class="st${pop}" d="${s.d}" fill="${fill}" fill-opacity="${op.toFixed(2)}"><title>${esc(s.name)}</title></path>`;
     }).join('');
     const L = regionLabels();
-    const labels = o.labels ? REGIONS.map((r) => `<text class="reg-label" x="${L[r][0]}" y="${L[r][1] + 14}">${esc(REG[r].short)}</text>`).join('') : '';
+    const labels = o.labels ? GROUPS.map((r) => `<text class="reg-label" x="${L[r][0]}" y="${L[r][1] + 14}">${esc(GREG[r].short)}</text>`).join('') : '';
     const aria = o.title || 'Mapa ' + C.nameGen;
-    return `<div class="map ${o.small ? 'small' : ''} ${MAP.h > MAP.w ? 'tall' : ''}"><svg viewBox="0 0 ${MAP.w} ${MAP.h}" role="img" aria-label="${esc(aria)}"><defs>${defs}</defs>${paths}${labels}</svg></div>`;
+    return `<div class="map ${o.small ? 'small' : ''} ${MAP.h > MAP.w ? 'tall' : ''}"><svg viewBox="0 0 ${MAP.w} ${MAP.h}" role="img" aria-label="${esc(aria)}">${paths}${labels}</svg></div>`;
   }
-  function cardsAria(cards, tg) {
-    return REGIONS.map((r) => `${REG[r].short}: ${cards[r]}${cards[r] >= tg ? ' (komplet)' : ''}`).join(', ');
+  function ownedList(cards) {
+    const l = REGIONS.filter((u) => cards[u] > 0).map((u) => REG[u].name);
+    return l.length ? l.join(', ') : 'brak';
   }
+  const unitsTotal = () => REGIONS.length;
 
   function regionCard(r, enter) {
-    const R = REG[r];
-    return `<div class="gcard${enter ? ' enter' : ''}" style="--rc:var(--r-${r})" aria-label="Karta regionu ${esc(R.name)}">
-      <div class="art"><svg viewBox="0 0 120 90" preserveAspectRatio="xMidYMid slice">${(I.REGION_ART[CC] || {})[r] || ''}</svg></div>
+    const R = REG[r], G = GREG[R.group];
+    const fs = R.name.length > 16 ? 19 : R.name.length > 11 ? 22 : 26;
+    return `<div class="gcard${enter ? ' enter' : ''}" style="--rc:var(--r-${R.group})" aria-label="Karta: ${esc(R.name)}">
+      <div class="art"><svg viewBox="0 0 120 90" preserveAspectRatio="xMidYMid slice">${(I.REGION_ART[CC] || {})[R.group] || ''}</svg></div>
       <div class="mini">${mapSVG({ highlight: r, small: true })}</div>
-      <div class="nm">${esc(R.short)}</div>${R.short !== R.name ? `<div class="desc" style="margin-top:-8px">${esc(R.name)}</div>` : ''}</div>`;
+      <div class="nm" style="font-size:${fs}px">${esc(R.name)}</div><div class="desc" style="margin-top:-8px">${esc(G.name)}</div></div>`;
   }
   function specialCard(k, enter) {
     const S = SPEC[k];
@@ -1420,7 +1454,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     }
     const resume = rooms.map((r) => `<button class="btn resume" data-click="resume" data-arg="${r.code}">
       <span class="logo-sm">${countryLogo(r.cc || 'at')}</span><span class="grow" style="text-align:left">Wróć do gry<br><span class="small muted">${r.opp ? 'z: ' + esc(r.opp) : 'pokój'} · ${r.code}</span></span></button>`).join('');
-    render(`<div class="hero"><div class="logo">${countryLogo(CC)}</div><h1>${esc(C.gameTitle)}</h1><p>Cześć, ${esc(profile.name)}! Zbierz pełną mapę ${esc(C.nameGen)}.</p></div>
+    render(`<div class="hero"><div class="logo">${countryLogo(CC)}</div><h1>${esc(C.gameTitle)}</h1><p>Cześć, ${esc(profile.name)}! Zdobądź ${C.gameRules ? C.gameRules.winUnits : REGIONS.length} z ${REGIONS.length} ${esc(C.unitsLabel)}.</p></div>
       <div class="hero-map">${mapSVG({ full: true, labels: true })}</div>
       <div class="stack">${tip}${resume}
       ${REGISTRY.length > 1 ? `<button class="btn ghost" data-click="go" data-arg="country"><span class="logo-sm">${countryLogo(CC)}</span>Kraj: ${esc(C.name)} · zmień</button>` : ''}
@@ -1443,7 +1477,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
   function screenCountry() {
     const items = REGISTRY.map((r) => `<button class="btn country-pick ${r.code === CC ? 'on' : ''}" data-click="pick" data-arg="${r.code}">
       <span class="logo-md">${countryLogo(r.code)}</span><span class="grow" style="text-align:left"><b>${esc(r.gameTitle)}</b><br>
-      <span class="small muted">${r.count} pytań · ${esc(r.regions.join(', '))}</span></span>${r.code === CC ? I.UI.check : ''}</button>`).join('');
+      <span class="small muted">${r.count} pytań · ${esc(r.units || r.regions.join(', '))}</span></span>${r.code === CC ? I.UI.check : ''}</button>`).join('');
     render(`${top('Wybierz kraj')}<div class="stack">${items}
       <div class="small muted center">Kolejne kraje to nowe pakiety pytań; zasady gry są wspólne.</div></div>`, {
       back: goBack,
@@ -1463,20 +1497,21 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
       <div class="panel stack"><div class="field"><label for="nm">Twoje imię</label><input id="nm" type="text" maxlength="20" value="${esc(profile.name)}"></div></div>
       <div class="panel stack">
         <div class="lbl">Czas na odpowiedź</div>${seg('timeLimit', [15, 25, 40], (v) => v + ' s')}
-        <div class="lbl">Ile kart każdego regionu trzeba zebrać</div>${seg('target', [1, 2], (v) => v === 1 ? '1 (krótka gra)' : '2 (zalecane)')}
+        <div class="lbl">Cel gry</div>${(C.gameRules && C.gameRules.winUnits < REGIONS.length) ? `<div class="seg" role="group">${[['rec', `${C.gameRules.winUnits} z ${REGIONS.length} (zalecane)`], ['all', `cała mapa (${REGIONS.length})`]].map(([k, l]) => `<button data-click="mode" data-arg="${k}" class="${(rules.winMode || 'rec') === k ? 'on' : ''}">${l}</button>`).join('')}</div>` : `<div class="small muted">Zdobądź ${REGIONS.length} z ${REGIONS.length}.</div>`}
         <div class="lbl">Gra na czas</div>${seg('timedGame', [0, 10, 15], (v) => v ? v + ' min' : 'wyłączona')}
       </div>
       <div class="panel">
         ${sw('intercepts', 'Przechwyty', 'Gdy gracz w turze się pomyli, a przeciwnik odpowie dobrze, kartę bierze przeciwnik.')}
         ${sw('fifty', 'Koło ratunkowe 50/50', 'Raz na partię usuwa dwie błędne odpowiedzi (tylko na twoim ekranie).')}
         ${sw('specials', 'Karty specjalne', ['luck', 'detour', 'ticket', 'express'].map((k) => SPEC[k].name).join(', ') + '.')}
-        ${sw('fortress', 'Twierdza', 'Gracza z 3 skompletowanymi regionami nie można okraść kartą Szczęście.')}
-        ${sw('reroute', 'Zmiana trasy', 'Raz na turę możesz pominąć kartę regionu, który już masz.')}
+        ${sw('fortress', 'Twierdza', 'Gracza, któremu brakuje jednej jednostki do wygranej, nie można okraść kartą „' + esc(SPEC.luck.name) + '”.')}
+        ${sw('reroute', 'Zmiana trasy', (C.gameRules && C.gameRules.perRegion > 1 ? 'Raz na turę możesz pominąć kartę jednostki, którą masz już w pełni umocnioną.' : 'Raz na turę możesz pominąć kartę jednostki, którą już masz.'))}
       </div>
       <button class="btn primary" data-click="create">Utwórz pokój</button></div>`, {
       back: goBack,
       seg: (a) => { const [k, v] = a.split(':'); rules[k] = +v; store.set('lastRules', pick(rules)); screenNewKeep(); },
       country: () => { location.hash = '#/country'; },
+      mode: (k) => { rules.winMode = k; store.set('lastRules', pick(rules)); screenNewKeep(); },
       create: async () => {
         const nm = document.getElementById('nm').value.trim();
         if (nm) { profile.name = nm.slice(0, 20); saveProfile(); }
@@ -1492,7 +1527,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
   }
   function readSwitches(rules) { document.querySelectorAll('[data-r]').forEach((i) => { rules[i.dataset.r] = i.checked; }); }
   function pick(r) {
-    const o = {}; ['timeLimit', 'target', 'timedGame', 'intercepts', 'fifty', 'specials', 'fortress', 'reroute'].forEach((k) => { o[k] = r[k]; });
+    const o = {}; ['timeLimit', 'winMode', 'timedGame', 'intercepts', 'fifty', 'specials', 'fortress', 'reroute'].forEach((k) => { o[k] = r[k]; });
     return o;
   }
   function addRoom(code, role, opp) {
@@ -1550,10 +1585,12 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
       R = { code, role, me: role === 'host' ? 0 : 1, seq: 0, lastEv: 0, recorded: new Set(), aids: new Set(), lastGuest: 0, lastHost: 0, viewKey: '', prevCards: null, pubKey: '', rolledAt: 0, lastRoll: 0 };
       if (role === 'host') {
         R.H = hostData; R.H.country = R.H.country || 'at';
+        if (R.H.game && !REGIONS.includes(Object.keys(R.H.game.players[0].cards)[0])) R.H.game = null;
         R.lastEv = R.H.game ? R.H.game.evSeq : 0;
       } else {
         const g = store.get('guest.' + code, {});
         R.view = g.lastView || null; R.lobby = g.lobby || null; R.pair = g.pair || null;
+        if (R.view && !REGIONS.includes(Object.keys(R.view.players[0].cards)[0])) R.view = null;
         R.lastEv = R.view ? R.view.evSeq : 0;
       }
       renderRoom();
@@ -1643,12 +1680,19 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     }
     hostAfterChange(true);
   }
+  // zasady partii: z ustawień pokoju + parametry kraju (karty na jednostkę, cel)
+  function gameRulesFor(r) {
+    const g = C.gameRules || {};
+    const N = REGIONS.length;
+    return Object.assign({}, r, { perRegion: g.perRegion || 1, target: 1, takeover: true,
+      winUnits: r.winMode === 'all' ? N : (g.winUnits || Math.floor(N / 2) + 1) });
+  }
   function hostNewGame() {
     const H = R.H;
     H.game = E.createGame({
       seed: crypto.getRandomValues(new Uint32Array(1))[0] || 7,
       players: [{ id: H.me.id, name: H.me.name }, { id: H.guest.id, name: H.guest.name }],
-      rules: H.rules, starter: H.lastLoser, seen: H.seen || {}, now: Date.now(), regions: REGIONS
+      rules: gameRulesFor(H.rules), starter: H.lastLoser, seen: H.seen || {}, now: Date.now(), regions: REGIONS
     });
     R.recorded = new Set();
   }
@@ -1786,7 +1830,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
   function rulesSummary(r) {
     if (!r) return '';
     const on = (b) => b ? 'tak' : 'nie';
-    return `Czas: ${r.timeLimit} s · karty na region: ${r.target} · przechwyty: ${on(r.intercepts)} · 50/50: ${on(r.fifty)} · karty specjalne: ${on(r.specials)} · twierdza: ${on(r.fortress)} · zmiana trasy: ${on(r.reroute)}${r.timedGame ? ' · gra na czas: ' + r.timedGame + ' min' : ''}`;
+    return `Czas: ${r.timeLimit} s · cel: ${r.winMode === 'all' ? 'cała mapa' : ((C && C.gameRules ? C.gameRules.winUnits : '?') + ' z ' + REGIONS.length)} · przechwyty: ${on(r.intercepts)} · 50/50: ${on(r.fifty)} · karty specjalne: ${on(r.specials)} · twierdza: ${on(r.fortress)} · zmiana trasy: ${on(r.reroute)}${r.timedGame ? ' · gra na czas: ' + r.timedGame + ' min' : ''}`;
   }
   async function shareLink() {
     const url = joinUrl();
@@ -1803,7 +1847,8 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
   const PHASE_TOTAL = (v) => ({ DUEL: v.rules.timeLimit * 1000, CHOOSE: v.rules.choiceTime * 1000, EXPLAIN: v.rules.explainTime * 1000, SPECIAL: 45000, TRADE: 30000 }[v.phase] || 0);
 
   function renderGame(v) {
-    const me = v.me, op = 1 - me, P = v.players, tg = v.rules.target;
+    const me = v.me, op = 1 - me, P = v.players, tg = v.rules.target, mx = v.rules.perRegion || 1;
+    const N = unitsTotal(), need = v.rules.winUnits || N, nMe = E.distinct(P[me], 1), nOp = E.distinct(P[op], 1);
     const myTurn = v.active === me;
     // zdarzenia -> komunikaty
     const fresh = (v.log || []).filter((e) => e.n > R.lastEv);
@@ -1820,18 +1865,19 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     if (R.prevCards) [0, 1].forEach((p) => REGIONS.forEach((r) => { if (P[p].cards[r] > R.prevCards[p][r]) pop[p].push(r); }));
     R.prevCards = P.map((p) => Object.assign({}, p.cards));
 
-    const oppBar = `<div class="opp-bar">${mapSVG({ cards: P[op].cards, target: tg, small: true, pop: pop[op], title: 'Mapa przeciwnika: ' + cardsAria(P[op].cards, tg) })}
+    const oppBar = `<div class="opp-bar"><span class="sw theirs" aria-hidden="true"></span>
       <div class="grow"><div class="nm">${esc(P[op].name)}</div>
       <div class="row wrap" style="gap:4px;margin-top:3px"><span data-peer class="pill">${I.UI.dot}</span>${!myTurn && v.phase !== 'OVER' ? '<span class="pill turn">tura przeciwnika</span>' : ''}
       ${P[op].ticket ? `<span class="pill" title="Ma kartę ${esc(SPEC.ticket.name)}">${I.UI.gondola}bilet</span>` : ''}
-      <span class="pill">${E.distinct(P[op], tg)}/4 regiony</span></div></div></div>`;
-    const counts = REGIONS.map((r) => `<div style="${P[me].cards[r] >= tg ? 'background:color-mix(in srgb,var(--r-' + r + ') 22%,transparent)' : ''}"><b>${P[me].cards[r]}/${tg}</b>${esc(REG[r].short)}</div>`).join('');
+      <span class="pill">${nOp} z ${N}</span></div></div></div>`;
+    const counts = `<div class="score"><span><i class="sw mine"></i>Ty: <b>${nMe}</b></span><span><i class="sw theirs"></i>${esc(P[op].name.slice(0, 12))}: <b>${nOp}</b></span>
+      <span class="muted">do wygranej: ${need} z ${N}</span></div>${mx > 1 ? '<div class="small muted center" style="margin-top:4px">Pełny kolor: jednostka umocniona (' + mx + ' karty), jaśniejszy: 1 karta.</div>' : ''}`;
     const meBar = `<div class="me-bar"><div class="head"><b class="grow">${esc(P[me].name)} (ty)</b>
       ${myTurn && v.phase !== 'OVER' ? '<span class="pill turn">twoja tura</span>' : ''}
       ${P[me].ticket ? `<span class="pill on">${I.UI.gondola}bilet</span>` : ''}
       ${v.rules.fifty ? `<span class="pill ${P[me].fiftyUsed ? '' : 'on'}">${I.UI.fifty}50/50${P[me].fiftyUsed ? ' użyte' : ''}</span>` : ''}
       <button class="iconbtn" data-click="menu" aria-label="Menu gry">${I.UI.gear}</button></div>
-      ${mapSVG({ cards: P[me].cards, target: tg, pop: pop[me], title: 'Twoja mapa: ' + cardsAria(P[me].cards, tg) })}<div class="counts">${counts}</div></div>`;
+      ${mapSVG({ owners: [P[me].cards, P[op].cards], max: mx, pop: pop[me].concat(pop[op]), title: 'Twoje: ' + ownedList(P[me].cards) + '. Przeciwnika: ' + ownedList(P[op].cards) })}${counts}</div>`;
 
     let stage = '', h = {
       menu: () => gameMenu(v),
@@ -1862,11 +1908,14 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
 
     switch (v.phase) {
       case 'TURN': {
-        const canReroute = myTurn && v.rules.reroute && !v.rerouted && P[me].cards[v.top.r] >= tg;
-        stage = `${regionCard(v.top.r, enter)}
+        const u = v.top.r;
+        const canReroute = myTurn && v.rules.reroute && !v.rerouted && P[me].cards[u] >= mx;
+        const ownerNote = P[me].cards[u] > 0 ? (P[me].cards[u] >= mx ? (mx > 1 ? 'To twoja umocniona jednostka.' : 'To już twoja jednostka.') : 'To twoja jednostka: wygrana ją umocni.')
+          : P[op].cards[u] > 0 ? `Należy do: ${P[op].name}. Wygrana ${P[op].cards[u] > 1 ? 'osłabi ją' : 'odbierze ją przeciwnikowi'}.` : 'Wolna jednostka: wygrana ją zdobędzie.';
+        stage = `${regionCard(u, enter)}<div class="status-line small">${esc(ownerNote)}</div>
           ${myTurn
             ? `<button class="btn primary" data-click="roll">Rzuć kostką</button>
-               ${canReroute ? `<button class="btn ghost" data-click="reroute">${I.UI.route}Zmiana trasy (masz już ten region)</button>` : ''}`
+               ${canReroute ? `<button class="btn ghost" data-click="reroute">${I.UI.route}Zmiana trasy (${mx > 1 ? 'masz ją umocnioną' : 'już ją masz'})</button>` : ''}`
             : `<div class="status-line">Tura gracza ${esc(P[op].name)}. Za chwilę rzut kostką…</div>`}
           ${v.extra ? `<div class="status-line small">${esc(SPEC.express.name)}: po tej rundzie jeszcze ${v.extra} dodatkowa runda.</div>` : ''}`;
         break;
@@ -1906,8 +1955,15 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
         }
         const rn = REG[res.card].short;
         let cls = 'neutral', txt = 'Nikt nie zdobywa karty. Wraca pod spód stosu.';
-        if (res.award === me) { cls = 'good'; txt = res.kind === 'intercept' ? `Przechwyt! Zdobywasz kartę: ${rn}` : res.kind === 'ticket' ? `${SPEC.ticket.name}! Mimo to zdobywasz kartę: ${rn}` : `Zdobywasz kartę: ${rn}`; }
-        else if (res.award === op) { cls = 'bad'; txt = res.kind === 'intercept' ? `Przechwyt! ${P[op].name} zabiera kartę: ${rn}` : res.kind === 'ticket' ? `${P[op].name} używa karty „${SPEC.ticket.name}” i bierze kartę: ${rn}` : `${P[op].name} zdobywa kartę: ${rn}`; }
+        const pre = res.kind === 'intercept' ? 'Przechwyt! ' : res.kind === 'ticket' ? SPEC.ticket.name + '! ' : '';
+        if (res.award === me) {
+          cls = 'good';
+          txt = pre + ({ claimed: `Zdobywasz: ${rn}`, fortified: `Umacniasz: ${rn}`, weakened: `Osłabiasz jednostkę przeciwnika: ${rn}`, took: `Odbierasz przeciwnikowi: ${rn}` }[res.how] || `Zdobywasz: ${rn}`);
+        } else if (res.award === op) {
+          cls = 'bad';
+          const n = P[op].name;
+          txt = pre + ({ claimed: `${n} zdobywa: ${rn}`, fortified: `${n} umacnia: ${rn}`, weakened: `${n} osłabia twoją jednostkę: ${rn}`, took: `${n} odbiera ci: ${rn}` }[res.how] || `${n} zdobywa: ${rn}`);
+        }
         const canTicket = myTurn && res.award === -1 && P[me].ticket && v.winner === null;
         const ready = v.ready && v.ready[me];
         const srcs = q.src.map((s) => `<a href="${esc(s[0])}" target="_blank" rel="noopener">${esc(s[1])}</a>`).join('');
@@ -1922,7 +1978,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
           }).join('')}</div>
           ${v.myAnswer === -1 ? '<div class="small muted">Brak twojej odpowiedzi w czasie.</div>' : ''}
           <div class="panel expl">${esc(q.e)}<div class="sources" style="margin-top:8px">Źródła: ${srcs}</div></div>
-          ${canTicket ? `<button class="btn" data-click="ticket">${I.UI.gondola}Użyj karty „${esc(SPEC.ticket.name)}” i weź kartę</button>` : ''}
+          ${canTicket ? `<button class="btn" data-click="ticket">${I.UI.gondola}Użyj karty „${esc(SPEC.ticket.name)}” i zdobądź jednostkę</button>` : ''}
           <div class="row"><button class="btn small ghost" data-click="report" data-arg="${q.id}">${I.UI.flag}Zgłoś błąd</button><span class="spacer"></span>
           <button class="btn primary small" style="min-width:140px" data-click="next" ${ready ? 'disabled' : ''}>${ready ? 'Czekam…' : 'Dalej'}</button></div>
           ${timerBar}
@@ -1933,16 +1989,16 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
         const k = v.top.k, pend = v.pending || { options: [] };
         let info = '';
         if (pend.note === 'fortress') info = `${esc(P[op].name)} jest w twierdzy, więc karta nie działa.`;
-        else if (pend.note === 'nothing') info = k === 'luck' ? 'Przeciwnik nie ma żadnej karty, której ci brakuje.' : 'Nie masz kart do oddania.';
+        else if (pend.note === 'nothing') info = k === 'luck' ? 'Przeciwnik nie ma żadnej jednostki do zabrania.' : 'Nie masz żadnej jednostki do oddania.';
         else if (pend.note === 'hasTicket') info = `Masz już kartę „${SPEC.ticket.name}”; ta wraca pod stos.`;
         let actions = '';
         if (myTurn) {
           if (pend.options.length > 1) {
-            actions = `<div class="status-line">${k === 'luck' ? 'Wybierz region, który zabierasz:' : 'Wybierz kartę do oddania:'}</div>
-              <div class="cat-grid">${pend.options.map((r) => `<button class="btn" style="--cc:var(--r-${r})" data-click="special" data-arg="${r}"><span>${esc(REG[r].short)} (${(k === 'luck' ? P[op] : P[me]).cards[r]})</span></button>`).join('')}</div>`;
+            actions = `<div class="status-line">${k === 'luck' ? 'Wybierz jednostkę, którą zabierasz:' : 'Wybierz jednostkę, którą oddajesz:'}</div>
+              <div class="cat-grid">${pend.options.map((r) => `<button class="btn" style="--cc:var(--r-${REG[r].group})" data-click="special" data-arg="${r}"><span>${esc(REG[r].name)}${mx > 1 ? ' (' + (k === 'luck' ? P[op] : P[me]).cards[r] + ')' : ''}</span></button>`).join('')}</div>`;
           } else {
             const one = pend.options[0];
-            const what = one ? (k === 'luck' ? `Zabierasz kartę: ${REG[one].short}.` : `Oddajesz kartę: ${REG[one].short}.`) : '';
+            const what = one ? (k === 'luck' ? `Zabierasz: ${REG[one].name}.` : `Oddajesz: ${REG[one].name}.`) : '';
             actions = `<div class="status-line">${esc(what || info)}</div><button class="btn primary" data-click="special" data-arg="${one || ''}">OK</button>`;
           }
         } else {
@@ -1965,11 +2021,11 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
         const w = v.winner;
         const hist = v.hist || [];
         const sc = [0, 1].map((p) => hist.filter((x) => x.a[p] === x.c).length);
-        const reason = { map: 'pełna mapa ' + C.nameGen + ' zebrana', deck: 'w talii zabrakło kart regionów', time: 'minął czas gry', resign: 'przeciwnik się poddał' }[v.overReason] || '';
+        const reason = { map: (need >= N ? 'pełna mapa ' + C.nameGen + ' zebrana' : `zdobyto ${need} z ${N} ${C.unitsLabel}`), deck: 'talia się skończyła, wygrywa więcej jednostek', time: 'minął czas gry', resign: 'przeciwnik się poddał' }[v.overReason] || '';
         const title = w === 'draw' ? 'Remis!' : w === me ? 'Wygrywasz!' : `Wygrywa ${esc(P[w].name)}`;
         const wrong = hist.filter((x) => x.a[me] !== x.c).length;
         stage = `<div class="win-banner"><h2>${title}</h2><div class="muted">${w === 'draw' ? esc(reason) : (w === me ? 'Brawo: ' : '') + esc(reason)}</div></div>
-          ${mapSVG({ cards: w === 'draw' ? P[me].cards : P[w].cards, target: tg, labels: true })}
+          ${mapSVG({ owners: [P[me].cards, P[op].cards], max: mx })}<div class="score"><span><i class="sw mine"></i>Ty: <b>${nMe}</b></span><span><i class="sw theirs"></i>${esc(P[op].name.slice(0, 12))}: <b>${nOp}</b></span></div>
           <div class="panel stack"><div class="row"><span class="grow">Dobre odpowiedzi: ${esc(P[me].name)}</span><b>${sc[me]}/${hist.length}</b></div>
           <div class="row"><span class="grow">Dobre odpowiedzi: ${esc(P[op].name)}</span><b>${sc[op]}/${hist.length}</b></div>
           ${R.pair || R.H ? `<div class="row small muted"><span class="grow">Bilans pojedynków</span>${pairLine()}</div>` : ''}</div>
@@ -2094,20 +2150,25 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
   let T = null;
   function mastery() {
     const st = store.get(SK(), { a: {} }).a;
-    const reg = {}, cat = {};
-    REGIONS.forEach((r) => { reg[r] = [0, 0]; });
+    const unit = {}, grp = {}, cat = {};
+    REGIONS.forEach((u) => { unit[u] = [0, 0]; });
+    GROUPS.forEach((g) => { grp[g] = [0, 0]; });
     CATS.forEach((c) => { cat[c] = [0, 0]; });
     BANK.forEach((q) => {
       const ok = st[q.id] && st[q.id].l === 1 ? 1 : 0;
       cat[q.cat][0] += ok; cat[q.cat][1]++;
-      if (q.region) { reg[q.region][0] += ok; reg[q.region][1]++; }
+      if (q.region && grp[q.region]) { grp[q.region][0] += ok; grp[q.region][1]++; }
+      if (q.unit && unit[q.unit]) { unit[q.unit][0] += ok; unit[q.unit][1]++; }
     });
-    return { reg, cat, st };
+    // postęp jednostki: jej własne pytania, a gdy ich brak – pytania jej makroregionu
+    const reg = {};
+    REGIONS.forEach((u) => { const x = unit[u][1] ? unit[u] : grp[REG[u].group]; reg[u] = x; });
+    return { reg, grp, cat, st };
   }
   function screenTrain(onlyWrong) {
     const cfg = store.get('trainCfg', { cats: CATS.slice(), diff: 0 });
     const ms = mastery();
-    const prog = {}; REGIONS.forEach((r) => { prog[r] = ms.reg[r][0] / ms.reg[r][1]; });
+    const prog = {}; REGIONS.forEach((r) => { prog[r] = ms.reg[r][1] ? ms.reg[r][0] / ms.reg[r][1] : 0; });
     const bars = CATS.map((c) => `<div><div class="row small"><span class="grow">${I.CAT[c].replace('<svg', '<svg style="width:16px;height:16px;display:inline;vertical-align:-3px;color:var(--c-' + c + ')"')} ${esc(CAT_NAMES[c])}</span><span>${ms.cat[c][0]}/${ms.cat[c][1]}</span></div>
       <div class="bar" style="--cc:var(--c-${c})"><i style="width:${(100 * ms.cat[c][0] / ms.cat[c][1]).toFixed(1)}%"></i></div></div>`).join('');
     const wrongN = Object.entries(ms.st).filter(([k, x]) => x.l === 0 && QB[k]).length;
@@ -2233,7 +2294,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
       const total = Object.values(st).reduce((a, x) => [a[0] + x.k, a[1] + x.n], [0, 0]);
       body = `<div class="panel stack"><div class="row"><b class="grow">Wszystkie odpowiedzi</b><span>${total[1] ? Math.round(100 * total[0] / total[1]) : 0}% dobrych (${total[1]})</span></div></div>
         <div class="panel stack"><div class="lbl">Według kategorii</div>${CATS.map((c) => bar(CAT_NAMES[c], bc[c], `var(--c-${c})`)).join('')}</div>
-        <div class="panel stack"><div class="lbl">Według regionu (pytania przypisane do regionu)</div>${REGIONS.map((r) => bar(REG[r].short, br[r], `var(--r-${r})`)).join('')}</div>
+        <div class="panel stack"><div class="lbl">Według makroregionu (pytania o daną część kraju)</div>${GROUPS.map((r) => bar(GREG[r].name, br[r], `var(--r-${r})`)).join('')}</div>
         <div class="small muted center">Statystyki dotyczą twoich odpowiedzi w pojedynkach i treningu na tym telefonie.</div>`;
     } else if (tab === 'wrong') {
       const st = store.get(SK(), { a: {} }).a;
@@ -2266,8 +2327,8 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
   //  ZASADY
   // ======================================================================
   const RULE_SLIDES = [
-    { t: () => 'Zbierz mapę ' + C.nameGen, art: () => mapSVG({ full: true, labels: true }), d: () => `${C.name} ${C.verbHas || 'ma'} ${C.unitsCount} ${C.unitsLabel}, które w grze tworzą 4 regiony: ${C.regions.map((r) => r.name).join(', ')}. Wygrywa, kto pierwszy zbierze komplet kart wszystkich regionów (domyślnie po 2 karty każdego).` },
-    { t: 'Twoja tura', art: () => regionCard('north'), d: 'Odsłaniasz kartę regionu i rzucasz kostką: 5 kategorii albo Wybór (wtedy kategorię wskazuje przeciwnik). Jeśli masz już ten region, możesz raz na turę użyć Zmiany trasy.' },
+    { t: () => 'Zdobądź mapę ' + C.nameGen, art: () => mapSVG({ full: true, labels: true }), d: () => `${C.name} ${C.verbHas || 'ma'} ${C.unitsCount} ${C.unitsLabel}; każda karta to jedna z tych jednostek. Wygrywa, kto pierwszy zdobędzie ${C.gameRules.winUnits} z ${REGIONS.length}${C.gameRules.perRegion > 1 ? `. Każda jednostka ma w talii ${C.gameRules.perRegion} karty: druga ją umacnia` : ''}.` },
+    { t: 'Twoja tura', art: () => regionCard(REGIONS[0]), d: 'Odsłaniasz kartę jednostki i rzucasz kostką: 5 kategorii albo Wybór (wtedy kategorię wskazuje przeciwnik). Wygrana karta zdobywa wolną jednostkę, umacnia twoją albo osłabia lub odbiera jednostkę przeciwnika.' },
     { t: 'Pojedynek', art: () => `<div class="die" style="--dc:var(--c-HIS)">${I.CAT.HIS}</div>`, d: 'Pytanie widzą obaj gracze naraz i obaj odpowiadają. Odpowiesz dobrze w swojej turze: karta jest twoja. Pomylisz się, a przeciwnik trafi: to przechwyt. Po każdym pytaniu jest krótkie objaśnienie.' },
     { t: 'Karty specjalne', art: () => specialCard('ticket'), d: () => `${SPEC.luck.name} zabiera kartę przeciwnikowi, ${SPEC.detour.name} każe oddać kartę, ${SPEC.ticket.name} ratuje po złej odpowiedzi, a ${SPEC.express.name} daje dodatkową rundę. Gracz z 3 kompletnymi regionami jest w twierdzy.` }
   ];
@@ -2289,13 +2350,13 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
     modal(`<div class="stack"><b>Zasady w skrócie</b><div class="small">${fullRules()}</div><button class="btn primary" data-m="c">Zamknij</button></div>`, { c: (a, c) => c() });
   }
   const fullRules = () => `<ol style="padding-left:18px;margin:8px 0">
+    <li>Mapa ${esc(C.nameGen)} składa się z ${REGIONS.length} ${esc(C.unitsLabel)}. Każda karta w talii to jedna z nich${C.gameRules.perRegion > 1 ? ` (po ${C.gameRules.perRegion} karty na jednostkę)` : ''}.</li>
     <li>Gracze wykonują tury na zmianę, ale na każde pytanie odpowiadają obaj, równocześnie i bez podglądania.</li>
-    <li>Wynik pytania: gracz w turze dobrze → bierze kartę; gracz w turze źle, przeciwnik dobrze → przechwyt (kartę bierze przeciwnik); obaj źle → karta wraca pod stos.</li>
-    <li>Zmiana trasy: raz na turę możesz odłożyć pod stos kartę regionu, który już skompletowałeś.</li>
+    <li>Gracz w turze dobrze → bierze kartę; gracz w turze źle, przeciwnik dobrze → przechwyt; obaj źle → karta wraca pod stos.</li>
+    <li>Zdobyta karta: wolną jednostkę zajmuje${C.gameRules.perRegion > 1 ? ', twoją umacnia' : ''}, a jednostkę przeciwnika ${C.gameRules.perRegion > 1 ? 'osłabia (umocnioną) albo odbiera' : 'odbiera'}.</li>
+    <li>Wygrywa, kto pierwszy zdobędzie ${C.gameRules.winUnits} z ${REGIONS.length} (albo całą mapę, jeśli tak ustawiono pokój). Gdy talia się skończy, wygrywa więcej jednostek.</li>
     <li>Wybór na kostce: kategorię wskazuje przeciwnik w ciągu 10 s, potem losuje gra.</li>
-    <li>Wymiana: mając co najmniej o 2 karty więcej niż potrzeba w jednym regionie, możesz na koniec tury wymienić jedną z nich na region, którego ci brakuje, jeśli przeciwnik ma go w nadmiarze.</li>
-    <li>Twierdza: gracza z 3 kompletnymi regionami nie dotyczy karta „${esc(SPEC.luck.name)}”.</li>
-    <li>Gdy w talii zabraknie kart regionów albo minie czas gry, wygrywa więcej kompletnych regionów, a przy remisie więcej kart.</li>
+    <li>Twierdza: gracza, któremu brakuje jednej jednostki do wygranej, nie dotyczy karta „${esc(SPEC.luck.name)}”.</li>
     <li>Utrata połączenia zatrzymuje zegar. Po 2 minutach nieobecności w trakcie pytania liczy się brak odpowiedzi.</li></ol>`;
 
   // ======================================================================

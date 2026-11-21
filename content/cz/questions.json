@@ -4,6 +4,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Jak nazywa się gotycki most w Pradze z barokowymi posągami, łączący Stare Miasto z Małą Straną?",
   "options": [
    "Most Mánesa",
@@ -39,6 +40,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Który kompleks w Pradze jest siedzibą prezydenta Republiki Czeskiej i uchodzi za jeden z największych zespołów zamkowych świata?",
   "options": [
    "Zamek Praski",
@@ -72,6 +74,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Jak nazywa się gotycka katedra na Zamku Praskim, w której przechowywane są czeskie klejnoty koronacyjne?",
   "options": [
    "Katedra św. Piotra i Pawła",
@@ -105,6 +108,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Na którym budynku w Pradze działa średniowieczny zegar astronomiczny, zwany Orlojem?",
   "options": [
    "Na Ratuszu Nowomiejskim",
@@ -138,6 +142,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "W domku nr 22 przy której uliczce na Zamku Praskim pisał w latach 1916-1917 Franz Kafka?",
   "options": [
    "Karlovej",
@@ -173,6 +178,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Który gotycki zamek pod Pragą kazał zbudować Karol IV dla ochrony klejnotów koronacyjnych i relikwii?",
   "options": [
    "Konopiště",
@@ -208,6 +214,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "stc",
   "question": "W którym mieście znajduje się kostnica w Sedlcu, ozdobiona szczątkami kilkudziesięciu tysięcy ludzi?",
   "options": [
    "Mielniku",
@@ -243,6 +250,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Który zamek pod Pragą był rezydencją arcyksięcia Franciszka Ferdynanda, słynącą z ogromnej kolekcji trofeów myśliwskich?",
   "options": [
    "Hluboká",
@@ -276,6 +284,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Na cmentarzu na którym praskim wzgórzu pochowano m.in. Antonína Dvořáka i Bedřicha Smetanę?",
   "options": [
    "Petřinie",
@@ -309,6 +318,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Jak nazywa się główny plac Nowego Miasta w Pradze, z konnym pomnikiem patrona Czech przed Muzeum Narodowym?",
   "options": [
    "Rynek Staromiejski",
@@ -342,6 +352,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Jak nazywa się budynek nad Wełtawą w Pradze, zaprojektowany przez Vlado Milunicia i Franka Gehry’ego, nazywany „Ginger i Fred”?",
   "options": [
    "Dom U Czarnej Matki Boskiej",
@@ -377,6 +388,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Po której praskiej budowli „pełzają” rzeźby niemowląt autorstwa Davida Černego?",
   "options": [
    "Wieży ratuszowej",
@@ -412,6 +424,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Która praska wieża widokowa, otwarta w 1891 r., nawiązuje do paryskiej wieży Eiffla?",
   "options": [
    "Wieża Prochowa",
@@ -445,6 +458,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Na którym praskim cmentarzu jest grób rabina Judy Löwa, któremu legenda przypisuje stworzenie Golema?",
   "options": [
    "Starym cmentarzu żydowskim",
@@ -478,6 +492,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Który praski klasztor premonstratensów słynie z barokowych sal bibliotecznych: Teologicznej i Filozoficznej?",
   "options": [
    "Strahov",
@@ -511,6 +526,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Jak nazywa się dzielnica Pragi u stóp Zamku, z barokowymi pałacami i kościołem św. Mikołaja?",
   "options": [
    "Josefov",
@@ -544,6 +560,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "W którym praskim gmachu, siedzibie Filharmonii Czeskiej, mieści się Sala Dworzaka?",
   "options": [
    "Rudolfinum",
@@ -579,6 +596,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Jaki napis widnieje nad sceną Teatru Narodowego w Pradze, zbudowanego dzięki zbiórce społecznej?",
   "options": [
    "„Naród sobie”",
@@ -612,6 +630,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Który secesyjny gmach w Pradze, z Salą Smetany, ozdabiali m.in. Alfons Mucha i Max Švabinský?",
   "options": [
    "Dom Reprezentacyjny",
@@ -647,6 +666,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Który gotycki kościół z dwiema wieżami góruje nad Rynkiem Staromiejskim w Pradze?",
   "options": [
    "Kościół św. Jakuba",
@@ -680,6 +700,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "stc",
   "question": "Gdzie znajduje się letnia rezydencja prezydenta Czech, przy której pochowano Tomáša G. Masaryka?",
   "options": [
    "W Konopištiu",
@@ -713,6 +734,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Czyj pomnik stoi na Rynku Staromiejskim w Pradze, odsłonięty w 1915 r., w 500. rocznicę śmierci tej postaci?",
   "options": [
    "Jana Nepomucena",
@@ -746,6 +768,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Jak nazywa się ściana na praskiej Małej Stranie, niedaleko Kampy, od lat 80. pokrywana graffiti i hasłami pokoju?",
   "options": [
    "Mur Berliński",
@@ -779,6 +802,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "kvk",
   "question": "Które uzdrowisko w zachodnich Czechach słynie z gorących źródeł, kolumnad i międzynarodowego festiwalu filmowego?",
   "options": [
    "Karlowe Wary",
@@ -814,6 +838,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": null,
   "question": "Które uzdrowisko NIE należy do tzw. zachodnioczeskiego trójkąta uzdrowiskowego?",
   "options": [
    "Františkowe Łaźnie",
@@ -849,6 +874,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Które miasteczko nad Wełtawą w południowych Czechach, z zamkiem i malowaną wieżą, wpisano w 1992 r. na listę UNESCO?",
   "options": [
    "Písek",
@@ -884,6 +910,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Który zamek w południowych Czechach Schwarzenbergowie przebudowali w XIX w. w stylu neogotyku na wzór angielskiego Windsoru?",
   "options": [
    "Karlštejn",
@@ -917,6 +944,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Która wieś w południowych Czechach jest na liście UNESCO jako przykład tzw. baroku ludowego?",
   "options": [
    "Telč",
@@ -952,6 +980,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": null,
   "question": "Wieża którego kościoła jest najwyższą wieżą kościelną w Czechach (ok. 102 m)?",
   "options": [
    "Katedry św. Bartłomieja w Pilźnie",
@@ -985,6 +1014,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Z czego słynie okolica Trzebonia (Třeboň) w południowych Czechach?",
   "options": [
    "Z jaskiń krasowych",
@@ -1018,6 +1048,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "kvk",
   "question": "Na którym zamku w zachodnich Czechach w 1319 r. król Jan Luksemburski uwięził swojego małego syna, późniejszego Karola IV?",
   "options": [
    "Cheb",
@@ -1053,6 +1084,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "kvk",
   "question": "Które uzdrowisko słynie ze „Śpiewającej fontanny”, której pokazy wody towarzyszą muzyce?",
   "options": [
    "Františkowe Łaźnie",
@@ -1086,6 +1118,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "kvk",
   "question": "Które miasto w zachodnich Czechach słynie ze średniowiecznego zespołu kamienic na rynku, zwanego Špalíček?",
   "options": [
    "Pilzno",
@@ -1119,6 +1152,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": null,
   "question": "W którym mieście stoi Wielka Synagoga, druga co do wielkości w Europie?",
   "options": [
    "W Ołomuńcu",
@@ -1152,6 +1186,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "hkk",
   "question": "Jak nazywa się skalne miasto koło Broumova, przy granicy z Polską, z labiryntem piaskowcowych wież?",
   "options": [
    "Adršpach",
@@ -1185,6 +1220,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "ulk",
   "question": "Jak nazywa się największa naturalna brama skalna w Europie, w Czeskiej Szwajcarii?",
   "options": [
    "Brama Floriańska",
@@ -1218,6 +1254,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "lbk",
   "question": "Jak nazywa się szczyt nad Libercem z hotelem i nadajnikiem w kształcie hiperboloidy?",
   "options": [
    "Praděd",
@@ -1253,6 +1290,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "pak",
   "question": "Renesansowy zamek w którym mieście, rodzinnym mieście Bedřicha Smetany, jest na liście UNESCO?",
   "options": [
    "Pardubice",
@@ -1288,6 +1326,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "pak",
   "question": "Jaką rasę koni hoduje stadnina w Kladrubach nad Łabą, wpisana w 2019 r. na listę UNESCO?",
   "options": [
    "Haflingerską",
@@ -1323,6 +1362,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "ulk",
   "question": "Krajobraz związany z uprawą jakiej rośliny w Žatcu wpisano w 2023 r. na listę UNESCO?",
   "options": [
    "Winorośli",
@@ -1358,6 +1398,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ulk",
   "question": "Jakie pasmo górskie na granicy z Niemcami, dawny region górniczy, wpisano w 2019 r. na listę UNESCO?",
   "options": [
    "Góry Izerskie",
@@ -1393,6 +1434,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "hkk",
   "question": "W którym miejscu nad Łabą barokowy szpital zdobią rzeźby Cnót i Występków Matthiasa Bernarda Brauna?",
   "options": [
    "Litomyšl",
@@ -1428,6 +1470,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "lbk",
   "question": "Ruiny którego zamku z dwiema wieżami, zwanymi Panna i Baba, są symbolem Czeskiego Raju?",
   "options": [
    "Bezděz",
@@ -1461,6 +1504,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "ulk",
   "question": "Które uzdrowisko w północnych Czechach uchodzi za jedno z najstarszych w kraju; spotkali się tu w 1812 r. Beethoven i Goethe?",
   "options": [
    "Jesionik",
@@ -1494,6 +1538,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "lbk",
   "question": "Lasy bukowe w którym czeskim paśmie górskim dołączono w 2021 r. do wpisu UNESCO o pierwotnych lasach bukowych Europy?",
   "options": [
    "Szumawie",
@@ -1529,6 +1574,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Jak nazywa się zespół parków i zamków na południowych Morawach, stworzony przez ród Liechtensteinów i wpisany na listę UNESCO?",
   "options": [
    "Park w Průhonicach",
@@ -1564,6 +1610,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "olk",
   "question": "Który barokowy pomnik w Ołomuńcu wpisano w 2000 r. na listę UNESCO?",
   "options": [
    "Katedrę św. Wacława",
@@ -1599,6 +1646,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "olk",
   "question": "Czym wyróżnia się zegar astronomiczny na ratuszu w Ołomuńcu?",
   "options": [
    "Socrealistycznymi figurami robotników",
@@ -1632,6 +1680,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Który architekt zaprojektował w Brnie willę Tugendhatów, wpisaną na listę UNESCO?",
   "options": [
    "Ludwig Mies van der Rohe",
@@ -1668,6 +1717,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Która twierdza na wzgórzu w Brnie była w XIX w. więzieniem dla przeciwników Habsburgów?",
   "options": [
    "Špilberk",
@@ -1701,6 +1751,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "olk",
   "question": "W którym morawskim mieście arcybiskupi ołomunieccy mieli rezydencję z ogrodami wpisanymi na listę UNESCO?",
   "options": [
    "Ołomuńcu",
@@ -1736,6 +1787,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "vys",
   "question": "Które miasteczko na Wysoczynie słynie z rynku otoczonego kamienicami z podcieniami i jest na liście UNESCO?",
   "options": [
    "Tábor",
@@ -1771,6 +1823,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "vys",
   "question": "Kto zaprojektował kościół pielgrzymkowy na Zielonej Górze koło Žďáru nad Sázavą, zbudowany na planie gwiazdy?",
   "options": [
    "Kilián Ignác Dientzenhofer",
@@ -1807,6 +1860,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "vys",
   "question": "W którym mieście na Wysoczynie dawna dzielnica żydowska i bazylika św. Prokopa są na liście UNESCO?",
   "options": [
    "Boskovice",
@@ -1842,6 +1896,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "O której godzinie dzwony katedry na Petrovie w Brnie biją w samo „południe”?",
   "options": [
    "O 12.00",
@@ -1875,6 +1930,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "W którym mieście zachowała się romańska rotunda z XII-wiecznymi malowidłami, przedstawiającymi władców z dynastii Przemyślidów?",
   "options": [
    "Znojmo",
@@ -1910,6 +1966,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "olk",
   "question": "Który neogotycki zamek na Morawach przez stulecia należał do Zakonu Krzyżackiego?",
   "options": [
    "Pernštejn",
@@ -1943,6 +2000,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Jak nazywa się dawny kompleks hutniczy w Ostrawie, przekształcony w centrum kultury z zachowanymi wielkimi piecami?",
   "options": [
    "Dolní Vítkovice",
@@ -1976,6 +2034,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "zlk",
   "question": "W którym mieście w Beskidach działa Wołoskie Muzeum na Wolnym Powietrzu, jeden z najstarszych skansenów w Europie Środkowej?",
   "options": [
    "Zlín",
@@ -2009,6 +2068,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "zlk",
   "question": "Która bazylika na Morawach jest najważniejszym sanktuarium związanym ze świętymi Cyrylem i Metodym?",
   "options": [
    "Svatý Kopeček",
@@ -2042,6 +2102,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak wygląda flaga Czech?",
   "options": [
    "Biały i czerwony pas z niebieskim klinem",
@@ -2077,6 +2138,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie zwierzę widnieje w herbie Czech (krainy historycznej)?",
   "options": [
    "Orzeł",
@@ -2112,6 +2174,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki ptak widnieje w herbie Moraw?",
   "options": [
    "Czarny orzeł",
@@ -2147,6 +2210,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak brzmi tytuł hymnu Czech?",
   "options": [
    "„Lijepa naša”",
@@ -2183,6 +2247,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie hasło widnieje na fladze prezydenta Republiki Czeskiej?",
   "options": [
    "„Wolność albo śmierć”",
@@ -2218,6 +2283,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie drzewo jest symbolem narodowym Czechów?",
   "options": [
    "Lipa",
@@ -2253,6 +2319,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Na ile krajów (jednostek samorządu regionalnego) dzielą się Czechy?",
   "options": [
    "8",
@@ -2286,6 +2353,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "hkk",
   "question": "Który szczyt jest najwyższy w Czechach?",
   "options": [
    "Śnieżka",
@@ -2322,6 +2390,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która rzeka jest najdłuższą rzeką płynącą wyłącznie przez Czechy?",
   "options": [
    "Wełtawa",
@@ -2357,6 +2426,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": null,
   "question": "Którą rzeką woda z większości Czech płynie do Morza Północnego?",
   "options": [
    "Łabą",
@@ -2392,6 +2462,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": null,
   "question": "Gdzie ma źródła Odra, jedna z dwóch największych rzek Polski?",
   "options": [
    "W Czechach",
@@ -2428,6 +2499,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": null,
   "question": "Od której rzeki pochodzi nazwa Moraw?",
   "options": [
    "Morawy",
@@ -2463,6 +2535,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Z iloma państwami graniczą Czechy?",
   "options": [
    "3",
@@ -2496,6 +2569,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka jest w przybliżeniu powierzchnia Czech?",
   "options": [
    "ok. 49 tys. km²",
@@ -2529,6 +2603,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Które miasto jest drugim co do wielkości w Czechach?",
   "options": [
    "Ostrawa",
@@ -2564,6 +2639,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "olk",
   "question": "Które miasto, trzecie co do wielkości w Czechach, leży u zbiegu Odry i Ostrawicy?",
   "options": [
    "Opawa",
@@ -2599,6 +2675,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Które miasto jest stolicą kraju południowoczeskiego?",
   "options": [
    "Tábor",
@@ -2634,6 +2711,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "hkk",
   "question": "U zbiegu Łaby i której rzeki leży Hradec Králové?",
   "options": [
    "Izery",
@@ -2669,6 +2747,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ulk",
   "question": "Jak nazywa się przełom Łaby przez Czeskie Średniogórze koło Litomierzyc?",
   "options": [
    "Brama Czeska",
@@ -2702,6 +2781,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Jak nazywa się obniżenie między Sudetami a Karpatami, ważny szlak komunikacyjny z Polski na Morawy?",
   "options": [
    "Przełęcz Dukielska",
@@ -2737,6 +2817,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Jak nazywa się największy park narodowy w Czechach, na granicy z Niemcami i Austrią?",
   "options": [
    "Karkonoski",
@@ -2772,6 +2853,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "hkk",
   "question": "Który park narodowy Czechy dzielą z Polską?",
   "options": [
    "Karkonoski",
@@ -2808,6 +2890,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Wzdłuż której rzeki ciągnie się Park Narodowy Podyje przy granicy z Austrią?",
   "options": [
    "Morawy",
@@ -2843,6 +2926,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Jak nazywa się największy pod względem powierzchni zbiornik wodny w Czechach, na Wełtawie w Szumawie?",
   "options": [
    "Orlík",
@@ -2878,6 +2962,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Jaki region krasowy na północ od Brna słynie z jaskiń i przepaści Macocha?",
   "options": [
    "Kras Morawski",
@@ -2913,6 +2998,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Które pasmo górskie z Lysą horą i Radhoštěm Czechy dzielą z Polską i Słowacją?",
   "options": [
    "Jesioniki",
@@ -2948,6 +3034,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "olk",
   "question": "Jak nazywa się najwyższy szczyt Moraw i czeskiego Śląska, leżący w Jesionikach?",
   "options": [
    "Śnieżnik",
@@ -2983,6 +3070,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "ulk",
   "question": "Gdzie leży najniżej położony punkt Czech (ok. 115 m n.p.m.)?",
   "options": [
    "Na Łabie koło Hřenska",
@@ -3016,6 +3104,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Która rzeka w Cieszynie stanowi granicę polsko-czeską?",
   "options": [
    "Opawa",
@@ -3052,6 +3141,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Które miasto było historyczną stolicą czeskiego Śląska (Śląska Opawskiego)?",
   "options": [
    "Ostrawa",
@@ -3087,6 +3177,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "stc",
   "question": "Gdzie mieści się urząd kraju środkowoczeskiego?",
   "options": [
    "W Pradze",
@@ -3120,6 +3211,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "stc",
   "question": "Które z tych miast leży w kraju środkowoczeskim?",
   "options": [
    "Ołomuniec",
@@ -3155,6 +3247,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "stc",
   "question": "Które miasto w Czechach Środkowych jest siedzibą i główną fabryką Škody Auto?",
   "options": [
    "Nošovice",
@@ -3190,6 +3283,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Jak nazywa się wapienny obszar między Pragą a Berounem, z jaskiniami Koněpruskimi i zamkiem Karlštejn?",
   "options": [
    "Kras Morawski",
@@ -3225,6 +3319,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "plk",
   "question": "Które miasto jest czwartym co do wielkości w Czechach?",
   "options": [
    "Ołomuniec",
@@ -3260,6 +3355,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Z którymi państwami graniczy kraj południowoczeski?",
   "options": [
    "Ze Słowacją i Austrią",
@@ -3293,6 +3389,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "kvk",
   "question": "Nad którą rzeką leżą Cheb, Loket i Karlowe Wary?",
   "options": [
    "Berounką",
@@ -3328,6 +3425,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "plk",
   "question": "Jak nazywa się największe naturalne jezioro w Czechach, polodowcowe, w Szumawie?",
   "options": [
    "Czarne Jezioro",
@@ -3363,6 +3461,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "hkk",
   "question": "Gdzie ma źródło Łaba?",
   "options": [
    "W Karkonoszach",
@@ -3399,6 +3498,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "hkk",
   "question": "Jak nazywają się dwa miasta wschodnich Czech nad Łabą, oddalone o ok. 20 km i będące stolicami sąsiednich krajów?",
   "options": [
    "Pilzno i Cheb",
@@ -3434,6 +3534,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ulk",
   "question": "Jaki surowiec wydobywa się odkrywkowo w Zagłębiu Północnoczeskim, wokół Mostu i Chomutova?",
   "options": [
    "Węgiel brunatny",
@@ -3469,6 +3570,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "zlk",
   "question": "Które miasto na Morawach rozbudował Tomáš Baťa jako modelowe miasto przy fabryce obuwia?",
   "options": [
    "Otrokovice",
@@ -3504,6 +3606,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "vys",
   "question": "Które miasto jest stolicą Kraju Wysoczyna?",
   "options": [
    "Třebíč",
@@ -3539,6 +3642,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "olk",
   "question": "Które miasto na Morawach jest siedzibą drugiego najstarszego uniwersytetu w Czechach, założonego w 1573 r.?",
   "options": [
    "Brno",
@@ -3574,6 +3678,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "W której części Czech jest najwięcej winnic?",
   "options": [
    "Na południowych Morawach",
@@ -3609,6 +3714,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Jak nazywają się wapienne wzgórza nad zbiornikami Nové Mlýny, z ruinami zamków i winnicami?",
   "options": [
    "Beskidy",
@@ -3644,6 +3750,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaką krótką angielską nazwę Czech zatwierdzono w 2016 r. do użytku międzynarodowego?",
   "options": [
    "Czechia",
@@ -3677,6 +3784,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie krainy historyczne tworzą dzisiejsze Czechy?",
   "options": [
    "Czechy, Śląsk i Łużyce",
@@ -3710,6 +3818,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Jak nazywa się praska wyspa na Wełtawie, na którą prowadzą schody z Mostu Karola?",
   "options": [
    "Kampa",
@@ -3743,6 +3852,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Imię kogo nosi port lotniczy w Pradze?",
   "options": [
    "Václava Havla",
@@ -3778,6 +3888,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Ile linii ma praskie metro (stan na 2026 r.)?",
   "options": [
    "2",
@@ -3813,6 +3924,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "north",
+  "unitRef": "ulk",
   "question": "Jak nazywa się park narodowy z piaskowcowymi skałami nad Łabą przy granicy z Niemcami?",
   "options": [
    "Czeska Szwajcaria",
@@ -3848,6 +3960,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "lbk",
   "question": "Jak nazywa się staw w północnych Czechach, założony przez Karola IV, a nazwany na cześć autora poematu „Maj”?",
   "options": [
    "Lipno",
@@ -3883,6 +3996,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "W którym paśmie górskim ma źródła Wełtawa?",
   "options": [
    "W Szumawie",
@@ -3918,6 +4032,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Które dwie rzeki płyną przez Brno?",
   "options": [
    "Morawa i Beczwa",
@@ -3953,6 +4068,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "olk",
   "question": "Jak nazywa się żyzna nizina wokół Ołomuńca i Prościejowa?",
   "options": [
    "Wołoszczyzna",
@@ -3986,6 +4102,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "zlk",
   "question": "Jak nazywa się region folklorystyczny na południowym wschodzie Moraw, ze Strážnicą i Uherskim Hradziszczem?",
   "options": [
    "Chodsko",
@@ -4019,6 +4136,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "plk",
   "question": "Jak nazywa się region wokół Domažlic, którego mieszkańcy przez stulecia strzegli granicy z Bawarią?",
   "options": [
    "Haná",
@@ -4052,6 +4170,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "vys",
   "question": "Jak nazywa się wyżyna w środku kraju, na pograniczu Czech i Moraw?",
   "options": [
    "Wyżyna Lubelska",
@@ -4085,6 +4204,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "ulk",
   "question": "Jak nazywa się pasmo wulkanicznych wzgórz nad Łabą, z najwyższą Milešovką?",
   "options": [
    "Brdy",
@@ -4120,6 +4240,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "hkk",
   "question": "Które czeskie miasto leży naprzeciw polskiej Kudowy-Zdroju?",
   "options": [
    "Broumov",
@@ -4155,6 +4276,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Które miasto w południowych Czechach słynie z najstarszego zachowanego mostu kamiennego w Czechach (XIII w.)?",
   "options": [
    "Písek",
@@ -4188,6 +4310,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "U zbiegu Wełtawy i której rzeki leżą Czeskie Budziejowice?",
   "options": [
    "Otawy",
@@ -4223,6 +4346,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "stc",
   "question": "Który kraj jest największy pod względem powierzchni?",
   "options": [
    "Środkowoczeski",
@@ -4256,6 +4380,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Który kraj graniczy jednocześnie z Polską i Słowacją?",
   "options": [
    "Morawsko-śląski",
@@ -4289,6 +4414,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Do zlewisk ilu mórz należą rzeki Czech?",
   "options": [
    "1",
@@ -4324,6 +4450,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "olk",
   "question": "Jak nazywa się zalana jaskinia koło Hranic na Morawach, najgłębsza znana jaskinia tego typu na świecie?",
   "options": [
    "Macocha",
@@ -4359,6 +4486,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "lbk",
   "question": "Nad którą rzeką stykają się granice Czech, Polski i Niemiec?",
   "options": [
    "Nad Łabą",
@@ -4395,6 +4523,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Jak nazywa się dzielnica Pragi na terenie dawnego getta żydowskiego?",
   "options": [
    "Josefov",
@@ -4430,6 +4559,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "plk",
   "question": "U zbiegu ilu rzek leży Pilzno?",
   "options": [
    "2",
@@ -4465,6 +4595,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Gdzie znaleziono ceramiczną figurkę Wenus, jedno z najstarszych znanych dzieł z wypalanej gliny?",
   "options": [
    "W Dolních Věstonicach",
@@ -4500,6 +4631,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Od nazwy którego celtyckiego plemienia pochodzi łacińska nazwa Czech, Bohemia?",
   "options": [
    "Markomanów",
@@ -4535,6 +4667,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie plemię germańskie pod wodzą Marboda stworzyło na ziemiach czeskich potężne państwo na początku naszej ery?",
   "options": [
    "Longobardowie",
@@ -4570,6 +4703,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywał się kupiec frankijski, który w VII w. stanął na czele pierwszego znanego związku państwowego Słowian?",
   "options": [
    "Borzywoj",
@@ -4605,6 +4739,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": null,
   "question": "Jak nazywało się państwo słowiańskie z IX w., do którego w 863 r. przybyli Cyryl i Metody?",
   "options": [
    "Ruś Kijowska",
@@ -4640,6 +4775,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki alfabet stworzyli Cyryl i Metody dla Słowian?",
   "options": [
    "Cyrylicę",
@@ -4675,6 +4811,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Jak nazywała się pierwsza czeska dynastia, wywodząca się według legendy od Przemysła Oracza i księżnej Libuszy?",
   "options": [
    "Luksemburgowie",
@@ -4710,6 +4847,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Kto zamordował księcia Wacława, późniejszego patrona Czech?",
   "options": [
    "Jego brat Bolesław",
@@ -4745,6 +4883,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która czeska księżniczka poślubiła Mieszka I i przyczyniła się do chrztu Polski w 966 r.?",
   "options": [
    "Emma",
@@ -4781,6 +4920,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "pha",
   "question": "Który biskup praski z rodu Sławnikowiców zginął w 997 r. podczas misji do Prusów?",
   "options": [
    "Prokop",
@@ -4817,6 +4957,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który polski władca w latach 1003-1004 panował także w Pradze?",
   "options": [
    "Bolesław Chrobry",
@@ -4853,6 +4994,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "pha",
   "question": "Który książę czeski pod koniec lat 30. XI w. złupił Gniezno i wywiózł do Pragi relikwie św. Wojciecha?",
   "options": [
    "Wacław II",
@@ -4888,6 +5030,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywano Przemysła Ottokara II z powodu jego potęgi i bogactwa?",
   "options": [
    "Królem chłopów",
@@ -4923,6 +5066,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który król czeski koronował się w 1300 r. w Gnieźnie na króla Polski?",
   "options": [
    "Wacław II",
@@ -4959,6 +5103,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "W którym roku Karol IV założył uniwersytet w Pradze, najstarszy w Europie Środkowej?",
   "options": [
    "1348",
@@ -4994,6 +5139,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki dokument z 1356 r. ustalił zasady wyboru króla Niemiec przez siedmiu elektorów, w tym króla Czech?",
   "options": [
    "Majestas Carolina",
@@ -5029,6 +5175,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "W której bitwie w 1346 r. zginął niewidomy król czeski Jan Luksemburski?",
   "options": [
    "Pod Grunwaldem",
@@ -5064,6 +5211,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Gdzie w 1415 r. spalono na stosie Jana Husa?",
   "options": [
    "W Wiedniu",
@@ -5099,6 +5247,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Od jakiego wydarzenia w 1419 r. zaczęły się wojny husyckie?",
   "options": [
    "Od bitwy pod Lipanami",
@@ -5134,6 +5283,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który jednooki wódz husytów słynął z tego, że nie przegrał żadnej bitwy?",
   "options": [
    "Jerzy z Podiebradów",
@@ -5169,6 +5319,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Które miasto husyci założyli w 1420 r., nadając mu nazwę biblijnej góry?",
   "options": [
    "Kutná Hora",
@@ -5204,6 +5355,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "W której bitwie w 1434 r. umiarkowani husyci (utrakwiści) rozbili radykalnych taborytów?",
   "options": [
    "Pod Kutną Horą",
@@ -5239,6 +5391,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który książę litewski, bratanek Jagiełły, był w latach 20. XV w. zarządcą Czech z ramienia husytów?",
   "options": [
    "Świdrygiełło",
@@ -5275,6 +5428,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski król z XV w. zaproponował stworzenie związku władców chrześcijańskich dla zachowania pokoju w Europie?",
   "options": [
    "Władysław Jagiellończyk",
@@ -5310,6 +5464,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który syn Kazimierza Jagiellończyka został w 1471 r. królem Czech?",
   "options": [
    "Władysław",
@@ -5346,6 +5501,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Według legendy św. Jan Nepomucen zginął zrzucony z Mostu Karola. Za co?",
   "options": [
    "Za zdradę króla",
@@ -5381,6 +5537,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Od którego roku Habsburgowie nieprzerwanie zasiadali na tronie czeskim?",
   "options": [
    "1415",
@@ -5416,6 +5573,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Który cesarz przeniósł dwór do Pragi i gromadził tam alchemików, astronomów i dzieła sztuki?",
   "options": [
    "Maksymilian II",
@@ -5451,6 +5609,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który astronom pracował na dworze Rudolfa II w Pradze razem z Tychonem Brahe?",
   "options": [
    "Mikołaj Kopernik",
@@ -5486,6 +5645,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który polski alchemik działał na dworze Rudolfa II w Pradze?",
   "options": [
    "Michał Sędziwój",
@@ -5521,6 +5681,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Jaki konflikt rozpoczęła druga defenestracja praska w 1618 r.?",
   "options": [
    "Wojnę siedmioletnią",
@@ -5556,6 +5717,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "W której bitwie w 1620 r. wojska cesarskie rozbiły powstanie stanów czeskich?",
   "options": [
    "Pod Sadową",
@@ -5591,6 +5753,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Ilu przywódców powstania stanów czeskich stracono w 1621 r. na Rynku Staromiejskim w Pradze?",
   "options": [
    "7",
@@ -5626,6 +5789,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski pedagog, autor „Wielkiej dydaktyki”, po wygnaniu przez lata mieszkał w polskim Lesznie?",
   "options": [
    "Jan Hus",
@@ -5662,6 +5826,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "kvk",
   "question": "Który wódz wojny trzydziestoletniej, książę frydlandzki, został zamordowany w Chebie w 1634 r.?",
   "options": [
    "Karol Lotaryński",
@@ -5697,6 +5862,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki dokument z 1609 r. gwarantował w Czechach wolność wyznania?",
   "options": [
    "Edykt nantejski",
@@ -5732,6 +5898,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Jak nazywa się miejscowość pod Brnem, gdzie w 1805 r. Napoleon wygrał „bitwę trzech cesarzy”?",
   "options": [
    "Sławków (Austerlitz)",
@@ -5767,6 +5934,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się ruch odnowy języka i kultury czeskiej na przełomie XVIII i XIX w.?",
   "options": [
    "Odrodzenie narodowe",
@@ -5802,6 +5970,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "kvk",
   "question": "Którego historyka i polityka nazywa się „ojcem narodu” czeskiego?",
   "options": [
    "Karla Havlíčka",
@@ -5837,6 +6006,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto stworzył pięciotomowy słownik czesko-niemiecki, kluczowy dla odnowy języka czeskiego?",
   "options": [
    "Josef Dobrovský",
@@ -5872,6 +6042,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": null,
   "question": "W którym mieście w 1848 r. odbył się Zjazd Słowiański?",
   "options": [
    "W Moskwie",
@@ -5907,6 +6078,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Teatr Narodowy w Pradze spłonął w 1881 r., tuż przed pełnym otwarciem. W którym roku otwarto go ponownie?",
   "options": [
    "1868",
@@ -5942,6 +6114,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka organizacja gimnastyczna, założona w Pradze w 1862 r., stała się wzorem dla podobnych ruchów u innych Słowian, także w Polsce?",
   "options": [
    "Sokół",
@@ -5977,6 +6150,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": null,
   "question": "Kto w 1869 r. przejął zakłady w Pilźnie, które rozwinęły się w wielki koncern zbrojeniowy i maszynowy?",
   "options": [
    "Emil Škoda",
@@ -6012,6 +6186,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Którego dnia proklamowano niepodległość Czechosłowacji?",
   "options": [
    "28 października 1918",
@@ -6047,6 +6222,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto był pierwszym prezydentem Czechosłowacji?",
   "options": [
    "Emil Hácha",
@@ -6082,6 +6258,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywały się czechosłowackie oddziały, które w czasie wojny domowej w Rosji opanowały Kolej Transsyberyjską?",
   "options": [
    "Biała Armia",
@@ -6117,6 +6294,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": null,
   "question": "Jak nazywa się konflikt zbrojny o Śląsk Cieszyński ze stycznia 1919 r.?",
   "options": [
    "Wojna futbolowa",
@@ -6153,6 +6331,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": null,
   "question": "Kto w lipcu 1920 r. podzielił Śląsk Cieszyński między Polskę a Czechosłowację?",
   "options": [
    "Liga Narodów",
@@ -6189,6 +6368,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Na mocy jakiego układu z 1938 r. Czechosłowacja musiała oddać Niemcom Sudety?",
   "options": [
    "Traktatu wersalskiego",
@@ -6224,6 +6404,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Który obszar zajęła Polska w październiku 1938 r., po układzie monachijskim?",
   "options": [
    "Zaolzie",
@@ -6260,6 +6441,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywał się twór utworzony przez III Rzeszę na okupowanych ziemiach czeskich w marcu 1939 r.?",
   "options": [
    "Kraj Warty",
@@ -6295,6 +6477,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto był prezydentem Protektoratu Czech i Moraw?",
   "options": [
    "Emil Hácha",
@@ -6330,6 +6513,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który dygnitarz III Rzeszy zginął w wyniku zamachu w Pradze w 1942 r.?",
   "options": [
    "Reinhard Heydrich",
@@ -6365,6 +6549,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Którą wieś pod Pragą Niemcy zniszczyli w czerwcu 1942 r. w odwecie za zamach na Heydricha?",
   "options": [
    "Terezín",
@@ -6400,6 +6585,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "ulk",
   "question": "W której twierdzy, zbudowanej za Józefa II, Niemcy utworzyli getto i obóz dla Żydów?",
   "options": [
    "Špilberk",
@@ -6435,6 +6621,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Kiedy wybuchło powstanie praskie przeciw Niemcom?",
   "options": [
    "1 sierpnia 1944",
@@ -6470,6 +6657,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym roku komuniści przejęli władzę w Czechosłowacji w wyniku tzw. przewrotu lutowego?",
   "options": [
    "1945",
@@ -6505,6 +6693,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "pha",
   "question": "Kto przewodził reformom „praskiej wiosny” w 1968 r.?",
   "options": [
    "Gustáv Husák",
@@ -6540,6 +6729,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Wojska którego państwa Układu Warszawskiego NIE wkroczyły do Czechosłowacji w 1968 r.?",
   "options": [
    "Rumunii",
@@ -6576,6 +6766,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który student podpalił się w styczniu 1969 r. w Pradze na znak protestu przeciw bierności społeczeństwa po inwazji?",
   "options": [
    "Alexander Dubček",
@@ -6611,6 +6802,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywała się inicjatywa obrony praw człowieka z 1977 r., współtworzona przez Václava Havla?",
   "options": [
    "Karta 77",
@@ -6646,6 +6838,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się pokojowe obalenie komunizmu w Czechosłowacji w 1989 r.?",
   "options": [
    "Śpiewająca rewolucja",
@@ -6681,6 +6874,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto został prezydentem Czechosłowacji pod koniec 1989 r.?",
   "options": [
    "Miloš Zeman",
@@ -6716,6 +6910,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kiedy Czechosłowacja podzieliła się na Czechy i Słowację?",
   "options": [
    "17 listopada 1989",
@@ -6751,6 +6946,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Razem z którymi państwami Czechy weszły do NATO w 1999 r.?",
   "options": [
    "Z Austrią i Niemcami",
@@ -6786,6 +6982,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym roku Czechy przystąpiły do Unii Europejskiej?",
   "options": [
    "1995",
@@ -6821,6 +7018,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "pha",
   "question": "Jak nazywa się grupa współpracy Polski, Czech, Słowacji i Węgier, założona w 1991 r.?",
   "options": [
    "Inicjatywa Trójmorza",
@@ -6857,6 +7055,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto był prezydentem Czechosłowacji w okresie tzw. normalizacji, w latach 1975-1989?",
   "options": [
    "Klement Gottwald",
@@ -6892,6 +7091,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto był premierem Czech w chwili podziału Czechosłowacji w 1993 r.?",
   "options": [
    "Vladimír Mečiar",
@@ -6927,6 +7127,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto skomponował cykl poematów symfonicznych „Moja ojczyzna”, z najsłynniejszą częścią „Wełtawa”?",
   "options": [
    "Bedřich Smetana",
@@ -6962,6 +7163,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski kompozytor napisał w Ameryce IX Symfonię „Z Nowego Świata”?",
   "options": [
    "Josef Suk",
@@ -6997,6 +7199,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się opera Dvořáka z „Pieśnią do księżyca”, opowiadająca o nimfie wodnej zakochanej w księciu?",
   "options": [
    "Sprzedana narzeczona",
@@ -7032,6 +7235,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Który morawski kompozytor, urodzony w Hukvaldach, napisał operę „Jenufa” i „Sinfoniettę”?",
   "options": [
    "Leoš Janáček",
@@ -7067,6 +7271,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": null,
   "question": "Który kompozytor urodził się w 1890 r. w wieży kościoła św. Jakuba w Poliččie, gdzie jego ojciec był strażnikiem?",
   "options": [
    "Leoš Janáček",
@@ -7102,6 +7307,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Którą operę Mozarta po raz pierwszy wystawiono w 1787 r. w praskim Teatrze Stanowym?",
   "options": [
    "Don Giovanni",
@@ -7137,6 +7343,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Jaki międzynarodowy festiwal muzyczny rozpoczyna się co roku 12 maja, w rocznicę śmierci Smetany?",
   "options": [
    "Festiwal w Salzburgu",
@@ -7172,6 +7379,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski piosenkarz, zwany „złotym słowikiem”, nagrał m.in. piosenkę do kreskówki „Pszczółka Maja”?",
   "options": [
    "Karel Gott",
@@ -7207,6 +7415,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Który czeski bard z Ostrawy jest szczególnie popularny w Polsce, m.in. dzięki tłumaczeniom Antoniego Murackiego?",
   "options": [
    "Karel Kryl",
@@ -7243,6 +7452,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto jest autorem „Przygód dobrego wojaka Szwejka”?",
   "options": [
    "Jaroslav Hašek",
@@ -7278,6 +7488,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Słowo „robot” pochodzi ze sztuki „R.U.R.” (1920). Kto ją napisał?",
   "options": [
    "Jaroslav Hašek",
@@ -7313,6 +7524,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto napisał powieść „Nieznośna lekkość bytu”?",
   "options": [
    "Ivan Klíma",
@@ -7348,6 +7560,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski pisarz, autor „Pociągów pod specjalnym nadzorem” i „Zbyt głośnej samotności”, ma szczególnie wielu czytelników w Polsce?",
   "options": [
    "Milan Kundera",
@@ -7384,6 +7597,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski poeta jako jedyny Czech otrzymał Nagrodę Nobla w dziedzinie literatury (1984)?",
   "options": [
    "Jan Neruda",
@@ -7419,6 +7633,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która pisarka jest autorką powieści „Babunia”, przedstawiającej życie wiejskie XIX w.?",
   "options": [
    "Magdalena Dobromila Rettigová",
@@ -7454,6 +7669,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który pisarz, urodzony w Pradze w 1883 r., tworzył po niemiecku m.in. „Proces” i „Przemianę”?",
   "options": [
    "Rainer Maria Rilke",
@@ -7489,6 +7705,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto jest autorem romantycznego poematu „Maj” (1836), najważniejszego dzieła czeskiego romantyzmu?",
   "options": [
    "Josef Kajetán Tyl",
@@ -7524,6 +7741,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski artysta secesji zasłynął w Paryżu plakatami dla aktorki Sary Bernhardt?",
   "options": [
    "Max Švabinský",
@@ -7559,6 +7777,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski malarz był jednym z pionierów malarstwa abstrakcyjnego?",
   "options": [
    "Emil Filla",
@@ -7594,6 +7813,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto ilustrował „Przygody dobrego wojaka Szwejka” i namalował wiele sielskich scen zimowej wsi?",
   "options": [
    "Josef Lada",
@@ -7629,6 +7849,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto stworzył postać Krecika, bohatera kreskówek oglądanych także w Polsce?",
   "options": [
    "Karel Zeman",
@@ -7665,6 +7886,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Jak nazywa się styl architektury, wyjątkowo rozwinięty w Pradze ok. 1910-1920, z fasadami z ostrych, krystalicznych form?",
   "options": [
    "Gotyk",
@@ -7701,6 +7923,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Który zakonnik prowadził w klasztorze w Brnie doświadczenia z grochem i odkrył prawa dziedziczenia?",
   "options": [
    "Jan Amos Komeński",
@@ -7736,6 +7959,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski chemik otrzymał w 1959 r. Nagrodę Nobla za polarografię?",
   "options": [
    "Jaroslav Heyrovský",
@@ -7771,6 +7995,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który chemik wynalazł miękkie soczewki kontaktowe, a pierwsze z nich wykonał w domu, na maszynie zbudowanej z dziecięcego zestawu konstrukcyjnego?",
   "options": [
    "Prokop Diviš",
@@ -7806,6 +8031,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "west",
+  "unitRef": "kvk",
   "question": "Z rudy z którego czeskiego miasteczka Maria Skłodowska-Curie wyodrębniła polon i rad?",
   "options": [
    "Ostrawy",
@@ -7842,6 +8068,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski fizjolog odkrył m.in. komórki w móżdżku, nazwane dziś jego imieniem?",
   "options": [
    "Jan Evangelista Purkyně",
@@ -7878,6 +8105,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który reżyser czeskiego pochodzenia zdobył Oscary za filmy „Lot nad kukułczym gniazdem” i „Amadeusz”?",
   "options": [
    "Jiří Menzel",
@@ -7913,6 +8141,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który film Jiřího Menzla na podstawie prozy Hrabala zdobył w 1968 r. Oscara dla najlepszego filmu zagranicznego?",
   "options": [
    "Skowronki na uwięzi",
@@ -7948,6 +8177,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski film Jana Svěráka zdobył Oscara w 1997 r.?",
   "options": [
    "Szkoła podstawowa",
@@ -7983,6 +8213,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "Jak nazywają się słynne studia filmowe w Pradze, jedne z największych w Europie?",
   "options": [
    "Cinecittà",
@@ -8018,6 +8249,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski twórca łączył w filmach aktorów z animacją, m.in. w „Wynalazku zagłady” na podstawie Juliusza Verne’a?",
   "options": [
    "Jan Švankmajer",
@@ -8053,6 +8285,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski hokeista, gwiazda NHL, grał zawodowo jeszcze po pięćdziesiątce?",
   "options": [
    "Dominik Hašek",
@@ -8088,6 +8321,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Na których igrzyskach olimpijskich Czesi zdobyli złoto w hokeju na lodzie, w tzw. „turnieju stulecia”?",
   "options": [
    "Salt Lake City 2002",
@@ -8123,6 +8357,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który biegacz zdobył na igrzyskach w Helsinkach (1952) złote medale na 5 km, 10 km i w maratonie?",
   "options": [
    "Abebe Bikila",
@@ -8158,6 +8393,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski oszczepnik zdobył trzy złote medale olimpijskie i jest rekordzistą świata?",
   "options": [
    "Vítězslav Veselý",
@@ -8193,6 +8429,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która czeska sportsmenka zdobyła w Pjongczangu (2018) złoto w dwóch dyscyplinach: snowboardzie i narciarstwie alpejskim?",
   "options": [
    "Ester Ledecká",
@@ -8228,6 +8465,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która tenisistka urodzona w Pradze wygrała Wimbledon w grze pojedynczej dziewięć razy?",
   "options": [
    "Hana Mandlíková",
@@ -8263,6 +8501,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski piłkarz zdobył Złotą Piłkę w 2003 r.?",
   "options": [
    "Pavel Nedvěd",
@@ -8298,6 +8537,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "pak",
   "question": "Jak nazywa się słynny, bardzo trudny wyścig konny z przeszkodą Taxis, rozgrywany od 1874 r.?",
   "options": [
    "Derby Epsom",
@@ -8333,6 +8573,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "Jak nazywa się tor wyścigowy pod Brnem, na którym przez lata rozgrywano Grand Prix motocyklowe?",
   "options": [
    "Most",
@@ -8368,6 +8609,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Z jakim mięsem podaje się czeską svíčkovą na smetaně, z sosem warzywnym i knedlikami?",
   "options": [
    "Z wołowiną",
@@ -8403,6 +8645,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co to są knedliki, popularny dodatek w kuchni czeskiej?",
   "options": [
    "Kluski gotowane w kształcie wałka",
@@ -8438,6 +8681,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": "kvk",
   "question": "W którym mieście produkuje się ziołowy likier Becherovka?",
   "options": [
    "W Pilźnie",
@@ -8473,6 +8717,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": null,
   "question": "W którym mieście od 1842 r. warzy się piwo, od którego wziął nazwę styl pils?",
   "options": [
    "W Pradze",
@@ -8508,6 +8753,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "west",
+  "unitRef": "jck",
   "question": "Z którego miasta pochodzi piwo Budweiser Budvar, przedmiot wieloletniego sporu o nazwę z amerykańskim koncernem?",
   "options": [
    "Z Třeboni",
@@ -8543,6 +8789,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "olk",
   "question": "Z jakiego ostrego w zapachu sera słyną okolice Ołomuńca?",
   "options": [
    "Bryndza",
@@ -8578,6 +8825,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się czeski ser z białą pleśnią, podobny do camemberta, często marynowany w piwiarniach?",
   "options": [
    "Hermelín",
@@ -8613,6 +8861,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "north",
+  "unitRef": "pak",
   "question": "Z czego słyną Pardubice?",
   "options": [
    "Z obwarzanków",
@@ -8648,6 +8897,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "west",
+  "unitRef": null,
   "question": "Jak nazywają się cienkie, okrągłe wafle z nadzieniem, pamiątka z uzdrowisk zachodnich Czech?",
   "options": [
    "Buchty",
@@ -8683,6 +8933,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki czeski napój bezalkoholowy o smaku ziołowo-owocowym powstał ok. 1960 r. jako odpowiedź na colę?",
   "options": [
    "Kofola",
@@ -8718,6 +8969,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się pieczony na wałku słodki rulon z ciasta, posypany cukrem i orzechami, popularny wśród turystów w Pradze?",
   "options": [
    "Štrůdl",
@@ -8753,6 +9005,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Z jakich pierników w kształcie uszu słynie morawskie miasteczko Štramberk?",
   "options": [
    "Pardubickich serc",
@@ -8788,6 +9041,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "Która czeska firma motoryzacyjna z Kopřivnic produkuje słynne ciężarówki wygrywające Rajd Dakar?",
   "options": [
    "Tatra",
@@ -8823,6 +9077,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "kvk",
   "question": "Jak nazywa się słynna czeska marka motocykli, założona w 1929 r. przez Františka Janečka?",
   "options": [
    "Jawa",
@@ -8858,6 +9113,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "moravia",
+  "unitRef": "zlk",
   "question": "Który przedsiębiorca stworzył w Zlinie światowy koncern obuwniczy?",
   "options": [
    "Václav Laurin",
@@ -8893,6 +9149,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który wynalazca czeskiego pochodzenia opatentował w 1827 r. śrubę okrętową?",
   "options": [
    "Josef Ressel",
@@ -8928,6 +9185,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie czeskie szkło, szlifowane i bogato zdobione, od XVII w. słynie na całym świecie?",
   "options": [
    "Szkło bawarskie",
@@ -8963,6 +9221,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": "lbk",
   "question": "Z jakiego czerwonego kamienia szlachetnego słynie Turnov w Czeskim Raju?",
   "options": [
    "Z bursztynu",
@@ -8998,6 +9257,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka czeska tradycja teatralna została w 2016 r. wpisana na listę niematerialnego dziedzictwa UNESCO, wspólnie ze Słowacją?",
   "options": [
    "Pantomima",
@@ -9033,6 +9293,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "zlk",
   "question": "Jaki taniec męski z Moraw Południowych wpisano w 2005 r. na listę niematerialnego dziedzictwa UNESCO?",
   "options": [
    "Verbuňk ze Słowacka",
@@ -9068,6 +9329,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym kraju powstał taniec polka, w latach 30. XIX w.?",
   "options": [
    "W Austrii",
@@ -9104,6 +9366,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który czeski rzeźbiarz jest autorem prowokacyjnych dzieł, m.in. „Sikających figur” przed Muzeum Kafki i jeźdźca na odwróconym koniu?",
   "options": [
    "Ladislav Šaloun",
@@ -9139,6 +9402,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który rzeźbiarz stworzył konny pomnik św. Wacława na Placu Wacława w Pradze?",
   "options": [
    "David Černý",
@@ -9174,6 +9438,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który dramaturg, autor sztuk absurdu, został później prezydentem?",
   "options": [
    "Václav Havel",
@@ -9209,6 +9474,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który czeski muzyk i kompozytor, członek zespołu Olympic, jest legendą rocka w Czechach?",
   "options": [
    "Václav Neckář",
@@ -9244,6 +9510,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto jest głową państwa w Czechach?",
   "options": [
    "Prezydent",
@@ -9279,6 +9546,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Od którego roku prezydenta Czech wybierają obywatele w wyborach powszechnych?",
   "options": [
    "Od 2013 r.",
@@ -9314,6 +9582,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Na ile lat wybierany jest prezydent Czech?",
   "options": [
    "4",
@@ -9349,6 +9618,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Ilu posłów liczy Izba Poselska, niższa izba czeskiego parlamentu?",
   "options": [
    "81",
@@ -9384,6 +9654,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "pha",
   "question": "W którym praskim pałacu obraduje czeski Senat?",
   "options": [
    "Na Zamku Praskim",
@@ -9419,6 +9690,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "jmk",
   "question": "W którym mieście ma siedzibę czeski Trybunał Konstytucyjny?",
   "options": [
    "W Ostrawie",
@@ -9454,6 +9726,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka jest waluta Czech?",
   "options": [
    "Forint",
@@ -9489,6 +9762,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która postać widnieje na czeskim banknocie 5000 koron?",
   "options": [
    "Jan Amos Komeński",
@@ -9524,6 +9798,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Które święto obchodzi się w Czechach 28 października?",
   "options": [
    "Rocznica powstania Czechosłowacji",
@@ -9559,6 +9834,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie wydarzenia upamiętnia czeskie święto 17 listopada?",
   "options": [
    "Wejście do NATO",
@@ -9594,6 +9870,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Którego dnia Czesi świętują Dzień Państwowości Czeskiej, w rocznicę śmierci św. Wacława?",
   "options": [
    "5 lipca",
@@ -9629,6 +9906,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto w czeskiej tradycji przynosi prezenty w Wigilię?",
   "options": [
    "Dzieciątko (Ježíšek)",
@@ -9664,6 +9942,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka ryba jest tradycyjnym daniem wigilijnym w Czechach?",
   "options": [
    "Śledź",
@@ -9700,6 +9979,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto 5 grudnia towarzyszy w Czechach świętemu Mikołajowi?",
   "options": [
    "Anioł i diabeł",
@@ -9735,6 +10015,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Czym w czeskiej tradycji wielkanocnej chłopcy „smagają” dziewczęta w Poniedziałek Wielkanocny?",
   "options": [
    "Pękiem pokrzyw",
@@ -9771,6 +10052,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co pali się w Czechach w nocy z 30 kwietnia na 1 maja?",
   "options": [
    "Kukły czarownic",
@@ -9806,6 +10088,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": "north",
+  "unitRef": null,
   "question": "Jakie obchody karnawałowe w regionie Hlinska wpisano na listę niematerialnego dziedzictwa UNESCO?",
   "options": [
    "Ostatkowe pochody przebierańców",
@@ -9841,6 +10124,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": "moravia",
+  "unitRef": "zlk",
   "question": "Jaki zwyczaj z południowo-wschodnich Moraw, w którym na koniu jedzie przebrany „król” z różą w ustach, jest na liście UNESCO?",
   "options": [
    "Przejazd Królów",
@@ -9877,6 +10161,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Czym jest czeska „chata” lub „chalupa”, do której wiele rodzin wyjeżdża na weekendy?",
   "options": [
    "Kawiarnią",
@@ -9912,6 +10197,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się czeski ruch wędrówek po lasach, z obozowaniem, gitarą i piosenkami przy ognisku, inspirowany Dzikim Zachodem?",
   "options": [
    "Tramping",
@@ -9947,6 +10233,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W jakim napoju Czesi od lat zajmują pierwsze miejsce na świecie pod względem spożycia na mieszkańca?",
   "options": [
    "Kawie",
@@ -9982,6 +10269,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak w Czechach nazywa się tradycyjna gospoda, w której pije się piwo?",
   "options": [
    "Hospoda",
@@ -10017,6 +10305,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza po czesku zamówienie „pivo”, a co „malé pivo”?",
   "options": [
    "0,3 l i 0,2 l piwa",
@@ -10052,6 +10341,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „pozor”?",
   "options": [
    "Pozwolenie",
@@ -10087,6 +10377,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „čerstvý” (np. čerstvý chléb)?",
   "options": [
    "Słodki",
@@ -10122,6 +10413,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co znajdziesz w Czechach pod szyldem „Potraviny”?",
   "options": [
    "Pocztę",
@@ -10157,6 +10449,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „zápach”?",
   "options": [
    "Przyjemny zapach",
@@ -10192,6 +10485,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „rychle”?",
   "options": [
    "Szybko",
@@ -10227,6 +10521,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co w Czechach oznacza słowo „sklep”?",
   "options": [
    "Kram",
@@ -10262,6 +10557,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „letadlo”?",
   "options": [
    "Lato",
@@ -10297,6 +10593,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „divadlo”?",
   "options": [
    "Widownia",
@@ -10332,6 +10629,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „jahody”?",
   "options": [
    "Jagody",
@@ -10367,6 +10665,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „chytrý”?",
   "options": [
    "Szybki",
@@ -10402,6 +10701,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „náhoda”?",
   "options": [
    "Przypadek",
@@ -10437,6 +10737,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "zlk",
   "question": "Co oznacza czeskie słowo „zmrzlina”?",
   "options": [
    "Szron",
@@ -10472,6 +10773,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „brambory”?",
   "options": [
    "Bułki",
@@ -10507,6 +10809,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „rajče”?",
   "options": [
    "Raj",
@@ -10542,6 +10845,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „nádraží”?",
   "options": [
    "Skrzyżowanie",
@@ -10577,6 +10881,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „vonět”, np. „to voní”?",
   "options": [
    "Dzwonić",
@@ -10612,6 +10917,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „úžasný”?",
   "options": [
    "Wspaniały, zachwycający",
@@ -10647,6 +10953,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „hasič”?",
   "options": [
    "Strażak",
@@ -10682,6 +10989,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „okurka”?",
   "options": [
    "Kurek",
@@ -10717,6 +11025,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „vlak”?",
   "options": [
    "Wózek",
@@ -10752,6 +11061,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak po czesku powiedzieć „dziękuję”?",
   "options": [
    "Děkuji",
@@ -10787,6 +11097,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co znaczy czeskie pozdrowienie „Ahoj”?",
   "options": [
    "Uwaga",
@@ -10822,6 +11133,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak po czesku powiedzieć „smacznego”?",
   "options": [
    "Dobrou chuť",
@@ -10857,6 +11169,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się znak diakrytyczny w kształcie odwróconego daszka, np. w literach č, š, ř?",
   "options": [
    "Ogonek",
@@ -10892,6 +11205,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która litera, oznaczająca dźwięk rzadki w językach świata, występuje np. w nazwisku Dvořák?",
   "options": [
    "Ř",
@@ -10927,6 +11241,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza litera „ů” z kółkiem, np. w słowie „dům” (dom)?",
   "options": [
    "Nosowe „ą”",
@@ -10962,6 +11277,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Czym są „chlebíčky”, popularne na czeskich przyjęciach?",
   "options": [
    "Pieczone pierogi",
@@ -10997,6 +11313,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka przekąska jest jednym z najpopularniejszych dań w czeskich barach, podawana z frytkami i sosem tatarskim?",
   "options": [
    "Smażony ser",
@@ -11032,6 +11349,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak w czeskich szkołach brzmi najlepsza ocena?",
   "options": [
    "A",
@@ -11067,6 +11385,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co musi mieć kierowca samochodu osobowego, by jechać czeską autostradą?",
   "options": [
    "Winietę elektroniczną",
@@ -11102,6 +11421,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywają się czeskie koleje państwowe?",
   "options": [
    "ŽSR",
@@ -11137,6 +11457,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak w Czechach najczęściej tworzy się nazwiska kobiet?",
   "options": [
    "Końcówką -ska",
@@ -11172,6 +11493,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie nazwisko jest najczęstsze w Czechach?",
   "options": [
    "Černý",
@@ -11207,6 +11529,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kiedy w Czechach obchodzi się imieniny?",
   "options": [
    "Nie obchodzi się ich wcale",
@@ -11243,6 +11566,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak w Czechach wygląda handel w duże święta państwowe, np. 28 października?",
   "options": [
    "Wszystkie sklepy są otwarte",
@@ -11278,6 +11602,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się czeski nadawca publiczny telewizji?",
   "options": [
    "Česká televize",
@@ -11311,6 +11636,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który język ma w Czechach najwięcej rodzimych użytkowników po czeskim?",
   "options": [
    "Słowacki",
@@ -11347,6 +11673,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "moravia",
+  "unitRef": "msk",
   "question": "W którym regionie Czech mieszka polska mniejszość narodowa?",
   "options": [
    "W Karkonoszach",
@@ -11383,6 +11710,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „vražda”?",
   "options": [
    "Wrażenie",
@@ -11418,6 +11746,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co Czesi tradycyjnie zbierają w lasach z wielkim zapałem, uważając to za narodowe hobby?",
   "options": [
    "Szyszki",
@@ -11453,6 +11782,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaką grę karcianą Czesi często grają w gospodach?",
   "options": [
    "Mariasz",
@@ -11488,6 +11818,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „pivnice”?",
   "options": [
    "Piwnicę",
@@ -11523,6 +11854,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza czeskie słowo „čas” w zwrocie „nemám čas”?",
   "options": [
    "Czapka",

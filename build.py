@@ -39,7 +39,7 @@ for cc in COUNTRIES:
     for q in qs:
         hsum = sum(ord(c) for c in q['id'])
         rows.append([q['id'], q['category'], q['difficulty'], q['regionRef'], q['question'], q['options'],
-                     (q['correct'] + hsum % 4) % 4, q['explanation'], [[s['url'], host_label(s)] for s in q['sources']], q['tags']])
+                     (q['correct'] + hsum % 4) % 4, q['explanation'], [[s['url'], host_label(s)] for s in q['sources']], q['tags'], q.get('unitRef')])
     raw = json.dumps(rows, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
     key = b'odkryj-austrie'
     bank_b64 = base64.b64encode(bytes(b ^ key[i % len(key)] for i, b in enumerate(raw))).decode()
@@ -47,7 +47,8 @@ for cc in COUNTRIES:
     data_files[cc] = ('window.OA_DATA = window.OA_DATA || {};\nwindow.OA_DATA[' + json.dumps(cc) + '] = ' +
                       json.dumps({'country': cfg, 'map': mp, 'bankData': bank_b64}, ensure_ascii=False, separators=(',', ':')) + ';\n')
     registry.append({'code': cc, 'name': cfg['name'], 'gameTitle': cfg['gameTitle'], 'count': len(qs),
-                     'regions': [cfg.get('regionShort', {}).get(r['id'], r['name']) for r in cfg['regions']]})
+                     'regions': [cfg.get('regionShort', {}).get(r['id'], r['name']) for r in cfg['regions']],
+                     'units': str(cfg.get('unitsCount', '')) + ' ' + cfg.get('unitsLabel', '')})
     # dane i dokumentacja treści
     clean = [{k: v for k, v in q.items() if not k.startswith('_')} for q in qs]
     wr(f'content/{cc}/questions.json', json.dumps(clean, ensure_ascii=False, indent=1))

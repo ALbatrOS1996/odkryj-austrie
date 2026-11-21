@@ -4,6 +4,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Jak nazywa się gotycka katedra w Mediolanie z lasem marmurowych iglic, na której szczycie stoi złota figura Madonnina?",
   "options": [
    "Bazylika św. Marka",
@@ -37,6 +38,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "W refektarzu którego mediolańskiego klasztoru znajduje się „Ostatnia Wieczerza” Leonarda da Vinci?",
   "options": [
    "Santa Maria delle Grazie",
@@ -73,6 +75,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Jak nazywa się słynna opera w Mediolanie, otwarta w 1778 r.?",
   "options": [
    "Teatro alla Scala",
@@ -108,6 +111,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Jak nazywa się przeszklona galeria handlowa z XIX w., łącząca plac katedralny z placem przed La Scalą w Mediolanie?",
   "options": [
    "Galeria Uffizi",
@@ -141,6 +145,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "pie",
   "question": "Która wysoka budowla z iglicą jest symbolem Turynu i mieści Narodowe Muzeum Kina?",
   "options": [
    "Lanterna",
@@ -174,6 +179,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "pie",
   "question": "Jaka relikwia przechowywana jest w katedrze w Turynie?",
   "options": [
    "Korona żelazna",
@@ -207,6 +213,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "lig",
   "question": "Jak nazywa się pięć kolorowych miasteczek na skalistym wybrzeżu Ligurii, wpisanych na listę UNESCO?",
   "options": [
    "Costa Smeralda",
@@ -242,6 +249,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lig",
   "question": "Jak nazywa się latarnia morska w Genui, jeden z symboli miasta i jedna z najstarszych działających latarni świata?",
   "options": [
    "Lanterna",
@@ -275,6 +283,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Fortyfikacje którego lombardzkiego miasta, z Górnym Miastem na wzgórzu, wpisano w 2017 r. na listę UNESCO jako część weneckich umocnień?",
   "options": [
    "Mantua",
@@ -310,6 +319,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Jak nazywa się zamek w Mediolanie, dawna siedziba książąt z rodu Sforzów?",
   "options": [
    "Castel del Monte",
@@ -345,6 +355,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Jak nazywa się para wieżowców w Mediolanie z drzewami i krzewami na balkonach?",
   "options": [
    "Pirellone",
@@ -380,6 +391,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "vda",
   "question": "W którym mieście w Dolinie Aosty zachował się łuk triumfalny cesarza Augusta?",
   "options": [
    "W Mediolanie",
@@ -415,6 +427,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Jak nazywa się główny plac Wenecji, nad którym góruje bazylika i dzwonnica?",
   "options": [
    "Plac św. Marka",
@@ -450,6 +463,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Jak nazywa się najstarszy most nad Canal Grande w Wenecji, z rzędem sklepów na łuku?",
   "options": [
    "Most Rialto",
@@ -485,6 +499,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Który wenecki most łączy Pałac Dożów z dawnym więzieniem?",
   "options": [
    "Most Rialto",
@@ -518,6 +533,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Jak nazywa się rzymski amfiteatr w Weronie, w którym latem wystawia się opery?",
   "options": [
    "Circus Maximus",
@@ -554,6 +570,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Balkon której literackiej bohaterki odwiedzają turyści w Weronie?",
   "options": [
    "Laury",
@@ -589,6 +606,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Z czego słynie Rawenna, wpisana na listę UNESCO?",
   "options": [
    "Z rzymskiego amfiteatru",
@@ -625,6 +643,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Jak nazywają się dwie krzywe średniowieczne wieże, symbol Bolonii?",
   "options": [
    "Asinelli i Garisenda",
@@ -658,6 +677,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Jaka kaplica w Padwie słynie z fresków Giotta, wpisanych w 2021 r. na listę UNESCO?",
   "options": [
    "Kaplica Scrovegnich",
@@ -694,6 +714,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "fvg",
   "question": "Jak nazywa się biały zamek nad Adriatykiem koło Triestu, zbudowany dla arcyksięcia Maksymiliana Habsburga?",
   "options": [
    "Castello Sforzesco",
@@ -727,6 +748,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "taa",
   "question": "Które góry we Włoszech, z jasnymi skalnymi turniami, wpisano w 2009 r. na listę UNESCO?",
   "options": [
    "Gran Sasso",
@@ -762,6 +784,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Z jakiego rzemiosła słynie wenecka wyspa Murano?",
   "options": [
    "Z budowy gondoli",
@@ -797,6 +820,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Którego architekta wille koło Vicenzy są na liście UNESCO i zainspirowały styl naśladowany w całej Europie?",
   "options": [
    "Filippa Brunelleschiego",
@@ -833,6 +857,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Katedra i dzwonnica Ghirlandina w którym mieście są na liście UNESCO?",
   "options": [
    "W Ferrarze",
@@ -868,6 +893,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jak nazywa się największy amfiteatr starożytnego Rzymu, otwarty w 80 r.?",
   "options": [
    "Teatr Marcellusa",
@@ -903,6 +929,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Która rzymska świątynia ma największą na świecie kopułę z niezbrojonego betonu, z otworem na szczycie?",
   "options": [
    "Bazylika św. Piotra",
@@ -938,6 +965,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Do której rzymskiej fontanny turyści wrzucają monety, by wrócić do Wiecznego Miasta?",
   "options": [
    "Fontanny di Trevi",
@@ -971,6 +999,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jak nazywają się barokowe schody w Rzymie, prowadzące od placu Hiszpańskiego do kościoła Trinità dei Monti?",
   "options": [
    "Schody Hiszpańskie",
@@ -1004,6 +1033,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Która dzwonnica w Pizie odchyliła się od pionu jeszcze w czasie budowy?",
   "options": [
    "Campanile Giotta",
@@ -1039,6 +1069,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Kto zaprojektował ogromną kopułę katedry Santa Maria del Fiore we Florencji?",
   "options": [
    "Michał Anioł",
@@ -1074,6 +1105,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Jak nazywa się średniowieczny most we Florencji ze sklepami złotników, jedyny, którego Niemcy nie wysadzili w 1944 r.?",
   "options": [
    "Ponte Milvio",
@@ -1107,6 +1139,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Na którym placu w Sienie dwa razy w roku odbywa się wyścig konny Palio?",
   "options": [
    "Piazza del Campo",
@@ -1142,6 +1175,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Które toskańskie miasteczko słynie z kilkunastu zachowanych średniowiecznych wież rodowych?",
   "options": [
    "San Gimignano",
@@ -1177,6 +1211,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "umb",
   "question": "W którym mieście w Umbrii stoi bazylika z grobem św. Franciszka, ozdobiona freskami Giotta?",
   "options": [
    "W Perugii",
@@ -1212,6 +1247,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "mar",
   "question": "Pałac Książęcy w którym mieście w Marche jest symbolem renesansu i miejscem urodzin Rafaela?",
   "options": [
    "Loreto",
@@ -1248,6 +1284,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jak nazywa się renesansowa willa w Tivoli, słynąca z setek fontann?",
   "options": [
    "Villa d’Este",
@@ -1283,6 +1320,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jakie zwierzę karmi Romulusa i Remusa w słynnej rzeźbie, symbolu Rzymu?",
   "options": [
    "Lwica",
@@ -1318,6 +1356,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jak nazywa się wielki biały pomnik w Rzymie, z Grobem Nieznanego Żołnierza, zwany „maszyną do pisania”?",
   "options": [
    "Vittoriano (Ołtarz Ojczyzny)",
@@ -1351,6 +1390,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jakie dawne miasto portowe starożytnego Rzymu można zwiedzać u ujścia Tybru?",
   "options": [
    "Herkulanum",
@@ -1386,6 +1426,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "mar",
   "question": "Które sanktuarium w Marche, cel pielgrzymek, kryje według tradycji Dom Maryi z Nazaretu?",
   "options": [
    "Pompeje",
@@ -1421,6 +1462,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Nad czyim grobem w Bazylice św. Piotra Bernini zbudował baldachim z brązu?",
   "options": [
    "Św. Pawła",
@@ -1456,6 +1498,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Które rzymskie miasto zasypał wybuch Wezuwiusza w 79 r.?",
   "options": [
    "Ostię",
@@ -1492,6 +1535,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Jak nazywa się kręte wybrzeże w Kampanii z miasteczkami Positano i Amalfi, wpisane na listę UNESCO?",
   "options": [
    "Cinque Terre",
@@ -1527,6 +1571,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "pug",
   "question": "Jak nazywają się okrągłe domy ze stożkowymi dachami z kamienia w Alberobello?",
   "options": [
    "Trulli",
@@ -1562,6 +1607,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "bas",
   "question": "Które miasto w Basilicacie słynie z dzielnic domów i kościołów wykutych w skale (Sassi)?",
   "options": [
    "Tropea",
@@ -1597,6 +1643,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "pug",
   "question": "Który zamek w Apulii, zbudowany przez cesarza Fryderyka II, ma plan ośmiokąta z ośmioma wieżami?",
   "options": [
    "Castel del Monte",
@@ -1633,6 +1680,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Jaki pałac w Kampanii, rezydencja Burbonów, był wzorowany na Wersalu?",
   "options": [
    "Pałac Królewski w Casercie",
@@ -1668,6 +1716,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Jak nazywa się zespół starożytnych greckich świątyń w Agrigento na Sycylii?",
   "options": [
    "Dolina Królów",
@@ -1704,6 +1753,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Która katedra koło Palermo słynie z ogromnych złotych mozaik, wpisanych na listę UNESCO?",
   "options": [
    "W Katanii",
@@ -1740,6 +1790,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "W którym sycylijskim mieście nad morzem leży antyczny teatr z widokiem na Etnę?",
   "options": [
    "W Palermo",
@@ -1773,6 +1824,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "sar",
   "question": "Jak nazywają się kamienne wieże z epoki brązu, typowe dla Sardynii?",
   "options": [
    "Trulli",
@@ -1809,6 +1861,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Jak nazywa się jaskinia morska na Capri, słynąca z niebieskiego światła?",
   "options": [
    "Szmaragdowa Grota",
@@ -1842,6 +1895,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "pug",
   "question": "W której bazylice w Bari pochowano królową Polski Bonę Sforzę?",
   "options": [
    "W bazylice św. Mikołaja",
@@ -1877,6 +1931,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "pug",
   "question": "Które miasto w Apulii jest nazywane „Florencją Południa” ze względu na barokowe kościoły z miękkiego kamienia?",
   "options": [
    "Matera",
@@ -1912,6 +1967,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "cal",
   "question": "Jak nazywają się dwa greckie posągi z brązu, wyłowione w 1972 r. z morza w Kalabrii?",
   "options": [
    "Laokoon i synowie",
@@ -1947,6 +2003,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Jakie miejsce w Kampanii słynie z dobrze zachowanych greckich świątyń doryckich, m.in. świątyni Hery?",
   "options": [
    "Pompeje",
@@ -1983,6 +2040,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak wygląda flaga Włoch?",
   "options": [
    "Pasy pionowe: niebieski, biały, czerwony",
@@ -2018,6 +2076,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co przedstawia godło Republiki Włoskiej?",
   "options": [
    "Wilczycę z bliźniętami",
@@ -2053,6 +2112,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który naród jest wymieniony w hymnie Włoch „Il Canto degli Italiani”?",
   "options": [
    "Grecy",
@@ -2089,6 +2149,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki rysunek widnieje na włoskiej monecie 1 euro?",
   "options": [
    "Narodziny Wenus Botticellego",
@@ -2124,6 +2185,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Jaka postać jest patronką Włoch razem ze św. Franciszkiem z Asyżu?",
   "options": [
    "Św. Łucja",
@@ -2159,6 +2221,7 @@
   "category": "ZAB",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Jak nazywają się weneckie wydłużone łodzie, prowadzone wiosłem przez stojącego gondoliera?",
   "options": [
    "Wenecjanki",
@@ -2194,6 +2257,7 @@
   "category": "ZAB",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Czyje rzeźby zdobią Fontannę Czterech Rzek na rzymskim placu Navona?",
   "options": [
    "Michała Anioła",
@@ -2229,6 +2293,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jak nazywa się zamek nad Tybrem w Rzymie, zbudowany jako mauzoleum cesarza Hadriana?",
   "options": [
    "Zamek Świętego Anioła",
@@ -2262,6 +2327,7 @@
   "category": "ZAB",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Na której wyspie leży Palermo, ze złotą Kaplicą Palatyńską w Pałacu Normanów?",
   "options": [
    "Na Sardynii",
@@ -2297,6 +2363,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Ile regionów liczą Włochy?",
   "options": [
    "9",
@@ -2330,6 +2397,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": null,
   "question": "Jaka jest najdłuższa rzeka Włoch?",
   "options": [
    "Pad",
@@ -2365,6 +2433,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Nad jaką rzeką leży Rzym?",
   "options": [
    "Tybrem",
@@ -2400,6 +2469,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Nad jaką rzeką leżą Florencja i Piza?",
   "options": [
    "Brentą",
@@ -2435,6 +2505,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "vda",
   "question": "Jaki szczyt jest najwyższy we Włoszech?",
   "options": [
    "Mont Blanc",
@@ -2470,6 +2541,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się pasmo górskie ciągnące się wzdłuż całego Półwyspu Apenińskiego?",
   "options": [
    "Pireneje",
@@ -2505,6 +2577,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Który wulkan na Sycylii jest najwyższym czynnym wulkanem Europy?",
   "options": [
    "Stromboli",
@@ -2540,6 +2613,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Jaki wulkan góruje nad Zatoką Neapolitańską?",
   "options": [
    "Vulcano",
@@ -2575,6 +2649,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Który wulkan na Wyspach Liparyjskich nazywa się „latarnią Morza Śródziemnego” z powodu częstych, małych erupcji?",
   "options": [
    "Stromboli",
@@ -2610,6 +2685,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Jakie jest największe jezioro Włoch?",
   "options": [
    "Garda",
@@ -2645,6 +2721,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Które jezioro w Lombardii ma kształt odwróconej litery Y i słynie z willi, m.in. w Bellagio?",
   "options": [
    "Garda",
@@ -2680,6 +2757,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Które jezioro dzielą Włochy i Szwajcaria, a na nim leżą Wyspy Boromejskie?",
   "options": [
    "Garda",
@@ -2715,6 +2793,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "umb",
   "question": "Które największe jezioro Włoch Środkowych było miejscem klęski Rzymian z Hannibalem w 217 r. p.n.e.?",
   "options": [
    "Bracciano",
@@ -2751,6 +2830,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Jaka jest największa wyspa Morza Śródziemnego?",
   "options": [
    "Sycylia",
@@ -2786,6 +2866,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "cal",
   "question": "Która cieśnina oddziela Sycylię od Kalabrii?",
   "options": [
    "Mesyńska",
@@ -2819,6 +2900,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Na którą wyspę zesłano Napoleona w 1814 r.?",
   "options": [
    "Capri",
@@ -2855,6 +2937,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "laz",
   "question": "Które dwa niezależne państwa leżą w całości na terytorium Włoch?",
   "options": [
    "Monako i Andora",
@@ -2888,6 +2971,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Z iloma państwami graniczą Włochy na lądzie?",
   "options": [
    "4",
@@ -2921,6 +3005,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie morze oblewa Włochy od wschodu?",
   "options": [
    "Bałtyckie",
@@ -2956,6 +3041,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Między którymi wyspami a półwyspem leży Morze Tyrreńskie?",
   "options": [
    "Maltą i Kretą",
@@ -2991,6 +3077,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Które miasto jest drugim co do wielkości we Włoszech?",
   "options": [
    "Mediolan",
@@ -3026,6 +3113,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Które miasto jest stolicą Kampanii i trzecim co do wielkości we Włoszech?",
   "options": [
    "Bari",
@@ -3061,6 +3149,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "pie",
   "question": "Które miasto jest stolicą Piemontu i siedzibą koncernu Fiat?",
   "options": [
    "Genua",
@@ -3096,6 +3185,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "lig",
   "question": "Które miasto jest stolicą Ligurii i największym portem Włoch?",
   "options": [
    "Savona",
@@ -3131,6 +3221,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Które miasto jest stolicą Emilii-Romanii, nazywane „uczoną, tłustą i czerwoną”?",
   "options": [
    "Modena",
@@ -3166,6 +3257,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Które miasto nad Adriatykiem, długo należące do Austrii, jest stolicą Friuli-Wenecji Julijskiej?",
   "options": [
    "Gorycja",
@@ -3201,6 +3293,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Które miasto jest stolicą Sycylii?",
   "options": [
    "Katania",
@@ -3236,6 +3329,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "sar",
   "question": "Które miasto jest stolicą Sardynii?",
   "options": [
    "Sassari",
@@ -3271,6 +3365,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "pug",
   "question": "Które miasto jest stolicą Apulii?",
   "options": [
    "Lecce",
@@ -3306,6 +3401,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "abr",
   "question": "Które miasto jest stolicą Abruzji, zniszczoną przez trzęsienie ziemi w 2009 r.?",
   "options": [
    "Teramo",
@@ -3341,6 +3437,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "umb",
   "question": "Które miasto jest stolicą Umbrii?",
   "options": [
    "Perugia",
@@ -3376,6 +3473,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "mar",
   "question": "Które miasto jest stolicą regionu Marche?",
   "options": [
    "Macerata",
@@ -3412,6 +3510,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": "taa",
   "question": "Które miasto jest stolicą regionu Trydent-Górna Adyga?",
   "options": [
    "Trydent",
@@ -3447,6 +3546,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "taa",
   "question": "W której części Włoch większość mieszkańców mówi po niemiecku?",
   "options": [
    "W Górnej Adydze",
@@ -3482,6 +3582,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "vda",
   "question": "Jaki jest drugi język urzędowy w Dolinie Aosty, obok włoskiego?",
   "options": [
    "Słoweński",
@@ -3517,6 +3618,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Ile mniej więcej wysp tworzy Wenecję, połączonych ponad 400 mostami?",
   "options": [
    "ok. 12",
@@ -3552,6 +3654,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Na ilu wzgórzach według tradycji zbudowano starożytny Rzym?",
   "options": [
    "3",
@@ -3587,6 +3690,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Do czego często porównuje się kształt Półwyspu Apenińskiego?",
   "options": [
    "Do miecza",
@@ -3620,6 +3724,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "pug",
   "question": "Jak nazywa się półwysep w Apulii, „ostroga” włoskiego buta?",
   "options": [
    "Kalabria",
@@ -3655,6 +3760,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": null,
   "question": "Jak nazywa się największa nizina Włoch?",
   "options": [
    "Apulijska",
@@ -3688,6 +3794,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "nw",
+  "unitRef": "vda",
   "question": "Jaki szczyt, o charakterystycznym kształcie piramidy, leży na granicy Włoch i Szwajcarii nad Cervinią i Zermattem?",
   "options": [
    "Eiger",
@@ -3723,6 +3830,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "nw",
+  "unitRef": "vda",
   "question": "Jak nazywa się najstarszy park narodowy Włoch, założony w 1922 r. dla ochrony koziorożców?",
   "options": [
    "Cinque Terre",
@@ -3758,6 +3866,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "vda",
   "question": "Który tunel drogowy łączy Włochy z Francją pod najwyższym szczytem Alp?",
   "options": [
    "Tunel Gotarda",
@@ -3793,6 +3902,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "taa",
   "question": "Przez którą przełęcz biegnie najważniejsza droga z Włoch do Austrii?",
   "options": [
    "Stelvio",
@@ -3828,6 +3938,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Która włoska eksklawa leży całkowicie na terytorium Szwajcarii, nad jeziorem Lugano?",
   "options": [
    "Campione d’Italia",
@@ -3861,6 +3972,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Która wyspa, bliżej Afryki niż Sycylii, jest najdalej na południe wysuniętym miejscem Włoch?",
   "options": [
    "Malta",
@@ -3896,6 +4008,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Która wyspa w Zatoce Neapolitańskiej słynie z Błękitnej Groty i willi cesarza Tyberiusza?",
   "options": [
    "Procida",
@@ -3931,6 +4044,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "sar",
   "question": "Jak nazywa się wybrzeże na północnym wschodzie Sardynii, słynne z luksusowych kurortów?",
   "options": [
    "Costa Brava",
@@ -3966,6 +4080,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jak nazywa się największe jezioro wulkaniczne Europy, w północnym Lacjum?",
   "options": [
    "Albano",
@@ -4001,6 +4116,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Jak nazywa się winiarski region między Florencją a Sieną, słynący z czerwonego wina w butelkach z czarnym kogutem?",
   "options": [
    "Valpolicella",
@@ -4036,6 +4152,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "nw",
+  "unitRef": "pie",
   "question": "Krajobraz winnic których wzgórz w Piemoncie, z winami Barolo i Barbaresco, wpisano w 2014 r. na listę UNESCO?",
   "options": [
    "Franciacorta",
@@ -4072,6 +4189,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Które wzgórza w Wenecji Euganejskiej, ojczyzna prosecco, wpisano w 2019 r. na listę UNESCO?",
   "options": [
    "Langhe-Roero",
@@ -4108,6 +4226,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "W którym mieście w Emilii-Romanii mieści się fabryka Ferrari?",
   "options": [
    "W Mediolanie",
@@ -4143,6 +4262,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "nw",
+  "unitRef": "pie",
   "question": "Które przemysłowe miasto w Piemoncie, siedziba firmy Olivetti, wpisano w 2018 r. na listę UNESCO?",
   "options": [
    "Ivrea",
@@ -4179,6 +4299,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Jak nazywa się nadmorski region w południowej Toskanii, dawniej bagnisty, osuszony w XIX i XX w.?",
   "options": [
    "Garfagnana",
@@ -4212,6 +4333,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "pug",
   "question": "Jak nazywa się „obcas” włoskiego buta, z miastem Lecce?",
   "options": [
    "Kalabria",
@@ -4245,6 +4367,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Jakie miasto na Sycylii, założone przez Greków, było ojczyzną Archimedesa?",
   "options": [
    "Mesyna",
@@ -4280,6 +4403,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "W którym mieście leży Watykan?",
   "options": [
    "We Florencji",
@@ -4315,6 +4439,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "taa",
   "question": "Jak nazywa się najwyższy szczyt Dolomitów?",
   "options": [
    "Tre Cime",
@@ -4350,6 +4475,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "cal",
   "question": "Jak nazywa się region, „czubek buta”, z masywem Sila i Aspromonte?",
   "options": [
    "Kalabria",
@@ -4383,6 +4509,7 @@
   "category": "GEO",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "mol",
   "question": "Które z miast jest stolicą najmniej ludnego regionu na południu, Molise?",
   "options": [
    "Potenza",
@@ -4418,6 +4545,7 @@
   "category": "GEO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się szybki pociąg państwowych kolei Trenitalia, łączący największe miasta?",
   "options": [
    "ICE",
@@ -4452,7 +4580,8 @@
   "id": "it-geo-63",
   "category": "GEO",
   "difficulty": 3,
-  "regionRef": "center",
+  "regionRef": "south",
+  "unitRef": "abr",
   "question": "Jak nazywa się masyw w Apeninach z najwyższym szczytem tych gór, Corno Grande?",
   "options": [
    "Monte Sibillini",
@@ -4488,6 +4617,7 @@
   "category": "GEO",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": null,
   "question": "Gdzie wpada Pad, tworząc deltę z rozlewiskami i rezerwatami ptaków?",
   "options": [
    "Do Morza Liguryjskiego",
@@ -4523,6 +4653,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "W którym roku według tradycji Romulus założył Rzym?",
   "options": [
    "753 p.n.e.",
@@ -4558,6 +4689,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Jaki lud przed Rzymianami stworzył wysoko rozwiniętą kulturę w Toskanii i Lacjum?",
   "options": [
    "Wenetowie",
@@ -4593,6 +4725,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który wódz kartagiński przeprowadził w 218 r. p.n.e. armię ze słoniami przez Alpy?",
   "options": [
    "Hasdrubal",
@@ -4628,6 +4761,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaką rzekę przekroczył Juliusz Cezar w 49 r. p.n.e., rozpoczynając wojnę domową słowami „kości zostały rzucone”?",
   "options": [
    "Rubikon",
@@ -4663,6 +4797,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "W które idy zamordowano Juliusza Cezara w 44 r. p.n.e.?",
   "options": [
    "Kalendy styczniowe",
@@ -4698,6 +4833,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "laz",
   "question": "Kto był pierwszym cesarzem rzymskim?",
   "options": [
    "Konstantyn Wielki",
@@ -4733,6 +4869,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który niewolnik i gladiator przewodził wielkiemu powstaniu niewolników w latach 73-71 p.n.e.?",
   "options": [
    "Spartakus",
@@ -4768,6 +4905,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Za którego cesarza w 64 r. wybuchł wielki pożar Rzymu, o który obwiniono chrześcijan?",
   "options": [
    "Kaliguli",
@@ -4803,6 +4941,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który cesarz w 313 r. wydał edykt mediolański, zapewniający chrześcijanom wolność wyznania?",
   "options": [
    "Konstantyn Wielki",
@@ -4838,6 +4977,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "laz",
   "question": "W którym roku obalono ostatniego cesarza zachodniorzymskiego, Romulusa Augustulusa?",
   "options": [
    "313",
@@ -4873,6 +5013,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "sic",
   "question": "Jak nazywano greckie kolonie w południowej Italii i na Sycylii?",
   "options": [
    "Mała Azja",
@@ -4908,6 +5049,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "laz",
   "question": "Jak nazywa się słynna rzymska droga z Rzymu do Brindisi, zwana „królową dróg”?",
   "options": [
    "Via Aurelia",
@@ -4943,6 +5085,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Który król Ostrogotów rządził Italią z Rawenny na przełomie V i VI w.?",
   "options": [
    "Teodoryk Wielki",
@@ -4978,6 +5121,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Od którego ludu germańskiego pochodzi nazwa Lombardii?",
   "options": [
    "Wandalów",
@@ -5013,6 +5157,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Gdzie Karol Wielki został koronowany na cesarza w 800 r.?",
   "options": [
    "W Akwizgranie",
@@ -5048,6 +5193,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Jak nazywał się wybierany dożywotnio władca Republiki Weneckiej?",
   "options": [
    "Gonfaloniere",
@@ -5083,6 +5229,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Który wenecki kupiec opisał swoją podróż do Chin i pobyt na dworze Kubilaj-chana?",
   "options": [
    "Krzysztof Kolumb",
@@ -5118,6 +5265,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Jak nazywa się powstanie Sycylijczyków przeciw Francuzom w 1282 r., które zaczęło się w Palermo w Poniedziałek Wielkanocny?",
   "options": [
    "Noc św. Bartłomieja",
@@ -5153,6 +5301,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Który cesarz z rodu Hohenstaufów, zwany „zadziwieniem świata”, rządził z Palermo i założył uniwersytet w Neapolu?",
   "options": [
    "Henryk IV",
@@ -5188,6 +5337,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Z którego miasta wygnano Dantego w 1302 r.?",
   "options": [
    "Z Florencji",
@@ -5223,6 +5373,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Gdzie znajduje się najstarszy uniwersytet w Europie, założony w 1088 r.?",
   "options": [
    "W Oksfordzie",
@@ -5259,6 +5410,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Jaki ród bankierów rządził Florencją w XV w. i wspierał artystów renesansu?",
   "options": [
    "Sforzowie",
@@ -5294,6 +5446,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Który dominikański kaznodzieja, przeciwnik zbytku, spalony w 1498 r., organizował we Florencji „stosy próżności”?",
   "options": [
    "Giordano Bruno",
@@ -5329,6 +5482,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "lig",
   "question": "W którym włoskim mieście urodził się Krzysztof Kolumb?",
   "options": [
    "W Wenecji",
@@ -5364,6 +5518,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Który florencki urzędnik i myśliciel napisał w 1513 r. traktat „Książę”?",
   "options": [
    "Niccolò Machiavelli",
@@ -5399,6 +5554,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Czyje wojska złupiły Rzym w 1527 r.?",
   "options": [
    "Turków",
@@ -5434,6 +5590,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "lom",
   "question": "Która księżniczka z Mediolanu i Bari została w 1518 r. żoną króla Zygmunta Starego?",
   "options": [
    "Bona Sforza",
@@ -5470,6 +5627,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Na którym włoskim uniwersytecie studiował medycynę Mikołaj Kopernik, który wcześniej uczył się prawa w Bolonii?",
   "options": [
    "W Padwie",
@@ -5506,6 +5664,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Który polski poeta renesansu studiował w Padwie, gdzie zetknął się z humanizmem włoskim?",
   "options": [
    "Mikołaj Sęp Szarzyński",
@@ -5542,6 +5701,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "ven",
   "question": "W której bitwie morskiej w 1571 r. flota Ligi Świętej z udziałem Wenecji rozbiła flotę turecką?",
   "options": [
    "Pod Trafalgarem",
@@ -5577,6 +5737,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który uczony został w 1633 r. skazany przez Inkwizycję za poparcie teorii Kopernika?",
   "options": [
    "Johannes Kepler",
@@ -5612,6 +5773,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": null,
   "question": "Gdzie obradował sobór, który w latach 1545-1563 zapoczątkował reformę katolicką?",
   "options": [
    "W Trydencie",
@@ -5648,6 +5810,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym kraju w 1797 r. gen. Jan Henryk Dąbrowski tworzył Legiony Polskie?",
   "options": [
    "W Egipcie",
@@ -5684,6 +5847,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "W której bitwie pod Mediolanem w 1800 r. Napoleon pokonał Austriaków?",
   "options": [
    "Pod Marengo",
@@ -5719,6 +5883,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się ruch na rzecz zjednoczenia Włoch w XIX w.?",
   "options": [
    "Irredentyzm",
@@ -5754,6 +5919,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto założył w 1831 r. organizację „Młode Włochy”, walczącą o republikę i zjednoczenie?",
   "options": [
    "Giuseppe Mazzini",
@@ -5789,6 +5955,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Który bohater zjednoczenia wyruszył w 1860 r. z „wyprawą tysiąca” na Sycylię?",
   "options": [
    "Camillo Cavour",
@@ -5824,6 +5991,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "sar",
   "question": "Który premier Królestwa Sardynii był dyplomatycznym architektem zjednoczenia Włoch?",
   "options": [
    "Camillo Cavour",
@@ -5859,6 +6027,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym roku proklamowano Królestwo Włoch?",
   "options": [
    "1848",
@@ -5894,6 +6063,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Którego roku wojska włoskie zdobyły Rzym, kończąc władzę świecką papieży?",
   "options": [
    "1848",
@@ -5929,6 +6099,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który polski poeta zorganizował w 1848 r. we Włoszech legion do walki z Austrią?",
   "options": [
    "Adam Mickiewicz",
@@ -5965,6 +6136,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który król włoski zginął w 1900 r. w zamachu anarchisty w Monzy?",
   "options": [
    "Wiktor Emanuel II",
@@ -6000,6 +6172,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym roku Włochy przystąpiły do I wojny światowej po stronie Ententy?",
   "options": [
    "1914",
@@ -6035,6 +6208,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Jak nazywa się klęska Włochów z Austro-Węgrami i Niemcami w 1917 r., której opis znalazł się w „Pożegnaniu z bronią” Hemingwaya?",
   "options": [
    "Bitwa nad Piawą",
@@ -6070,6 +6244,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jak nazywał się pochód faszystów w 1922 r., po którym Mussolini został premierem?",
   "options": [
    "Marsz na Mediolan",
@@ -6105,6 +6280,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Jakie układy z 1929 r. utworzyły Państwo Watykańskie?",
   "options": [
    "Układ z Locarno",
@@ -6140,6 +6316,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który kraj zaatakowały Włochy w 1935 r., co potępiła Liga Narodów?",
   "options": [
    "Grecję",
@@ -6175,6 +6352,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "O który klasztor walczył w 1944 r. 2. Korpus Polski gen. Andersa?",
   "options": [
    "Asyż",
@@ -6211,6 +6389,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Które duże miasto w Emilii-Romanii wyzwolił w kwietniu 1945 r. polski 2. Korpus?",
   "options": [
    "Turyn",
@@ -6247,6 +6426,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "W którym roku obalono Mussoliniego i Włochy wystąpiły z sojuszu z Niemcami?",
   "options": [
    "1940",
@@ -6282,6 +6462,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywał się włoski ruch oporu przeciw Niemcom i faszystom w latach 1943-1945?",
   "options": [
    "Squadristi",
@@ -6317,6 +6498,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Gdzie partyzanci schwytali i zastrzelili Mussoliniego w kwietniu 1945 r.?",
   "options": [
    "Nad jeziorem Garda",
@@ -6352,6 +6534,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak w 1946 r. Włosi wybrali w referendum formę państwa?",
   "options": [
    "Monarchię parlamentarną",
@@ -6387,6 +6570,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "W którym roku podpisano w Rzymie traktaty o utworzeniu Europejskiej Wspólnoty Gospodarczej?",
   "options": [
    "1949",
@@ -6422,6 +6606,7 @@
   "category": "HIS",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Kiedy kardynał Karol Wojtyła został wybrany na papieża?",
   "options": [
    "W 1981 r.",
@@ -6458,6 +6643,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który były premier Włoch został w 1978 r. porwany i zamordowany przez Czerwone Brygady?",
   "options": [
    "Alcide De Gasperi",
@@ -6493,6 +6679,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywała się akcja prokuratorów z lat 90. przeciw korupcji polityków, po której rozpadły się główne partie?",
   "options": [
    "Czyste ręce",
@@ -6528,6 +6715,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "W którym roku Rzym gościł letnie igrzyska olimpijskie?",
   "options": [
    "1960",
@@ -6563,6 +6751,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka była waluta Włoch przed wprowadzeniem euro?",
   "options": [
    "Szyling",
@@ -6598,6 +6787,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który polityk chadecji, premier w latach 1945-1953, jest uważany za jednego z ojców zjednoczonej Europy?",
   "options": [
    "Alcide De Gasperi",
@@ -6633,6 +6823,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "pug",
   "question": "W jakim celu w XIX w. tworzono tajne stowarzyszenie karbonariuszy?",
   "options": [
    "Walki o wolność i niepodległość",
@@ -6668,6 +6859,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Które miasto w 1866 r., po wojnie prusko-austriackiej, przyłączono do Królestwa Włoch?",
   "options": [
    "Rzym",
@@ -6703,6 +6895,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Jak nazywało się państwo z dynastią Burbonów na południu Italii, podbite w 1860-1861 r.?",
   "options": [
    "Królestwo Obojga Sycylii",
@@ -6738,6 +6931,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która włoska rodzina rządziła jako królowie zjednoczonych Włoch?",
   "options": [
    "Medyceusze",
@@ -6773,6 +6967,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który papież w 1683 r. wspierał finansowo i dyplomatycznie odsiecz wiedeńską Jana III Sobieskiego?",
   "options": [
    "Innocenty XI",
@@ -6809,6 +7004,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Jak nazywa się państwo, którym papieże rządzili w środkowej Italii aż do 1870 r.?",
   "options": [
    "Republika Rzymska",
@@ -6844,6 +7040,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": "lig",
   "question": "Która republika morska rywalizowała z Wenecją i ostatecznie przegrała w wojnie o Chioggię (1378-1381)?",
   "options": [
    "Ankona",
@@ -6879,6 +7076,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Jaka epidemia w 1348 r. zabiła dużą część mieszkańców Florencji i stała się tłem „Dekameronu” Boccaccia?",
   "options": [
    "Ospa",
@@ -6914,6 +7112,7 @@
   "category": "HIS",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który włoski żeglarz w służbie Anglii dopłynął w 1497 r. do wybrzeży Ameryki Północnej?",
   "options": [
    "Amerigo Vespucci",
@@ -6949,6 +7148,7 @@
   "category": "HIS",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Jak nazywa się zorganizowana przestępczość sycylijska, przeciw której walczyli sędziowie Falcone i Borsellino?",
   "options": [
    "Sacra Corona Unita",
@@ -6984,6 +7184,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto skomponował opery „Aida”, „Nabucco” i „Traviata”?",
   "options": [
    "Giacomo Puccini",
@@ -7019,6 +7220,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Kto skomponował opery „Tosca”, „Cyganeria” i „Madame Butterfly”?",
   "options": [
    "Giacomo Puccini",
@@ -7054,6 +7256,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "mar",
   "question": "Kto skomponował operę „Cyrulik sewilski”?",
   "options": [
    "Gioachino Rossini",
@@ -7089,6 +7292,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Który wenecki kompozytor napisał cykl koncertów „Cztery pory roku”?",
   "options": [
    "Arcangelo Corelli",
@@ -7124,6 +7328,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "W którym mieście w Lombardii działali najsłynniejsi lutnicy, m.in. Antonio Stradivari?",
   "options": [
    "W Pawii",
@@ -7159,6 +7364,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto skomponował „Orfeusza” (1607), uważanego za pierwsze arcydzieło opery?",
   "options": [
    "Antonio Vivaldi",
@@ -7194,6 +7400,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "lig",
   "question": "Który genueński skrzypek-wirtuoz był tak sprawny, że plotkowano o jego pakcie z diabłem?",
   "options": [
    "Niccolò Paganini",
@@ -7229,6 +7436,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": "emr",
   "question": "Który tenor z Modeny śpiewał z Plácido Domingo i José Carrerasem jako „Trzej Tenorzy”?",
   "options": [
    "Andrea Bocelli",
@@ -7264,6 +7472,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "lig",
   "question": "W którym mieście na Riwierze Liguryjskiej co roku odbywa się festiwal piosenki włoskiej?",
   "options": [
    "W Sanremo",
@@ -7299,6 +7508,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Który rzymski zespół rockowy wygrał Eurowizję w 2021 r. piosenką „Zitti e buoni”?",
   "options": [
    "Pooh",
@@ -7334,6 +7544,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który kompozytor napisał muzykę do westernów Sergia Leone, m.in. „Dobry, zły i brzydki”?",
   "options": [
    "Nicola Piovani",
@@ -7370,6 +7581,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto namalował „Mona Lizę”?",
   "options": [
    "Rafael Santi",
@@ -7405,6 +7617,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Kto wyrzeźbił „Dawida”, wystawionego we florenckiej Galerii Akademii?",
   "options": [
    "Donatello",
@@ -7440,6 +7653,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Kto namalował sklepienie Kaplicy Sykstyńskiej?",
   "options": [
    "Rafael Santi",
@@ -7475,6 +7689,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "mar",
   "question": "Kto namalował w Watykanie fresk „Szkoła ateńska”?",
   "options": [
    "Michał Anioł",
@@ -7510,6 +7725,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Kto namalował „Narodziny Wenus”, eksponowane w galerii Uffizi?",
   "options": [
    "Leonardo da Vinci",
@@ -7545,6 +7761,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który malarz słynął z dramatycznego światłocienia i burzliwego życia, a malował m.in. „Powołanie św. Mateusza”?",
   "options": [
    "Tycjan",
@@ -7580,6 +7797,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Który malarz był najważniejszym artystą Wenecji XVI w., portrecistą cesarzy i papieży?",
   "options": [
    "Botticelli",
@@ -7615,6 +7833,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Który wenecki malarz, siostrzeniec Canaletta, namalował słynne widoki Warszawy?",
   "options": [
    "Pietro Longhi",
@@ -7651,6 +7870,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który malarz, uważany za ojca malarstwa renesansu, ozdobił freskami Kaplicę Scrovegnich w Padwie?",
   "options": [
    "Masaccio",
@@ -7686,6 +7906,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Który malarz z Livorno, autor portretów o wydłużonych twarzach, tworzył w Paryżu?",
   "options": [
    "Amedeo Modigliani",
@@ -7721,6 +7942,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Kto jest autorem „Boskiej komedii”?",
   "options": [
    "Ludovico Ariosto",
@@ -7756,6 +7978,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Kto napisał zbiór stu nowel „Dekameron”?",
   "options": [
    "Francesco Petrarca",
@@ -7791,6 +8014,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Który poeta pisał sonety do Laury i jest ojcem formy sonetu w Europie?",
   "options": [
    "Ludovico Ariosto",
@@ -7826,6 +8050,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Kto napisał „Przygody Pinokia”?",
   "options": [
    "Umberto Eco",
@@ -7861,6 +8086,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": null,
   "question": "Który profesor z Bolonii napisał kryminał „Imię róży”, rozgrywający się w średniowiecznym klasztorze?",
   "options": [
    "Umberto Eco",
@@ -7896,6 +8122,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "nw",
+  "unitRef": null,
   "question": "Kto jest autorem „Narzeczonych”, najważniejszej powieści włoskiego romantyzmu?",
   "options": [
    "Ugo Foscolo",
@@ -7931,6 +8158,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": "laz",
   "question": "Która włoska pisarka jako jedyna Włoszka otrzymała literacką Nagrodę Nobla (1926)?",
   "options": [
    "Grazia Deledda",
@@ -7966,6 +8194,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Kto jest autorem kryminałów o komisarzu Montalbano, rozgrywających się na Sycylii?",
   "options": [
    "Umberto Eco",
@@ -8001,6 +8230,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Jak nazywa się pisarka, autorka cyklu „Genialna przyjaciółka” o dwóch dziewczynach z Neapolu, ukrywająca swoją tożsamość?",
   "options": [
    "Dacia Maraini",
@@ -8036,6 +8266,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Który fizyk z Como wynalazł w 1800 r. ogniwo elektryczne, od którego nazwiska pochodzi jednostka napięcia?",
   "options": [
    "Luigi Galvani",
@@ -8071,6 +8302,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Który wynalazca z Bolonii otrzymał w 1909 r. Nagrodę Nobla za radiotelegrafię?",
   "options": [
    "Enrico Fermi",
@@ -8106,6 +8338,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Który rzymski fizyk zbudował w Chicago pierwszy reaktor jądrowy (1942)?",
   "options": [
    "Guglielmo Marconi",
@@ -8141,6 +8374,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Która włoska lekarka stworzyła metodę wychowania stawiającą na samodzielność dziecka?",
   "options": [
    "Grazia Deledda",
@@ -8176,6 +8410,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Który średniowieczny matematyk z Pizy spopularyzował w Europie cyfry arabskie i opisał słynny ciąg liczb?",
   "options": [
    "Fibonacci",
@@ -8211,6 +8446,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Który reżyser nakręcił „Słodkie życie” ze sceną kąpieli w Fontannie di Trevi?",
   "options": [
    "Federico Fellini",
@@ -8246,6 +8482,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Kto wyreżyserował i zagrał główną rolę w nagrodzonym Oscarami filmie „Życie jest piękne” (1997)?",
   "options": [
    "Nanni Moretti",
@@ -8281,6 +8518,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Która aktorka z Neapolu jako pierwsza zdobyła Oscara za rolę w filmie nieanglojęzycznym („Matka i córka”, 1961)?",
   "options": [
    "Gina Lollobrigida",
@@ -8316,6 +8554,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jak nazywa się słynne rzymskie studio filmowe, gdzie kręcono m.in. „Ben Hura” i filmy Felliniego?",
   "options": [
    "Barrandov",
@@ -8351,6 +8590,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Jak nazywa się główna nagroda festiwalu filmowego w Wenecji, najstarszego na świecie (od 1932 r.)?",
   "options": [
    "Złota Palma",
@@ -8387,6 +8627,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "center",
+  "unitRef": null,
   "question": "Który reżyser spopularyzował gatunek „spaghetti westernu”, m.in. „Za garść dolarów” z Clintem Eastwoodem?",
   "options": [
    "Sergio Leone",
@@ -8422,6 +8663,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Który film Giuseppe Tornatore o miłości do kina w sycylijskim miasteczku zdobył Oscara w 1990 r.?",
   "options": [
    "Wielkie piękno",
@@ -8457,6 +8699,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Ile razy reprezentacja Włoch zdobyła mistrzostwo świata w piłce nożnej?",
   "options": [
    "2",
@@ -8492,6 +8735,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki kolor ma koszulka lidera wyścigu kolarskiego Giro d’Italia?",
   "options": [
    "Żółty",
@@ -8527,6 +8771,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Na którym torze pod Mediolanem odbywa się Grand Prix Włoch Formuły 1, zwanym „świątynią prędkości”?",
   "options": [
    "Mugello",
@@ -8562,6 +8807,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "mar",
   "question": "Który motocyklista z Urbino, nazywany „Doktorem”, zdobył dziewięć tytułów mistrza świata?",
   "options": [
    "Marco Simoncelli",
@@ -8597,6 +8843,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "taa",
   "question": "Który tenisista z Górnej Adygi jako pierwszy Włoch wygrał w 2024 r. Australian Open i został liderem rankingu ATP?",
   "options": [
    "Jannik Sinner",
@@ -8632,6 +8879,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Który narciarz z Bolonii, „La Bomba”, zdobył w latach 1988-1992 trzy złote medale olimpijskie w konkurencjach technicznych?",
   "options": [
    "Gustav Thöni",
@@ -8667,6 +8915,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "pie",
   "question": "Który turyński klub piłkarski, zwany „Starą Damą”, gra w biało-czarnych koszulkach?",
   "options": [
    "Torino",
@@ -8702,6 +8951,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Który argentyński piłkarz jest legendą SSC Napoli, a stadion w Neapolu nosi dziś jego imię?",
   "options": [
    "Javier Zanetti",
@@ -8737,6 +8987,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Dla jakiej królowej w 1889 r. w Neapolu nazwano pizzę w kolorach flagi: z pomidorami, mozzarellą i bazylią?",
   "options": [
    "Małgorzaty",
@@ -8772,6 +9023,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Jak nazywa się twardy ser dojrzewający, produkowany w okolicach Parmy i Reggio Emilia?",
   "options": [
    "Pecorino",
@@ -8807,6 +9059,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Z którego miasta pochodzi tradycyjny ocet balsamiczny, dojrzewający latami w drewnianych beczkach?",
   "options": [
    "Z Bolonii",
@@ -8842,6 +9095,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Jak nazywa się deser z biszkoptów nasączonych kawą, przełożonych kremem z mascarpone?",
   "options": [
    "Cannoli",
@@ -8877,6 +9131,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Z jakim mięsem robi się klasyczny rzymski makaron carbonara?",
   "options": [
    "Z guanciale (podgardlem)",
@@ -8912,6 +9167,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "nw",
+  "unitRef": "lig",
   "question": "Z którego miasta pochodzi zielony sos pesto z bazylii, pinii i sera?",
   "options": [
    "Z Genui",
@@ -8947,6 +9203,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Jaka przyprawa nadaje żółty kolor risotto po mediolańsku?",
   "options": [
    "Szafran",
@@ -8982,6 +9239,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "sic",
   "question": "Jak nazywają się sycylijskie rurki z kruchego ciasta z nadzieniem z ricotty?",
   "options": [
    "Cannoli",
@@ -9017,6 +9275,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Z jakich owoców robi się limoncello, likier z Wybrzeża Amalfitańskiego i Sorrento?",
   "options": [
    "Z moreli",
@@ -9052,6 +9311,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "pie",
   "question": "Jaka włoska firma z Alby w Piemoncie stworzyła krem czekoladowo-orzechowy Nutella?",
   "options": [
    "Perugina",
@@ -9088,6 +9348,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "lom",
   "question": "Jakie drożdżowe ciasto z rodzynkami i kandyzowanymi owocami jest tradycyjnym bożonarodzeniowym wypiekiem Mediolanu?",
   "options": [
    "Tiramisu",
@@ -9123,6 +9384,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Jak nazywa się florencki stek z kością, z wołowiny rasy chianina?",
   "options": [
    "Vitello tonnato",
@@ -9158,6 +9420,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "ne",
+  "unitRef": "emr",
   "question": "Z którego miasta pochodzi słynna suszona szynka, prosciutto di Parma?",
   "options": [
    "Z Bolonii",
@@ -9193,6 +9456,7 @@
   "category": "KUL",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": "lom",
   "question": "Który włoski projektant założył w Mediolanie dom mody słynący z garniturów i stylu „power dressing”?",
   "options": [
    "Gianni Versace",
@@ -9228,6 +9492,7 @@
   "category": "KUL",
   "difficulty": 2,
   "regionRef": "nw",
+  "unitRef": "pie",
   "question": "Jakim samochodem marki Fiat był kultowy, mały samochód z lat 1957-1975, symbol włoskiego cudu gospodarczego?",
   "options": [
    "Fiat 500",
@@ -9264,6 +9529,7 @@
   "category": "KUL",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": null,
   "question": "Który skuter włoskiej firmy Piaggio, produkowany od 1946 r., stał się symbolem stylu życia, m.in. w filmie „Rzymskie wakacje”?",
   "options": [
    "Lambretta",
@@ -9299,6 +9565,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto jest głową państwa we Włoszech?",
   "options": [
    "Przewodniczący Senatu",
@@ -9334,6 +9601,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Na ile lat wybierany jest prezydent Włoch?",
   "options": [
    "4",
@@ -9369,6 +9637,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "W którym rzymskim pałacu, dawnej rezydencji papieży i królów, mieszka prezydent Włoch?",
   "options": [
    "W Palazzo Venezia",
@@ -9404,6 +9673,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "laz",
   "question": "Jak nazywa się izba niższa włoskiego parlamentu, obradująca w Pałacu Montecitorio?",
   "options": [
    "Kongres",
@@ -9439,6 +9709,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kim są we włoskim Senacie „senatorowie dożywotni”?",
   "options": [
    "Najstarsi senatorowie",
@@ -9474,6 +9745,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kiedy obchodzi się we Włoszech Święto Republiki?",
   "options": [
    "4 listopada",
@@ -9509,6 +9781,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co upamiętnia włoskie święto 25 kwietnia?",
   "options": [
    "Wyzwolenie spod faszyzmu i okupacji",
@@ -9544,6 +9817,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się włoskie święto 15 sierpnia, początek szczytu wakacji?",
   "options": [
    "Carnevale",
@@ -9579,6 +9853,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kto we włoskiej tradycji przynosi dzieciom słodycze w nocy przed świętem Trzech Króli?",
   "options": [
    "Babbo Natale",
@@ -9614,6 +9889,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": "ne",
+  "unitRef": "ven",
   "question": "Z czego słynie karnawał w Wenecji?",
   "options": [
    "Z bitwy na pomarańcze",
@@ -9649,6 +9925,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "center",
+  "unitRef": "tos",
   "question": "Kiedy w Sienie rozgrywa się wyścig konny Palio?",
   "options": [
    "W Boże Narodzenie",
@@ -9684,6 +9961,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się Poniedziałek Wielkanocny we Włoszech, zwykle spędzany na pikniku?",
   "options": [
    "Ferragosto",
@@ -9719,6 +9997,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Do której godziny według włoskiego zwyczaju wypada zamawiać cappuccino?",
   "options": [
    "Przez cały dzień",
@@ -9754,6 +10033,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak Włosi najczęściej piją espresso w barze?",
   "options": [
    "Szybko, na stojąco przy ladzie",
@@ -9789,6 +10069,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się włoski zwyczaj wieczornego drinka z przekąskami przed kolacją?",
   "options": [
    "Digestivo",
@@ -9824,6 +10105,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się wieczorny spacer głównymi ulicami miasta, ważny zwyczaj towarzyski we Włoszech?",
   "options": [
    "Movida",
@@ -9859,6 +10141,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza w restauracji „coperto” na rachunku?",
   "options": [
    "Podatek turystyczny",
@@ -9894,6 +10177,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie „ciao”?",
   "options": [
    "Proszę",
@@ -9929,6 +10213,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie „prego”?",
   "options": [
    "Do widzenia",
@@ -9964,6 +10249,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza napis „caldo” na kranie we Włoszech?",
   "options": [
    "Woda niezdatna do picia",
@@ -9999,6 +10285,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „burro”?",
   "options": [
    "Masło",
@@ -10034,6 +10321,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „camera”?",
   "options": [
    "Aparat fotograficzny",
@@ -10069,6 +10357,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „parenti”?",
   "options": [
    "Krewni",
@@ -10104,6 +10393,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „cantina”?",
   "options": [
    "Kantor",
@@ -10139,6 +10429,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „sciopero”, często widziane na dworcach?",
   "options": [
    "Wyprzedaż",
@@ -10175,6 +10466,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „uscita”?",
   "options": [
    "Wejście",
@@ -10210,6 +10502,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie „Buon appetito!”?",
   "options": [
    "Dzień dobry!",
@@ -10245,6 +10538,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak po włosku poprosić o rachunek?",
   "options": [
    "Il menu, per favore",
@@ -10280,6 +10574,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Z jakiego włoskiego wyrażenia pochodzi polskie słowo „pomidor”?",
   "options": [
    "„Pomata d’oro”",
@@ -10316,6 +10611,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak w Polsce nazywa się pęczek warzyw na zupę, którego nazwę łączy się z królową Boną?",
   "options": [
    "Sforzówka",
@@ -10352,6 +10648,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka ocena jest najwyższa na włoskich uniwersytetach?",
   "options": [
    "100 punktów",
@@ -10387,6 +10684,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka ocena w szkołach włoskich jest minimalną oceną pozytywną?",
   "options": [
    "2",
@@ -10422,6 +10720,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się włoska formacja policji podlegająca też ministerstwu obrony, z mundurami z czerwonym lampasem?",
   "options": [
    "Guardia di Finanza",
@@ -10457,6 +10756,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Czym są oznaczone napisem „ZTL” strefy w centrach włoskich miast?",
   "options": [
    "Strefą dla pieszych z kawiarniami",
@@ -10492,6 +10792,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak płaci się za przejazd większością autostrad we Włoszech?",
   "options": [
    "Na bramkach według przejechanego odcinka",
@@ -10527,6 +10828,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka jest waluta Włoch?",
   "options": [
    "Frank",
@@ -10562,6 +10864,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": "sar",
   "question": "Który język jest oficjalnym językiem regionalnym na Sardynii, obok włoskiego?",
   "options": [
    "Sardyński",
@@ -10597,6 +10900,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "tos",
   "question": "Jaki dialekt włoski stał się podstawą języka literackiego, dzięki Dantemu, Petrarce i Boccacciowi?",
   "options": [
    "Toskański (florencki)",
@@ -10632,6 +10936,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się najstarsza akademia językowa świata, dbająca o język włoski od 1583 r.?",
   "options": [
    "Società Dante Alighieri",
@@ -10667,6 +10972,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak po włosku nazywa się obiad, posiłek w środku dnia, z daniami: antipasto, primo, secondo i dolce?",
   "options": [
    "Spuntino",
@@ -10702,6 +11008,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "lom",
   "question": "Jak nazywa się pierwsze danie włoskiego obiadu, zwykle makaron, risotto lub zupa?",
   "options": [
    "Contorno",
@@ -10737,6 +11044,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Czego według zwyczaju nie należy robić z makaronem spaghetti przed gotowaniem?",
   "options": [
    "Gotować al dente",
@@ -10772,6 +11080,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza określenie makaronu „al dente”?",
   "options": [
    "Ugotowany, ale twardawy w środku",
@@ -10807,6 +11116,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się włoska lodziarnia?",
   "options": [
    "Pasticceria",
@@ -10842,6 +11152,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się prosta, rodzinna restauracja z domową kuchnią?",
   "options": [
    "Trattoria",
@@ -10877,6 +11188,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": "south",
+  "unitRef": "cam",
   "question": "Gdzie według tradycji przyrządza się prawdziwą pizzę neapolitańską?",
   "options": [
    "Na grillu gazowym",
@@ -10912,6 +11224,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak po włosku nazywa się babcia, ważna postać włoskiej rodziny i kuchni?",
   "options": [
    "Suocera",
@@ -10947,6 +11260,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Kiedy we Włoszech obchodzi się imieniny, czyli „onomastico”?",
   "options": [
    "W dniu urodzin",
@@ -10983,6 +11297,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki gest dłoni, złączonymi palcami w górę, oznacza we Włoszech „O co ci chodzi?”",
   "options": [
    "Pięść",
@@ -11018,6 +11333,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „scontrino”?",
   "options": [
    "Skrót",
@@ -11053,6 +11369,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „spiaggia”?",
   "options": [
    "Szpieg",
@@ -11088,6 +11405,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „morbido”?",
   "options": [
    "Smutny",
@@ -11123,6 +11441,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „squisito”?",
   "options": [
    "Skąpy",
@@ -11158,6 +11477,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „salire”?",
   "options": [
    "Wchodzić, wsiadać",
@@ -11193,6 +11513,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „fermata”?",
   "options": [
    "Ferma",
@@ -11228,6 +11549,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co oznacza włoskie słowo „biglietto”?",
   "options": [
    "Bigos",
@@ -11263,6 +11585,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywają się włoskie koleje państwowe obsługujące pociągi pasażerskie?",
   "options": [
    "Italo",
@@ -11298,6 +11621,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Co trzeba zrobić z papierowym biletem regionalnym przed wejściem do pociągu we Włoszech?",
   "options": [
    "Wymienić w kasie",
@@ -11333,6 +11657,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak nazywa się państwowy nadawca radia i telewizji we Włoszech?",
   "options": [
    "TVE",
@@ -11368,6 +11693,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaki jest najczęstszy numer alarmowy we Włoszech?",
   "options": [
    "112",
@@ -11403,6 +11729,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Gdzie we Włoszech kupuje się bilety autobusowe i znaczki, a także papierosy i sól?",
   "options": [
    "W aptece",
@@ -11438,6 +11765,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": "ven",
   "question": "Jak nazywa się popularny we Włoszech drink z aperolem lub campari, proseccem i wodą sodową?",
   "options": [
    "Bellini",
@@ -11473,6 +11801,7 @@
   "category": "SPO",
   "difficulty": 2,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jakie danie jada się we Włoszech tradycyjnie w Wigilię, zwłaszcza na południu?",
   "options": [
    "Barszcz z uszkami",
@@ -11509,6 +11838,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jaka postać przynosi prezenty dzieciom w Boże Narodzenie w wielu włoskich domach?",
   "options": [
    "Ded Moroz",
@@ -11544,6 +11874,7 @@
   "category": "SPO",
   "difficulty": 3,
   "regionRef": null,
+  "unitRef": "cam",
   "question": "Jak nazywa się dzielnica lub osiedle we włoskim mieście, np. w nazwie „Quartiere Spagnolo” w Neapolu?",
   "options": [
    "Piazza",
@@ -11579,6 +11910,7 @@
   "category": "SPO",
   "difficulty": 1,
   "regionRef": null,
+  "unitRef": null,
   "question": "Jak Włosi nazywają popołudniową przerwę, gdy w małych miastach zamyka się sklepy?",
   "options": [
    "Ferragosto",
