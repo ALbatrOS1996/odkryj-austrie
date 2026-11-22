@@ -306,8 +306,8 @@ input[type=text]:focus, textarea:focus { outline: 2px solid var(--red); border-c
 <div id="toasts" aria-live="polite"></div>
 <noscript>Ta gra wymaga włączonej obsługi JavaScriptu.</noscript>
 <script>
-window.OA_VERSION = "32159ac8a0";
-window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Austrię!", "count": 351, "regions": ["Wschód", "Północ", "Południe", "Zachód"], "units": "9 krajów związkowych"}, {"code": "cz", "name": "Czechy", "gameTitle": "Odkryj Czechy!", "count": 332, "regions": ["Praga", "Zachód", "Północ", "Morawy"], "units": "14 krajów"}, {"code": "it", "name": "Włochy", "gameTitle": "Odkryj Włochy!", "count": 332, "regions": ["Płn. Zachód", "Płn. Wschód", "Centrum", "Południe"], "units": "20 regionów"}];
+window.OA_VERSION = "af63213969";
+window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Austrię!", "count": 351, "regions": ["Wschód", "Północ", "Południe", "Zachód"], "units": "9 krajów związkowych"}, {"code": "cz", "name": "Czechy", "gameTitle": "Odkryj Czechy!", "count": 332, "regions": ["Praga", "Zachód", "Północ", "Morawy"], "units": "14 krajów"}, {"code": "it", "name": "Włochy", "gameTitle": "Odkryj Włochy!", "count": 332, "regions": ["Płn. Zachód", "Płn. Wschód", "Centrum", "Południe"], "units": "20 regionów"}, {"code": "nl", "name": "Niderlandy", "gameTitle": "Odkryj Niderlandy!", "count": 336, "regions": ["Północ", "Wschód", "Zachód", "Południe"], "units": "12 prowincji"}];
 </script>
 <script>
 /* Ikony i ilustracje SVG (własne, płaska grafika z konturem). */
@@ -555,6 +555,75 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
       <path d="M48 46c-4-6 4-10 0-16M60 44c-4-6 4-10 0-16M72 46c-4-6 4-10 0-16" fill="none" stroke="var(--art-ink)" stroke-width="2" opacity=".6"/>`
   };
 
+  const REGION_ART_NL = {
+    // Północ: Morze Wattowe, latarnia i wydmy
+    north: `${sky('var(--art-sky)')}<path d="M0 62c14-8 30-10 44-4s30 4 40-2 24-6 36 0v34H0z" fill="var(--art-sun)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <rect y="70" width="120" height="20" fill="var(--art-lake)"/>
+      <path d="M8 78h20M50 84h26M90 76h20" stroke="#fff" stroke-width="1.4" opacity=".7"/>
+      <path d="M84 62V24h12v38z" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M84 34h12M84 46h12" stroke="var(--art-red)" stroke-width="5"/>
+      <path d="M82 24h16l-8-8z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M96 20l18-6M96 22l18 4" stroke="var(--art-gold)" stroke-width="2" opacity=".8"/>
+      <path d="M14 60c4-10 8-14 10-14M30 58c2-8 6-12 8-12" stroke="var(--art-green)" stroke-width="2" fill="none"/>`,
+    // Wschód: wrzosowiska Veluwe, sosny i jeleń
+    east: `${sky('var(--art-sky)')}<circle cx="24" cy="18" r="8" fill="var(--art-sun)"/>
+      <path d="M0 60c20-8 40-8 60-2s40 4 60-2v34H0z" fill="#B27BB0" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M0 76c30-6 60-6 120 0v14H0z" fill="var(--art-green2)"/>
+      <path d="M88 62V40M100 64V34M76 64V46" stroke="var(--art-ink)" stroke-width="2.5"/>
+      <path d="M80 44c0-10 16-10 16 0-4 4-12 4-16 0zM90 38c0-12 20-12 20 0-5 4-15 4-20 0zM68 50c0-8 14-8 14 0-4 3-10 3-14 0z" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M30 70l4-12h14l4 12M34 58c-4-6-8-8-10-12M48 58c4-6 8-8 10-12M28 48l-4-4M56 48l4-4" fill="none" stroke="var(--art-ink)" stroke-width="2.2"/>
+      <ellipse cx="41" cy="58" rx="10" ry="5" fill="#9A6A3E" stroke="var(--art-ink)" stroke-width="1.6"/>`,
+    // Zachód: wiatrak i pole tulipanów
+    west: `${sky('var(--art-sky)')}<rect y="66" width="120" height="24" fill="var(--art-green2)"/>
+      <path d="M0 70h120M0 76h120M0 82h120" stroke="var(--art-red)" stroke-width="3.5" stroke-dasharray="4 3"/>
+      <path d="M0 73h120M0 79h120M0 85h120" stroke="var(--art-gold)" stroke-width="3" stroke-dasharray="3 4" opacity=".9"/>
+      <path d="M48 66l4-34h16l4 34z" fill="#9A6A3E" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M50 32l10-8 10 8z" fill="var(--art-ink)"/>
+      <path d="M60 30 34 8M60 30l26-22M60 30 34 52M60 30l26 22" stroke="var(--art-ink)" stroke-width="2.5"/>
+      <path d="M36 10l8-4 14 18-6 4zM84 10l-8-4-14 18 6 4zM36 50l8 4 14-18-6-4zM84 50l-8 4-14-18 6-4z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.2"/>
+      <circle cx="60" cy="30" r="3" fill="var(--art-gold)" stroke="var(--art-ink)"/>
+      <path d="M56 66v-10a4 4 0 0 1 8 0v10z" fill="var(--art-ink)" opacity=".4"/>`,
+    // Południe: Maastricht nad Mozą, most i wieża kościoła
+    south: `${sky('var(--art-sky)')}<path d="M0 58c20-10 40-12 60-8s40 2 60-6v18H0z" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M70 58V24l6-10 6 10v34z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M66 58V36h24v22zM20 58V42h18v16zM40 58V38h20v20z" fill="var(--art-stone)" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M20 42l9-8 9 8M40 38l10-8 10 8" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <rect y="62" width="120" height="28" fill="var(--art-lake)"/>
+      <path d="M0 62h120v6H0z" fill="var(--art-stone)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M4 68a10 10 0 0 1 20 0M28 68a10 10 0 0 1 20 0M52 68a10 10 0 0 1 20 0M76 68a10 10 0 0 1 20 0M100 68a10 10 0 0 1 20 0" fill="var(--art-ink)" opacity=".35"/>
+      <path d="M10 80h20M60 84h30" stroke="#fff" stroke-width="1.4" opacity=".7"/>`
+  };
+  const SPECIAL_ART_NL = {
+    // Tulipan
+    luck: `<rect width="120" height="120" fill="var(--sp-luck-bg)"/>
+      <path d="M60 106V58" stroke="var(--art-green)" stroke-width="5"/>
+      <path d="M60 92c-14-2-24-12-26-26 12 2 22 10 26 20zM60 84c12-2 20-10 22-22-10 2-18 8-22 16z" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M40 30c0 20 8 30 20 30s20-10 20-30l-8 8-6-14-6 12-6-12-6 14z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="2.2"/>
+      <circle cx="92" cy="22" r="9" fill="var(--art-gold)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M88 22h8M92 18v8" stroke="var(--art-ink)" stroke-width="1.5"/>`,
+    // Powódź: przerwana grobla
+    detour: `<rect width="120" height="120" fill="var(--sp-detour-bg)"/>
+      <path d="M0 58h120v52H0z" fill="var(--art-lake)"/>
+      <path d="M0 56c10-6 20 6 30 0s20 6 30 0 20 6 30 0 20 6 30 0" fill="none" stroke="#fff" stroke-width="2.5"/>
+      <path d="M0 76 40 62h10l-6 48H0zM120 76 80 62H70l6 48h44z" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M50 62c4 14 2 30-4 48h28c-6-18-8-34-4-48z" fill="var(--art-lake)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M54 76c4 4 8 4 12 0M52 92c6 4 10 4 16 0" stroke="#fff" stroke-width="2" fill="none"/>
+      <path d="M20 40l6-12 6 12zM92 34l6-12 6 12z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.6"/>`,
+    // Rower
+    ticket: `<rect width="120" height="120" fill="var(--sp-ticket-bg)"/>
+      <circle cx="30" cy="80" r="18" fill="none" stroke="var(--art-ink)" stroke-width="4"/>
+      <circle cx="90" cy="80" r="18" fill="none" stroke="var(--art-ink)" stroke-width="4"/>
+      <path d="M30 80 48 52h32L90 80M48 52l14 28 18-28M62 80H30M44 44h12M80 52l-4-12h10" fill="none" stroke="var(--art-red)" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M66 46h20v10H66z" fill="var(--art-gold)" stroke="var(--art-ink)" stroke-width="1.6"/>`,
+    // Stroopwafel
+    express: `<rect width="120" height="120" fill="var(--sp-express-bg)"/>
+      <ellipse cx="60" cy="72" rx="42" ry="16" fill="#B5772F" stroke="var(--art-ink)" stroke-width="2"/>
+      <ellipse cx="60" cy="64" rx="42" ry="16" fill="#D9A156" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M30 56l40 20M44 50l40 20M24 66l30 14M58 48l26 12M36 74l24-26M52 78l24-26M70 76l16-18M30 64l18-18" stroke="#9A6A3E" stroke-width="1.6"/>
+      <path d="M20 68c10 6 70 6 80 0" fill="none" stroke="#6B3E1F" stroke-width="3"/>
+      <path d="M46 34c-4-6 4-10 0-16M60 32c-4-6 4-10 0-16M74 34c-4-6 4-10 0-16" fill="none" stroke="var(--art-ink)" stroke-width="2" opacity=".5"/>`
+  };
+
   // logo na podstawie flagi kraju
   const LOGO = {
     at: `<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#C8102E"/>
@@ -564,13 +633,15 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
     <rect width="64" height="32" fill="#fff"/><rect y="32" width="64" height="32" fill="#D7141A"/><path d="M0 0 34 32 0 64z" fill="#11457E"/></g></svg>`,
     it: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="itc"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#itc)">
     <rect width="22" height="64" fill="#008C45"/><rect x="21" width="22" height="64" fill="#F4F5F0"/><rect x="42" width="22" height="64" fill="#CD212A"/></g></svg>`,
+    nl: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="nlc"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#nlc)">
+    <rect width="64" height="22" fill="#AE1C28"/><rect y="21" width="64" height="22" fill="#fff"/><rect y="42" width="64" height="22" fill="#21468B"/></g></svg>`,
     any: `<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#2B3A55"/>
     <circle cx="32" cy="32" r="18" fill="none" stroke="#fff" stroke-width="3"/><path d="M14 32h36M32 14c-8 10-8 26 0 36M32 14c8 10 8 26 0 36" fill="none" stroke="#fff" stroke-width="2.5"/></svg>`
   };
   const logo = LOGO.at;
 
   window.ICONS = { CAT, UI, logo, LOGO,
-    REGION_ART: { at: REGION_ART, cz: REGION_ART_CZ, it: REGION_ART_IT }, SPECIAL_ART: { at: SPECIAL_ART, cz: SPECIAL_ART_CZ, it: SPECIAL_ART_IT } };
+    REGION_ART: { at: REGION_ART, cz: REGION_ART_CZ, it: REGION_ART_IT, nl: REGION_ART_NL }, SPECIAL_ART: { at: SPECIAL_ART, cz: SPECIAL_ART_CZ, it: SPECIAL_ART_IT, nl: SPECIAL_ART_NL } };
 })();
 
 </script>
@@ -1433,7 +1504,7 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
         const v = document.getElementById('nm').value.trim();
         if (!v) return toast('Wpisz imię');
         profile.name = v.slice(0, 20); saveProfile();
-        if (!profile.country && REGISTRY.length > 1) location.hash = '#/country'; else route();
+        if (!profile.country && REGISTRY.length > 1 && location.hash !== '#/country') location.hash = '#/country'; else route();
       }
     });
   }

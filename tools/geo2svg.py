@@ -1,6 +1,7 @@
 # Granice jednostek administracyjnych -> uproszczone ścieżki SVG: python tools/geo2svg.py at|cz
 #  at: krajów związkowych – Statistik Austria (CC BY 4.0), oprac. Flooh Perlot
 #  it: regionów – ISTAT (CC BY 4.0), oprac. openpolis/geojson-italy
+#  nl: prowincji – CBS/PDOK (CC BY 4.0), oprac. cartomap/nl
 #  cz: krajów – ČÚZK INSPIRE „Územní správní jednotky” (CC BY 4.0), oprac. siwekm/czech-geojson
 import json, math, os, sys
 
@@ -32,6 +33,17 @@ elif CC == 'it':
     LAT0 = 42.0
     CREDIT = 'Granice regionów: ISTAT (CC BY 4.0), oprac. openpolis/geojson-italy, uproszczone.'
     ident = lambda f, rings: IDS[f['properties']['reg_istat_code']]
+elif CC == 'nl':
+    SRC, ENC = 'nl_provincies.json', 'utf-8'
+    IDS = {'PV20': 'gr', 'PV21': 'fr', 'PV22': 'dr', 'PV23': 'ov', 'PV24': 'fl', 'PV25': 'ge', 'PV26': 'ut', 'PV27': 'nh', 'PV28': 'zh', 'PV29': 'ze', 'PV30': 'nb', 'PV31': 'li'}
+    NAMES = {'gr': 'Groningen', 'fr': 'Fryzja', 'dr': 'Drenthe', 'ov': 'Overijssel', 'fl': 'Flevoland', 'ge': 'Geldria', 'ut': 'Utrecht',
+             'nh': 'Holandia Północna', 'zh': 'Holandia Południowa', 'ze': 'Zelandia', 'nb': 'Brabancja Północna', 'li': 'Limburgia'}
+    # makroregiony wg landsdelen CBS (NUTS 1)
+    REGION = {'gr': 'north', 'fr': 'north', 'dr': 'north', 'ov': 'east', 'fl': 'east', 'ge': 'east', 'ut': 'west', 'nh': 'west', 'zh': 'west', 'ze': 'west', 'nb': 'south', 'li': 'south'}
+    ORDER = ['fr', 'gr', 'dr', 'nh', 'fl', 'ov', 'zh', 'ut', 'ge', 'ze', 'nb', 'li']
+    LAT0 = 52.2
+    CREDIT = 'Granice prowincji: CBS/PDOK (CC BY 4.0), oprac. cartomap/nl, uproszczone.'
+    ident = lambda f, rings: IDS[f['properties']['statcode']]
 else:
     SRC, ENC = 'cz_kraje.json', 'utf-8'
     # punkt wewnątrz każdego kraju (stolica kraju; dla środkowoczeskiego Kolín, bo Praga jest enklawą)
@@ -88,7 +100,7 @@ for f in d['features']:
             pr = [proj(p) for p in ring]
             out = [pr[0]]
             for q in pr[1:]:
-                if math.hypot(q[0] - out[-1][0], q[1] - out[-1][1]) >= {'at': 1.2, 'cz': 3.0}.get(CC, 3.0):
+                if math.hypot(q[0] - out[-1][0], q[1] - out[-1][1]) >= {'at': 1.2, 'cz': 3.0, 'nl': 2.0}.get(CC, 3.0):
                     out.append(q)
             if len(out) < 4:
                 continue

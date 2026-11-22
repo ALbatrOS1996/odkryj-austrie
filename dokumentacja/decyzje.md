@@ -26,3 +26,5 @@
    - Pytania przypisano do jednostek słowami kluczowymi (`tools/units.py`), ze sprawdzeniem zgodności z makroregionem. Gdy jednostka ma mało własnych pytań, gra bierze pytanie z jej makroregionu.
    - Stare, niedokończone partie z podziałem na 4 regiony są po aktualizacji zamykane.
 
+11. **Niderlandy (2026-11-22):** 12 prowincji w 4 makroregionach według landsdelen CBS (NUTS 1): Północ (Groningen, Fryzja, Drenthe), Wschód (Overijssel, Flevoland, Geldria), Zachód (Holandia Północna i Południowa, Utrecht, Zelandia), Południe (Brabancja Północna, Limburgia). Wygrana: 8 z 12, 2 karty na prowincję (7 z 12 dawało za krótkie partie). Karty specjalne: Tulipan, Powódź, Rower, Stroopwafel. Mapa: CBS/PDOK (CC BY 4.0) przez cartomap/nl. 336 pytań, w tym 10 historycznych z wątkiem polskim (m.in. Olędrzy, Tylman z Gameren, Sosabowski, Maczek w Bredzie). Weryfikacja: `kontrola-krzyzowa-nl.md`.
+

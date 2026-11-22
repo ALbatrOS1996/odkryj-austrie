@@ -1,0 +1,128 @@
+{
+  "code": "nl",
+  "name": "Niderlandy",
+  "nameLocal": "Nederland",
+  "gameTitle": "Odkryj Niderlandy!",
+  "palette": {
+    "primary": "#21468B",
+    "secondary": "#FFFFFF",
+    "accent": "#AE1C28"
+  },
+  "flag": "nl",
+  "regions": [
+    {
+      "id": "north",
+      "name": "Północ",
+      "adminUnits": [
+        "Groningen",
+        "Fryzja",
+        "Drenthe"
+      ],
+      "color": "#2F6DB5",
+      "motifs": [
+        "Morze Wattowe",
+        "Wyspy Zachodniofryzyjskie",
+        "hunebedden w Drenthe",
+        "Groningen"
+      ],
+      "description": "Fryzja z własnym językiem i jeziorami, studenckie Groningen, Morze Wattowe i megalityczne hunebedden w Drenthe."
+    },
+    {
+      "id": "east",
+      "name": "Wschód",
+      "adminUnits": [
+        "Overijssel",
+        "Flevoland",
+        "Geldria"
+      ],
+      "color": "#3F8F4E",
+      "motifs": [
+        "Park Narodowy Hoge Veluwe",
+        "Giethoorn",
+        "most w Arnhem",
+        "polder Flevoland"
+      ],
+      "description": "Lasy i wrzosowiska Veluwe, wioska kanałów Giethoorn, Arnhem i Nijmegen oraz Flevoland, najmłodsza prowincja osuszona z morza."
+    },
+    {
+      "id": "west",
+      "name": "Zachód",
+      "adminUnits": [
+        "Holandia Północna",
+        "Holandia Południowa",
+        "Utrecht",
+        "Zelandia"
+      ],
+      "color": "#C8102E",
+      "motifs": [
+        "kanały Amsterdamu",
+        "wiatraki Kinderdijk",
+        "pola tulipanów",
+        "zapory Zelandii"
+      ],
+      "description": "Randstad z Amsterdamem, Rotterdamem, Hagą i Utrechtem, pola tulipanów, wiatraki Kinderdijk i delta Zelandii z zaporami Deltawerken."
+    },
+    {
+      "id": "south",
+      "name": "Południe",
+      "adminUnits": [
+        "Brabancja Północna",
+        "Limburgia"
+      ],
+      "color": "#E07A1F",
+      "motifs": [
+        "Maastricht",
+        "karnawał",
+        "Efteling",
+        "pagórki Limburgii"
+      ],
+      "description": "Katolickie południe: Brabancja z Eindhoven, Bredą i karnawałem oraz pagórkowata Limburgia z Maastricht nad Mozą."
+    }
+  ],
+  "regionCodes": {
+    "n": "north",
+    "e": "east",
+    "w": "west",
+    "s": "south"
+  },
+  "regionShort": {
+    "north": "Północ",
+    "east": "Wschód",
+    "west": "Zachód",
+    "south": "Południe"
+  },
+  "specialCards": {
+    "luck": {
+      "name": "Tulipan",
+      "short": "Szczęście",
+      "flavor": "Twoja cebulka okazała się warta fortunę: zabierz przeciwnikowi jedną jego prowincję. Nie działa na gracza w twierdzy."
+    },
+    "detour": {
+      "name": "Powódź",
+      "short": "Objazd",
+      "flavor": "Morze przerwało groblę! Musisz się wycofać i oddajesz przeciwnikowi jedną swoją prowincję."
+    },
+    "ticket": {
+      "name": "Rower",
+      "short": "Bilet",
+      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę jednostki."
+    },
+    "express": {
+      "name": "Stroopwafel",
+      "short": "Ekspres",
+      "flavor": "Gofr z syropem dodaje energii! Po tej rundzie od razu rozegrasz dodatkową rundę z następną kartą."
+    }
+  },
+  "regionSplitRationale": "Podział wyłącznie po granicach 12 prowincji, zgodny z czterema landsdelen urzędu statystycznego CBS (NUTS 1): Noord, Oost, West i Zuid. Zachód (Randstad) jest najludniejszy, ale każdy makroregion ma rozpoznawalne miasta, zabytki i krajobrazy.",
+  "contentVersion": "1.0.0",
+  "factsAsOf": "2026-11-22",
+  "nameGen": "Niderlandów",
+  "nameLoc": "Niderlandach",
+  "unitsLabel": "prowincji",
+  "unitsCount": 12,
+  "verbHas": "mają",
+  "gameRules": {
+    "perRegion": 2,
+    "winUnits": 8
+  }
+}

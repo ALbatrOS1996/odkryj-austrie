@@ -1,0 +1,560 @@
+# Źródła · Niderlandy
+
+Data dostępu: 2026-11-04. Lista wygenerowana przez build.py.
+
+- <https://whc.unesco.org/en/list/1349> (instytucja) · pytania: zab-01
+- <https://en.wikipedia.org/wiki/Canals_of_Amsterdam> (wikipedia) · pytania: zab-01
+- <https://whc.unesco.org/en/list/818> (instytucja) · pytania: zab-02
+- <https://en.wikipedia.org/wiki/Kinderdijk> (wikipedia) · pytania: zab-02
+- <https://www.rijksmuseum.nl/> (strona instytucji) · pytania: zab-03, his-32, kul-06, kul-58, kul-60
+- <https://en.wikipedia.org/wiki/The_Night_Watch> (wikipedia) · pytania: zab-03, kul-01
+- <https://www.annefrank.org/> (strona instytucji) · pytania: zab-04, his-53, kul-27
+- <https://en.wikipedia.org/wiki/Anne_Frank_House> (wikipedia) · pytania: zab-04
+- <https://www.mauritshuis.nl/> (strona instytucji) · pytania: zab-05, kul-05, kul-64
+- <https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring> (wikipedia) · pytania: zab-05
+- <https://www.tweedekamer.nl/> (strona instytucji) · pytania: zab-06, his-69, spo-04, spo-05, spo-07, spo-44
+- <https://en.wikipedia.org/wiki/Binnenhof> (wikipedia) · pytania: zab-06
+- <https://www.paleisamsterdam.nl/> (strona instytucji) · pytania: zab-07
+- <https://en.wikipedia.org/wiki/Royal_Palace_of_Amsterdam> (wikipedia) · pytania: zab-07
+- <https://www.nieuwekerk.nl/> (strona instytucji) · pytania: zab-08
+- <https://en.wikipedia.org/wiki/Nieuwe_Kerk_(Amsterdam)> (wikipedia) · pytania: zab-08
+- <https://www.westerkerk.nl/> (strona instytucji) · pytania: zab-09
+- <https://en.wikipedia.org/wiki/Westerkerk> (wikipedia) · pytania: zab-09
+- <https://www.rotterdam.nl/> (strona instytucji) · pytania: zab-10
+- <https://en.wikipedia.org/wiki/Erasmusbrug> (wikipedia) · pytania: zab-10
+- <https://www.kubuswoning.nl/> (strona instytucji) · pytania: zab-11
+- <https://en.wikipedia.org/wiki/Cube_house> (wikipedia) · pytania: zab-11
+- <https://www.markthal.nl/> (strona instytucji) · pytania: zab-12
+- <https://en.wikipedia.org/wiki/Market_Hall_(Rotterdam)> (wikipedia) · pytania: zab-12
+- <https://whc.unesco.org/en/list/1441> (instytucja) · pytania: zab-13
+- <https://en.wikipedia.org/wiki/Van_Nelle_Factory> (wikipedia) · pytania: zab-13
+- <https://whc.unesco.org/en/list/965> (instytucja) · pytania: zab-14
+- <https://en.wikipedia.org/wiki/Rietveld_Schröder_House> (wikipedia) · pytania: zab-14
+- <https://www.domtoren.nl/> (strona instytucji) · pytania: zab-15
+- <https://en.wikipedia.org/wiki/Dom_Tower_of_Utrecht> (wikipedia) · pytania: zab-15
+- <https://www.royaldelft.com/> (strona instytucji) · pytania: zab-16
+- <https://en.wikipedia.org/wiki/Delftware> (wikipedia) · pytania: zab-16
+- <https://www.oudeennieuwekerkdelft.nl/> (strona instytucji) · pytania: zab-17
+- <https://en.wikipedia.org/wiki/Nieuwe_Kerk_(Delft)> (wikipedia) · pytania: zab-17
+- <https://keukenhof.nl/> (strona instytucji) · pytania: zab-18
+- <https://en.wikipedia.org/wiki/Keukenhof> (wikipedia) · pytania: zab-18
+- <https://www.muiderslot.nl/> (strona instytucji) · pytania: zab-19
+- <https://en.wikipedia.org/wiki/Muiderslot> (wikipedia) · pytania: zab-19
+- <https://www.slotloevestein.nl/> (strona instytucji) · pytania: zab-20
+- <https://en.wikipedia.org/wiki/Loevestein_Castle> (wikipedia) · pytania: zab-20
+- <https://www.kasteeldehaar.nl/> (strona instytucji) · pytania: zab-21
+- <https://en.wikipedia.org/wiki/Castle_De_Haar> (wikipedia) · pytania: zab-21
+- <https://www.britannica.com/plant/tulip> (encyklopedia) · pytania: zab-22
+- <https://en.wikipedia.org/wiki/Tulip> (wikipedia) · pytania: zab-22
+- <https://www.royal-house.nl/> (strona instytucji) · pytania: zab-23, zab-25, zab-26, zab-27, his-17, his-41, his-45, his-52, his-70, kul-45, spo-01, spo-02, spo-03, spo-53
+- <https://en.wikipedia.org/wiki/House_of_Orange-Nassau> (wikipedia) · pytania: zab-23
+- <https://www.rijksoverheid.nl/> (strona instytucji) · pytania: zab-24, spo-08, spo-09
+- <https://en.wikipedia.org/wiki/Flag_of_the_Netherlands> (wikipedia) · pytania: zab-24
+- <https://en.wikipedia.org/wiki/Wilhelmus> (wikipedia) · pytania: zab-25
+- <https://en.wikipedia.org/wiki/Coat_of_arms_of_the_Netherlands> (wikipedia) · pytania: zab-26, zab-27
+- <https://www.dezaanseschans.nl/> (strona instytucji) · pytania: zab-28
+- <https://en.wikipedia.org/wiki/Zaanse_Schans> (wikipedia) · pytania: zab-28
+- <https://www.rijkswaterstaat.nl/> (strona instytucji) · pytania: zab-29, zab-30, zab-31, geo-04, geo-05, geo-08, geo-10, geo-30, geo-49
+- <https://en.wikipedia.org/wiki/Afsluitdijk> (wikipedia) · pytania: zab-29
+- <https://en.wikipedia.org/wiki/Oosterscheldekering> (wikipedia) · pytania: zab-30
+- <https://en.wikipedia.org/wiki/Maeslantkering> (wikipedia) · pytania: zab-31
+- <https://www.zeeland.nl/> (strona instytucji) · pytania: zab-32, geo-51, his-62
+- <https://en.wikipedia.org/wiki/Middelburg_Abbey> (wikipedia) · pytania: zab-32
+- <https://whc.unesco.org/en/list/1314> (instytucja) · pytania: zab-33
+- <https://en.wikipedia.org/wiki/Wadden_Sea> (wikipedia) · pytania: zab-33
+- <https://whc.unesco.org/en/list/867> (instytucja) · pytania: zab-34
+- <https://en.wikipedia.org/wiki/Woudagemaal> (wikipedia) · pytania: zab-34
+- <https://www.hunebedcentrum.eu/> (strona instytucji) · pytania: zab-35
+- <https://en.wikipedia.org/wiki/Megaliths_in_the_Netherlands> (wikipedia) · pytania: zab-35
+- <https://www.martinitoren.nl/> (strona instytucji) · pytania: zab-36
+- <https://en.wikipedia.org/wiki/Martinitoren> (wikipedia) · pytania: zab-36
+- <https://www.oldehove.eu/> (strona instytucji) · pytania: zab-37
+- <https://en.wikipedia.org/wiki/Oldehove> (wikipedia) · pytania: zab-37
+- <https://www.groningermuseum.nl/> (strona instytucji) · pytania: zab-38
+- <https://en.wikipedia.org/wiki/Groninger_Museum> (wikipedia) · pytania: zab-38
+- <https://whc.unesco.org/en/list/1555> (instytucja) · pytania: zab-39
+- <https://en.wikipedia.org/wiki/Colonies_of_Benevolence> (wikipedia) · pytania: zab-39
+- <https://whc.unesco.org/en/list/739> (instytucja) · pytania: zab-40
+- <https://en.wikipedia.org/wiki/Schokland> (wikipedia) · pytania: zab-40
+- <https://www.giethoorn.com/> (strona instytucji) · pytania: zab-41
+- <https://en.wikipedia.org/wiki/Giethoorn> (wikipedia) · pytania: zab-41
+- <https://www.airbornemuseum.nl/> (strona instytucji) · pytania: zab-42, his-57, his-58, his-59
+- <https://en.wikipedia.org/wiki/John_Frost_Bridge> (wikipedia) · pytania: zab-42
+- <https://krollermuller.nl/> (strona instytucji) · pytania: zab-43
+- <https://en.wikipedia.org/wiki/Kröller-Müller_Museum> (wikipedia) · pytania: zab-43
+- <https://www.paleishetloo.nl/> (strona instytucji) · pytania: zab-44
+- <https://en.wikipedia.org/wiki/Het_Loo_Palace> (wikipedia) · pytania: zab-44
+- <https://www.nijmegen.nl/> (strona instytucji) · pytania: zab-45
+- <https://en.wikipedia.org/wiki/Nijmegen> (wikipedia) · pytania: zab-45
+- <https://www.deventer.nl/> (strona instytucji) · pytania: zab-46
+- <https://en.wikipedia.org/wiki/Deventer> (wikipedia) · pytania: zab-46
+- <https://www.lelystad.nl/> (strona instytucji) · pytania: zab-47, geo-16
+- <https://en.wikipedia.org/wiki/Batavia_(1628_ship)> (wikipedia) · pytania: zab-47
+- <https://www.hogeveluwe.nl/> (strona instytucji) · pytania: zab-48
+- <https://en.wikipedia.org/wiki/Hoge_Veluwe_National_Park> (wikipedia) · pytania: zab-48
+- <https://www.openluchtmuseum.nl/> (strona instytucji) · pytania: zab-49
+- <https://en.wikipedia.org/wiki/Netherlands_Open_Air_Museum> (wikipedia) · pytania: zab-49
+- <https://www.visitmaastricht.com/> (strona instytucji) · pytania: zab-50, zab-59
+- <https://en.wikipedia.org/wiki/Basilica_of_Saint_Servatius> (wikipedia) · pytania: zab-50
+- <https://www.sint-jan.nl/> (strona instytucji) · pytania: zab-51
+- <https://en.wikipedia.org/wiki/St._John's_Cathedral_('s-Hertogenbosch)> (wikipedia) · pytania: zab-51
+- <https://www.efteling.com/> (strona instytucji) · pytania: zab-52
+- <https://en.wikipedia.org/wiki/Efteling> (wikipedia) · pytania: zab-52
+- <https://www.philips.com/> (strona instytucji) · pytania: zab-53
+- <https://en.wikipedia.org/wiki/Philips> (wikipedia) · pytania: zab-53
+- <https://www.defensie.nl/> (strona instytucji) · pytania: zab-54
+- <https://en.wikipedia.org/wiki/Breda_Castle> (wikipedia) · pytania: zab-54
+- <https://www.thorn.nl/> (strona instytucji) · pytania: zab-55
+- <https://en.wikipedia.org/wiki/Thorn,_Netherlands> (wikipedia) · pytania: zab-55
+- <https://www.valkenburg.nl/> (strona instytucji) · pytania: zab-56
+- <https://en.wikipedia.org/wiki/Valkenburg_aan_de_Geul> (wikipedia) · pytania: zab-56
+- <https://www.rolduc.com/> (strona instytucji) · pytania: zab-57
+- <https://en.wikipedia.org/wiki/Rolduc> (wikipedia) · pytania: zab-57
+- <https://www.latrappe.nl/> (strona instytucji) · pytania: zab-58
+- <https://en.wikipedia.org/wiki/Brouwerij_de_Koningshoeven> (wikipedia) · pytania: zab-58
+- <https://en.wikipedia.org/wiki/Sint-Pietersberg> (wikipedia) · pytania: zab-59
+- <https://www.terschelling.nl/> (strona instytucji) · pytania: zab-60
+- <https://en.wikipedia.org/wiki/Brandaris> (wikipedia) · pytania: zab-60
+- <https://www.zeehondencentrum.nl/> (strona instytucji) · pytania: zab-61
+- <https://en.wikipedia.org/wiki/Pieterburen> (wikipedia) · pytania: zab-61
+- <https://www.bourtange.nl/> (strona instytucji) · pytania: zab-62
+- <https://en.wikipedia.org/wiki/Bourtange> (wikipedia) · pytania: zab-62
+- <https://www.kfps.nl/> (strona instytucji) · pytania: zab-63
+- <https://en.wikipedia.org/wiki/Friesian_horse> (wikipedia) · pytania: zab-63
+- <https://whc.unesco.org/en/list/759> (instytucja) · pytania: zab-64
+- <https://en.wikipedia.org/wiki/Naarden> (wikipedia) · pytania: zab-64
+- <https://www.vredespaleis.nl/> (strona instytucji) · pytania: zab-65
+- <https://en.wikipedia.org/wiki/Peace_Palace> (wikipedia) · pytania: zab-65
+- <https://www.holland.com/> (strona instytucji) · pytania: zab-66, kul-26, kul-34, kul-37, kul-38, kul-39, kul-40, kul-41, kul-42, kul-43, kul-44, kul-47, kul-65, kul-66, spo-51, spo-54, spo-55, spo-56, spo-57, spo-58
+- <https://en.wikipedia.org/wiki/Clog> (wikipedia) · pytania: zab-66
+- <https://www.staatsbosbeheer.nl/> (strona instytucji) · pytania: zab-67
+- <https://en.wikipedia.org/wiki/Oostvaardersplassen> (wikipedia) · pytania: zab-67
+- <https://www.cbs.nl/> (strona instytucji) · pytania: geo-01, geo-32, geo-33, geo-46, geo-50, geo-55, geo-56, spo-13, spo-16, spo-17, spo-43, spo-59, spo-61
+- <https://en.wikipedia.org/wiki/Provinces_of_the_Netherlands> (wikipedia) · pytania: geo-01
+- <https://www.government.nl/> (strona instytucji) · pytania: geo-02, geo-07, geo-23, geo-47, geo-48, geo-54, geo-59, spo-12, spo-18, spo-60
+- <https://en.wikipedia.org/wiki/Amsterdam> (wikipedia) · pytania: geo-02, spo-61
+- <https://www.denhaag.nl/> (strona instytucji) · pytania: geo-03, geo-53
+- <https://en.wikipedia.org/wiki/The_Hague> (wikipedia) · pytania: geo-03
+- <https://en.wikipedia.org/wiki/Geography_of_the_Netherlands> (wikipedia) · pytania: geo-04, geo-47
+- <https://en.wikipedia.org/wiki/Zuidplaspolder> (wikipedia) · pytania: geo-05
+- <https://www.vaals.nl/> (strona instytucji) · pytania: geo-06, geo-40
+- <https://en.wikipedia.org/wiki/Vaalserberg> (wikipedia) · pytania: geo-06, geo-40
+- <https://en.wikipedia.org/wiki/Mount_Scenery> (wikipedia) · pytania: geo-07
+- <https://en.wikipedia.org/wiki/Rhine> (wikipedia) · pytania: geo-08
+- <https://www.britannica.com/place/Maastricht> (encyklopedia) · pytania: geo-09
+- <https://en.wikipedia.org/wiki/Maastricht> (wikipedia) · pytania: geo-09
+- <https://en.wikipedia.org/wiki/IJssel> (wikipedia) · pytania: geo-10
+- <https://www.amsterdam.nl/> (strona instytucji) · pytania: geo-11, kul-29, spo-62
+- <https://en.wikipedia.org/wiki/Amstel> (wikipedia) · pytania: geo-11
+- <https://www.portofrotterdam.com/> (strona instytucji) · pytania: geo-12
+- <https://en.wikipedia.org/wiki/Port_of_Rotterdam> (wikipedia) · pytania: geo-12
+- <https://www.schiphol.nl/> (strona instytucji) · pytania: geo-13
+- <https://en.wikipedia.org/wiki/Amsterdam_Airport_Schiphol> (wikipedia) · pytania: geo-13
+- <https://www.cruquiusmuseum.nl/> (strona instytucji) · pytania: geo-14
+- <https://en.wikipedia.org/wiki/Haarlemmermeer> (wikipedia) · pytania: geo-14
+- <https://whc.unesco.org/en/list/899> (instytucja) · pytania: geo-15
+- <https://en.wikipedia.org/wiki/Beemster> (wikipedia) · pytania: geo-15
+- <https://en.wikipedia.org/wiki/Lelystad> (wikipedia) · pytania: geo-16
+- <https://www.almere.nl/> (strona instytucji) · pytania: geo-17
+- <https://en.wikipedia.org/wiki/Almere> (wikipedia) · pytania: geo-17
+- <https://www.flevoland.nl/> (strona instytucji) · pytania: geo-18
+- <https://en.wikipedia.org/wiki/Flevoland> (wikipedia) · pytania: geo-18
+- <https://www.urk.nl/> (strona instytucji) · pytania: geo-19
+- <https://en.wikipedia.org/wiki/Urk> (wikipedia) · pytania: geo-19
+- <https://www.leeuwarden.nl/> (strona instytucji) · pytania: geo-20, kul-57
+- <https://en.wikipedia.org/wiki/Leeuwarden> (wikipedia) · pytania: geo-20, kul-57
+- <https://www.texel.net/> (strona instytucji) · pytania: geo-21
+- <https://en.wikipedia.org/wiki/Texel> (wikipedia) · pytania: geo-21
+- <https://www.assen.nl/> (strona instytucji) · pytania: geo-22
+- <https://en.wikipedia.org/wiki/Assen> (wikipedia) · pytania: geo-22
+- <https://en.wikipedia.org/wiki/Groningen_gas_field> (wikipedia) · pytania: geo-23
+- <https://www.fryslan.frl/> (strona instytucji) · pytania: geo-24, kul-23
+- <https://en.wikipedia.org/wiki/Friesland> (wikipedia) · pytania: geo-24
+- <https://www.waddenzee.nl/> (strona instytucji) · pytania: geo-25
+- <https://en.wikipedia.org/wiki/Mudflat_hiking> (wikipedia) · pytania: geo-25
+- <https://www.rederij-doeksen.nl/> (strona instytucji) · pytania: geo-26
+- <https://en.wikipedia.org/wiki/Harlingen,_Netherlands> (wikipedia) · pytania: geo-26
+- <https://www.rug.nl/> (strona instytucji) · pytania: geo-27, his-04
+- <https://en.wikipedia.org/wiki/University_of_Groningen> (wikipedia) · pytania: geo-27
+- <https://www.wildlands.nl/> (strona instytucji) · pytania: geo-28
+- <https://en.wikipedia.org/wiki/Wildlands_Adventure_Zoo_Emmen> (wikipedia) · pytania: geo-28
+- <https://www.friesland.nl/> (strona instytucji) · pytania: geo-29, spo-41
+- <https://en.wikipedia.org/wiki/Sneek> (wikipedia) · pytania: geo-29
+- <https://en.wikipedia.org/wiki/IJsselmeer> (wikipedia) · pytania: geo-30
+- <https://www.arnhem.nl/> (strona instytucji) · pytania: geo-31
+- <https://en.wikipedia.org/wiki/Arnhem> (wikipedia) · pytania: geo-31
+- <https://en.wikipedia.org/wiki/Gelderland> (wikipedia) · pytania: geo-32
+- <https://en.wikipedia.org/wiki/Utrecht_(province)> (wikipedia) · pytania: geo-33
+- <https://www.overijssel.nl/> (strona instytucji) · pytania: geo-34
+- <https://en.wikipedia.org/wiki/Twente> (wikipedia) · pytania: geo-34
+- <https://www.zwolle.nl/> (strona instytucji) · pytania: geo-35
+- <https://en.wikipedia.org/wiki/Zwolle> (wikipedia) · pytania: geo-35
+- <https://www.gelderland.nl/> (strona instytucji) · pytania: geo-36
+- <https://en.wikipedia.org/wiki/Betuwe> (wikipedia) · pytania: geo-36
+- <https://www.brabant.nl/> (strona instytucji) · pytania: geo-37
+- <https://en.wikipedia.org/wiki/North_Brabant> (wikipedia) · pytania: geo-37
+- <https://www.s-hertogenbosch.nl/> (strona instytucji) · pytania: geo-38
+- <https://en.wikipedia.org/wiki/'s-Hertogenbosch> (wikipedia) · pytania: geo-38
+- <https://www.limburg.nl/> (strona instytucji) · pytania: geo-39
+- <https://en.wikipedia.org/wiki/Limburg_(Netherlands)> (wikipedia) · pytania: geo-39
+- <https://www.baarle-nassau.nl/> (strona instytucji) · pytania: geo-41
+- <https://en.wikipedia.org/wiki/Baarle-Nassau> (wikipedia) · pytania: geo-41
+- <https://www.np-debiesbosch.nl/> (strona instytucji) · pytania: geo-42, his-13
+- <https://en.wikipedia.org/wiki/Biesbosch_National_Park> (wikipedia) · pytania: geo-42
+- <https://www.eindhoven.nl/> (strona instytucji) · pytania: geo-43
+- <https://en.wikipedia.org/wiki/Eindhoven> (wikipedia) · pytania: geo-43
+- <https://www.asml.com/> (strona instytucji) · pytania: geo-44
+- <https://en.wikipedia.org/wiki/ASML_Holding> (wikipedia) · pytania: geo-44
+- <https://www.venlo.nl/> (strona instytucji) · pytania: geo-45
+- <https://en.wikipedia.org/wiki/Floriade_2012> (wikipedia) · pytania: geo-45
+- <https://en.wikipedia.org/wiki/Demographics_of_the_Netherlands> (wikipedia) · pytania: geo-46
+- <https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands> (wikipedia) · pytania: geo-48
+- <https://en.wikipedia.org/wiki/Polder> (wikipedia) · pytania: geo-49
+- <https://en.wikipedia.org/wiki/Randstad> (wikipedia) · pytania: geo-50
+- <https://en.wikipedia.org/wiki/Zeeland> (wikipedia) · pytania: geo-51
+- <https://www.vlissingen.nl/> (strona instytucji) · pytania: geo-52
+- <https://en.wikipedia.org/wiki/Vlissingen> (wikipedia) · pytania: geo-52
+- <https://en.wikipedia.org/wiki/Scheveningen> (wikipedia) · pytania: geo-53
+- <https://en.wikipedia.org/wiki/Holland> (wikipedia) · pytania: geo-54
+- <https://en.wikipedia.org/wiki/South_Holland> (wikipedia) · pytania: geo-55
+- <https://en.wikipedia.org/wiki/Rotterdam> (wikipedia) · pytania: geo-56
+- <https://www.gemeentewestland.nl/> (strona instytucji) · pytania: geo-57
+- <https://en.wikipedia.org/wiki/Westland_(region),_Netherlands> (wikipedia) · pytania: geo-57
+- <https://www.royalfloraholland.com/> (strona instytucji) · pytania: geo-58
+- <https://en.wikipedia.org/wiki/Aalsmeer_Flower_Auction> (wikipedia) · pytania: geo-58
+- <https://en.wikipedia.org/wiki/Agriculture_in_the_Netherlands> (wikipedia) · pytania: geo-59
+- <https://www.westerscheldetunnel.nl/> (strona instytucji) · pytania: geo-60
+- <https://en.wikipedia.org/wiki/Western_Scheldt_Tunnel> (wikipedia) · pytania: geo-60
+- <https://www.utrecht.nl/> (strona instytucji) · pytania: geo-61, spo-14
+- <https://en.wikipedia.org/wiki/Vecht_(Utrecht)> (wikipedia) · pytania: geo-61
+- <https://www.tilburg.nl/> (strona instytucji) · pytania: geo-62
+- <https://en.wikipedia.org/wiki/Tilburg> (wikipedia) · pytania: geo-62
+- <https://www.np-lauwersmeer.nl/> (strona instytucji) · pytania: geo-63
+- <https://en.wikipedia.org/wiki/Lauwersmeer_National_Park> (wikipedia) · pytania: geo-63
+- <https://www.schiermonnikoog.nl/> (strona instytucji) · pytania: geo-64
+- <https://en.wikipedia.org/wiki/Schiermonnikoog> (wikipedia) · pytania: geo-64
+- <https://www.natuurmonumenten.nl/> (strona instytucji) · pytania: geo-65
+- <https://en.wikipedia.org/wiki/Veluwezoom_National_Park> (wikipedia) · pytania: geo-65
+- <https://www.utwente.nl/> (strona instytucji) · pytania: geo-66
+- <https://en.wikipedia.org/wiki/Enschede> (wikipedia) · pytania: geo-66
+- <https://www.britannica.com/topic/Batavi> (encyklopedia) · pytania: his-01
+- <https://en.wikipedia.org/wiki/Batavi_(Germanic_tribe)> (wikipedia) · pytania: his-01
+- <https://whc.unesco.org/en/list/1631> (instytucja) · pytania: his-02
+- <https://en.wikipedia.org/wiki/Lower_Germanic_Limes> (wikipedia) · pytania: his-02
+- <https://www.britannica.com/place/Utrecht-Netherlands> (encyklopedia) · pytania: his-03
+- <https://en.wikipedia.org/wiki/Utrecht> (wikipedia) · pytania: his-03
+- <https://en.wikipedia.org/wiki/Terp> (wikipedia) · pytania: his-04
+- <https://www.britannica.com/place/Friesland> (encyklopedia) · pytania: his-05
+- <https://en.wikipedia.org/wiki/Frisii> (wikipedia) · pytania: his-05
+- <https://www.britannica.com/biography/Julius-Caesar-Roman-ruler> (encyklopedia) · pytania: his-06
+- <https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico> (wikipedia) · pytania: his-06
+- <https://www.britannica.com/biography/Saint-Boniface> (encyklopedia) · pytania: his-07
+- <https://en.wikipedia.org/wiki/Saint_Boniface> (wikipedia) · pytania: his-07
+- <https://www.britannica.com/biography/Saint-Willibrord> (encyklopedia) · pytania: his-08
+- <https://en.wikipedia.org/wiki/Willibrord> (wikipedia) · pytania: his-08
+- <https://www.britannica.com/biography/Radbod> (encyklopedia) · pytania: his-09
+- <https://en.wikipedia.org/wiki/Redbad,_King_of_the_Frisians> (wikipedia) · pytania: his-09
+- <https://www.britannica.com/place/Dorestad> (encyklopedia) · pytania: his-10
+- <https://en.wikipedia.org/wiki/Dorestad> (wikipedia) · pytania: his-10
+- <https://www.britannica.com/topic/Hanseatic-League> (encyklopedia) · pytania: his-11
+- <https://en.wikipedia.org/wiki/Hanseatic_League> (wikipedia) · pytania: his-11
+- <https://www.britannica.com/biography/Floris-V> (encyklopedia) · pytania: his-12
+- <https://en.wikipedia.org/wiki/Floris_V,_Count_of_Holland> (wikipedia) · pytania: his-12
+- <https://en.wikipedia.org/wiki/St._Elizabeth's_flood_(1421)> (wikipedia) · pytania: his-13
+- <https://www.britannica.com/place/Low-Countries> (encyklopedia) · pytania: his-14, his-15
+- <https://en.wikipedia.org/wiki/Burgundian_Netherlands> (wikipedia) · pytania: his-14
+- <https://en.wikipedia.org/wiki/Hook_and_Cod_wars> (wikipedia) · pytania: his-15
+- <https://www.britannica.com/event/Eighty-Years-War> (encyklopedia) · pytania: his-16
+- <https://en.wikipedia.org/wiki/Eighty_Years'_War> (wikipedia) · pytania: his-16
+- <https://en.wikipedia.org/wiki/William_the_Silent> (wikipedia) · pytania: his-17
+- <https://www.museumprinsenhofdelft.nl/> (strona instytucji) · pytania: his-18
+- <https://en.wikipedia.org/wiki/Assassination_of_William_the_Silent> (wikipedia) · pytania: his-18
+- <https://www.britannica.com/biography/Fernando-Alvarez-de-Toledo-y-Pimentel-3er-duque-de-Alba> (encyklopedia) · pytania: his-19
+- <https://en.wikipedia.org/wiki/Council_of_Troubles> (wikipedia) · pytania: his-19
+- <https://www.britannica.com/topic/iconoclasm> (encyklopedia) · pytania: his-20
+- <https://en.wikipedia.org/wiki/Beeldenstorm> (wikipedia) · pytania: his-20
+- <https://www.universiteitleiden.nl/> (strona instytucji) · pytania: his-21
+- <https://en.wikipedia.org/wiki/Siege_of_Leiden> (wikipedia) · pytania: his-21
+- <https://www.britannica.com/topic/Union-of-Utrecht> (encyklopedia) · pytania: his-22
+- <https://en.wikipedia.org/wiki/Union_of_Utrecht> (wikipedia) · pytania: his-22
+- <https://www.portofamsterdam.com/> (strona instytucji) · pytania: his-23
+- <https://en.wikipedia.org/wiki/North_Sea_Canal> (wikipedia) · pytania: his-23
+- <https://www.britannica.com/event/Peace-of-Westphalia> (encyklopedia) · pytania: his-24
+- <https://en.wikipedia.org/wiki/Peace_of_Münster> (wikipedia) · pytania: his-24
+- <https://www.britannica.com/topic/Dutch-East-India-Company> (encyklopedia) · pytania: his-25
+- <https://en.wikipedia.org/wiki/Dutch_East_India_Company> (wikipedia) · pytania: his-25
+- <https://www.britannica.com/place/New-Amsterdam> (encyklopedia) · pytania: his-26
+- <https://en.wikipedia.org/wiki/New_Amsterdam> (wikipedia) · pytania: his-26
+- <https://www.britannica.com/place/Jakarta> (encyklopedia) · pytania: his-27
+- <https://en.wikipedia.org/wiki/Batavia,_Dutch_East_Indies> (wikipedia) · pytania: his-27
+- <https://www.britannica.com/place/Nagasaki-Japan> (encyklopedia) · pytania: his-28
+- <https://en.wikipedia.org/wiki/Dejima> (wikipedia) · pytania: his-28
+- <https://www.britannica.com/biography/Abel-Janszoon-Tasman> (encyklopedia) · pytania: his-29
+- <https://en.wikipedia.org/wiki/Abel_Tasman> (wikipedia) · pytania: his-29
+- <https://www.britannica.com/biography/Willem-Barents> (encyklopedia) · pytania: his-30
+- <https://en.wikipedia.org/wiki/Willem_Barentsz> (wikipedia) · pytania: his-30
+- <https://www.britannica.com/event/tulip-mania> (encyklopedia) · pytania: his-31
+- <https://en.wikipedia.org/wiki/Tulip_mania> (wikipedia) · pytania: his-31
+- <https://en.wikipedia.org/wiki/Rampjaar> (wikipedia) · pytania: his-32
+- <https://www.britannica.com/biography/Johan-de-Witt> (encyklopedia) · pytania: his-33
+- <https://en.wikipedia.org/wiki/Johan_de_Witt> (wikipedia) · pytania: his-33
+- <https://www.britannica.com/biography/Michiel-Adriaanszoon-de-Ruyter> (encyklopedia) · pytania: his-34
+- <https://en.wikipedia.org/wiki/Raid_on_the_Medway> (wikipedia) · pytania: his-34
+- <https://www.britannica.com/biography/William-III-king-of-England-Scotland-and-Ireland> (encyklopedia) · pytania: his-35
+- <https://en.wikipedia.org/wiki/William_III_of_England> (wikipedia) · pytania: his-35
+- <https://www.britannica.com/topic/Mennonite> (encyklopedia) · pytania: his-36
+- <https://pl.wikipedia.org/wiki/Olędrzy> (wikipedia) · pytania: his-36
+- <https://www.britannica.com/place/Gdansk> (encyklopedia) · pytania: his-37
+- <https://en.wikipedia.org/wiki/Dutch_Golden_Age> (wikipedia) · pytania: his-37
+- <https://www.wilanow-palac.pl/> (strona instytucji) · pytania: his-38
+- <https://pl.wikipedia.org/wiki/Tylman_z_Gameren> (wikipedia) · pytania: his-38
+- <https://www.britannica.com/biography/John-Amos-Comenius> (encyklopedia) · pytania: his-39
+- <https://en.wikipedia.org/wiki/John_Amos_Comenius> (wikipedia) · pytania: his-39
+- <https://www.britannica.com/place/Batavian-Republic> (encyklopedia) · pytania: his-40
+- <https://en.wikipedia.org/wiki/Batavian_Republic> (wikipedia) · pytania: his-40
+- <https://en.wikipedia.org/wiki/United_Kingdom_of_the_Netherlands> (wikipedia) · pytania: his-41
+- <https://www.britannica.com/place/Belgium> (encyklopedia) · pytania: his-42
+- <https://en.wikipedia.org/wiki/Belgian_Revolution> (wikipedia) · pytania: his-42
+- <https://www.britannica.com/biography/Johan-Rudolf-Thorbecke> (encyklopedia) · pytania: his-43
+- <https://en.wikipedia.org/wiki/Johan_Rudolph_Thorbecke> (wikipedia) · pytania: his-43
+- <https://www.britannica.com/biography/Louis-Bonaparte-French-prince> (encyklopedia) · pytania: his-44
+- <https://en.wikipedia.org/wiki/Louis_Bonaparte> (wikipedia) · pytania: his-44
+- <https://en.wikipedia.org/wiki/Wilhelmina_of_the_Netherlands> (wikipedia) · pytania: his-45, his-52
+- <https://www.britannica.com/place/Luxembourg> (encyklopedia) · pytania: his-46
+- <https://en.wikipedia.org/wiki/William_III_of_the_Netherlands> (wikipedia) · pytania: his-46
+- <https://www.britannica.com/place/Aceh> (encyklopedia) · pytania: his-47
+- <https://en.wikipedia.org/wiki/Aceh_War> (wikipedia) · pytania: his-47
+- <https://www.spoorwegmuseum.nl/> (strona instytucji) · pytania: his-48
+- <https://en.wikipedia.org/wiki/Rail_transport_in_the_Netherlands> (wikipedia) · pytania: his-48
+- <https://www.britannica.com/place/Netherlands> (encyklopedia) · pytania: his-49
+- <https://en.wikipedia.org/wiki/Netherlands_in_World_War_I> (wikipedia) · pytania: his-49
+- <https://www.huisdoorn.nl/> (strona instytucji) · pytania: his-50
+- <https://en.wikipedia.org/wiki/Huis_Doorn> (wikipedia) · pytania: his-50
+- <https://www.britannica.com/place/Rotterdam-Netherlands> (encyklopedia) · pytania: his-51
+- <https://en.wikipedia.org/wiki/Rotterdam_Blitz> (wikipedia) · pytania: his-51
+- <https://en.wikipedia.org/wiki/February_strike> (wikipedia) · pytania: his-53
+- <https://kampwesterbork.nl/> (strona instytucji) · pytania: his-54
+- <https://en.wikipedia.org/wiki/Westerbork_transit_camp> (wikipedia) · pytania: his-54
+- <https://www.niod.nl/> (strona instytucji) · pytania: his-55, his-68
+- <https://en.wikipedia.org/wiki/Dutch_famine_of_1944–1945> (wikipedia) · pytania: his-55
+- <https://www.britannica.com/event/Operation-Market-Garden> (encyklopedia) · pytania: his-56
+- <https://en.wikipedia.org/wiki/Operation_Market_Garden> (wikipedia) · pytania: his-56
+- <https://en.wikipedia.org/wiki/1st_Independent_Parachute_Brigade_(Poland)> (wikipedia) · pytania: his-57
+- <https://en.wikipedia.org/wiki/Stanisław_Sosabowski> (wikipedia) · pytania: his-58
+- <https://pl.wikipedia.org/wiki/Stanisław_Sosabowski> (wikipedia) · pytania: his-59
+- <https://www.breda.nl/> (strona instytucji) · pytania: his-60, his-61
+- <https://en.wikipedia.org/wiki/1st_Armoured_Division_(Poland)> (wikipedia) · pytania: his-60
+- <https://en.wikipedia.org/wiki/Stanisław_Maczek> (wikipedia) · pytania: his-61
+- <https://en.wikipedia.org/wiki/Zeelandic_Flanders> (wikipedia) · pytania: his-62
+- <https://www.britannica.com/place/Indonesia> (encyklopedia) · pytania: his-63
+- <https://en.wikipedia.org/wiki/Indonesian_National_Revolution> (wikipedia) · pytania: his-63
+- <https://www.britannica.com/place/Suriname> (encyklopedia) · pytania: his-64
+- <https://en.wikipedia.org/wiki/Suriname> (wikipedia) · pytania: his-64
+- <https://www.watersnoodmuseum.nl/> (strona instytucji) · pytania: his-65
+- <https://en.wikipedia.org/wiki/North_Sea_flood_of_1953> (wikipedia) · pytania: his-65
+- <https://www.benelux.int/> (strona instytucji) · pytania: his-66
+- <https://en.wikipedia.org/wiki/Benelux> (wikipedia) · pytania: his-66
+- <https://european-union.europa.eu/> (strona instytucji) · pytania: his-67
+- <https://en.wikipedia.org/wiki/Maastricht_Treaty> (wikipedia) · pytania: his-67
+- <https://en.wikipedia.org/wiki/Srebrenica_massacre> (wikipedia) · pytania: his-68
+- <https://en.wikipedia.org/wiki/Women's_suffrage_in_the_Netherlands> (wikipedia) · pytania: his-69
+- <https://en.wikipedia.org/wiki/Willem-Alexander_of_the_Netherlands> (wikipedia) · pytania: his-70, spo-01
+- <https://www.parlement.com/> (strona instytucji) · pytania: his-71
+- <https://en.wikipedia.org/wiki/Willem_Drees> (wikipedia) · pytania: his-71
+- <https://www.britannica.com/biography/Jan-van-Riebeeck> (encyklopedia) · pytania: his-72
+- <https://en.wikipedia.org/wiki/Jan_van_Riebeeck> (wikipedia) · pytania: his-72
+- <https://www.britannica.com/biography/Rembrandt-van-Rijn> (encyklopedia) · pytania: kul-01
+- <https://www.rembrandthuis.nl/> (strona instytucji) · pytania: kul-02
+- <https://en.wikipedia.org/wiki/Rembrandt> (wikipedia) · pytania: kul-02
+- <https://www.frick.org/> (strona instytucji) · pytania: kul-03
+- <https://en.wikipedia.org/wiki/The_Polish_Rider> (wikipedia) · pytania: kul-03
+- <https://www.britannica.com/biography/Johannes-Vermeer> (encyklopedia) · pytania: kul-04
+- <https://en.wikipedia.org/wiki/Johannes_Vermeer> (wikipedia) · pytania: kul-04
+- <https://en.wikipedia.org/wiki/View_of_Delft> (wikipedia) · pytania: kul-05
+- <https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer)> (wikipedia) · pytania: kul-06
+- <https://www.franshalsmuseum.nl/> (strona instytucji) · pytania: kul-07
+- <https://en.wikipedia.org/wiki/Frans_Hals> (wikipedia) · pytania: kul-07
+- <https://www.britannica.com/biography/Hieronymus-Bosch> (encyklopedia) · pytania: kul-08
+- <https://en.wikipedia.org/wiki/Hieronymus_Bosch> (wikipedia) · pytania: kul-08
+- <https://www.vangoghmuseum.nl/> (strona instytucji) · pytania: kul-09, kul-10, kul-11
+- <https://en.wikipedia.org/wiki/Vincent_van_Gogh> (wikipedia) · pytania: kul-09
+- <https://en.wikipedia.org/wiki/The_Potato_Eaters> (wikipedia) · pytania: kul-10
+- <https://en.wikipedia.org/wiki/Van_Gogh_Museum> (wikipedia) · pytania: kul-11
+- <https://www.britannica.com/biography/Piet-Mondrian> (encyklopedia) · pytania: kul-12
+- <https://en.wikipedia.org/wiki/Piet_Mondrian> (wikipedia) · pytania: kul-12
+- <https://www.escherinhetpaleis.nl/> (strona instytucji) · pytania: kul-13
+- <https://en.wikipedia.org/wiki/M._C._Escher> (wikipedia) · pytania: kul-13
+- <https://www.cobra-museum.nl/> (strona instytucji) · pytania: kul-14
+- <https://en.wikipedia.org/wiki/Karel_Appel> (wikipedia) · pytania: kul-14
+- <https://www.britannica.com/biography/Desiderius-Erasmus> (encyklopedia) · pytania: kul-15
+- <https://en.wikipedia.org/wiki/Erasmus> (wikipedia) · pytania: kul-15
+- <https://www.britannica.com/biography/Benedict-de-Spinoza> (encyklopedia) · pytania: kul-16
+- <https://en.wikipedia.org/wiki/Baruch_Spinoza> (wikipedia) · pytania: kul-16
+- <https://www.britannica.com/biography/Rene-Descartes> (encyklopedia) · pytania: kul-17
+- <https://en.wikipedia.org/wiki/René_Descartes> (wikipedia) · pytania: kul-17
+- <https://www.britannica.com/biography/Hugo-Grotius> (encyklopedia) · pytania: kul-18
+- <https://en.wikipedia.org/wiki/Hugo_Grotius> (wikipedia) · pytania: kul-18
+- <https://www.britannica.com/biography/Christiaan-Huygens> (encyklopedia) · pytania: kul-19
+- <https://en.wikipedia.org/wiki/Christiaan_Huygens> (wikipedia) · pytania: kul-19
+- <https://www.britannica.com/biography/Antonie-van-Leeuwenhoek> (encyklopedia) · pytania: kul-20
+- <https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek> (wikipedia) · pytania: kul-20
+- <https://www.nobelprize.org/> (strona instytucji) · pytania: kul-21, kul-22
+- <https://en.wikipedia.org/wiki/Hendrik_Lorentz> (wikipedia) · pytania: kul-21
+- <https://en.wikipedia.org/wiki/Heike_Kamerlingh_Onnes> (wikipedia) · pytania: kul-22
+- <https://en.wikipedia.org/wiki/West_Frisian_language> (wikipedia) · pytania: kul-23
+- <https://www.britannica.com/topic/Papiamentu> (encyklopedia) · pytania: kul-24
+- <https://en.wikipedia.org/wiki/Papiamento> (wikipedia) · pytania: kul-24
+- <https://www.britannica.com/topic/Afrikaans-language> (encyklopedia) · pytania: kul-25
+- <https://en.wikipedia.org/wiki/Afrikaans> (wikipedia) · pytania: kul-25
+- <https://en.wikipedia.org/wiki/Gezelligheid> (wikipedia) · pytania: kul-26
+- <https://en.wikipedia.org/wiki/The_Diary_of_a_Young_Girl> (wikipedia) · pytania: kul-27
+- <https://www.britannica.com/biography/Multatuli> (encyklopedia) · pytania: kul-28
+- <https://en.wikipedia.org/wiki/Multatuli> (wikipedia) · pytania: kul-28
+- <https://en.wikipedia.org/wiki/Vondelpark> (wikipedia) · pytania: kul-29
+- <https://www.miffy.com/> (strona instytucji) · pytania: kul-30
+- <https://en.wikipedia.org/wiki/Miffy> (wikipedia) · pytania: kul-30
+- <https://www.concertgebouw.nl/> (strona instytucji) · pytania: kul-31
+- <https://en.wikipedia.org/wiki/Concertgebouw> (wikipedia) · pytania: kul-31
+- <https://www.amsterdam-dance-event.nl/> (strona instytucji) · pytania: kul-32
+- <https://en.wikipedia.org/wiki/Amsterdam_Dance_Event> (wikipedia) · pytania: kul-32
+- <https://eurovision.tv/> (strona instytucji) · pytania: kul-33
+- <https://en.wikipedia.org/wiki/Duncan_Laurence> (wikipedia) · pytania: kul-33
+- <https://en.wikipedia.org/wiki/Stroopwafel> (wikipedia) · pytania: kul-34
+- <https://www.kaasmarkt.nl/> (strona instytucji) · pytania: kul-35
+- <https://en.wikipedia.org/wiki/Dutch_cheese_markets> (wikipedia) · pytania: kul-35
+- <https://www.britannica.com/topic/Edam-cheese> (encyklopedia) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/Edam_cheese> (wikipedia) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/Soused_herring> (wikipedia) · pytania: kul-37
+- <https://en.wikipedia.org/wiki/Bitterballen> (wikipedia) · pytania: kul-38
+- <https://en.wikipedia.org/wiki/Oliebol> (wikipedia) · pytania: kul-39
+- <https://en.wikipedia.org/wiki/Hagelslag> (wikipedia) · pytania: kul-40
+- <https://en.wikipedia.org/wiki/Liquorice_(confectionery)> (wikipedia) · pytania: kul-41
+- <https://en.wikipedia.org/wiki/Hutspot> (wikipedia) · pytania: kul-42
+- <https://en.wikipedia.org/wiki/Rijsttafel> (wikipedia) · pytania: kul-43
+- <https://en.wikipedia.org/wiki/Sinterklaas> (wikipedia) · pytania: kul-44, kul-65
+- <https://en.wikipedia.org/wiki/Koningsdag> (wikipedia) · pytania: kul-45
+- <https://www.4en5mei.nl/> (strona instytucji) · pytania: kul-46
+- <https://en.wikipedia.org/wiki/Liberation_Day_(Netherlands)> (wikipedia) · pytania: kul-46
+- <https://en.wikipedia.org/wiki/Carnival_in_the_Netherlands> (wikipedia) · pytania: kul-47
+- <https://www.oeteldonk.org/> (strona instytucji) · pytania: kul-48
+- <https://nl.wikipedia.org/wiki/Oeteldonk> (wikipedia) · pytania: kul-48
+- <https://www.andrerieu.com/> (strona instytucji) · pytania: kul-49
+- <https://en.wikipedia.org/wiki/André_Rieu> (wikipedia) · pytania: kul-49
+- <https://www.tefaf.com/> (strona instytucji) · pytania: kul-50
+- <https://en.wikipedia.org/wiki/TEFAF> (wikipedia) · pytania: kul-50
+- <https://ddw.nl/> (strona instytucji) · pytania: kul-51
+- <https://en.wikipedia.org/wiki/Dutch_Design_Week> (wikipedia) · pytania: kul-51
+- <https://iffr.com/> (strona instytucji) · pytania: kul-52
+- <https://en.wikipedia.org/wiki/International_Film_Festival_Rotterdam> (wikipedia) · pytania: kul-52
+- <https://www.northseajazz.com/> (strona instytucji) · pytania: kul-53
+- <https://en.wikipedia.org/wiki/North_Sea_Jazz_Festival> (wikipedia) · pytania: kul-53
+- <https://www.britannica.com/biography/Paul-Verhoeven> (encyklopedia) · pytania: kul-54
+- <https://en.wikipedia.org/wiki/Paul_Verhoeven> (wikipedia) · pytania: kul-54
+- <https://www.pritzkerprize.com/> (strona instytucji) · pytania: kul-55
+- <https://en.wikipedia.org/wiki/Rem_Koolhaas> (wikipedia) · pytania: kul-55
+- <https://www.britannica.com/biography/Mata-Hari-Dutch-dancer-and-spy> (encyklopedia) · pytania: kul-56
+- <https://en.wikipedia.org/wiki/Mata_Hari> (wikipedia) · pytania: kul-56
+- <https://en.wikipedia.org/wiki/Jan_Steen> (wikipedia) · pytania: kul-58
+- <https://www.boijmans.nl/> (strona instytucji) · pytania: kul-59
+- <https://en.wikipedia.org/wiki/Depot_Museum_Boijmans_Van_Beuningen> (wikipedia) · pytania: kul-59
+- <https://en.wikipedia.org/wiki/Hendrick_Avercamp> (wikipedia) · pytania: kul-60
+- <https://www.filmfestival.nl/> (strona instytucji) · pytania: kul-61
+- <https://en.wikipedia.org/wiki/Golden_Calf> (wikipedia) · pytania: kul-61
+- <https://www.letterenfonds.nl/> (strona instytucji) · pytania: kul-62, kul-63
+- <https://en.wikipedia.org/wiki/The_Dinner_(novel)> (wikipedia) · pytania: kul-62
+- <https://en.wikipedia.org/wiki/The_Assault> (wikipedia) · pytania: kul-63
+- <https://en.wikipedia.org/wiki/The_Anatomy_Lesson_of_Dr._Nicolaes_Tulp> (wikipedia) · pytania: kul-64
+- <https://en.wikipedia.org/wiki/Chocolate_letter> (wikipedia) · pytania: kul-66
+- <https://en.wikipedia.org/wiki/Queen_Máxima_of_the_Netherlands> (wikipedia) · pytania: spo-02
+- <https://en.wikipedia.org/wiki/Catharina-Amalia,_Princess_of_Orange> (wikipedia) · pytania: spo-03
+- <https://en.wikipedia.org/wiki/States_General_of_the_Netherlands> (wikipedia) · pytania: spo-04
+- <https://en.wikipedia.org/wiki/House_of_Representatives_(Netherlands)> (wikipedia) · pytania: spo-05
+- <https://www.eerstekamer.nl/> (strona instytucji) · pytania: spo-06
+- <https://en.wikipedia.org/wiki/Senate_(Netherlands)> (wikipedia) · pytania: spo-06
+- <https://en.wikipedia.org/wiki/Prinsjesdag> (wikipedia) · pytania: spo-07
+- <https://en.wikipedia.org/wiki/King's_Commissioner> (wikipedia) · pytania: spo-08
+- <https://nl.wikipedia.org/wiki/Burgemeester> (wikipedia) · pytania: spo-09
+- <https://www.uvw.nl/> (strona instytucji) · pytania: spo-10
+- <https://en.wikipedia.org/wiki/Water_board_(Netherlands)> (wikipedia) · pytania: spo-10
+- <https://www.dnb.nl/> (strona instytucji) · pytania: spo-11
+- <https://en.wikipedia.org/wiki/Dutch_guilder> (wikipedia) · pytania: spo-11
+- <https://en.wikipedia.org/wiki/Same-sex_marriage_in_the_Netherlands> (wikipedia) · pytania: spo-12
+- <https://en.wikipedia.org/wiki/Cycling_in_the_Netherlands> (wikipedia) · pytania: spo-13, spo-59
+- <https://en.wikipedia.org/wiki/Utrecht_Centraal_railway_station> (wikipedia) · pytania: spo-14
+- <https://www.ns.nl/> (strona instytucji) · pytania: spo-15
+- <https://en.wikipedia.org/wiki/Nederlandse_Spoorwegen> (wikipedia) · pytania: spo-15
+- <https://en.wikipedia.org/wiki/Poles_in_the_Netherlands> (wikipedia) · pytania: spo-16
+- <https://en.wikipedia.org/wiki/Human_height> (wikipedia) · pytania: spo-17
+- <https://en.wikipedia.org/wiki/Cannabis_in_the_Netherlands> (wikipedia) · pytania: spo-18
+- <https://www.ajax.nl/> (strona instytucji) · pytania: spo-19
+- <https://en.wikipedia.org/wiki/Johan_Cruyff_Arena> (wikipedia) · pytania: spo-19
+- <https://www.knvb.nl/> (strona instytucji) · pytania: spo-20, spo-21, spo-22
+- <https://en.wikipedia.org/wiki/Marco_van_Basten> (wikipedia) · pytania: spo-20
+- <https://en.wikipedia.org/wiki/UEFA_Euro_1988> (wikipedia) · pytania: spo-21
+- <https://en.wikipedia.org/wiki/Netherlands_national_football_team> (wikipedia) · pytania: spo-22
+- <https://www.feyenoord.nl/> (strona instytucji) · pytania: spo-23
+- <https://en.wikipedia.org/wiki/Feyenoord> (wikipedia) · pytania: spo-23
+- <https://www.psv.nl/> (strona instytucji) · pytania: spo-24
+- <https://en.wikipedia.org/wiki/PSV_Eindhoven> (wikipedia) · pytania: spo-24
+- <https://www.fctwente.nl/> (strona instytucji) · pytania: spo-25
+- <https://en.wikipedia.org/wiki/FC_Twente> (wikipedia) · pytania: spo-25
+- <https://www.sc-heerenveen.nl/> (strona instytucji) · pytania: spo-26
+- <https://en.wikipedia.org/wiki/SC_Heerenveen> (wikipedia) · pytania: spo-26
+- <https://www.thialf.nl/> (strona instytucji) · pytania: spo-27
+- <https://en.wikipedia.org/wiki/Thialf> (wikipedia) · pytania: spo-27
+- <https://www.elfstedentocht.frl/> (strona instytucji) · pytania: spo-28, spo-29
+- <https://en.wikipedia.org/wiki/Elfstedentocht> (wikipedia) · pytania: spo-28, spo-29
+- <https://www.teamnl.org/> (strona instytucji) · pytania: spo-30, spo-31
+- <https://en.wikipedia.org/wiki/Sven_Kramer> (wikipedia) · pytania: spo-30
+- <https://en.wikipedia.org/wiki/Ireen_Wüst> (wikipedia) · pytania: spo-31
+- <https://www.formula1.com/> (strona instytucji) · pytania: spo-32
+- <https://en.wikipedia.org/wiki/Max_Verstappen> (wikipedia) · pytania: spo-32
+- <https://www.ttcircuit.com/> (strona instytucji) · pytania: spo-33
+- <https://en.wikipedia.org/wiki/TT_Circuit_Assen> (wikipedia) · pytania: spo-33
+- <https://www.4daagse.nl/> (strona instytucji) · pytania: spo-34
+- <https://en.wikipedia.org/wiki/International_Four_Days_Marches_Nijmegen> (wikipedia) · pytania: spo-34
+- <https://www.amstelgoldrace.nl/> (strona instytucji) · pytania: spo-35
+- <https://en.wikipedia.org/wiki/Cauberg> (wikipedia) · pytania: spo-35
+- <https://www.giroditalia.it/> (strona instytucji) · pytania: spo-36
+- <https://en.wikipedia.org/wiki/Tom_Dumoulin> (wikipedia) · pytania: spo-36
+- <https://www.letour.fr/> (strona instytucji) · pytania: spo-37
+- <https://en.wikipedia.org/wiki/Joop_Zoetemelk> (wikipedia) · pytania: spo-37
+- <https://www.uci.org/> (strona instytucji) · pytania: spo-38
+- <https://en.wikipedia.org/wiki/Mathieu_van_der_Poel> (wikipedia) · pytania: spo-38
+- <https://www.knhb.nl/> (strona instytucji) · pytania: spo-39
+- <https://en.wikipedia.org/wiki/Netherlands_women's_national_field_hockey_team> (wikipedia) · pytania: spo-39
+- <https://www.knkv.nl/> (strona instytucji) · pytania: spo-40
+- <https://en.wikipedia.org/wiki/Korfball> (wikipedia) · pytania: spo-40
+- <https://en.wikipedia.org/wiki/Fierljeppen> (wikipedia) · pytania: spo-41
+- <https://www.ser.nl/> (strona instytucji) · pytania: spo-42
+- <https://en.wikipedia.org/wiki/Polder_model> (wikipedia) · pytania: spo-42
+- <https://en.wikipedia.org/wiki/Economy_of_the_Netherlands> (wikipedia) · pytania: spo-43
+- <https://en.wikipedia.org/wiki/2023_Dutch_general_election> (wikipedia) · pytania: spo-44
+- <https://www.nato.int/> (strona instytucji) · pytania: spo-45
+- <https://en.wikipedia.org/wiki/Mark_Rutte> (wikipedia) · pytania: spo-45
+- <https://www.icc-cpi.int/> (strona instytucji) · pytania: spo-46
+- <https://en.wikipedia.org/wiki/International_Criminal_Court> (wikipedia) · pytania: spo-46
+- <https://www.europol.europa.eu/> (strona instytucji) · pytania: spo-47
+- <https://en.wikipedia.org/wiki/Europol> (wikipedia) · pytania: spo-47
+- <https://www.shell.com/> (strona instytucji) · pytania: spo-48
+- <https://en.wikipedia.org/wiki/Shell_plc> (wikipedia) · pytania: spo-48
+- <https://www.theheinekencompany.com/> (strona instytucji) · pytania: spo-49
+- <https://en.wikipedia.org/wiki/Heineken_N.V.> (wikipedia) · pytania: spo-49
+- <https://www.grolsch.com/> (strona instytucji) · pytania: spo-50
+- <https://en.wikipedia.org/wiki/Grolsch_Brewery> (wikipedia) · pytania: spo-50
+- <https://en.wikipedia.org/wiki/Kapsalon> (wikipedia) · pytania: spo-51
+- <https://www.febo.nl/> (strona instytucji) · pytania: spo-52
+- <https://en.wikipedia.org/wiki/FEBO> (wikipedia) · pytania: spo-52
+- <https://en.wikipedia.org/wiki/Huis_ten_Bosch> (wikipedia) · pytania: spo-53
+- <https://en.wikipedia.org/wiki/Dutch_cuisine> (wikipedia) · pytania: spo-54
+- <https://en.wikipedia.org/wiki/Culture_of_the_Netherlands> (wikipedia) · pytania: spo-55, spo-58
+- <https://nl.wikipedia.org/wiki/Eindexamen> (wikipedia) · pytania: spo-56
+- <https://en.wikipedia.org/wiki/Going_Dutch> (wikipedia) · pytania: spo-57
+- <https://en.wikipedia.org/wiki/Euthanasia_in_the_Netherlands> (wikipedia) · pytania: spo-60
+- <https://en.wikipedia.org/wiki/Houseboat> (wikipedia) · pytania: spo-62
+- <https://www.svb.nl/> (strona instytucji) · pytania: spo-63
+- <https://en.wikipedia.org/wiki/Pensions_in_the_Netherlands> (wikipedia) · pytania: spo-63
+- <https://www.ov-chipkaart.nl/> (strona instytucji) · pytania: spo-64
+- <https://en.wikipedia.org/wiki/OV-chipkaart> (wikipedia) · pytania: spo-64
+- <https://www.knsb.nl/> (strona instytucji) · pytania: spo-65
+- <https://en.wikipedia.org/wiki/Speed_skating> (wikipedia) · pytania: spo-65

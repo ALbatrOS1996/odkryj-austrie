@@ -220,7 +220,7 @@
         const v = document.getElementById('nm').value.trim();
         if (!v) return toast('Wpisz imię');
         profile.name = v.slice(0, 20); saveProfile();
-        if (!profile.country && REGISTRY.length > 1) location.hash = '#/country'; else route();
+        if (!profile.country && REGISTRY.length > 1 && location.hash !== '#/country') location.hash = '#/country'; else route();
       }
     });
   }

@@ -1,6 +1,6 @@
 # Raport balansu (symulacja Monte Carlo)
 
-Wygenerowano: 2026-11-21 · 10000 partii na wariant · silnik `src/engine.js`.
+Wygenerowano: 2026-11-22 · 10000 partii na wariant · silnik `src/engine.js`.
 
 Zasady terytorialne: każda karta to jednostka administracyjna kraju. Wygrana karta zdobywa wolną jednostkę, umacnia własną albo osłabia lub odbiera jednostkę przeciwnika. Bot używa Zmiany trasy przy w pełni umocnionej jednostce i Biletu przy pierwszej okazji. „Tura” = tura jednego gracza.
 
@@ -43,6 +43,19 @@ Zasady terytorialne: każda karta to jednostka administracyjna kraju. Wygrana ka
 | nie | 80/50 | 18.1 | 18 | 22 | 93.3% | 47.7% | 4.4% |
 | nie | 70/40 | 19.5 | 19 | 24 | 94.2% | 48.0% | 3.8% |
 
+## Niderlandy: 12 jednostek, 2 karty na jednostkę, wygrana: 8 z 12
+
+| Karty specjalne | Skuteczność A/B | Średnia tur | Mediana | 90. percentyl | Wygrane A | Wygrane rozpoczynającego | Remisy |
+|---|---|---|---|---|---|---|---|
+| tak | 50/50 | 18.0 | 18 | 23 | 50.2% | 51.2% | 0.1% |
+| tak | 60/60 | 17.1 | 17 | 22 | 49.7% | 51.4% | 0.4% |
+| tak | 80/50 | 15.2 | 15 | 22 | 85.0% | 50.1% | 0.3% |
+| tak | 70/40 | 15.9 | 15 | 22 | 85.5% | 49.7% | 0.2% |
+| nie | 50/50 | 26.3 | 27 | 35 | 49.0% | 48.9% | 3.6% |
+| nie | 60/60 | 23.7 | 24 | 31 | 48.9% | 48.9% | 3.7% |
+| nie | 80/50 | 18.8 | 18 | 27 | 94.0% | 49.5% | 0.6% |
+| nie | 70/40 | 20.1 | 19 | 29 | 94.9% | 49.5% | 0.5% |
+
 ## Cele z rozdz. 8 (z kartami specjalnymi)
 
 | Kraj | Mediana (60/60), cel 16-26 | 80% vs 50%, cel 70-85% | Przewaga rozpoczynającego (60/60), cel < 55% |
@@ -50,10 +63,12 @@ Zasady terytorialne: każda karta to jednostka administracyjna kraju. Wygrana ka
 | Austria | 15 ✘ | 80.7% ✔ | 51.3% ✔ |
 | Czechy | 16 ✔ | 86.3% ✘ | 50.8% ✔ |
 | Włochy | 17 ✔ | 83.0% ✔ | 51.1% ✔ |
+| Niderlandy | 17 ✔ | 85.0% ✔ | 51.4% ✔ |
 
 ## Wnioski
 
 1. **Od 2026-11-21 gra używa prawdziwego podziału administracyjnego** (9 krajów związkowych Austrii, 14 krajów Czech, 20 regionów Włoch) zamiast 4 makroregionów.
-2. Liczbę kart na jednostkę i cel dobrano symulacją tak, by partie miały podobną długość mimo różnej liczby jednostek: Austria 2 karty i 7 z 9, Czechy 2 karty i 8 z 14, Włochy 1 karta i 11 z 20.
+2. Liczbę kart na jednostkę i cel dobrano symulacją tak, by partie miały podobną długość mimo różnej liczby jednostek: Austria 2 karty i 7 z 9, Czechy 2 karty i 8 z 14, Włochy 1 karta i 11 z 20, Niderlandy (od 2026-11-22) 2 karty i 8 z 12.
 3. Przy 2 kartach na jednostkę druga karta ją umacnia; przeciwnik musi wtedy wygrać dwie karty, by ją przejąć. To zmniejsza liczbę remisów i nagradza obronę terytorium.
-4. W Czechach lepszy gracz wygrywa nieco częściej niż zakłada cel (ok. 86%), a w Austrii mediana (15 tur) jest o jedną turę krótsza od celu; przy 9 jednostkach dłuższa gra wymagałaby celu „cała mapa”. Wyłączenie przechwytów lub wybór celu „cała mapa” to opcje dla tych, którzy wolą więcej losowości lub dłuższą grę.
+4. W Czechach lepszy gracz wygrywa nieco częściej niż zakłada cel (ok. 86%), a w Austrii mediana (15 tur) jest o jedną turę krótsza od celu; przy 9 jednostkach dłuższa gra wymagałaby celu „cała mapa”.
+5. Dla 12 prowincji Niderlandów cel 7 z 12 dawał za krótkie partie (mediana ok. 13 tur), dlatego wybrano 8 z 12. Wyłączenie przechwytów lub wybór celu „cała mapa” to opcje dla tych, którzy wolą więcej losowości lub dłuższą grę.

@@ -10,7 +10,7 @@ const bank = [];
 E.CATS.forEach((cat) => { for (let i = 0; i < 70; i++) bank.push({ id: `${cat}-${i}`, cat, diff: 1, region: null, correct: i % 4 }); });
 E.setBank(bank);
 
-const COUNTRIES = ['at', 'cz', 'it'].map((cc) => {
+const COUNTRIES = ['at', 'cz', 'it', 'nl'].map((cc) => {
   const cfg = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'content-src', cc, 'country.json'), 'utf8'));
   const map = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'content-src', cc, 'map.json'), 'utf8'));
   return { cc, name: cfg.name, units: map.states.map((s) => s.id), g: cfg.gameRules };
@@ -80,9 +80,10 @@ md += `
 ## Wnioski
 
 1. **Od 2026-11-21 gra używa prawdziwego podziału administracyjnego** (9 krajów związkowych Austrii, 14 krajów Czech, 20 regionów Włoch) zamiast 4 makroregionów.
-2. Liczbę kart na jednostkę i cel dobrano symulacją tak, by partie miały podobną długość mimo różnej liczby jednostek: Austria 2 karty i 7 z 9, Czechy 2 karty i 8 z 14, Włochy 1 karta i 11 z 20.
+2. Liczbę kart na jednostkę i cel dobrano symulacją tak, by partie miały podobną długość mimo różnej liczby jednostek: Austria 2 karty i 7 z 9, Czechy 2 karty i 8 z 14, Włochy 1 karta i 11 z 20, Niderlandy (od 2026-11-22) 2 karty i 8 z 12.
 3. Przy 2 kartach na jednostkę druga karta ją umacnia; przeciwnik musi wtedy wygrać dwie karty, by ją przejąć. To zmniejsza liczbę remisów i nagradza obronę terytorium.
-4. W Czechach lepszy gracz wygrywa nieco częściej niż zakłada cel (ok. 86%), a w Austrii mediana (15 tur) jest o jedną turę krótsza od celu; przy 9 jednostkach dłuższa gra wymagałaby celu „cała mapa”. Wyłączenie przechwytów lub wybór celu „cała mapa” to opcje dla tych, którzy wolą więcej losowości lub dłuższą grę.
+4. W Czechach lepszy gracz wygrywa nieco częściej niż zakłada cel (ok. 86%), a w Austrii mediana (15 tur) jest o jedną turę krótsza od celu; przy 9 jednostkach dłuższa gra wymagałaby celu „cała mapa”.
+5. Dla 12 prowincji Niderlandów cel 7 z 12 dawał za krótkie partie (mediana ok. 13 tur), dlatego wybrano 8 z 12. Wyłączenie przechwytów lub wybór celu „cała mapa” to opcje dla tych, którzy wolą więcej losowości lub dłuższą grę.
 `;
 fs.mkdirSync(path.join(__dirname, '..', 'dokumentacja'), { recursive: true });
 fs.writeFileSync(path.join(__dirname, '..', 'dokumentacja', 'balance-report.md'), md);

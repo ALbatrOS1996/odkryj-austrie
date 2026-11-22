@@ -52,6 +52,20 @@ KEYWORDS = {
         ('sic', ['sycyli', 'palermo', 'etna', 'etny', 'etnę', 'agrigent', 'monreale', 'taormin', 'syrakuz', 'stromboli', 'lampedus', 'cannoli', 'montalbano', 'camilleri', 'cosa nostra', 'nieszpory', 'archimedes', 'paradiso']),
         ('sar', ['sardyn', 'cagliari', 'nurag', 'costa smeralda', 'alghero', 'deledd']),
     ],
+    'nl': [
+        ('fl', ['flevoland', 'lelystad', 'almere', 'urk', 'schokland', 'oostvaardersplassen', 'batavia', 'noordoostpolder']),
+        ('gr', ['groning', 'martinitoren', 'pieterburen', 'bourtange', 'złoże gazu', 'złóż gazu']),
+        ('dr', ['drenth', 'assen', 'emmen', 'hunebed', 'westerbork', 'kolonie dobroczynności', 'frederiksoord']),
+        ('fr', ['fryzj', 'fryzyj', 'fryslân', 'leeuwarden', 'oldehove', 'sneek', 'harlingen', 'terschelling', 'brandaris', 'schiermonnikoog', 'dokkum', 'lemmer', 'woudagemaal', 'heerenveen', 'thialf', 'elfstedentocht', 'fierljeppen', 'mata hari', 'escher', 'afsluitdijk', 'barentsz', 'radbod', 'lauwersmeer']),
+        ('ov', ['overijssel', 'giethoorn', 'deventer', 'zwolle', 'kampen', 'twente', 'enschede', 'grolsch', 'avercamp']),
+        ('ge', ['geldri', 'arnhem', 'nijmegen', 'veluwe', 'apeldoorn', 'het loo', 'kröller', 'loevestein', 'betuwe', 'openluchtmuseum', 'posbank', 'market garden', 'driel', 'sosabowsk', 'vierdaagse']),
+        ('ut', ['utrecht', 'utrechc', 'utrechck', 'domtoren', 'rietveld', 'kasteel de haar', 'doorn', 'miffy', 'willibrord', 'traiectum', 'złote cielę']),
+        ('ze', ['w zelandii', 'zelandzk', 'części zelandii', 'resztą zelandii', 'stolicy zelandii', ' zelandia', 'middelburg', 'vlissingen', 'oosterscheldekering', 'westerschelde', 'skaldy zachodniej', 'flandri', 'de ruyter', 'watersnoodramp']),
+        ('nb', ['brabanc', 'brabanck', 'hertogenbosch', 'den bosch', 'oeteldonk', 'bosch', 'eindhoven', 'philips', 'psv', 'asml', 'tilburg', 'koningshoeven', 'la trappe', 'breda', 'maczek', 'efteling', 'kaatsheuvel', 'zundert', 'nuenen', 'jedzący kartofle', 'baarle', 'biesbosch', 'elżbiety', 'design week', 'wüst', 'goirle']),
+        ('li', ['limburg', 'maastricht', 'vaalserberg', 'vaals', 'valkenburg', 'cauberg', 'sint-pietersberg', 'serwacego', 'thorn', 'rolduc', 'kerkrade', 'venlo', 'rieu', 'tefaf', 'dumoulin', 'amstel gold']),
+        ('zh', ['holandia południowa', 'holandii południowej', 'haga', 'hadze', 'hagi', 'binnenhof', 'mauritshuis', 'scheveningen', 'pałac pokoju', 'huis ten bosch', 'noordeinde', 'prinsjesdag', 'europol', 'trybunał karny', 'rotterdam', 'erasmusbrug', 'most erazma', 'kostki', 'markthal', 'van nelle', 'maeslant', 'feyenoord', 'kapsalon', 'kinderdijk', 'delft', 'delfcie', 'lejd', 'lejdzie', 'keukenhof', 'lisse', 'gouda', 'nieuwerkerk', 'zuidplas', 'westland', 'leeuwenhoek', 'huygens', 'lorentz', 'kamerlingh', 'koolhaas', 'boijmans', 'north sea jazz', 'iffr', 'jan steen', 'dorestad']),
+        ('nh', ['holandia północna', 'holandii północnej', 'amsterdam', 'kanałów z xvii', 'dam ', 'rijksmuseum', 'anna frank', 'anny frank', 'westerkerk', 'nieuwe kerk', 'zaanse', 'zaan', 'muiderslot', 'naarden', 'texel', 'haarlem', 'schiphol', 'beemster', 'alkmaar', 'edam', 'aalsmeer', 'cruijff', 'ajax', 'heineken', 'concertgebouw', 'vondel', 'van gogha', 'strajk lutowy', 'korfball', 'floris', 'hoeksen']),
+    ],
 }
 
 
