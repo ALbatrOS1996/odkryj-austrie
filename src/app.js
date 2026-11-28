@@ -157,7 +157,8 @@
       return `<path class="st${pop}" d="${s.d}" fill="${fill}" fill-opacity="${op.toFixed(2)}"><title>${esc(s.name)}</title></path>`;
     }).join('');
     const L = regionLabels();
-    const labels = o.labels ? GROUPS.map((r) => `<text class="reg-label" x="${L[r][0]}" y="${L[r][1] + 14}">${esc(GREG[r].short)}</text>`).join('') : '';
+    const lf = MAP.h > 650 ? MAP.h / 650 : 1;
+    const labels = o.labels ? GROUPS.map((r) => `<text class="reg-label" x="${L[r][0]}" y="${L[r][1] + 14}"${lf > 1 ? ` style="font-size:${Math.round(42 * lf)}px;stroke-width:${Math.round(7 * lf)}px"` : ''}>${esc(GREG[r].short)}</text>`).join('') : '';
     const aria = o.title || 'Mapa ' + C.nameGen;
     return `<div class="map ${o.small ? 'small' : ''} ${MAP.h > MAP.w ? 'tall' : ''}"><svg viewBox="0 0 ${MAP.w} ${MAP.h}" role="img" aria-label="${esc(aria)}">${paths}${labels}</svg></div>`;
   }

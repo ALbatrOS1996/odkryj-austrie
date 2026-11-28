@@ -541,9 +541,8 @@
 
   // logo na podstawie flagi kraju
   const LOGO = {
-    at: `<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#C8102E"/>
-    <rect y="22" width="64" height="20" fill="#fff"/><path d="M8 52 26 26l9 12 6-8 15 22z" fill="#fff" stroke="#7a0a1c" stroke-width="2.5" stroke-linejoin="round"/>
-    <path d="m21 33 5-7 5 7-2.5 2-2.5-2-2.5 2z" fill="#C8102E"/></svg>`,
+    at: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="atc"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#atc)">
+    <rect width="64" height="64" fill="#C8102E"/><rect y="21" width="64" height="22" fill="#fff"/></g></svg>`,
     cz: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="czc"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#czc)">
     <rect width="64" height="32" fill="#fff"/><rect y="32" width="64" height="32" fill="#D7141A"/><path d="M0 0 34 32 0 64z" fill="#11457E"/></g></svg>`,
     it: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="itc"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#itc)">

@@ -312,7 +312,7 @@ input[type=text]:focus, textarea:focus { outline: 2px solid var(--red); border-c
 <div id="toasts" aria-live="polite"></div>
 <noscript>Ta gra wymaga włączonej obsługi JavaScriptu.</noscript>
 <script>
-window.OA_VERSION = "a1dc877fa2";
+window.OA_VERSION = "0f8b3749df";
 window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Austrię!", "count": 351, "regions": ["Wschód", "Północ", "Południe", "Zachód"], "units": "9 krajów związkowych"}, {"code": "cz", "name": "Czechy", "gameTitle": "Odkryj Czechy!", "count": 332, "regions": ["Praga", "Zachód", "Północ", "Morawy"], "units": "14 krajów"}, {"code": "it", "name": "Włochy", "gameTitle": "Odkryj Włochy!", "count": 332, "regions": ["Płn. Zachód", "Płn. Wschód", "Centrum", "Południe"], "units": "20 regionów"}, {"code": "nl", "name": "Niderlandy", "gameTitle": "Odkryj Niderlandy!", "count": 336, "regions": ["Północ", "Wschód", "Zachód", "Południe"], "units": "12 prowincji"}, {"code": "sk", "name": "Słowacja", "gameTitle": "Odkryj Słowację!", "count": 329, "regions": ["Bratysława", "Zachód", "Środek", "Wschód"], "units": "8 krajów"}, {"code": "si", "name": "Słowenia", "gameTitle": "Odkryj Słowenię!", "count": 340, "regions": ["Primorska", "Środek", "Dolenjska", "Wschód"], "units": "12 regionów"}, {"code": "de", "name": "Niemcy", "gameTitle": "Odkryj Niemcy!", "count": 354, "regions": ["Północ", "Wschód", "Zachód", "Południe"], "units": "16 krajów związkowych"}];
 </script>
 <script>
@@ -859,9 +859,8 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
 
   // logo na podstawie flagi kraju
   const LOGO = {
-    at: `<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#C8102E"/>
-    <rect y="22" width="64" height="20" fill="#fff"/><path d="M8 52 26 26l9 12 6-8 15 22z" fill="#fff" stroke="#7a0a1c" stroke-width="2.5" stroke-linejoin="round"/>
-    <path d="m21 33 5-7 5 7-2.5 2-2.5-2-2.5 2z" fill="#C8102E"/></svg>`,
+    at: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="atc"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#atc)">
+    <rect width="64" height="64" fill="#C8102E"/><rect y="21" width="64" height="22" fill="#fff"/></g></svg>`,
     cz: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="czc"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#czc)">
     <rect width="64" height="32" fill="#fff"/><rect y="32" width="64" height="32" fill="#D7141A"/><path d="M0 0 34 32 0 64z" fill="#11457E"/></g></svg>`,
     it: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="itc"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#itc)">
@@ -1686,7 +1685,8 @@ var qrcode=function(){function i(t,r){function a(t,r){g=function(t){for(var r=ne
       return `<path class="st${pop}" d="${s.d}" fill="${fill}" fill-opacity="${op.toFixed(2)}"><title>${esc(s.name)}</title></path>`;
     }).join('');
     const L = regionLabels();
-    const labels = o.labels ? GROUPS.map((r) => `<text class="reg-label" x="${L[r][0]}" y="${L[r][1] + 14}">${esc(GREG[r].short)}</text>`).join('') : '';
+    const lf = MAP.h > 650 ? MAP.h / 650 : 1;
+    const labels = o.labels ? GROUPS.map((r) => `<text class="reg-label" x="${L[r][0]}" y="${L[r][1] + 14}"${lf > 1 ? ` style="font-size:${Math.round(42 * lf)}px;stroke-width:${Math.round(7 * lf)}px"` : ''}>${esc(GREG[r].short)}</text>`).join('') : '';
     const aria = o.title || 'Mapa ' + C.nameGen;
     return `<div class="map ${o.small ? 'small' : ''} ${MAP.h > MAP.w ? 'tall' : ''}"><svg viewBox="0 0 ${MAP.w} ${MAP.h}" role="img" aria-label="${esc(aria)}">${paths}${labels}</svg></div>`;
   }

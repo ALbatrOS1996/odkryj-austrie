@@ -84,6 +84,7 @@ md += `
 3. Przy 2 kartach na jednostkę druga karta ją umacnia; przeciwnik musi wtedy wygrać dwie karty, by ją przejąć. To zmniejsza liczbę remisów i nagradza obronę terytorium.
 4. W Czechach lepszy gracz wygrywa nieco częściej niż zakłada cel (ok. 86%), a w Austrii mediana (15 tur) jest o jedną turę krótsza od celu; przy 9 jednostkach dłuższa gra wymagałaby celu „cała mapa”.
 5. Dla 12 prowincji Niderlandów cel 7 z 12 dawał za krótkie partie (mediana ok. 13 tur), dlatego wybrano 8 z 12. Wyłączenie przechwytów lub wybór celu „cała mapa” to opcje dla tych, którzy wolą więcej losowości lub dłuższą grę.
+6. Słowacja (8 krajów) ma 3 karty na kraj i cel 7 z 8. Słowenia (12 regionów) ma 2 karty i 8 z 12, a Niemcy (16 krajów związkowych) 2 karty i 9 z 16. W obu nowych krajach lepszy gracz wygrywa ok. 85-88% partii, nieco powyżej celu, co odpowiada wynikom Czech.
 `;
 fs.mkdirSync(path.join(__dirname, '..', 'dokumentacja'), { recursive: true });
 fs.writeFileSync(path.join(__dirname, '..', 'dokumentacja', 'balance-report.md'), md);
