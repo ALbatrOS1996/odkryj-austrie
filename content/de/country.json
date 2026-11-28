@@ -1,0 +1,132 @@
+{
+  "code": "de",
+  "name": "Niemcy",
+  "nameLocal": "Deutschland",
+  "gameTitle": "Odkryj Niemcy!",
+  "palette": {
+    "primary": "#B5121B",
+    "secondary": "#FFCE00",
+    "accent": "#1F1F1F"
+  },
+  "flag": "de",
+  "regions": [
+    {
+      "id": "north",
+      "name": "Niemcy Północne",
+      "adminUnits": [
+        "Szlezwik-Holsztyn",
+        "Hamburg",
+        "Brema",
+        "Dolna Saksonia",
+        "Meklemburgia-Pomorze Przednie"
+      ],
+      "color": "#2F6DB5",
+      "motifs": [
+        "Hamburg",
+        "Lubeka",
+        "Rugia",
+        "Morze Północne"
+      ],
+      "description": "Hanzeatyckie Hamburg, Brema i Lubeka, wyspy Morza Północnego i Bałtyku, kredowe klify Rugii i wrzosowiska."
+    },
+    {
+      "id": "east",
+      "name": "Niemcy Wschodnie",
+      "adminUnits": [
+        "Berlin",
+        "Brandenburgia",
+        "Saksonia-Anhalt",
+        "Saksonia",
+        "Turyngia"
+      ],
+      "color": "#C8102E",
+      "motifs": [
+        "Brama Brandenburska",
+        "Drezno",
+        "Weimar",
+        "Wartburg"
+      ],
+      "description": "Berlin, pałace Poczdamu, barokowe Drezno, Lipsk Bacha, Wittenberga Lutra i klasyczny Weimar."
+    },
+    {
+      "id": "west",
+      "name": "Niemcy Zachodnie",
+      "adminUnits": [
+        "Nadrenia Północna-Westfalia",
+        "Hesja",
+        "Nadrenia-Palatynat",
+        "Saara"
+      ],
+      "color": "#3F8F4E",
+      "motifs": [
+        "katedra w Kolonii",
+        "Ren",
+        "Frankfurt",
+        "Zagłębie Ruhry"
+      ],
+      "description": "Katedra w Kolonii, dolina Renu z zamkami, wieżowce Frankfurtu, rzymski Trewir i dawne kopalnie Zagłębia Ruhry."
+    },
+    {
+      "id": "south",
+      "name": "Niemcy Południowe",
+      "adminUnits": [
+        "Badenia-Wirtembergia",
+        "Bawaria"
+      ],
+      "color": "#D9A21B",
+      "motifs": [
+        "Neuschwanstein",
+        "Monachium",
+        "Schwarzwald",
+        "Alpy"
+      ],
+      "description": "Bawaria z Monachium i Neuschwanstein, Norymberga, Alpy z Zugspitze, Schwarzwald, Heidelberg i Jezioro Bodeńskie."
+    }
+  ],
+  "regionCodes": {
+    "n": "north",
+    "e": "east",
+    "w": "west",
+    "s": "south"
+  },
+  "regionShort": {
+    "north": "Północ",
+    "east": "Wschód",
+    "west": "Zachód",
+    "south": "Południe"
+  },
+  "specialCards": {
+    "luck": {
+      "name": "Kominiarz",
+      "short": "Szczęście",
+      "flavor": "Spotkanie kominiarza przynosi szczęście: zabierz przeciwnikowi jeden jego kraj związkowy. Nie działa na gracza w twierdzy."
+    },
+    "detour": {
+      "name": "Stau",
+      "short": "Objazd",
+      "flavor": "Korek na autostradzie! Wycofujesz się i oddajesz przeciwnikowi jeden swój kraj związkowy."
+    },
+    "ticket": {
+      "name": "Deutschlandticket",
+      "short": "Bilet",
+      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę jednostki."
+    },
+    "express": {
+      "name": "ICE",
+      "short": "Ekspres",
+      "flavor": "Pociąg ICE pędzi dalej! Po tej rundzie od razu rozegrasz dodatkową rundę z następną kartą."
+    }
+  },
+  "regionSplitRationale": "Karty to 16 krajów związkowych. Grupy: Północ (kraje nadmorskie z Hamburgiem i Bremą), Wschód (dawna NRD z Berlinem), Zachód (Nadrenia, Westfalia, Hesja, Saara) i Południe (Bawaria i Badenia-Wirtembergia).",
+  "contentVersion": "1.0.0",
+  "factsAsOf": "2026-11-28",
+  "nameGen": "Niemiec",
+  "nameLoc": "Niemczech",
+  "unitsLabel": "krajów związkowych",
+  "unitsCount": 16,
+  "verbHas": "mają",
+  "gameRules": {
+    "perRegion": 2,
+    "winUnits": 9
+  }
+}

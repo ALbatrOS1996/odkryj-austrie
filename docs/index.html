@@ -312,8 +312,8 @@ input[type=text]:focus, textarea:focus { outline: 2px solid var(--red); border-c
 <div id="toasts" aria-live="polite"></div>
 <noscript>Ta gra wymaga włączonej obsługi JavaScriptu.</noscript>
 <script>
-window.OA_VERSION = "6ace1f0be7";
-window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Austrię!", "count": 351, "regions": ["Wschód", "Północ", "Południe", "Zachód"], "units": "9 krajów związkowych"}, {"code": "cz", "name": "Czechy", "gameTitle": "Odkryj Czechy!", "count": 332, "regions": ["Praga", "Zachód", "Północ", "Morawy"], "units": "14 krajów"}, {"code": "it", "name": "Włochy", "gameTitle": "Odkryj Włochy!", "count": 332, "regions": ["Płn. Zachód", "Płn. Wschód", "Centrum", "Południe"], "units": "20 regionów"}, {"code": "nl", "name": "Niderlandy", "gameTitle": "Odkryj Niderlandy!", "count": 336, "regions": ["Północ", "Wschód", "Zachód", "Południe"], "units": "12 prowincji"}, {"code": "sk", "name": "Słowacja", "gameTitle": "Odkryj Słowację!", "count": 329, "regions": ["Bratysława", "Zachód", "Środek", "Wschód"], "units": "8 krajów"}];
+window.OA_VERSION = "a1dc877fa2";
+window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Austrię!", "count": 351, "regions": ["Wschód", "Północ", "Południe", "Zachód"], "units": "9 krajów związkowych"}, {"code": "cz", "name": "Czechy", "gameTitle": "Odkryj Czechy!", "count": 332, "regions": ["Praga", "Zachód", "Północ", "Morawy"], "units": "14 krajów"}, {"code": "it", "name": "Włochy", "gameTitle": "Odkryj Włochy!", "count": 332, "regions": ["Płn. Zachód", "Płn. Wschód", "Centrum", "Południe"], "units": "20 regionów"}, {"code": "nl", "name": "Niderlandy", "gameTitle": "Odkryj Niderlandy!", "count": 336, "regions": ["Północ", "Wschód", "Zachód", "Południe"], "units": "12 prowincji"}, {"code": "sk", "name": "Słowacja", "gameTitle": "Odkryj Słowację!", "count": 329, "regions": ["Bratysława", "Zachód", "Środek", "Wschód"], "units": "8 krajów"}, {"code": "si", "name": "Słowenia", "gameTitle": "Odkryj Słowenię!", "count": 340, "regions": ["Primorska", "Środek", "Dolenjska", "Wschód"], "units": "12 regionów"}, {"code": "de", "name": "Niemcy", "gameTitle": "Odkryj Niemcy!", "count": 354, "regions": ["Północ", "Wschód", "Zachód", "Południe"], "units": "16 krajów związkowych"}];
 </script>
 <script>
 /* Ikony i ilustracje SVG (własne, płaska grafika z konturem). */
@@ -700,6 +700,163 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
       <path d="M86 58c10 0 12 14 0 16" fill="none" stroke="var(--art-ink)" stroke-width="2" opacity=".3"/>`
   };
 
+  const REGION_ART_SI = {
+    // Primorska: dzwonnica Piranu nad morzem
+    west: `${sky('var(--art-sky)')}<circle cx="96" cy="18" r="8" fill="var(--art-sun)"/>
+      <path d="M0 66c16-6 30-8 44-8h20v8H0z" fill="var(--art-stone)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M44 66V22h10v44z" fill="var(--art-stone)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M42 22l7-12 7 12z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M47 30h4v6h-4zM47 42h4v6h-4z" fill="var(--art-ink)"/>
+      <path d="M10 66V52h12v14zM24 66V48h14v18z" fill="#F2D7B0" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M8 52l8-6 8 6zM22 48l9-7 9 7z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <rect y="66" width="120" height="24" fill="var(--art-lake)"/>
+      <path d="M78 74h22l-4 6H82z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.6"/><path d="M89 74V60l8 12z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <path d="M8 82h18M58 84h20" stroke="#fff" stroke-width="1.4" opacity=".7"/>`,
+    // Środek: wyspa na jeziorze Bled, zamek na skale i Triglav
+    center: `${sky('var(--art-sky)')}<path d="M40 50 58 22l8 10 8-12 8 12 8-10 20 28z" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M66 32l8-12 8 12-4 3-4-4-4 4z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.1"/>
+      <path d="M0 62V40l10-4 8 6v20z" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M4 36V28h10v8z" fill="var(--art-stone)" stroke="var(--art-ink)" stroke-width="1.6"/><path d="M3 28l6-5 6 5z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.2"/>
+      <path d="M0 50h120v12H0z" fill="var(--art-green2)"/>
+      <rect y="58" width="120" height="32" fill="var(--art-lake)"/>
+      <ellipse cx="62" cy="64" rx="18" ry="5" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M58 62V44h8v18z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.6"/><path d="M57 44l5-10 5 10z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <path d="M48 62v-8h8v8z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <path d="M14 78h20M80 82h24" stroke="#fff" stroke-width="1.4" opacity=".7"/>`,
+    // Dolenjska: zamek Otočec na wyspie na Krce i winnice
+    south: `${sky('var(--art-sky)')}<path d="M0 54c20-14 40-18 60-14s40 4 60-6v22H0z" fill="var(--art-green2)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M78 40v8M86 38v8M94 36v8M102 34v8M110 32v8" stroke="var(--art-green)" stroke-width="3"/>
+      <path d="M90 34h8v6h-8z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.2"/>
+      <rect y="56" width="120" height="34" fill="var(--art-lake)"/>
+      <ellipse cx="48" cy="66" rx="30" ry="7" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M30 64V42h36v22z" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M26 64V36h10v28zM60 64V36h10v28z" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M24 36l7-8 7 8zM58 36l7-8 7 8z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <path d="M40 50h4M52 50h4M44 56h8" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M86 76h22M6 82h16" stroke="#fff" stroke-width="1.4" opacity=".7"/>`,
+    // Wschód: Ptuj, zamek na wzgórzu nad Drawą i winorośl
+    east: `${sky('var(--art-sky)')}<circle cx="20" cy="18" r="8" fill="var(--art-sun)"/>
+      <path d="M0 68c20-22 40-34 64-34s40 16 56 30v4z" fill="var(--art-green2)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M46 40V26h32v14z" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M44 26l18-8 18 8z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M52 32h4M60 32h4M68 32h4" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M22 58v-8M32 52v-8M92 54v-8M102 58v-8" stroke="var(--art-green)" stroke-width="3"/>
+      <circle cx="100" cy="66" r="3" fill="#6B2E5F"/><circle cx="105" cy="68" r="3" fill="#6B2E5F"/><circle cx="102" cy="72" r="3" fill="#6B2E5F"/>
+      <rect y="70" width="120" height="20" fill="var(--art-lake)"/>
+      <path d="M10 78h22M60 84h24" stroke="#fff" stroke-width="1.4" opacity=".7"/>`
+  };
+  const SPECIAL_ART_SI = {
+    // Zlatorog: kozica o złotych rogach
+    luck: `<rect width="120" height="120" fill="var(--sp-luck-bg)"/>
+      <path d="M10 110 40 60l18 22 14-18 38 46z" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M44 56c0-10 8-16 18-16h14c8 0 12 6 12 12v6H72l-4 14h-6l-2-12h-6l-4 12h-6z" fill="#9A6A3E" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M78 40c-2-10 0-18 6-22M84 40c0-10 4-16 10-18" fill="none" stroke="var(--art-gold)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="84" cy="46" r="1.8" fill="var(--art-ink)"/>
+      <path d="M24 96l4-6 4 6-4 3z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.2"/>`,
+    // Burja: wiatr na Krasie
+    detour: `<rect width="120" height="120" fill="var(--sp-detour-bg)"/>
+      <path d="M0 96h120v24H0z" fill="#B5472E"/>
+      <path d="M70 96V66h34v30z" fill="var(--art-stone)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M66 66l21-14 21 14z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="2"/>
+      <circle cx="78" cy="60" r="3" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="1.2"/><circle cx="94" cy="60" r="3" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="1.2"/>
+      <path d="M36 96c0-18 4-30 18-40" fill="none" stroke="#6B4A2B" stroke-width="4"/>
+      <path d="M54 56c8-4 14-2 18 2-8 0-14 4-18 8z" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M6 30h44c8 0 8-10 0-10M10 46h56c10 0 10 12 0 12M4 72h26" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>`,
+    // Pletna: łódź z daszkiem na jeziorze Bled
+    ticket: `<rect width="120" height="120" fill="var(--sp-ticket-bg)"/>
+      <rect y="78" width="120" height="42" fill="var(--art-lake)"/>
+      <path d="M8 76h104l-12 14H24z" fill="#9A6A3E" stroke="var(--art-ink)" stroke-width="2.2"/>
+      <path d="M26 76V50M94 76V50" stroke="var(--art-ink)" stroke-width="2.4"/>
+      <path d="M18 52c14-10 70-10 84 0z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M22 50h76" stroke="#fff" stroke-width="2"/>
+      <path d="M104 64l10 34" stroke="var(--art-ink)" stroke-width="3"/>
+      <path d="M14 100h20M70 106h26" stroke="#fff" stroke-width="1.6" opacity=".7"/>`,
+    // Kremšnita: kremówka z Bledu
+    express: `<rect width="120" height="120" fill="var(--sp-express-bg)"/>
+      <ellipse cx="60" cy="94" rx="46" ry="8" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M26 46h68v42H26z" fill="#F7E7A6" stroke="var(--art-ink)" stroke-width="2.2"/>
+      <path d="M26 66h68v22H26z" fill="#FFF7E6" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M24 42h72v6H24zM24 86h72v4H24z" fill="#D9A156" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M30 40c4-3 8 1 12-1s8 2 12 0 8 2 12 0 8 2 12 0 8 2 12 0" fill="none" stroke="#fff" stroke-width="3"/>
+      <path d="M48 30c-4-6 4-10 0-16M66 30c-4-6 4-10 0-16" fill="none" stroke="var(--art-ink)" stroke-width="2" opacity=".4"/>`
+  };
+
+  const REGION_ART_DE = {
+    // Północ: latarnia morska i statek
+    north: `${sky('var(--art-sky)')}<path d="M0 66c10-4 18-6 30-6h16v6H0z" fill="#E8D7A8" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M18 62l4-40h10l4 40z" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M20 50h14l-1 8H21zM21 34h12l-1 8H22z" fill="var(--art-red)"/>
+      <path d="M20 22h14v-6H20z" fill="var(--art-gold)" stroke="var(--art-ink)" stroke-width="1.6"/><path d="M18 16l9-6 9 6z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <path d="M36 18l20-6M36 20l20 4" stroke="var(--art-gold)" stroke-width="1.6" opacity=".8"/>
+      <rect y="66" width="120" height="24" fill="var(--art-lake)"/>
+      <path d="M60 64h52l-6 10H66z" fill="var(--art-ink)"/><path d="M68 64V52h12v12zM82 64V48h22v16z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M88 48V40h6v8" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <path d="M8 80h22M54 84h26" stroke="#fff" stroke-width="1.4" opacity=".7"/>`,
+    // Wschód: Brama Brandenburska
+    east: `${sky('var(--art-sky)')}<rect y="72" width="120" height="18" fill="var(--art-stone)"/>
+      <path d="M18 34h84v8H18z" fill="var(--art-stone)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M22 28h76v6H22z" fill="var(--art-stone)" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M22 42h8v30h-8zM38 42h8v30h-8zM54 42h12v30H54zM74 42h8v30h-8zM90 42h8v30h-8z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M50 28c0-6 4-10 10-10s10 4 10 10z" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M58 18v-6M54 14h8" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M44 28l4-6M76 28l-4-6" stroke="var(--art-green)" stroke-width="3"/>`,
+    // Zachód: katedra w Kolonii nad Renem
+    west: `${sky('var(--art-sky)')}<path d="M34 70V30l6-22 6 22v40zM66 70V30l6-22 6 22v40z" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M46 70V42h20v28z" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M46 42l10-10 10 10z" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M38 40v10M74 40v10M52 50v12M60 50v12" stroke="var(--art-ink)" stroke-width="2"/>
+      <circle cx="56" cy="46" r="3" fill="none" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <rect y="70" width="120" height="20" fill="var(--art-lake)"/>
+      <path d="M0 74c20 6 40 6 60 0s40-6 60 0" fill="none" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M0 74h120" stroke="var(--art-ink)" stroke-width="1" opacity=".3"/>
+      <path d="M90 82h22M8 84h20" stroke="#fff" stroke-width="1.4" opacity=".7"/>`,
+    // Południe: Neuschwanstein w Alpach
+    south: `${sky('var(--art-sky)')}<path d="M0 58 26 22l18 20 20-30 22 26 16-14 18 26v8H0z" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M58 20l6-8 6 10-3 2-3-3-3 3zM20 30l6-8 6 8-3 2-3-2-3 2z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.1"/>
+      <path d="M0 90V68c16-8 30-12 48-12 10 0 16 4 22 10s26 6 50 2v22z" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M50 64V42h28v22z" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M44 64V36h8v28zM76 64V30h8v34z" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M43 36l5-10 5 10zM75 30l5-12 5 12zM58 42l6-8 6 8z" fill="#5B7FA8" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <path d="M56 50h4M66 50h4M60 58h8" stroke="var(--art-ink)" stroke-width="2"/>`
+  };
+  const SPECIAL_ART_DE = {
+    // Kominiarz: cylinder, drabina i szczotka
+    luck: `<rect width="120" height="120" fill="var(--sp-luck-bg)"/>
+      <path d="M22 104 46 20M42 104 66 20M30 76h20M36 54h20M41 36h20" stroke="#9A6A3E" stroke-width="4" stroke-linecap="round"/>
+      <path d="M70 46h28v-26H70z" fill="var(--art-ink)"/><path d="M62 46h44v6H62z" fill="var(--art-ink)"/>
+      <path d="M70 40h28" stroke="var(--art-red)" stroke-width="3"/>
+      <path d="M92 60v44" stroke="var(--art-ink)" stroke-width="3"/>
+      <circle cx="92" cy="62" r="10" fill="none" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M82 62h20M92 52v20M85 55l14 14M99 55 85 69" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <circle cx="20" cy="22" r="9" fill="var(--art-gold)" stroke="var(--art-ink)" stroke-width="2"/>`,
+    // Stau: korek na autostradzie
+    detour: `<rect width="120" height="120" fill="var(--sp-detour-bg)"/>
+      <path d="M0 74h120v46H0z" fill="#8C8F94"/>
+      <path d="M0 96h14M26 96h20M58 96h20M90 96h20" stroke="#fff" stroke-width="3"/>
+      <path d="M6 80h30l4 8v8H2v-8z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M46 80h30l4 8v8H42v-8z" fill="#5B7FA8" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M86 80h30l4 8v8H82v-8z" fill="var(--art-gold)" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <circle cx="10" cy="96" r="4" fill="var(--art-ink)"/><circle cx="32" cy="96" r="4" fill="var(--art-ink)"/><circle cx="50" cy="96" r="4" fill="var(--art-ink)"/><circle cx="72" cy="96" r="4" fill="var(--art-ink)"/><circle cx="90" cy="96" r="4" fill="var(--art-ink)"/><circle cx="112" cy="96" r="4" fill="var(--art-ink)"/>
+      <path d="M60 18 90 64H30z" fill="#fff" stroke="var(--art-red)" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M50 52h20M54 44h12" stroke="var(--art-ink)" stroke-width="3"/>`,
+    // Deutschlandticket: bilet z literą D
+    ticket: `<rect width="120" height="120" fill="var(--sp-ticket-bg)"/>
+      <rect x="14" y="30" width="92" height="60" rx="8" fill="#fff" stroke="var(--art-ink)" stroke-width="2.4"/>
+      <path d="M14 46h92" stroke="var(--art-red)" stroke-width="6"/>
+      <path d="M30 56h10c8 0 12 5 12 12s-4 12-12 12H30z" fill="none" stroke="var(--art-ink)" stroke-width="4"/>
+      <path d="M62 60h30M62 70h24M62 80h28" stroke="var(--art-rock)" stroke-width="3"/>
+      <path d="M14 38h92" stroke="var(--art-ink)" stroke-width="1" opacity=".3"/>`,
+    // ICE: szybki pociąg
+    express: `<rect width="120" height="120" fill="var(--sp-express-bg)"/>
+      <path d="M4 92h112" stroke="var(--art-ink)" stroke-width="3"/>
+      <path d="M8 84V52h72c20 0 30 14 34 32z" fill="#fff" stroke="var(--art-ink)" stroke-width="2.4"/>
+      <path d="M8 74h100" stroke="var(--art-red)" stroke-width="4"/>
+      <path d="M82 56c10 2 18 8 22 18H86z" fill="var(--art-ink)"/>
+      <path d="M16 58h12v10H16zM34 58h12v10H34zM52 58h12v10H52z" fill="var(--art-sky)" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <circle cx="26" cy="88" r="5" fill="var(--art-ink)"/><circle cx="72" cy="88" r="5" fill="var(--art-ink)"/>
+      <path d="M4 40h30M10 32h18" stroke="var(--art-ink)" stroke-width="2" opacity=".35"/>`
+  };
+
   // logo na podstawie flagi kraju
   const LOGO = {
     at: `<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#C8102E"/>
@@ -716,13 +873,20 @@ window.OA_REGISTRY = [{"code": "at", "name": "Austria", "gameTitle": "Odkryj Aus
     <path d="M12 14h22v20c0 8-6 13-11 16-5-3-11-8-11-16z" fill="#EE1C25" stroke="#fff" stroke-width="2.4"/>
     <path d="M23 18v22M17 24h12M15 30h16" stroke="#fff" stroke-width="3"/>
     <path d="M13 40c3-3 6-3 10-1 4-2 7-2 10 1v2H13z" fill="#0B4EA2"/></g></svg>`,
+    si: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="sic"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#sic)">
+    <rect width="64" height="22" fill="#fff"/><rect y="21" width="64" height="22" fill="#005DA4"/><rect y="42" width="64" height="22" fill="#ED1C24"/>
+    <path d="M10 10h22v18c0 8-6 12-11 14-5-2-11-6-11-14z" fill="#005DA4" stroke="#ED1C24" stroke-width="2"/>
+    <path d="M12 30l4-6 3 3 2-5 2 5 3-3 4 6c-3 5-6 7-9 8-3-1-6-3-9-8z" fill="#fff"/>
+    <circle cx="16" cy="15" r="1.6" fill="#FFDD00"/><circle cx="21" cy="18" r="1.6" fill="#FFDD00"/><circle cx="26" cy="15" r="1.6" fill="#FFDD00"/></g></svg>`,
+    de: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="dec"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#dec)">
+    <rect width="64" height="22" fill="#1F1F1F"/><rect y="21" width="64" height="22" fill="#DD0000"/><rect y="42" width="64" height="22" fill="#FFCE00"/></g></svg>`,
     any: `<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#2B3A55"/>
     <circle cx="32" cy="32" r="18" fill="none" stroke="#fff" stroke-width="3"/><path d="M14 32h36M32 14c-8 10-8 26 0 36M32 14c8 10 8 26 0 36" fill="none" stroke="#fff" stroke-width="2.5"/></svg>`
   };
   const logo = LOGO.at;
 
   window.ICONS = { CAT, UI, logo, LOGO,
-    REGION_ART: { at: REGION_ART, cz: REGION_ART_CZ, it: REGION_ART_IT, nl: REGION_ART_NL, sk: REGION_ART_SK }, SPECIAL_ART: { at: SPECIAL_ART, cz: SPECIAL_ART_CZ, it: SPECIAL_ART_IT, nl: SPECIAL_ART_NL, sk: SPECIAL_ART_SK } };
+    REGION_ART: { at: REGION_ART, cz: REGION_ART_CZ, it: REGION_ART_IT, nl: REGION_ART_NL, sk: REGION_ART_SK, si: REGION_ART_SI, de: REGION_ART_DE }, SPECIAL_ART: { at: SPECIAL_ART, cz: SPECIAL_ART_CZ, it: SPECIAL_ART_IT, nl: SPECIAL_ART_NL, sk: SPECIAL_ART_SK, si: SPECIAL_ART_SI, de: SPECIAL_ART_DE } };
 })();
 
 </script>

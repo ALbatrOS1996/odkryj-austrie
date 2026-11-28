@@ -3,6 +3,7 @@
 #  it: regionów – ISTAT (CC BY 4.0), oprac. openpolis/geojson-italy
 #  nl: prowincji – CBS/PDOK (CC BY 4.0), oprac. cartomap/nl
 #  sk: krajów – ÚGKK SR, Geoportál ZBGIS, oprac. drakh/slovakia-gps-data
+#  si, de: regionów statystycznych / krajów związkowych – © EuroGeographics, Eurostat GISCO NUTS 2021
 #  cz: krajów – ČÚZK INSPIRE „Územní správní jednotky” (CC BY 4.0), oprac. siwekm/czech-geojson
 import json, math, os, sys
 
@@ -56,6 +57,34 @@ elif CC == 'sk':
     LAT0 = 48.7
     CREDIT = 'Granice krajów: ÚGKK SR, Geoportál ZBGIS, oprac. drakh/slovakia-gps-data, uproszczone.'
     ident = lambda f, rings: IDS[f['properties']['IDN4']]
+elif CC == 'si':
+    SRC, ENC = 'si_regije.json', 'utf-8'
+    IDS = {'SI031': 'pom', 'SI032': 'pod', 'SI033': 'kor', 'SI034': 'sav', 'SI035': 'zas', 'SI036': 'pos', 'SI037': 'jvs', 'SI038': 'pri',
+           'SI041': 'osr', 'SI042': 'gor', 'SI043': 'gos', 'SI044': 'obk'}
+    NAMES = {'pom': 'Region pomurski', 'pod': 'Region podrawski', 'kor': 'Region koroški', 'sav': 'Region sawiński', 'zas': 'Region zasawski',
+             'pos': 'Region posawski', 'jvs': 'Słowenia Płd.-Wschodnia', 'pri': 'Region primorsko-notrański', 'osr': 'Region środkowosłoweński',
+             'gor': 'Region gorenjski', 'gos': 'Region goriški', 'obk': 'Region nadmorsko-krasowy'}
+    # grupy wg krain historycznych: Przymorze, Kraina z Lublaną, Dolenjska z Posawiem, Styria z Karyntią i Prekmuriem
+    REGION = {'gos': 'west', 'obk': 'west', 'pri': 'west', 'osr': 'center', 'gor': 'center', 'zas': 'center', 'jvs': 'south', 'pos': 'south',
+              'pod': 'east', 'sav': 'east', 'kor': 'east', 'pom': 'east'}
+    ORDER = ['gor', 'gos', 'obk', 'pri', 'osr', 'zas', 'jvs', 'pos', 'kor', 'sav', 'pod', 'pom']
+    LAT0 = 46.1
+    CREDIT = 'Granice regionów statystycznych: © EuroGeographics, Eurostat GISCO (NUTS 2021), uproszczone.'
+    ident = lambda f, rings: IDS[f['properties']['NUTS_ID']]
+elif CC == 'de':
+    SRC, ENC = 'de_laender.json', 'utf-8'
+    IDS = {'DEF': 'sh', 'DE6': 'hh', 'DE5': 'hb', 'DE9': 'ni', 'DE8': 'mv', 'DE3': 'be', 'DE4': 'bb', 'DEE': 'st', 'DED': 'sn', 'DEG': 'th',
+           'DEA': 'nw', 'DE7': 'he', 'DEB': 'rp', 'DEC': 'sl', 'DE1': 'bw', 'DE2': 'by'}
+    NAMES = {'sh': 'Szlezwik-Holsztyn', 'hh': 'Hamburg', 'hb': 'Brema', 'ni': 'Dolna Saksonia', 'mv': 'Meklemburgia-Pomorze Przednie',
+             'be': 'Berlin', 'bb': 'Brandenburgia', 'st': 'Saksonia-Anhalt', 'sn': 'Saksonia', 'th': 'Turyngia', 'nw': 'Nadrenia Płn.-Westfalia',
+             'he': 'Hesja', 'rp': 'Nadrenia-Palatynat', 'sl': 'Saara', 'bw': 'Badenia-Wirtembergia', 'by': 'Bawaria'}
+    # grupy: Północ, Wschód (dawna NRD z Berlinem), Zachód, Południe
+    REGION = {'sh': 'north', 'hh': 'north', 'hb': 'north', 'ni': 'north', 'mv': 'north', 'be': 'east', 'bb': 'east', 'st': 'east', 'sn': 'east',
+              'th': 'east', 'nw': 'west', 'he': 'west', 'rp': 'west', 'sl': 'west', 'bw': 'south', 'by': 'south'}
+    ORDER = ['sh', 'ni', 'mv', 'bb', 'st', 'sn', 'th', 'nw', 'he', 'rp', 'sl', 'bw', 'by', 'hh', 'hb', 'be']
+    LAT0 = 51.0
+    CREDIT = 'Granice krajów związkowych: © EuroGeographics, Eurostat GISCO (NUTS 2021), uproszczone.'
+    ident = lambda f, rings: IDS[f['properties']['NUTS_ID']]
 else:
     SRC, ENC = 'cz_kraje.json', 'utf-8'
     # punkt wewnątrz każdego kraju (stolica kraju; dla środkowoczeskiego Kolín, bo Praga jest enklawą)
@@ -112,7 +141,7 @@ for f in d['features']:
             pr = [proj(p) for p in ring]
             out = [pr[0]]
             for q in pr[1:]:
-                if math.hypot(q[0] - out[-1][0], q[1] - out[-1][1]) >= {'at': 1.2, 'cz': 3.0, 'nl': 2.0, 'sk': 2.5}.get(CC, 3.0):
+                if math.hypot(q[0] - out[-1][0], q[1] - out[-1][1]) >= {'at': 1.2, 'cz': 3.0, 'nl': 2.0, 'sk': 2.5, 'si': 2.0, 'de': 3.0}.get(CC, 3.0):
                     out.append(q)
             if len(out) < 4:
                 continue

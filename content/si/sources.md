@@ -1,0 +1,439 @@
+# Źródła · Słowenia
+
+Data dostępu: 2026-11-04. Lista wygenerowana przez build.py.
+
+- <https://www.visitljubljana.com/> (strona instytucji) · pytania: zab-01, zab-02, zab-03, zab-26, zab-27, geo-03, geo-36, his-31, his-35, his-53, kul-40, kul-53
+- <https://en.wikipedia.org/wiki/Dragon_Bridge_(Ljubljana)> (wikipedia) · pytania: zab-01
+- <https://en.wikipedia.org/wiki/Triple_Bridge> (wikipedia) · pytania: zab-02
+- <https://en.wikipedia.org/wiki/Prešeren_Square> (wikipedia) · pytania: zab-03
+- <https://www.bled.si/> (strona instytucji) · pytania: zab-04, zab-05, kul-03
+- <https://en.wikipedia.org/wiki/Bled_Island> (wikipedia) · pytania: zab-04
+- <https://en.wikipedia.org/wiki/Pletna> (wikipedia) · pytania: zab-05
+- <https://www.blejski-grad.si/> (strona instytucji) · pytania: zab-06
+- <https://en.wikipedia.org/wiki/Bled_Castle> (wikipedia) · pytania: zab-06
+- <https://www.tnp.si/> (strona instytucji) · pytania: zab-07, zab-08, geo-10, kul-38, spo-28
+- <https://en.wikipedia.org/wiki/Triglav> (wikipedia) · pytania: zab-07, zab-33, spo-28
+- <https://en.wikipedia.org/wiki/Aljaž_Tower> (wikipedia) · pytania: zab-08
+- <https://www.postojnska-jama.eu/> (strona instytucji) · pytania: zab-09, zab-10, zab-11, geo-63
+- <https://en.wikipedia.org/wiki/Predjama_Castle> (wikipedia) · pytania: zab-09
+- <https://en.wikipedia.org/wiki/Postojna_Cave> (wikipedia) · pytania: zab-10
+- <https://en.wikipedia.org/wiki/Olm> (wikipedia) · pytania: zab-11
+- <https://whc.unesco.org/en/list/390> (instytucja) · pytania: zab-12
+- <https://en.wikipedia.org/wiki/Škocjan_Caves> (wikipedia) · pytania: zab-12
+- <https://www.lipica.org/> (strona instytucji) · pytania: zab-13
+- <https://en.wikipedia.org/wiki/Lipica_Stud_Farm> (wikipedia) · pytania: zab-13
+- <https://www.portoroz.si/> (strona instytucji) · pytania: zab-14, geo-20
+- <https://en.wikipedia.org/wiki/Tartini_Square> (wikipedia) · pytania: zab-14
+- <https://www.slovenia.info/> (strona instytucji) · pytania: zab-15, zab-18, zab-20, zab-22, zab-23, zab-35, zab-39, zab-44, zab-45, zab-46, zab-48, zab-50, zab-51, zab-55, zab-56, zab-58, zab-62, zab-68, zab-70, geo-06, geo-13, geo-15, geo-16, geo-17, geo-18, geo-23, geo-24, geo-27, geo-32, geo-33, geo-35, geo-37, geo-38, geo-41, geo-42, geo-43, geo-45, geo-46, geo-47, geo-50, geo-52, geo-53, geo-54, geo-55, geo-56, geo-57, geo-58, geo-62, geo-64, geo-66, geo-68, geo-69, geo-70, his-06, his-07, his-17, his-19, his-40, his-56, kul-01, kul-02, kul-04, kul-05, kul-06, kul-07, kul-08, kul-09, kul-10, kul-11, kul-12, kul-29, kul-33, kul-37, kul-39, kul-44, kul-45, kul-46, kul-50, kul-51, kul-52, kul-54, kul-60, kul-65, spo-26, spo-38, spo-56, spo-61
+- <https://en.wikipedia.org/wiki/Hrastovlje> (wikipedia) · pytania: zab-15
+- <https://www.kpss.si/> (strona instytucji) · pytania: zab-16
+- <https://en.wikipedia.org/wiki/Sečovlje_Salina_Nature_Park> (wikipedia) · pytania: zab-16
+- <https://www.visitmaribor.si/> (strona instytucji) · pytania: zab-17, geo-04, geo-14, geo-65, his-48
+- <https://en.wikipedia.org/wiki/Žametovka> (wikipedia) · pytania: zab-17
+- <https://en.wikipedia.org/wiki/Ptuj> (wikipedia) · pytania: zab-18
+- <https://www.celje.info/> (strona instytucji) · pytania: zab-19, zab-69, geo-48, his-05, his-13, his-14, his-15
+- <https://en.wikipedia.org/wiki/Counts_of_Celje> (wikipedia) · pytania: zab-19
+- <https://en.wikipedia.org/wiki/Žalec> (wikipedia) · pytania: zab-20
+- <https://www.logarska-dolina.si/> (strona instytucji) · pytania: zab-21
+- <https://en.wikipedia.org/wiki/Logar_Valley> (wikipedia) · pytania: zab-21
+- <https://en.wikipedia.org/wiki/Bogojina> (wikipedia) · pytania: zab-22
+- <https://en.wikipedia.org/wiki/Veržej> (wikipedia) · pytania: zab-23
+- <https://www.nuk.uni-lj.si/> (strona instytucji) · pytania: zab-24, his-12, his-24, his-25, his-26, his-27, his-30, his-33, his-37, his-39, kul-14, kul-16, kul-17, kul-18, kul-19, kul-20, kul-21, kul-22, kul-58, kul-66
+- <https://en.wikipedia.org/wiki/National_and_University_Library_of_Slovenia> (wikipedia) · pytania: zab-24
+- <https://whc.unesco.org/en/list/1643> (instytucja) · pytania: zab-25
+- <https://en.wikipedia.org/wiki/Žale> (wikipedia) · pytania: zab-25
+- <https://en.wikipedia.org/wiki/Tivoli_Park_(Ljubljana)> (wikipedia) · pytania: zab-26
+- <https://en.wikipedia.org/wiki/Metelkova> (wikipedia) · pytania: zab-27
+- <https://www.ljubljanskigrad.si/> (strona instytucji) · pytania: zab-28
+- <https://en.wikipedia.org/wiki/Ljubljana_Castle> (wikipedia) · pytania: zab-28
+- <https://whc.unesco.org/en/list/1363> (instytucja) · pytania: zab-29
+- <https://en.wikipedia.org/wiki/Prehistoric_pile_dwellings_around_the_Alps> (wikipedia) · pytania: zab-29
+- <https://www.velikaplanina.si/> (strona instytucji) · pytania: zab-30
+- <https://en.wikipedia.org/wiki/Velika_Planina> (wikipedia) · pytania: zab-30
+- <https://www.vintgar.si/> (strona instytucji) · pytania: zab-31
+- <https://en.wikipedia.org/wiki/Vintgar_Gorge> (wikipedia) · pytania: zab-31
+- <https://www.planica.si/> (strona instytucji) · pytania: zab-32, spo-16
+- <https://en.wikipedia.org/wiki/Letalnica_bratov_Gorišek> (wikipedia) · pytania: zab-32
+- <https://www.bohinj.si/> (strona instytucji) · pytania: zab-33, zab-34, geo-11
+- <https://en.wikipedia.org/wiki/Savica_Falls> (wikipedia) · pytania: zab-34
+- <https://en.wikipedia.org/wiki/Radovljica> (wikipedia) · pytania: zab-35
+- <https://www.visitskofjaloka.si/> (strona instytucji) · pytania: zab-36
+- <https://en.wikipedia.org/wiki/Škofja_Loka> (wikipedia) · pytania: zab-36
+- <https://www.marija.si/> (strona instytucji) · pytania: zab-37
+- <https://en.wikipedia.org/wiki/Brezje,_Radovljica> (wikipedia) · pytania: zab-37
+- <https://www.soca-valley.com/> (strona instytucji) · pytania: zab-38, geo-22, geo-28, kul-49
+- <https://en.wikipedia.org/wiki/Soča> (wikipedia) · pytania: zab-38, geo-22
+- <https://en.wikipedia.org/wiki/Solkan_Bridge> (wikipedia) · pytania: zab-39
+- <https://www.muzej-idrija-cerkno.si/> (strona instytucji) · pytania: zab-40, zab-43, kul-59
+- <https://en.wikipedia.org/wiki/Idrija_lace> (wikipedia) · pytania: zab-40
+- <https://whc.unesco.org/en/list/1313> (instytucja) · pytania: zab-41
+- <https://en.wikipedia.org/wiki/Idrija> (wikipedia) · pytania: zab-41
+- <https://www.kobariski-muzej.si/> (strona instytucji) · pytania: zab-42, his-46, his-47
+- <https://en.wikipedia.org/wiki/Kobarid> (wikipedia) · pytania: zab-42
+- <https://en.wikipedia.org/wiki/Franja_Partisan_Hospital> (wikipedia) · pytania: zab-43
+- <https://en.wikipedia.org/wiki/Kostanjevica_Monastery> (wikipedia) · pytania: zab-44
+- <https://en.wikipedia.org/wiki/Lake_Cerknica> (wikipedia) · pytania: zab-45
+- <https://en.wikipedia.org/wiki/Snežnik_Castle> (wikipedia) · pytania: zab-46
+- <https://www.parkvojaskezgodovine.si/> (strona instytucji) · pytania: zab-47
+- <https://en.wikipedia.org/wiki/Pivka_Park_of_Military_History> (wikipedia) · pytania: zab-47
+- <https://en.wikipedia.org/wiki/Otočec_Castle> (wikipedia) · pytania: zab-48
+- <https://www.kartuzija-pleterje.si/> (strona instytucji) · pytania: zab-49
+- <https://en.wikipedia.org/wiki/Pleterje_Charterhouse> (wikipedia) · pytania: zab-49
+- <https://en.wikipedia.org/wiki/Ribnica> (wikipedia) · pytania: zab-50
+- <https://en.wikipedia.org/wiki/Žužemberk_Castle> (wikipedia) · pytania: zab-51
+- <https://www.pmb.si/> (strona instytucji) · pytania: zab-52
+- <https://en.wikipedia.org/wiki/Brežice_Castle> (wikipedia) · pytania: zab-52
+- <https://www.galerija-bj.si/> (strona instytucji) · pytania: zab-53, kul-47
+- <https://en.wikipedia.org/wiki/Kostanjevica_na_Krki> (wikipedia) · pytania: zab-53
+- <https://www.nek.si/> (strona instytucji) · pytania: zab-54
+- <https://en.wikipedia.org/wiki/Krško_Nuclear_Power_Plant> (wikipedia) · pytania: zab-54
+- <https://en.wikipedia.org/wiki/Bizeljsko> (wikipedia) · pytania: zab-55
+- <https://en.wikipedia.org/wiki/Šempeter_v_Savinjski_Dolini> (wikipedia) · pytania: zab-56
+- <https://www.rogaska.si/> (strona instytucji) · pytania: zab-57, spo-27
+- <https://en.wikipedia.org/wiki/Rogaška_Slatina> (wikipedia) · pytania: zab-57
+- <https://en.wikipedia.org/wiki/King_Matjaž> (wikipedia) · pytania: zab-58
+- <https://www.podzemljepece.com/> (strona instytucji) · pytania: zab-59
+- <https://en.wikipedia.org/wiki/Mežica> (wikipedia) · pytania: zab-59
+- <https://www.slovenjgradec.si/> (strona instytucji) · pytania: zab-60, kul-31
+- <https://en.wikipedia.org/wiki/Slovenj_Gradec> (wikipedia) · pytania: zab-60
+- <https://www.gov.si/> (strona instytucji) · pytania: zab-61, geo-19, geo-59, his-57, his-60, his-62, his-63, his-64, kul-15, kul-42, kul-62, spo-23, spo-36, spo-37, spo-39, spo-44, spo-46, spo-54, spo-57, spo-64, spo-66
+- <https://en.wikipedia.org/wiki/Flag_of_Slovenia> (wikipedia) · pytania: zab-61
+- <https://en.wikipedia.org/wiki/Tilia> (wikipedia) · pytania: zab-62
+- <https://www.bsi.si/> (strona instytucji) · pytania: zab-63, zab-64, zab-65, zab-66, his-66, kul-28, spo-05
+- <https://en.wikipedia.org/wiki/Slovenian_euro_coins> (wikipedia) · pytania: zab-63, zab-64
+- <https://en.wikipedia.org/wiki/The_Sower_(Grohar)> (wikipedia) · pytania: zab-65
+- <https://en.wikipedia.org/wiki/Prince's_Stone> (wikipedia) · pytania: zab-66, his-11
+- <https://www.visitnovomesto.si/> (strona instytucji) · pytania: zab-67, geo-40
+- <https://en.wikipedia.org/wiki/Novo_Mesto_Cathedral> (wikipedia) · pytania: zab-67
+- <https://en.wikipedia.org/wiki/Trbovlje_Power_Station> (wikipedia) · pytania: zab-68
+- <https://en.wikipedia.org/wiki/Celje_Castle> (wikipedia) · pytania: zab-69
+- <https://en.wikipedia.org/wiki/Rosalnice> (wikipedia) · pytania: zab-70
+- <https://whc.unesco.org/en/list/1133> (instytucja) · pytania: zab-71
+- <https://en.wikipedia.org/wiki/Ancient_and_Primeval_Beech_Forests_of_the_Carpathians_and_Other_Regions_of_Europe> (wikipedia) · pytania: zab-71
+- <https://www.gradrajhenburg.si/> (strona instytucji) · pytania: zab-72
+- <https://en.wikipedia.org/wiki/Rajhenburg_Castle> (wikipedia) · pytania: zab-72
+- <https://www.stat.si/> (strona instytucji) · pytania: geo-01, geo-09, spo-08
+- <https://en.wikipedia.org/wiki/Statistical_regions_of_Slovenia> (wikipedia) · pytania: geo-01
+- <https://www.britannica.com/place/Ljubljana> (encyklopedia) · pytania: geo-02, his-41
+- <https://en.wikipedia.org/wiki/Ljubljana> (wikipedia) · pytania: geo-02
+- <https://en.wikipedia.org/wiki/Ljubljanica> (wikipedia) · pytania: geo-03, geo-35
+- <https://en.wikipedia.org/wiki/Maribor> (wikipedia) · pytania: geo-04
+- <https://www.britannica.com/place/Slovenia> (encyklopedia) · pytania: geo-05, geo-08, geo-60, his-21, his-23, his-38, his-49, his-52, his-59, his-61
+- <https://en.wikipedia.org/wiki/Borders_of_Slovenia> (wikipedia) · pytania: geo-05
+- <https://en.wikipedia.org/wiki/Slovene_Littoral> (wikipedia) · pytania: geo-06
+- <https://www.luka-kp.si/> (strona instytucji) · pytania: geo-07
+- <https://en.wikipedia.org/wiki/Port_of_Koper> (wikipedia) · pytania: geo-07
+- <https://en.wikipedia.org/wiki/Slovenia> (wikipedia) · pytania: geo-08, spo-56, spo-66
+- <https://en.wikipedia.org/wiki/Demographics_of_Slovenia> (wikipedia) · pytania: geo-09
+- <https://en.wikipedia.org/wiki/Julian_Alps> (wikipedia) · pytania: geo-10
+- <https://en.wikipedia.org/wiki/Lake_Bohinj> (wikipedia) · pytania: geo-11
+- <https://www.britannica.com/place/Sava-River> (encyklopedia) · pytania: geo-12
+- <https://en.wikipedia.org/wiki/Sava> (wikipedia) · pytania: geo-12, geo-13
+- <https://en.wikipedia.org/wiki/Drava> (wikipedia) · pytania: geo-14
+- <https://en.wikipedia.org/wiki/Prekmurje> (wikipedia) · pytania: geo-15
+- <https://en.wikipedia.org/wiki/Radenci> (wikipedia) · pytania: geo-16
+- <https://en.wikipedia.org/wiki/Murska_Sobota> (wikipedia) · pytania: geo-17
+- <https://en.wikipedia.org/wiki/Lendava> (wikipedia) · pytania: geo-18
+- <https://en.wikipedia.org/wiki/Italians_of_Slovenia> (wikipedia) · pytania: geo-19
+- <https://en.wikipedia.org/wiki/Portorož> (wikipedia) · pytania: geo-20
+- <https://www.parkstrunjan.si/> (strona instytucji) · pytania: geo-21
+- <https://en.wikipedia.org/wiki/Strunjan> (wikipedia) · pytania: geo-21
+- <https://en.wikipedia.org/wiki/Karst_Plateau> (wikipedia) · pytania: geo-23
+- <https://en.wikipedia.org/wiki/Bora_(wind)> (wikipedia) · pytania: geo-24
+- <https://www.go2025.eu/> (strona instytucji) · pytania: geo-25
+- <https://en.wikipedia.org/wiki/Nova_Gorica> (wikipedia) · pytania: geo-25, spo-48
+- <https://www.brda.si/> (strona instytucji) · pytania: geo-26
+- <https://en.wikipedia.org/wiki/Goriška_Brda> (wikipedia) · pytania: geo-26
+- <https://en.wikipedia.org/wiki/Vipava_Valley> (wikipedia) · pytania: geo-27
+- <https://en.wikipedia.org/wiki/Mangart> (wikipedia) · pytania: geo-28
+- <https://www.kranjska-gora.si/> (strona instytucji) · pytania: geo-29, geo-31
+- <https://en.wikipedia.org/wiki/Vršič_Pass> (wikipedia) · pytania: geo-29
+- <https://www.visitkranj.com/> (strona instytucji) · pytania: geo-30
+- <https://en.wikipedia.org/wiki/Kranj> (wikipedia) · pytania: geo-30
+- <https://en.wikipedia.org/wiki/Kranjska_Gora> (wikipedia) · pytania: geo-31
+- <https://en.wikipedia.org/wiki/Grintovec> (wikipedia) · pytania: geo-32
+- <https://en.wikipedia.org/wiki/Hochstuhl> (wikipedia) · pytania: geo-33
+- <https://www.ljubljanskobarje.si/> (strona instytucji) · pytania: geo-34
+- <https://en.wikipedia.org/wiki/Ljubljana_Marshes> (wikipedia) · pytania: geo-34
+- <https://en.wikipedia.org/wiki/Šmarna_Gora> (wikipedia) · pytania: geo-36
+- <https://en.wikipedia.org/wiki/Kum_(mountain)> (wikipedia) · pytania: geo-37
+- <https://en.wikipedia.org/wiki/Trbovlje> (wikipedia) · pytania: geo-38
+- <https://www.steklarna-hrastnik.si/> (strona instytucji) · pytania: geo-39
+- <https://en.wikipedia.org/wiki/Hrastnik> (wikipedia) · pytania: geo-39
+- <https://en.wikipedia.org/wiki/Novo_Mesto> (wikipedia) · pytania: geo-40
+- <https://en.wikipedia.org/wiki/Kočevje> (wikipedia) · pytania: geo-41
+- <https://en.wikipedia.org/wiki/White_Carniola> (wikipedia) · pytania: geo-42
+- <https://en.wikipedia.org/wiki/Kupa_(river)> (wikipedia) · pytania: geo-43
+- <https://www.terme-catez.si/> (strona instytucji) · pytania: geo-44
+- <https://en.wikipedia.org/wiki/Čatež_ob_Savi> (wikipedia) · pytania: geo-44
+- <https://en.wikipedia.org/wiki/Sevnica> (wikipedia) · pytania: geo-45
+- <https://en.wikipedia.org/wiki/Krka_(Slovenia)> (wikipedia) · pytania: geo-46
+- <https://en.wikipedia.org/wiki/Sutla> (wikipedia) · pytania: geo-47
+- <https://en.wikipedia.org/wiki/Celje> (wikipedia) · pytania: geo-48
+- <https://www.velenje.si/> (strona instytucji) · pytania: geo-49
+- <https://en.wikipedia.org/wiki/Velenje> (wikipedia) · pytania: geo-49
+- <https://en.wikipedia.org/wiki/Laško> (wikipedia) · pytania: geo-50
+- <https://www.rogla.eu/> (strona instytucji) · pytania: geo-51
+- <https://en.wikipedia.org/wiki/Rogla> (wikipedia) · pytania: geo-51
+- <https://en.wikipedia.org/wiki/Ravne_na_Koroškem> (wikipedia) · pytania: geo-52
+- <https://en.wikipedia.org/wiki/Slovenian_Carinthia> (wikipedia) · pytania: geo-53
+- <https://en.wikipedia.org/wiki/Haloze> (wikipedia) · pytania: geo-54
+- <https://en.wikipedia.org/wiki/Jeruzalem,_Ljutomer> (wikipedia) · pytania: geo-55
+- <https://en.wikipedia.org/wiki/Lake_Ptuj> (wikipedia) · pytania: geo-56
+- <https://en.wikipedia.org/wiki/Goričko_Natural_Park> (wikipedia) · pytania: geo-57
+- <https://en.wikipedia.org/wiki/Mur_(river)> (wikipedia) · pytania: geo-58
+- <https://en.wikipedia.org/wiki/Geography_of_Slovenia> (wikipedia) · pytania: geo-59, geo-60
+- <https://www.fraport-slovenija.si/> (strona instytucji) · pytania: geo-61
+- <https://en.wikipedia.org/wiki/Ljubljana_Jože_Pučnik_Airport> (wikipedia) · pytania: geo-61
+- <https://en.wikipedia.org/wiki/Vilenica_Cave> (wikipedia) · pytania: geo-62
+- <https://en.wikipedia.org/wiki/Postojna> (wikipedia) · pytania: geo-63
+- <https://en.wikipedia.org/wiki/Rakov_Škocjan> (wikipedia) · pytania: geo-64
+- <https://en.wikipedia.org/wiki/Pohorje> (wikipedia) · pytania: geo-65
+- <https://en.wikipedia.org/wiki/Jesenice> (wikipedia) · pytania: geo-66
+- <https://www.dars.si/> (strona instytucji) · pytania: geo-67, spo-30, spo-31
+- <https://en.wikipedia.org/wiki/A1_motorway_(Slovenia)> (wikipedia) · pytania: geo-67
+- <https://en.wikipedia.org/wiki/Dolenjske_Toplice> (wikipedia) · pytania: geo-68
+- <https://en.wikipedia.org/wiki/Brežice> (wikipedia) · pytania: geo-69
+- <https://en.wikipedia.org/wiki/Gorjanci> (wikipedia) · pytania: geo-70
+- <https://www.nms.si/> (strona instytucji) · pytania: his-01, his-03, his-08, his-09, his-10, his-11, his-22, his-28, his-29, his-34, his-44, kul-55
+- <https://en.wikipedia.org/wiki/Divje_Babe_flute> (wikipedia) · pytania: his-01
+- <https://www.mgml.si/> (strona instytucji) · pytania: his-02, his-04
+- <https://en.wikipedia.org/wiki/Ljubljana_Marshes_Wheel> (wikipedia) · pytania: his-02
+- <https://en.wikipedia.org/wiki/Vače_situla> (wikipedia) · pytania: his-03
+- <https://en.wikipedia.org/wiki/Emona> (wikipedia) · pytania: his-04
+- <https://en.wikipedia.org/wiki/Celeia> (wikipedia) · pytania: his-05
+- <https://en.wikipedia.org/wiki/Poetovio> (wikipedia) · pytania: his-06
+- <https://en.wikipedia.org/wiki/Nauportus> (wikipedia) · pytania: his-07
+- <https://en.wikipedia.org/wiki/Claustra_Alpium_Iuliarum> (wikipedia) · pytania: his-08
+- <https://en.wikipedia.org/wiki/Battle_of_the_Frigidus> (wikipedia) · pytania: his-09
+- <https://en.wikipedia.org/wiki/Carantania> (wikipedia) · pytania: his-10
+- <https://en.wikipedia.org/wiki/Freising_manuscripts> (wikipedia) · pytania: his-12
+- <https://en.wikipedia.org/wiki/Ulrich_II_of_Celje> (wikipedia) · pytania: his-13
+- <https://pl.wikipedia.org/wiki/Anna_Cylejska> (wikipedia) · pytania: his-14, his-16
+- <https://pl.wikipedia.org/wiki/Barbara_Cylejska> (wikipedia) · pytania: his-15
+- <https://www.britannica.com/biography/Wladyslaw-II-Jagiello> (encyklopedia) · pytania: his-16
+- <https://en.wikipedia.org/wiki/Ottoman_wars_in_Europe> (wikipedia) · pytania: his-17
+- <https://www.sticna.com/> (strona instytucji) · pytania: his-18
+- <https://en.wikipedia.org/wiki/Stična_Abbey> (wikipedia) · pytania: his-18
+- <https://en.wikipedia.org/wiki/Žiče_Charterhouse> (wikipedia) · pytania: his-19
+- <https://www.ljubljana.si/> (strona instytucji) · pytania: his-20, his-42, spo-35
+- <https://en.wikipedia.org/wiki/History_of_Ljubljana> (wikipedia) · pytania: his-20
+- <https://en.wikipedia.org/wiki/History_of_Slovenia> (wikipedia) · pytania: his-21
+- <https://en.wikipedia.org/wiki/Duchy_of_Carniola> (wikipedia) · pytania: his-22
+- <https://en.wikipedia.org/wiki/Alpine_Slavs> (wikipedia) · pytania: his-23
+- <https://en.wikipedia.org/wiki/Primož_Trubar> (wikipedia) · pytania: his-24
+- <https://en.wikipedia.org/wiki/Jurij_Dalmatin> (wikipedia) · pytania: his-25
+- <https://en.wikipedia.org/wiki/Adam_Bohorič> (wikipedia) · pytania: his-26
+- <https://en.wikipedia.org/wiki/The_Glory_of_the_Duchy_of_Carniola> (wikipedia) · pytania: his-27
+- <https://en.wikipedia.org/wiki/Slovene_peasant_revolt> (wikipedia) · pytania: his-28
+- <https://en.wikipedia.org/wiki/Battle_of_Sisak> (wikipedia) · pytania: his-29
+- <https://en.wikipedia.org/wiki/Academia_operosorum> (wikipedia) · pytania: his-30
+- <https://en.wikipedia.org/wiki/St._James's_Parish_Church,_Ljubljana> (wikipedia) · pytania: his-31
+- <https://www.britannica.com/biography/Maria-Theresa> (encyklopedia) · pytania: his-32
+- <https://en.wikipedia.org/wiki/Maria_Theresa> (wikipedia) · pytania: his-32
+- <https://en.wikipedia.org/wiki/Valentin_Vodnik> (wikipedia) · pytania: his-33
+- <https://en.wikipedia.org/wiki/Sigmund_Zois> (wikipedia) · pytania: his-34
+- <https://en.wikipedia.org/wiki/Illyrian_Provinces> (wikipedia) · pytania: his-35
+- <https://www.britannica.com/event/Congress-of-Laibach> (encyklopedia) · pytania: his-36
+- <https://en.wikipedia.org/wiki/Congress_of_Laibach> (wikipedia) · pytania: his-36
+- <https://en.wikipedia.org/wiki/Matija_Čop> (wikipedia) · pytania: his-37
+- <https://en.wikipedia.org/wiki/United_Slovenia> (wikipedia) · pytania: his-38
+- <https://en.wikipedia.org/wiki/Janez_Bleiweis> (wikipedia) · pytania: his-39
+- <https://en.wikipedia.org/wiki/Ljutomer> (wikipedia) · pytania: his-40
+- <https://en.wikipedia.org/wiki/Austrian_Southern_Railway> (wikipedia) · pytania: his-41
+- <https://en.wikipedia.org/wiki/1895_Ljubljana_earthquake> (wikipedia) · pytania: his-42
+- <https://katoliska-cerkev.si/> (strona instytucji) · pytania: his-43, his-65
+- <https://en.wikipedia.org/wiki/Anton_Martin_Slomšek> (wikipedia) · pytania: his-43
+- <https://en.wikipedia.org/wiki/Frederic_Baraga> (wikipedia) · pytania: his-44
+- <https://www.uw.edu.pl/> (strona instytucji) · pytania: his-45
+- <https://en.wikipedia.org/wiki/Jan_Baudouin_de_Courtenay> (wikipedia) · pytania: his-45
+- <https://en.wikipedia.org/wiki/Battles_of_the_Isonzo> (wikipedia) · pytania: his-46
+- <https://en.wikipedia.org/wiki/A_Farewell_to_Arms> (wikipedia) · pytania: his-47
+- <https://en.wikipedia.org/wiki/Rudolf_Maister> (wikipedia) · pytania: his-48
+- <https://en.wikipedia.org/wiki/Kingdom_of_Yugoslavia> (wikipedia) · pytania: his-49
+- <https://www.muzej-nz.si/> (strona instytucji) · pytania: his-50, his-54, his-55
+- <https://en.wikipedia.org/wiki/Treaty_of_Rapallo,_1920> (wikipedia) · pytania: his-50
+- <https://www.uni-lj.si/> (strona instytucji) · pytania: his-51
+- <https://en.wikipedia.org/wiki/University_of_Ljubljana> (wikipedia) · pytania: his-51
+- <https://en.wikipedia.org/wiki/Slovenia_in_World_War_II> (wikipedia) · pytania: his-52
+- <https://en.wikipedia.org/wiki/Path_of_Remembrance_and_Comradeship> (wikipedia) · pytania: his-53
+- <https://en.wikipedia.org/wiki/Liberation_Front_of_the_Slovene_Nation> (wikipedia) · pytania: his-54
+- <https://en.wikipedia.org/wiki/TIGR> (wikipedia) · pytania: his-55
+- <https://en.wikipedia.org/wiki/Kočevski_Rog_massacre> (wikipedia) · pytania: his-56
+- <https://en.wikipedia.org/wiki/Free_Territory_of_Trieste> (wikipedia) · pytania: his-57
+- <https://www.britannica.com/biography/Josip-Broz-Tito> (encyklopedia) · pytania: his-58
+- <https://en.wikipedia.org/wiki/Josip_Broz_Tito> (wikipedia) · pytania: his-58
+- <https://en.wikipedia.org/wiki/JBTZ-trial> (wikipedia) · pytania: his-59
+- <https://en.wikipedia.org/wiki/Statehood_Day_(Slovenia)> (wikipedia) · pytania: his-60, spo-36
+- <https://en.wikipedia.org/wiki/Ten-Day_War> (wikipedia) · pytania: his-61
+- <https://en.wikipedia.org/wiki/1990_Slovenian_independence_referendum> (wikipedia) · pytania: his-62
+- <https://en.wikipedia.org/wiki/Slovenia_in_the_European_Union> (wikipedia) · pytania: his-63
+- <https://en.wikipedia.org/wiki/Slovenia_and_the_European_Union> (wikipedia) · pytania: his-64
+- <https://en.wikipedia.org/wiki/Pope_John_Paul_II> (wikipedia) · pytania: his-65
+- <https://en.wikipedia.org/wiki/Slovenian_tolar> (wikipedia) · pytania: his-66
+- <https://en.wikipedia.org/wiki/Potica> (wikipedia) · pytania: kul-01
+- <https://en.wikipedia.org/wiki/Prekmurska_gibanica> (wikipedia) · pytania: kul-02
+- <https://en.wikipedia.org/wiki/Kremna_rezina> (wikipedia) · pytania: kul-03
+- <https://en.wikipedia.org/wiki/Kransky> (wikipedia) · pytania: kul-04
+- <https://en.wikipedia.org/wiki/Idrijski_žlikrofi> (wikipedia) · pytania: kul-05
+- <https://en.wikipedia.org/wiki/Prosciutto> (wikipedia) · pytania: kul-06
+- <https://en.wikipedia.org/wiki/Terrano_(grape)> (wikipedia) · pytania: kul-07
+- <https://en.wikipedia.org/wiki/Cviček> (wikipedia) · pytania: kul-08
+- <https://en.wikipedia.org/wiki/Žganci> (wikipedia) · pytania: kul-09
+- <https://en.wikipedia.org/wiki/Jota_(food)> (wikipedia) · pytania: kul-10
+- <https://en.wikipedia.org/wiki/Bogrács> (wikipedia) · pytania: kul-11
+- <https://en.wikipedia.org/wiki/Štruklji> (wikipedia) · pytania: kul-12
+- <https://www.cockta.eu/> (strona instytucji) · pytania: kul-13
+- <https://en.wikipedia.org/wiki/Cockta> (wikipedia) · pytania: kul-13
+- <https://en.wikipedia.org/wiki/France_Prešeren> (wikipedia) · pytania: kul-14
+- <https://en.wikipedia.org/wiki/Zdravljica> (wikipedia) · pytania: kul-15
+- <https://en.wikipedia.org/wiki/A_Wreath_of_Sonnets> (wikipedia) · pytania: kul-16
+- <https://en.wikipedia.org/wiki/Ivan_Cankar> (wikipedia) · pytania: kul-17
+- <https://en.wikipedia.org/wiki/Josip_Jurčič> (wikipedia) · pytania: kul-18
+- <https://en.wikipedia.org/wiki/Martin_Krpan> (wikipedia) · pytania: kul-19
+- <https://en.wikipedia.org/wiki/Alamut_(Bartol_novel)> (wikipedia) · pytania: kul-20
+- <https://en.wikipedia.org/wiki/Boris_Pahor> (wikipedia) · pytania: kul-21
+- <https://en.wikipedia.org/wiki/Srečko_Kosovel> (wikipedia) · pytania: kul-22
+- <https://www.ff.uni-lj.si/> (strona instytucji) · pytania: kul-23
+- <https://en.wikipedia.org/wiki/Slavoj_Žižek> (wikipedia) · pytania: kul-23
+- <https://www.laibach.org/> (strona instytucji) · pytania: kul-24
+- <https://en.wikipedia.org/wiki/Laibach_(band)> (wikipedia) · pytania: kul-24
+- <https://www.rtvslo.si/> (strona instytucji) · pytania: kul-25, spo-10
+- <https://en.wikipedia.org/wiki/Joker_Out> (wikipedia) · pytania: kul-25
+- <https://www.avsenik.com/> (strona instytucji) · pytania: kul-26
+- <https://en.wikipedia.org/wiki/Slavko_Avsenik> (wikipedia) · pytania: kul-26
+- <https://www.ng-slo.si/> (strona instytucji) · pytania: kul-27, kul-48
+- <https://en.wikipedia.org/wiki/Ivan_Grohar> (wikipedia) · pytania: kul-27
+- <https://en.wikipedia.org/wiki/Jože_Plečnik> (wikipedia) · pytania: kul-28
+- <https://en.wikipedia.org/wiki/Jacobus_Gallus> (wikipedia) · pytania: kul-29
+- <https://www.filharmonija.si/> (strona instytucji) · pytania: kul-30, kul-43
+- <https://en.wikipedia.org/wiki/Gustav_Mahler> (wikipedia) · pytania: kul-30
+- <https://en.wikipedia.org/wiki/Hugo_Wolf> (wikipedia) · pytania: kul-31
+- <https://www.kurentovanje.net/> (strona instytucji) · pytania: kul-32
+- <https://en.wikipedia.org/wiki/Kurentovanje> (wikipedia) · pytania: kul-32
+- <https://en.wikipedia.org/wiki/Martinmas> (wikipedia) · pytania: kul-33
+- <https://www.czs.si/> (strona instytucji) · pytania: kul-34, kul-35
+- <https://en.wikipedia.org/wiki/Carniolan_honey_bee> (wikipedia) · pytania: kul-34
+- <https://en.wikipedia.org/wiki/World_Bee_Day> (wikipedia) · pytania: kul-35
+- <https://www.britannica.com/topic/Slovene-language> (encyklopedia) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/Dual_(grammatical_number)> (wikipedia) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/Kekec> (wikipedia) · pytania: kul-37
+- <https://en.wikipedia.org/wiki/Zlatorog> (wikipedia) · pytania: kul-38
+- <https://en.wikipedia.org/wiki/Hayrack> (wikipedia) · pytania: kul-39
+- <https://en.wikipedia.org/wiki/Republic_Square,_Ljubljana> (wikipedia) · pytania: kul-40
+- <https://www.vilenica.si/> (strona instytucji) · pytania: kul-41
+- <https://en.wikipedia.org/wiki/Vilenica_International_Literary_Festival> (wikipedia) · pytania: kul-41
+- <https://en.wikipedia.org/wiki/Prešeren_Day> (wikipedia) · pytania: kul-42
+- <https://en.wikipedia.org/wiki/Slovenian_Philharmonic_Orchestra> (wikipedia) · pytania: kul-43
+- <https://en.wikipedia.org/wiki/Slovenian_cuisine> (wikipedia) · pytania: kul-44, kul-49, spo-38
+- <https://en.wikipedia.org/wiki/Slovene_language> (wikipedia) · pytania: kul-45, kul-46, kul-60, spo-54
+- <https://en.wikipedia.org/wiki/Forma_viva> (wikipedia) · pytania: kul-47
+- <https://en.wikipedia.org/wiki/Zoran_Mušič> (wikipedia) · pytania: kul-48
+- <https://en.wikipedia.org/wiki/Pumpkin_seed_oil> (wikipedia) · pytania: kul-50
+- <https://en.wikipedia.org/wiki/Licitar> (wikipedia) · pytania: kul-51
+- <https://en.wikipedia.org/wiki/Miki_Muster> (wikipedia) · pytania: kul-52
+- <https://en.wikipedia.org/wiki/Max_Fabiani> (wikipedia) · pytania: kul-53
+- <https://en.wikipedia.org/wiki/Ded_Moroz> (wikipedia) · pytania: kul-54
+- <https://en.wikipedia.org/wiki/Herman_Potočnik> (wikipedia) · pytania: kul-55
+- <https://www.ijs.si/> (strona instytucji) · pytania: kul-56
+- <https://en.wikipedia.org/wiki/Jožef_Stefan> (wikipedia) · pytania: kul-56
+- <https://www.nobelprize.org/> (strona instytucji) · pytania: kul-57
+- <https://en.wikipedia.org/wiki/Fritz_Pregl> (wikipedia) · pytania: kul-57
+- <https://en.wikipedia.org/wiki/Oton_Župančič> (wikipedia) · pytania: kul-58
+- <https://en.wikipedia.org/wiki/Cerkno> (wikipedia) · pytania: kul-59
+- <https://www.hisafranko.com/> (strona instytucji) · pytania: kul-61
+- <https://en.wikipedia.org/wiki/Ana_Roš> (wikipedia) · pytania: kul-61
+- <https://en.wikipedia.org/wiki/Reformation_Day> (wikipedia) · pytania: kul-62
+- <https://www.pzs.si/> (strona instytucji) · pytania: kul-63, kul-64, spo-29, spo-65
+- <https://en.wikipedia.org/wiki/Tomaž_Humar> (wikipedia) · pytania: kul-63
+- <https://en.wikipedia.org/wiki/Davo_Karničar> (wikipedia) · pytania: kul-64
+- <https://en.wikipedia.org/wiki/Diatonic_button_accordion> (wikipedia) · pytania: kul-65
+- <https://en.wikipedia.org/wiki/Simon_Gregorčič> (wikipedia) · pytania: kul-66
+- <https://www.predsednica-slo.si/> (strona instytucji) · pytania: spo-01, spo-02, spo-59
+- <https://en.wikipedia.org/wiki/Nataša_Pirc_Musar> (wikipedia) · pytania: spo-01
+- <https://en.wikipedia.org/wiki/President_of_Slovenia> (wikipedia) · pytania: spo-02
+- <https://www.dz-rs.si/> (strona instytucji) · pytania: spo-03, spo-09, spo-58
+- <https://en.wikipedia.org/wiki/National_Assembly_(Slovenia)> (wikipedia) · pytania: spo-03, spo-09, spo-58
+- <https://www.ds-rs.si/> (strona instytucji) · pytania: spo-04
+- <https://en.wikipedia.org/wiki/National_Council_(Slovenia)> (wikipedia) · pytania: spo-04
+- <https://en.wikipedia.org/wiki/Adoption_of_the_euro_in_Slovenia> (wikipedia) · pytania: spo-05
+- <https://www.akos-rs.si/> (strona instytucji) · pytania: spo-06
+- <https://en.wikipedia.org/wiki/Telephone_numbers_in_Slovenia> (wikipedia) · pytania: spo-06
+- <https://www.register.si/> (strona instytucji) · pytania: spo-07
+- <https://en.wikipedia.org/wiki/.si> (wikipedia) · pytania: spo-07
+- <https://en.wikipedia.org/wiki/Municipalities_of_Slovenia> (wikipedia) · pytania: spo-08
+- <https://en.wikipedia.org/wiki/RTV_Slovenija> (wikipedia) · pytania: spo-10
+- <https://www.kzs.si/> (strona instytucji) · pytania: spo-11, spo-12
+- <https://en.wikipedia.org/wiki/Luka_Dončić> (wikipedia) · pytania: spo-11
+- <https://en.wikipedia.org/wiki/EuroBasket_2017> (wikipedia) · pytania: spo-12
+- <https://www.letour.fr/> (strona instytucji) · pytania: spo-13
+- <https://en.wikipedia.org/wiki/Tadej_Pogačar> (wikipedia) · pytania: spo-13
+- <https://www.lavuelta.es/> (strona instytucji) · pytania: spo-14
+- <https://en.wikipedia.org/wiki/Primož_Roglič> (wikipedia) · pytania: spo-14
+- <https://www.olympic.si/> (strona instytucji) · pytania: spo-15, spo-41, spo-52
+- <https://en.wikipedia.org/wiki/Janja_Garnbret> (wikipedia) · pytania: spo-15
+- <https://en.wikipedia.org/wiki/Domen_Prevc> (wikipedia) · pytania: spo-16
+- <https://www.sloski.si/> (strona instytucji) · pytania: spo-17, spo-43
+- <https://en.wikipedia.org/wiki/Tina_Maze> (wikipedia) · pytania: spo-17
+- <https://www.nzs.si/> (strona instytucji) · pytania: spo-18, spo-19
+- <https://en.wikipedia.org/wiki/Jan_Oblak> (wikipedia) · pytania: spo-18
+- <https://en.wikipedia.org/wiki/Benjamin_Šeško> (wikipedia) · pytania: spo-19
+- <https://www.elanskis.com/> (strona instytucji) · pytania: spo-20
+- <https://en.wikipedia.org/wiki/Elan_(company)> (wikipedia) · pytania: spo-20
+- <https://www.gorenje.com/> (strona instytucji) · pytania: spo-21
+- <https://en.wikipedia.org/wiki/Gorenje> (wikipedia) · pytania: spo-21
+- <https://www.krka.biz/> (strona instytucji) · pytania: spo-22
+- <https://en.wikipedia.org/wiki/Krka_(company)> (wikipedia) · pytania: spo-22
+- <https://en.wikipedia.org/wiki/Revoz> (wikipedia) · pytania: spo-23
+- <https://www.pipistrel-aircraft.com/> (strona instytucji) · pytania: spo-24
+- <https://en.wikipedia.org/wiki/Pipistrel> (wikipedia) · pytania: spo-24
+- <https://www.akrapovic.com/> (strona instytucji) · pytania: spo-25
+- <https://en.wikipedia.org/wiki/Akrapovič> (wikipedia) · pytania: spo-25
+- <https://en.wikipedia.org/wiki/Pivovarna_Laško> (wikipedia) · pytania: spo-26
+- <https://en.wikipedia.org/wiki/Donat_Mg> (wikipedia) · pytania: spo-27
+- <https://en.wikipedia.org/wiki/Alpine_Association_of_Slovenia> (wikipedia) · pytania: spo-29
+- <https://en.wikipedia.org/wiki/Motorways_in_Slovenia> (wikipedia) · pytania: spo-30
+- <https://en.wikipedia.org/wiki/Speed_limits_by_country> (wikipedia) · pytania: spo-31
+- <https://www.avp-rs.si/> (strona instytucji) · pytania: spo-32
+- <https://en.wikipedia.org/wiki/Daytime_running_lamp> (wikipedia) · pytania: spo-32
+- <https://www.slo-zeleznice.si/> (strona instytucji) · pytania: spo-33
+- <https://en.wikipedia.org/wiki/Slovenian_Railways> (wikipedia) · pytania: spo-33
+- <https://www.bicikelj.si/> (strona instytucji) · pytania: spo-34
+- <https://en.wikipedia.org/wiki/BicikeLJ> (wikipedia) · pytania: spo-34
+- <https://en.wikipedia.org/wiki/European_Green_Capital_Award> (wikipedia) · pytania: spo-35
+- <https://en.wikipedia.org/wiki/Public_holidays_in_Slovenia> (wikipedia) · pytania: spo-37, spo-61
+- <https://en.wikipedia.org/wiki/Education_in_Slovenia> (wikipedia) · pytania: spo-39
+- <https://www.ric.si/> (strona instytucji) · pytania: spo-40
+- <https://en.wikipedia.org/wiki/Matura> (wikipedia) · pytania: spo-40
+- <https://en.wikipedia.org/wiki/Leon_Štukelj> (wikipedia) · pytania: spo-41
+- <https://www.rokometna-zveza.si/> (strona instytucji) · pytania: spo-42
+- <https://en.wikipedia.org/wiki/2017_World_Men's_Handball_Championship> (wikipedia) · pytania: spo-42
+- <https://en.wikipedia.org/wiki/Peter_Prevc> (wikipedia) · pytania: spo-43
+- <https://en.wikipedia.org/wiki/Time_in_Slovenia> (wikipedia) · pytania: spo-44
+- <https://www.us-rs.si/> (strona instytucji) · pytania: spo-45
+- <https://en.wikipedia.org/wiki/Constitution_of_Slovenia> (wikipedia) · pytania: spo-45
+- <https://en.wikipedia.org/wiki/Prime_Minister_of_Slovenia> (wikipedia) · pytania: spo-46
+- <https://www.gasilec.net/> (strona instytucji) · pytania: spo-47
+- <https://en.wikipedia.org/wiki/Volunteer_fire_department> (wikipedia) · pytania: spo-47
+- <https://www.hit.si/> (strona instytucji) · pytania: spo-48
+- <https://www.sport-ljubljana.si/> (strona instytucji) · pytania: spo-49
+- <https://en.wikipedia.org/wiki/Stožice_Stadium> (wikipedia) · pytania: spo-49
+- <https://www.nkmaribor.com/> (strona instytucji) · pytania: spo-50
+- <https://en.wikipedia.org/wiki/Ljudski_vrt> (wikipedia) · pytania: spo-50
+- <https://www.hokej.si/> (strona instytucji) · pytania: spo-51
+- <https://en.wikipedia.org/wiki/Anže_Kopitar> (wikipedia) · pytania: spo-51
+- <https://en.wikipedia.org/wiki/Petra_Majdič> (wikipedia) · pytania: spo-52
+- <https://www.fu.gov.si/> (strona instytucji) · pytania: spo-53
+- <https://en.wikipedia.org/wiki/European_Union_value_added_tax> (wikipedia) · pytania: spo-53
+- <https://www.pokljuka.si/> (strona instytucji) · pytania: spo-55
+- <https://en.wikipedia.org/wiki/Pokljuka> (wikipedia) · pytania: spo-55
+- <https://en.wikipedia.org/wiki/Schengen_Area> (wikipedia) · pytania: spo-57
+- <https://en.wikipedia.org/wiki/Milan_Kučan> (wikipedia) · pytania: spo-59
+- <https://www.acer.europa.eu/> (strona instytucji) · pytania: spo-60
+- <https://en.wikipedia.org/wiki/Agency_for_the_Cooperation_of_Energy_Regulators> (wikipedia) · pytania: spo-60
+- <https://www.festival-lent.si/> (strona instytucji) · pytania: spo-62
+- <https://en.wikipedia.org/wiki/Festival_Lent> (wikipedia) · pytania: spo-62
+- <https://www.upr.si/> (strona instytucji) · pytania: spo-63
+- <https://en.wikipedia.org/wiki/University_of_Primorska> (wikipedia) · pytania: spo-63
+- <https://en.wikipedia.org/wiki/112_(emergency_telephone_number)> (wikipedia) · pytania: spo-64
+- <https://en.wikipedia.org/wiki/Alojz_Knafelc> (wikipedia) · pytania: spo-65

@@ -1,0 +1,618 @@
+# Źródła · Niemcy
+
+Data dostępu: 2026-11-04. Lista wygenerowana przez build.py.
+
+- <https://www.visitberlin.de/> (strona instytucji) · pytania: zab-01, zab-03, zab-05, zab-06, geo-22, kul-01, kul-64
+- <https://en.wikipedia.org/wiki/Brandenburg_Gate> (wikipedia) · pytania: zab-01
+- <https://www.bundestag.de/> (strona instytucji) · pytania: zab-02, spo-04
+- <https://en.wikipedia.org/wiki/Reichstag_building> (wikipedia) · pytania: zab-02
+- <https://en.wikipedia.org/wiki/Fernsehturm_Berlin> (wikipedia) · pytania: zab-03
+- <https://whc.unesco.org/en/list/896> (instytucja) · pytania: zab-04
+- <https://en.wikipedia.org/wiki/Museum_Island> (wikipedia) · pytania: zab-04
+- <https://en.wikipedia.org/wiki/East_Side_Gallery> (wikipedia) · pytania: zab-05
+- <https://en.wikipedia.org/wiki/Checkpoint_Charlie> (wikipedia) · pytania: zab-06
+- <https://www.stiftung-denkmal.de/> (strona instytucji) · pytania: zab-07
+- <https://en.wikipedia.org/wiki/Memorial_to_the_Murdered_Jews_of_Europe> (wikipedia) · pytania: zab-07
+- <https://whc.unesco.org/en/list/532> (instytucja) · pytania: zab-08
+- <https://en.wikipedia.org/wiki/Sanssouci> (wikipedia) · pytania: zab-08
+- <https://www.potsdamtourismus.de/> (strona instytucji) · pytania: zab-09
+- <https://en.wikipedia.org/wiki/Glienicke_Bridge> (wikipedia) · pytania: zab-09
+- <https://www.spreewald.de/> (strona instytucji) · pytania: zab-10
+- <https://en.wikipedia.org/wiki/Spreewald> (wikipedia) · pytania: zab-10
+- <https://www.frauenkirche-dresden.de/> (strona instytucji) · pytania: zab-11
+- <https://en.wikipedia.org/wiki/Frauenkirche,_Dresden> (wikipedia) · pytania: zab-11
+- <https://www.skd.museum/> (strona instytucji) · pytania: zab-12, his-32, his-33
+- <https://en.wikipedia.org/wiki/Zwinger_(Dresden)> (wikipedia) · pytania: zab-12
+- <https://www.meissen.com/> (strona instytucji) · pytania: zab-13
+- <https://en.wikipedia.org/wiki/Meissen_porcelain> (wikipedia) · pytania: zab-13
+- <https://www.saechsische-schweiz.de/> (strona instytucji) · pytania: zab-14
+- <https://en.wikipedia.org/wiki/Bastei> (wikipedia) · pytania: zab-14
+- <https://www.goerlitz.de/> (strona instytucji) · pytania: zab-15, geo-68
+- <https://en.wikipedia.org/wiki/Görlitz> (wikipedia) · pytania: zab-15, geo-68
+- <https://www.chemnitz.de/> (strona instytucji) · pytania: zab-16
+- <https://en.wikipedia.org/wiki/Karl_Marx_Monument,_Chemnitz> (wikipedia) · pytania: zab-16
+- <https://www.leipzig.de/> (strona instytucji) · pytania: zab-17, geo-30, his-38
+- <https://en.wikipedia.org/wiki/Monument_to_the_Battle_of_the_Nations> (wikipedia) · pytania: zab-17
+- <https://whc.unesco.org/en/list/897> (instytucja) · pytania: zab-18
+- <https://en.wikipedia.org/wiki/Wartburg> (wikipedia) · pytania: zab-18
+- <https://www.erfurt-tourismus.de/> (strona instytucji) · pytania: zab-19
+- <https://en.wikipedia.org/wiki/Krämerbrücke> (wikipedia) · pytania: zab-19
+- <https://whc.unesco.org/en/list/846> (instytucja) · pytania: zab-20
+- <https://en.wikipedia.org/wiki/Goethe–Schiller_Monument> (wikipedia) · pytania: zab-20
+- <https://www.klassik-stiftung.de/> (strona instytucji) · pytania: zab-21, kul-15, kul-16
+- <https://en.wikipedia.org/wiki/Duchess_Anna_Amalia_Library> (wikipedia) · pytania: zab-21
+- <https://whc.unesco.org/en/list/783> (instytucja) · pytania: zab-22, his-25
+- <https://en.wikipedia.org/wiki/All_Saints'_Church,_Wittenberg> (wikipedia) · pytania: zab-22
+- <https://whc.unesco.org/en/list/729> (instytucja) · pytania: zab-23, kul-25
+- <https://en.wikipedia.org/wiki/Bauhaus_Dessau> (wikipedia) · pytania: zab-23
+- <https://www.landesmuseum-vorgeschichte.de/> (strona instytucji) · pytania: zab-24
+- <https://en.wikipedia.org/wiki/Nebra_sky_disc> (wikipedia) · pytania: zab-24
+- <https://www.magdeburg-tourist.de/> (strona instytucji) · pytania: zab-25
+- <https://en.wikipedia.org/wiki/Magdeburg_Water_Bridge> (wikipedia) · pytania: zab-25
+- <https://whc.unesco.org/en/list/1470> (instytucja) · pytania: zab-26
+- <https://en.wikipedia.org/wiki/Naumburg_Cathedral> (wikipedia) · pytania: zab-26
+- <https://www.nationalpark-harz.de/> (strona instytucji) · pytania: zab-27
+- <https://en.wikipedia.org/wiki/Brocken> (wikipedia) · pytania: zab-27
+- <https://www.elbphilharmonie.de/> (strona instytucji) · pytania: zab-28
+- <https://en.wikipedia.org/wiki/Elbphilharmonie> (wikipedia) · pytania: zab-28
+- <https://whc.unesco.org/en/list/1467> (instytucja) · pytania: zab-29
+- <https://en.wikipedia.org/wiki/Speicherstadt> (wikipedia) · pytania: zab-29
+- <https://www.st-michaelis.de/> (strona instytucji) · pytania: zab-30
+- <https://en.wikipedia.org/wiki/St._Michael's_Church,_Hamburg> (wikipedia) · pytania: zab-30
+- <https://www.bremen.de/> (strona instytucji) · pytania: zab-31, geo-62
+- <https://en.wikipedia.org/wiki/Town_Musicians_of_Bremen> (wikipedia) · pytania: zab-31
+- <https://whc.unesco.org/en/list/1087> (instytucja) · pytania: zab-32
+- <https://en.wikipedia.org/wiki/Bremen_Roland> (wikipedia) · pytania: zab-32
+- <https://whc.unesco.org/en/list/272> (instytucja) · pytania: zab-33
+- <https://en.wikipedia.org/wiki/Holstentor> (wikipedia) · pytania: zab-33
+- <https://www.kiel-canal.de/> (strona instytucji) · pytania: zab-35
+- <https://en.wikipedia.org/wiki/Kiel_Canal> (wikipedia) · pytania: zab-35
+- <https://whc.unesco.org/en/list/1553> (instytucja) · pytania: zab-36
+- <https://en.wikipedia.org/wiki/Hedeby> (wikipedia) · pytania: zab-36
+- <https://whc.unesco.org/en/list/623> (instytucja) · pytania: zab-37
+- <https://en.wikipedia.org/wiki/Rammelsberg> (wikipedia) · pytania: zab-37
+- <https://www.hameln.de/> (strona instytucji) · pytania: zab-38
+- <https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin> (wikipedia) · pytania: zab-38
+- <https://whc.unesco.org/en/list/187> (instytucja) · pytania: zab-39
+- <https://en.wikipedia.org/wiki/Thousand-year_Rose> (wikipedia) · pytania: zab-39
+- <https://whc.unesco.org/en/list/1368> (instytucja) · pytania: zab-40
+- <https://en.wikipedia.org/wiki/Fagus_Factory> (wikipedia) · pytania: zab-40
+- <https://www.hannover.de/> (strona instytucji) · pytania: zab-41, geo-17
+- <https://en.wikipedia.org/wiki/Herrenhausen_Gardens> (wikipedia) · pytania: zab-41
+- <https://www.ruegen.de/> (strona instytucji) · pytania: zab-42, zab-45, geo-13
+- <https://en.wikipedia.org/wiki/Jasmund_National_Park> (wikipedia) · pytania: zab-42
+- <https://www.schloss-schwerin.de/> (strona instytucji) · pytania: zab-43
+- <https://en.wikipedia.org/wiki/Schwerin_Palace> (wikipedia) · pytania: zab-43
+- <https://whc.unesco.org/en/list/1067> (instytucja) · pytania: zab-44
+- <https://en.wikipedia.org/wiki/Stralsund> (wikipedia) · pytania: zab-44
+- <https://en.wikipedia.org/wiki/Prora> (wikipedia) · pytania: zab-45
+- <https://whc.unesco.org/en/list/292> (instytucja) · pytania: zab-46
+- <https://en.wikipedia.org/wiki/Cologne_Cathedral> (wikipedia) · pytania: zab-46, zab-47
+- <https://www.koelner-dom.de/> (strona instytucji) · pytania: zab-47
+- <https://whc.unesco.org/en/list/3> (instytucja) · pytania: zab-48
+- <https://en.wikipedia.org/wiki/Aachen_Cathedral> (wikipedia) · pytania: zab-48
+- <https://whc.unesco.org/en/list/975> (instytucja) · pytania: zab-49
+- <https://en.wikipedia.org/wiki/Zollverein_Coal_Mine_Industrial_Complex> (wikipedia) · pytania: zab-49
+- <https://www.wsw-online.de/> (strona instytucji) · pytania: zab-50
+- <https://en.wikipedia.org/wiki/Wuppertal_Schwebebahn> (wikipedia) · pytania: zab-50
+- <https://www.hermannsdenkmal.de/> (strona instytucji) · pytania: zab-51
+- <https://en.wikipedia.org/wiki/Hermannsdenkmal> (wikipedia) · pytania: zab-51
+- <https://www.beethoven.de/> (strona instytucji) · pytania: zab-52, kul-19
+- <https://en.wikipedia.org/wiki/Beethoven_House> (wikipedia) · pytania: zab-52
+- <https://www.frankfurt-tourismus.de/> (strona instytucji) · pytania: zab-53, kul-65
+- <https://en.wikipedia.org/wiki/Frankfurt> (wikipedia) · pytania: zab-53
+- <https://www.frankfurt.de/> (strona instytucji) · pytania: zab-54, geo-35
+- <https://en.wikipedia.org/wiki/St._Paul's_Church,_Frankfurt> (wikipedia) · pytania: zab-54
+- <https://whc.unesco.org/en/list/1413> (instytucja) · pytania: zab-55
+- <https://en.wikipedia.org/wiki/Bergpark_Wilhelmshöhe> (wikipedia) · pytania: zab-55
+- <https://whc.unesco.org/en/list/720> (instytucja) · pytania: zab-56
+- <https://en.wikipedia.org/wiki/Messel_pit> (wikipedia) · pytania: zab-56
+- <https://whc.unesco.org/en/list/367> (instytucja) · pytania: zab-57, his-04
+- <https://en.wikipedia.org/wiki/Porta_Nigra> (wikipedia) · pytania: zab-57
+- <https://whc.unesco.org/en/list/1066> (instytucja) · pytania: zab-58, geo-38
+- <https://en.wikipedia.org/wiki/Lorelei> (wikipedia) · pytania: zab-58
+- <https://www.koblenz-touristik.de/> (strona instytucji) · pytania: zab-59
+- <https://en.wikipedia.org/wiki/Deutsches_Eck> (wikipedia) · pytania: zab-59
+- <https://whc.unesco.org/en/list/168> (instytucja) · pytania: zab-60
+- <https://en.wikipedia.org/wiki/Speyer_Cathedral> (wikipedia) · pytania: zab-60
+- <https://www.burg-eltz.de/> (strona instytucji) · pytania: zab-61
+- <https://en.wikipedia.org/wiki/Eltz_Castle> (wikipedia) · pytania: zab-61
+- <https://whc.unesco.org/en/list/687> (instytucja) · pytania: zab-62
+- <https://en.wikipedia.org/wiki/Völklingen_Ironworks> (wikipedia) · pytania: zab-62
+- <https://www.urlaub.saarland/> (strona instytucji) · pytania: zab-63
+- <https://en.wikipedia.org/wiki/Saarschleife> (wikipedia) · pytania: zab-63
+- <https://www.neuschwanstein.de/> (strona instytucji) · pytania: zab-64
+- <https://en.wikipedia.org/wiki/Neuschwanstein_Castle> (wikipedia) · pytania: zab-64
+- <https://www.muenchen.de/> (strona instytucji) · pytania: zab-65, geo-45, his-70, kul-02
+- <https://en.wikipedia.org/wiki/Marienplatz> (wikipedia) · pytania: zab-65
+- <https://www.hofbraeuhaus.de/> (strona instytucji) · pytania: zab-66
+- <https://en.wikipedia.org/wiki/Hofbräuhaus_am_Platzl> (wikipedia) · pytania: zab-66
+- <https://whc.unesco.org/en/list/1155> (instytucja) · pytania: zab-67, his-07
+- <https://en.wikipedia.org/wiki/Stone_Bridge_(Regensburg)> (wikipedia) · pytania: zab-67
+- <https://www.fugger.de/> (strona instytucji) · pytania: zab-68
+- <https://en.wikipedia.org/wiki/Fuggerei> (wikipedia) · pytania: zab-68
+- <https://whc.unesco.org/en/list/169> (instytucja) · pytania: zab-69
+- <https://en.wikipedia.org/wiki/Würzburg_Residence> (wikipedia) · pytania: zab-69
+- <https://www.rothenburg-tourismus.de/> (strona instytucji) · pytania: zab-70
+- <https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber> (wikipedia) · pytania: zab-70
+- <https://www.herrenchiemsee.de/> (strona instytucji) · pytania: zab-71
+- <https://en.wikipedia.org/wiki/Herrenchiemsee> (wikipedia) · pytania: zab-71
+- <https://whc.unesco.org/en/list/271> (instytucja) · pytania: zab-72
+- <https://en.wikipedia.org/wiki/Pilgrimage_Church_of_Wies> (wikipedia) · pytania: zab-72
+- <https://www.schloss-heidelberg.de/> (strona instytucji) · pytania: zab-73
+- <https://en.wikipedia.org/wiki/Heidelberg_Tun> (wikipedia) · pytania: zab-73
+- <https://www.ulmer-muenster.de/> (strona instytucji) · pytania: zab-74
+- <https://en.wikipedia.org/wiki/Ulm_Minster> (wikipedia) · pytania: zab-74
+- <https://www.burg-hohenzollern.com/> (strona instytucji) · pytania: zab-75
+- <https://en.wikipedia.org/wiki/Hohenzollern_Castle> (wikipedia) · pytania: zab-75
+- <https://whc.unesco.org/en/list/546> (instytucja) · pytania: zab-76
+- <https://en.wikipedia.org/wiki/Maulbronn_Monastery> (wikipedia) · pytania: zab-76
+- <https://www.schwarzwald-tourismus.info/> (strona instytucji) · pytania: zab-77, geo-49, kul-06
+- <https://en.wikipedia.org/wiki/Cuckoo_clock> (wikipedia) · pytania: zab-77
+- <https://www.mainau.de/> (strona instytucji) · pytania: zab-78
+- <https://en.wikipedia.org/wiki/Mainau> (wikipedia) · pytania: zab-78
+- <https://www.bundesregierung.de/> (strona instytucji) · pytania: zab-79, zab-80, his-65, spo-64
+- <https://en.wikipedia.org/wiki/Flag_of_Germany> (wikipedia) · pytania: zab-79
+- <https://en.wikipedia.org/wiki/Coat_of_arms_of_Germany> (wikipedia) · pytania: zab-80
+- <https://www.bundesbank.de/> (strona instytucji) · pytania: zab-81, his-72
+- <https://en.wikipedia.org/wiki/German_euro_coins> (wikipedia) · pytania: zab-81
+- <https://www.bundesrat.de/> (strona instytucji) · pytania: geo-01, spo-05
+- <https://en.wikipedia.org/wiki/States_of_Germany> (wikipedia) · pytania: geo-01
+- <https://www.britannica.com/place/Berlin> (encyklopedia) · pytania: geo-02
+- <https://en.wikipedia.org/wiki/Berlin> (wikipedia) · pytania: geo-02
+- <https://www.destatis.de/> (strona instytucji) · pytania: geo-03, geo-59, geo-61, geo-64, spo-53
+- <https://en.wikipedia.org/wiki/Demographics_of_Germany> (wikipedia) · pytania: geo-03
+- <https://www.britannica.com/place/Germany> (encyklopedia) · pytania: geo-04, geo-44, his-61
+- <https://en.wikipedia.org/wiki/Borders_of_Germany> (wikipedia) · pytania: geo-04
+- <https://www.britannica.com/place/Oder-Neisse-Line> (encyklopedia) · pytania: geo-05, his-68
+- <https://en.wikipedia.org/wiki/Oder–Neisse_line> (wikipedia) · pytania: geo-05
+- <https://zugspitze.de/> (strona instytucji) · pytania: geo-06
+- <https://en.wikipedia.org/wiki/Zugspitze> (wikipedia) · pytania: geo-06
+- <https://www.britannica.com/place/Rhine-River> (encyklopedia) · pytania: geo-07
+- <https://en.wikipedia.org/wiki/Rhine> (wikipedia) · pytania: geo-07
+- <https://www.britannica.com/place/Elbe-River> (encyklopedia) · pytania: geo-08
+- <https://en.wikipedia.org/wiki/Elbe> (wikipedia) · pytania: geo-08
+- <https://www.hafen-hamburg.de/> (strona instytucji) · pytania: geo-09
+- <https://en.wikipedia.org/wiki/Port_of_Hamburg> (wikipedia) · pytania: geo-09
+- <https://whc.unesco.org/en/list/1314> (instytucja) · pytania: geo-10
+- <https://en.wikipedia.org/wiki/Wadden_Sea> (wikipedia) · pytania: geo-10
+- <https://www.helgoland.de/> (strona instytucji) · pytania: geo-11
+- <https://en.wikipedia.org/wiki/Heligoland> (wikipedia) · pytania: geo-11
+- <https://www.sylt.de/> (strona instytucji) · pytania: geo-12
+- <https://en.wikipedia.org/wiki/Sylt> (wikipedia) · pytania: geo-12
+- <https://en.wikipedia.org/wiki/Rügen> (wikipedia) · pytania: geo-13
+- <https://www.usedom.de/> (strona instytucji) · pytania: geo-14
+- <https://en.wikipedia.org/wiki/Usedom> (wikipedia) · pytania: geo-14
+- <https://www.mueritz.de/> (strona instytucji) · pytania: geo-15
+- <https://en.wikipedia.org/wiki/Müritz> (wikipedia) · pytania: geo-15
+- <https://www.kiel.de/> (strona instytucji) · pytania: geo-16
+- <https://en.wikipedia.org/wiki/Kiel> (wikipedia) · pytania: geo-16
+- <https://en.wikipedia.org/wiki/Hanover> (wikipedia) · pytania: geo-17
+- <https://www.schwerin.de/> (strona instytucji) · pytania: geo-18
+- <https://en.wikipedia.org/wiki/Schwerin> (wikipedia) · pytania: geo-18
+- <https://www.lueneburger-heide.de/> (strona instytucji) · pytania: geo-19
+- <https://en.wikipedia.org/wiki/Lüneburg_Heath> (wikipedia) · pytania: geo-19
+- <https://www.ostfriesland.de/> (strona instytucji) · pytania: geo-20
+- <https://en.wikipedia.org/wiki/East_Frisia> (wikipedia) · pytania: geo-20
+- <https://www.bremerhaven.de/> (strona instytucji) · pytania: geo-21
+- <https://en.wikipedia.org/wiki/Bremerhaven> (wikipedia) · pytania: geo-21
+- <https://en.wikipedia.org/wiki/Spree> (wikipedia) · pytania: geo-22
+- <https://www.potsdam.de/> (strona instytucji) · pytania: geo-23
+- <https://en.wikipedia.org/wiki/Potsdam> (wikipedia) · pytania: geo-23
+- <https://www.frankfurt-oder.de/> (strona instytucji) · pytania: geo-24
+- <https://en.wikipedia.org/wiki/Frankfurt_(Oder)> (wikipedia) · pytania: geo-24
+- <https://www.dresden.de/> (strona instytucji) · pytania: geo-25, kul-09, kul-59
+- <https://en.wikipedia.org/wiki/Dresden> (wikipedia) · pytania: geo-25
+- <https://www.magdeburg.de/> (strona instytucji) · pytania: geo-26
+- <https://en.wikipedia.org/wiki/Magdeburg> (wikipedia) · pytania: geo-26
+- <https://www.erfurt.de/> (strona instytucji) · pytania: geo-27
+- <https://en.wikipedia.org/wiki/Erfurt> (wikipedia) · pytania: geo-27
+- <https://www.rennsteig.de/> (strona instytucji) · pytania: geo-28
+- <https://en.wikipedia.org/wiki/Rennsteig> (wikipedia) · pytania: geo-28
+- <https://whc.unesco.org/en/list/1478> (instytucja) · pytania: geo-29
+- <https://en.wikipedia.org/wiki/Ore_Mountains> (wikipedia) · pytania: geo-29
+- <https://en.wikipedia.org/wiki/Leipzig> (wikipedia) · pytania: geo-30
+- <https://www.domowina.de/> (strona instytucji) · pytania: geo-31
+- <https://en.wikipedia.org/wiki/Sorbs> (wikipedia) · pytania: geo-31
+- <https://www.duesseldorf.de/> (strona instytucji) · pytania: geo-32
+- <https://en.wikipedia.org/wiki/Düsseldorf> (wikipedia) · pytania: geo-32
+- <https://www.ruhr-tourismus.de/> (strona instytucji) · pytania: geo-33
+- <https://en.wikipedia.org/wiki/Ruhr> (wikipedia) · pytania: geo-33
+- <https://www.wiesbaden.de/> (strona instytucji) · pytania: geo-34
+- <https://en.wikipedia.org/wiki/Wiesbaden> (wikipedia) · pytania: geo-34
+- <https://en.wikipedia.org/wiki/Main> (wikipedia) · pytania: geo-35
+- <https://www.frankfurt-airport.com/> (strona instytucji) · pytania: geo-36
+- <https://en.wikipedia.org/wiki/Frankfurt_Airport> (wikipedia) · pytania: geo-36
+- <https://www.mainz.de/> (strona instytucji) · pytania: geo-37, his-09
+- <https://en.wikipedia.org/wiki/Mainz> (wikipedia) · pytania: geo-37
+- <https://en.wikipedia.org/wiki/Upper_Middle_Rhine_Valley> (wikipedia) · pytania: geo-38
+- <https://nuerburgring.de/> (strona instytucji) · pytania: geo-39
+- <https://en.wikipedia.org/wiki/Nürburgring> (wikipedia) · pytania: geo-39
+- <https://www.visitmosel.de/> (strona instytucji) · pytania: geo-40
+- <https://en.wikipedia.org/wiki/Moselle> (wikipedia) · pytania: geo-40
+- <https://www.saarbruecken.de/> (strona instytucji) · pytania: geo-41
+- <https://en.wikipedia.org/wiki/Saarbrücken> (wikipedia) · pytania: geo-41
+- <https://www.saarland.de/> (strona instytucji) · pytania: geo-42
+- <https://en.wikipedia.org/wiki/Saarland> (wikipedia) · pytania: geo-42
+- <https://www.pfalz.de/> (strona instytucji) · pytania: geo-43
+- <https://en.wikipedia.org/wiki/Palatinate_(region)> (wikipedia) · pytania: geo-43
+- <https://en.wikipedia.org/wiki/Extreme_points_of_Germany> (wikipedia) · pytania: geo-44
+- <https://en.wikipedia.org/wiki/Munich> (wikipedia) · pytania: geo-45
+- <https://www.stuttgart.de/> (strona instytucji) · pytania: geo-46, geo-53
+- <https://en.wikipedia.org/wiki/Stuttgart> (wikipedia) · pytania: geo-46
+- <https://www.britannica.com/place/Danube-River> (encyklopedia) · pytania: geo-47
+- <https://en.wikipedia.org/wiki/Danube> (wikipedia) · pytania: geo-47
+- <https://www.bodensee.eu/> (strona instytucji) · pytania: geo-48
+- <https://en.wikipedia.org/wiki/Lake_Constance> (wikipedia) · pytania: geo-48
+- <https://en.wikipedia.org/wiki/Feldberg_(Black_Forest)> (wikipedia) · pytania: geo-49
+- <https://www.passau.de/> (strona instytucji) · pytania: geo-50
+- <https://en.wikipedia.org/wiki/Passau> (wikipedia) · pytania: geo-50
+- <https://www.berchtesgaden.de/> (strona instytucji) · pytania: geo-51
+- <https://en.wikipedia.org/wiki/Königssee> (wikipedia) · pytania: geo-51
+- <https://www.nationalpark-berchtesgaden.de/> (strona instytucji) · pytania: geo-52
+- <https://en.wikipedia.org/wiki/Watzmann> (wikipedia) · pytania: geo-52
+- <https://en.wikipedia.org/wiki/Neckar> (wikipedia) · pytania: geo-53
+- <https://www.freiburg.de/> (strona instytucji) · pytania: geo-54
+- <https://en.wikipedia.org/wiki/Vauban,_Freiburg> (wikipedia) · pytania: geo-54
+- <https://www.ingolstadt.de/> (strona instytucji) · pytania: geo-55
+- <https://en.wikipedia.org/wiki/Ingolstadt> (wikipedia) · pytania: geo-55
+- <https://www.frankentourismus.de/> (strona instytucji) · pytania: geo-56
+- <https://en.wikipedia.org/wiki/Franconia> (wikipedia) · pytania: geo-56
+- <https://www.romantischestrasse.de/> (strona instytucji) · pytania: geo-57
+- <https://en.wikipedia.org/wiki/Romantic_Road> (wikipedia) · pytania: geo-57
+- <https://www.nationalpark-bayerischer-wald.bayern.de/> (strona instytucji) · pytania: geo-58
+- <https://en.wikipedia.org/wiki/Bavarian_Forest_National_Park> (wikipedia) · pytania: geo-58
+- <https://en.wikipedia.org/wiki/North_Rhine-Westphalia> (wikipedia) · pytania: geo-59
+- <https://www.bayern.de/> (strona instytucji) · pytania: geo-60, kul-14
+- <https://en.wikipedia.org/wiki/Bavaria> (wikipedia) · pytania: geo-60
+- <https://en.wikipedia.org/wiki/Bremen_(state)> (wikipedia) · pytania: geo-61
+- <https://en.wikipedia.org/wiki/Weser> (wikipedia) · pytania: geo-62
+- <https://www.harzinfo.de/> (strona instytucji) · pytania: geo-63
+- <https://en.wikipedia.org/wiki/Harz> (wikipedia) · pytania: geo-63
+- <https://en.wikipedia.org/wiki/Germany> (wikipedia) · pytania: geo-64
+- <https://www.ecb.europa.eu/> (strona instytucji) · pytania: geo-65
+- <https://en.wikipedia.org/wiki/European_Central_Bank> (wikipedia) · pytania: geo-65
+- <https://www.lindau.de/> (strona instytucji) · pytania: geo-66
+- <https://en.wikipedia.org/wiki/Lindau> (wikipedia) · pytania: geo-66
+- <https://www.flensburg.de/> (strona instytucji) · pytania: geo-67
+- <https://en.wikipedia.org/wiki/Flensburg> (wikipedia) · pytania: geo-67
+- <https://www.wolfsburg.de/> (strona instytucji) · pytania: geo-69
+- <https://en.wikipedia.org/wiki/Wolfsburg> (wikipedia) · pytania: geo-69
+- <https://www.neanderthal.de/> (strona instytucji) · pytania: his-01
+- <https://en.wikipedia.org/wiki/Neanderthal_1> (wikipedia) · pytania: his-01
+- <https://whc.unesco.org/en/list/1527> (instytucja) · pytania: his-02
+- <https://en.wikipedia.org/wiki/Venus_of_Hohle_Fels> (wikipedia) · pytania: his-02
+- <https://www.kalkriese-varusschlacht.de/> (strona instytucji) · pytania: his-03
+- <https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest> (wikipedia) · pytania: his-03
+- <https://en.wikipedia.org/wiki/Augusta_Treverorum> (wikipedia) · pytania: his-04
+- <https://www.roemisch-germanisches-museum.de/> (strona instytucji) · pytania: his-05
+- <https://en.wikipedia.org/wiki/Colonia_Claudia_Ara_Agrippinensium> (wikipedia) · pytania: his-05
+- <https://whc.unesco.org/en/list/430> (instytucja) · pytania: his-06
+- <https://en.wikipedia.org/wiki/Limes_Germanicus> (wikipedia) · pytania: his-06
+- <https://en.wikipedia.org/wiki/Castra_Regina> (wikipedia) · pytania: his-07
+- <https://www.augsburg.de/> (strona instytucji) · pytania: his-08
+- <https://en.wikipedia.org/wiki/Augusta_Vindelicorum> (wikipedia) · pytania: his-08
+- <https://en.wikipedia.org/wiki/Mogontiacum> (wikipedia) · pytania: his-09
+- <https://www.britannica.com/biography/Charlemagne> (encyklopedia) · pytania: his-10
+- <https://en.wikipedia.org/wiki/Charlemagne> (wikipedia) · pytania: his-10
+- <https://www.britannica.com/biography/Otto-III> (encyklopedia) · pytania: his-11
+- <https://en.wikipedia.org/wiki/Congress_of_Gniezno> (wikipedia) · pytania: his-11
+- <https://www.britannica.com/place/Bautzen> (encyklopedia) · pytania: his-12
+- <https://en.wikipedia.org/wiki/Peace_of_Bautzen> (wikipedia) · pytania: his-12
+- <https://www.merseburg.de/> (strona instytucji) · pytania: his-13
+- <https://pl.wikipedia.org/wiki/Pokój_w_Merseburgu_(1013)> (wikipedia) · pytania: his-13
+- <https://www.britannica.com/event/Battle-of-Lechfeld> (encyklopedia) · pytania: his-14
+- <https://en.wikipedia.org/wiki/Battle_of_Lechfeld> (wikipedia) · pytania: his-14
+- <https://www.britannica.com/biography/Otto-I> (encyklopedia) · pytania: his-15
+- <https://en.wikipedia.org/wiki/Otto_the_Great> (wikipedia) · pytania: his-15
+- <https://www.bpb.de/> (strona instytucji) · pytania: his-16, his-20, spo-38
+- <https://en.wikipedia.org/wiki/Road_to_Canossa> (wikipedia) · pytania: his-16
+- <https://www.hansemuseum.eu/> (strona instytucji) · pytania: his-17
+- <https://en.wikipedia.org/wiki/Hanseatic_League> (wikipedia) · pytania: his-17
+- <https://www.britannica.com/biography/Frederick-I-Holy-Roman-emperor> (encyklopedia) · pytania: his-18
+- <https://en.wikipedia.org/wiki/Frederick_Barbarossa> (wikipedia) · pytania: his-18
+- <https://www.britannica.com/biography/Saint-Hildegard> (encyklopedia) · pytania: his-19
+- <https://en.wikipedia.org/wiki/Hildegard_of_Bingen> (wikipedia) · pytania: his-19
+- <https://en.wikipedia.org/wiki/Golden_Bull_of_1356> (wikipedia) · pytania: his-20
+- <https://www.konstanz.de/> (strona instytucji) · pytania: his-21
+- <https://pl.wikipedia.org/wiki/Paweł_Włodkowic> (wikipedia) · pytania: his-21
+- <https://www.britannica.com/biography/Jan-Hus> (encyklopedia) · pytania: his-22
+- <https://en.wikipedia.org/wiki/Jan_Hus> (wikipedia) · pytania: his-22
+- <https://www.gutenberg-museum.de/> (strona instytucji) · pytania: his-23
+- <https://en.wikipedia.org/wiki/Johannes_Gutenberg> (wikipedia) · pytania: his-23
+- <https://www.uni-heidelberg.de/> (strona instytucji) · pytania: his-24
+- <https://en.wikipedia.org/wiki/Heidelberg_University> (wikipedia) · pytania: his-24
+- <https://en.wikipedia.org/wiki/Ninety-five_Theses> (wikipedia) · pytania: his-25
+- <https://www.britannica.com/event/Diet-of-Worms-Germany-1521> (encyklopedia) · pytania: his-26
+- <https://en.wikipedia.org/wiki/Diet_of_Worms> (wikipedia) · pytania: his-26
+- <https://www.britannica.com/event/Peasants-War> (encyklopedia) · pytania: his-27
+- <https://en.wikipedia.org/wiki/German_Peasants'_War> (wikipedia) · pytania: his-27
+- <https://www.britannica.com/event/Peace-of-Augsburg> (encyklopedia) · pytania: his-28
+- <https://en.wikipedia.org/wiki/Peace_of_Augsburg> (wikipedia) · pytania: his-28
+- <https://www.britannica.com/event/Thirty-Years-War> (encyklopedia) · pytania: his-29
+- <https://en.wikipedia.org/wiki/Thirty_Years'_War> (wikipedia) · pytania: his-29
+- <https://www.britannica.com/event/Peace-of-Westphalia> (encyklopedia) · pytania: his-30
+- <https://en.wikipedia.org/wiki/Peace_of_Westphalia> (wikipedia) · pytania: his-30
+- <https://www.britannica.com/place/Prussia> (encyklopedia) · pytania: his-31
+- <https://en.wikipedia.org/wiki/Frederick_I_of_Prussia> (wikipedia) · pytania: his-31
+- <https://en.wikipedia.org/wiki/Augustus_II_the_Strong> (wikipedia) · pytania: his-32
+- <https://pl.wikipedia.org/wiki/August_II_Mocny> (wikipedia) · pytania: his-33
+- <https://www.britannica.com/biography/Frederick-II-king-of-Prussia> (encyklopedia) · pytania: his-34
+- <https://en.wikipedia.org/wiki/First_Partition_of_Poland> (wikipedia) · pytania: his-34
+- <https://www.bach-leipzig.de/> (strona instytucji) · pytania: his-35
+- <https://en.wikipedia.org/wiki/Johann_Sebastian_Bach> (wikipedia) · pytania: his-35
+- <https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz> (encyklopedia) · pytania: his-36
+- <https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz> (wikipedia) · pytania: his-36
+- <https://www.britannica.com/place/Holy-Roman-Empire> (encyklopedia) · pytania: his-37
+- <https://en.wikipedia.org/wiki/Dissolution_of_the_Holy_Roman_Empire> (wikipedia) · pytania: his-37
+- <https://en.wikipedia.org/wiki/Józef_Poniatowski> (wikipedia) · pytania: his-38
+- <https://www.hambacher-schloss.de/> (strona instytucji) · pytania: his-39
+- <https://en.wikipedia.org/wiki/Hambach_Festival> (wikipedia) · pytania: his-39
+- <https://www.britannica.com/topic/Frankfurt-National-Assembly> (encyklopedia) · pytania: his-40
+- <https://en.wikipedia.org/wiki/Frankfurt_Parliament> (wikipedia) · pytania: his-40
+- <https://www.dbmuseum.de/> (strona instytucji) · pytania: his-41
+- <https://en.wikipedia.org/wiki/Bavarian_Ludwig_Railway> (wikipedia) · pytania: his-41
+- <https://www.britannica.com/biography/Otto-von-Bismarck> (encyklopedia) · pytania: his-42
+- <https://en.wikipedia.org/wiki/Otto_von_Bismarck> (wikipedia) · pytania: his-42
+- <https://www.britannica.com/place/German-Empire> (encyklopedia) · pytania: his-43
+- <https://en.wikipedia.org/wiki/Proclamation_of_the_German_Empire> (wikipedia) · pytania: his-43
+- <https://www.ruhrmuseum.de/> (strona instytucji) · pytania: his-44
+- <https://en.wikipedia.org/wiki/Ruhrpolen> (wikipedia) · pytania: his-44
+- <https://www.trier.de/> (strona instytucji) · pytania: his-45
+- <https://en.wikipedia.org/wiki/Karl_Marx> (wikipedia) · pytania: his-45
+- <https://www.mercedes-benz.com/> (strona instytucji) · pytania: his-46
+- <https://en.wikipedia.org/wiki/Benz_Patent-Motorwagen> (wikipedia) · pytania: his-46
+- <https://www.grimmwelt.de/> (strona instytucji) · pytania: his-47, kul-37
+- <https://en.wikipedia.org/wiki/Brothers_Grimm> (wikipedia) · pytania: his-47
+- <https://www.britannica.com/event/Kulturkampf> (encyklopedia) · pytania: his-48
+- <https://en.wikipedia.org/wiki/Kulturkampf> (wikipedia) · pytania: his-48
+- <https://www.britannica.com/place/Weimar-Republic> (encyklopedia) · pytania: his-49, his-50
+- <https://en.wikipedia.org/wiki/Weimar_Republic> (wikipedia) · pytania: his-49
+- <https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic> (wikipedia) · pytania: his-50
+- <https://www.britannica.com/biography/Adolf-Hitler> (encyklopedia) · pytania: his-51
+- <https://en.wikipedia.org/wiki/Adolf_Hitler> (wikipedia) · pytania: his-51
+- <https://museen.nuernberg.de/> (strona instytucji) · pytania: his-52, his-58, kul-24
+- <https://en.wikipedia.org/wiki/Nuremberg_Laws> (wikipedia) · pytania: his-52
+- <https://www.britannica.com/event/Kristallnacht> (encyklopedia) · pytania: his-53
+- <https://en.wikipedia.org/wiki/Kristallnacht> (wikipedia) · pytania: his-53
+- <https://www.kz-gedenkstaette-dachau.de/> (strona instytucji) · pytania: his-54
+- <https://en.wikipedia.org/wiki/Dachau_concentration_camp> (wikipedia) · pytania: his-54
+- <https://www.buchenwald.de/> (strona instytucji) · pytania: his-55
+- <https://en.wikipedia.org/wiki/Buchenwald_concentration_camp> (wikipedia) · pytania: his-55
+- <https://bergen-belsen.stiftung-ng.de/> (strona instytucji) · pytania: his-56
+- <https://en.wikipedia.org/wiki/Bergen-Belsen_concentration_camp> (wikipedia) · pytania: his-56
+- <https://www.spsg.de/> (strona instytucji) · pytania: his-57
+- <https://en.wikipedia.org/wiki/Potsdam_Conference> (wikipedia) · pytania: his-57
+- <https://en.wikipedia.org/wiki/Nuremberg_trials> (wikipedia) · pytania: his-58
+- <https://www.gdw-berlin.de/> (strona instytucji) · pytania: his-59
+- <https://en.wikipedia.org/wiki/20_July_plot> (wikipedia) · pytania: his-59
+- <https://www.hamburg.de/> (strona instytucji) · pytania: his-60, kul-38, kul-55, kul-62
+- <https://en.wikipedia.org/wiki/Bombing_of_Hamburg_in_World_War_II> (wikipedia) · pytania: his-60
+- <https://en.wikipedia.org/wiki/History_of_Germany_(1945–1990)> (wikipedia) · pytania: his-61
+- <https://www.alliiertenmuseum.de/> (strona instytucji) · pytania: his-62
+- <https://en.wikipedia.org/wiki/Berlin_Blockade> (wikipedia) · pytania: his-62
+- <https://www.berliner-mauer-gedenkstaette.de/> (strona instytucji) · pytania: his-63, his-64
+- <https://en.wikipedia.org/wiki/Berlin_Wall> (wikipedia) · pytania: his-63
+- <https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall> (wikipedia) · pytania: his-64
+- <https://en.wikipedia.org/wiki/German_Unity_Day> (wikipedia) · pytania: his-65
+- <https://www.berlin.de/> (strona instytucji) · pytania: his-66
+- <https://en.wikipedia.org/wiki/Ich_bin_ein_Berliner> (wikipedia) · pytania: his-66
+- <https://www.willy-brandt.de/> (strona instytucji) · pytania: his-67
+- <https://en.wikipedia.org/wiki/Warschauer_Kniefall> (wikipedia) · pytania: his-67
+- <https://en.wikipedia.org/wiki/Treaty_of_Zgorzelec> (wikipedia) · pytania: his-68
+- <https://www.krzyzowa.org.pl/> (strona instytucji) · pytania: his-69
+- <https://en.wikipedia.org/wiki/Krzyżowa,_Świdnica_County> (wikipedia) · pytania: his-69
+- <https://en.wikipedia.org/wiki/Munich_massacre> (wikipedia) · pytania: his-70
+- <https://www.europa-uni.de/> (strona instytucji) · pytania: his-71
+- <https://en.wikipedia.org/wiki/European_University_Viadrina> (wikipedia) · pytania: his-71
+- <https://en.wikipedia.org/wiki/Deutsche_Mark> (wikipedia) · pytania: his-72
+- <https://en.wikipedia.org/wiki/Currywurst> (wikipedia) · pytania: kul-01
+- <https://en.wikipedia.org/wiki/Weisswurst> (wikipedia) · pytania: kul-02
+- <https://www.thueringen-entdecken.de/> (strona instytucji) · pytania: kul-03
+- <https://en.wikipedia.org/wiki/Thuringian_sausage> (wikipedia) · pytania: kul-03
+- <https://www.tourismus-bw.de/> (strona instytucji) · pytania: kul-04, kul-05
+- <https://en.wikipedia.org/wiki/Spätzle> (wikipedia) · pytania: kul-04
+- <https://en.wikipedia.org/wiki/Maultasche> (wikipedia) · pytania: kul-05
+- <https://en.wikipedia.org/wiki/Black_Forest_gateau> (wikipedia) · pytania: kul-06
+- <https://www.niederegger.de/> (strona instytucji) · pytania: kul-07
+- <https://en.wikipedia.org/wiki/Niederegger> (wikipedia) · pytania: kul-07
+- <https://tourismus.nuernberg.de/> (strona instytucji) · pytania: kul-08
+- <https://en.wikipedia.org/wiki/Lebkuchen> (wikipedia) · pytania: kul-08
+- <https://en.wikipedia.org/wiki/Stollen> (wikipedia) · pytania: kul-09
+- <https://www.koeln.de/> (strona instytucji) · pytania: kul-10, kul-63
+- <https://en.wikipedia.org/wiki/Kölsch_(beer)> (wikipedia) · pytania: kul-10
+- <https://www.duesseldorf-tourismus.de/> (strona instytucji) · pytania: kul-11
+- <https://en.wikipedia.org/wiki/Altbier> (wikipedia) · pytania: kul-11
+- <https://www.bamberg.info/> (strona instytucji) · pytania: kul-12
+- <https://en.wikipedia.org/wiki/Smoked_beer> (wikipedia) · pytania: kul-12
+- <https://www.oktoberfest.de/> (strona instytucji) · pytania: kul-13, spo-49
+- <https://en.wikipedia.org/wiki/Oktoberfest> (wikipedia) · pytania: kul-13, spo-49
+- <https://en.wikipedia.org/wiki/Reinheitsgebot> (wikipedia) · pytania: kul-14
+- <https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe> (wikipedia) · pytania: kul-15
+- <https://en.wikipedia.org/wiki/Ode_to_Joy> (wikipedia) · pytania: kul-16
+- <https://www.buddenbrookhaus.de/> (strona instytucji) · pytania: kul-17
+- <https://en.wikipedia.org/wiki/Thomas_Mann> (wikipedia) · pytania: kul-17
+- <https://www.grass-haus.de/> (strona instytucji) · pytania: kul-18
+- <https://en.wikipedia.org/wiki/Günter_Grass> (wikipedia) · pytania: kul-18
+- <https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)> (wikipedia) · pytania: kul-19
+- <https://www.bayreuther-festspiele.de/> (strona instytucji) · pytania: kul-20
+- <https://en.wikipedia.org/wiki/Bayreuth_Festival> (wikipedia) · pytania: kul-20
+- <https://www.brahms-hamburg.de/> (strona instytucji) · pytania: kul-21
+- <https://en.wikipedia.org/wiki/Johannes_Brahms> (wikipedia) · pytania: kul-21
+- <https://haendelhaus.de/> (strona instytucji) · pytania: kul-22
+- <https://en.wikipedia.org/wiki/George_Frideric_Handel> (wikipedia) · pytania: kul-22
+- <https://www.hamburger-kunsthalle.de/> (strona instytucji) · pytania: kul-23
+- <https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog> (wikipedia) · pytania: kul-23
+- <https://en.wikipedia.org/wiki/Young_Hare> (wikipedia) · pytania: kul-24
+- <https://en.wikipedia.org/wiki/Bauhaus> (wikipedia) · pytania: kul-25
+- <https://www.documenta.de/> (strona instytucji) · pytania: kul-26
+- <https://en.wikipedia.org/wiki/documenta> (wikipedia) · pytania: kul-26
+- <https://www.germany.travel/> (strona instytucji) · pytania: kul-27, kul-30, kul-31, kul-60, spo-15, spo-33, spo-37, spo-61
+- <https://en.wikipedia.org/wiki/Christmas_market> (wikipedia) · pytania: kul-27
+- <https://www.koelnerkarneval.de/> (strona instytucji) · pytania: kul-28
+- <https://en.wikipedia.org/wiki/Rosenmontag> (wikipedia) · pytania: kul-28
+- <https://www.ekd.de/> (strona instytucji) · pytania: kul-29
+- <https://en.wikipedia.org/wiki/Advent_wreath> (wikipedia) · pytania: kul-29
+- <https://en.wikipedia.org/wiki/German_cuisine> (wikipedia) · pytania: kul-30
+- <https://en.wikipedia.org/wiki/Toast_(honor)> (wikipedia) · pytania: kul-31
+- <https://www.filmportal.de/> (strona instytucji) · pytania: kul-32, kul-33
+- <https://en.wikipedia.org/wiki/The_Lives_of_Others> (wikipedia) · pytania: kul-32
+- <https://en.wikipedia.org/wiki/Metropolis_(1927_film)> (wikipedia) · pytania: kul-33
+- <https://www.berlinale.de/> (strona instytucji) · pytania: kul-34
+- <https://en.wikipedia.org/wiki/Berlin_International_Film_Festival> (wikipedia) · pytania: kul-34
+- <https://www.daserste.de/> (strona instytucji) · pytania: kul-35
+- <https://en.wikipedia.org/wiki/Tatort> (wikipedia) · pytania: kul-35
+- <https://www.remarque.uni-osnabrueck.de/> (strona instytucji) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front> (wikipedia) · pytania: kul-36
+- <https://en.wikipedia.org/wiki/Hansel_and_Gretel> (wikipedia) · pytania: kul-37
+- <https://en.wikipedia.org/wiki/The_Beatles_in_Hamburg> (wikipedia) · pytania: kul-38
+- <https://www.kraftwerk.com/> (strona instytucji) · pytania: kul-39
+- <https://en.wikipedia.org/wiki/Kraftwerk> (wikipedia) · pytania: kul-39
+- <https://www.rammstein.de/> (strona instytucji) · pytania: kul-40
+- <https://en.wikipedia.org/wiki/Rammstein> (wikipedia) · pytania: kul-40
+- <https://www.the-scorpions.com/> (strona instytucji) · pytania: kul-41
+- <https://en.wikipedia.org/wiki/Wind_of_Change_(song)> (wikipedia) · pytania: kul-41
+- <https://www.nena.de/> (strona instytucji) · pytania: kul-42
+- <https://en.wikipedia.org/wiki/99_Luftballons> (wikipedia) · pytania: kul-42
+- <https://www.steiff.com/> (strona instytucji) · pytania: kul-43
+- <https://en.wikipedia.org/wiki/Steiff> (wikipedia) · pytania: kul-43
+- <https://www.haribo.com/> (strona instytucji) · pytania: kul-44
+- <https://en.wikipedia.org/wiki/Haribo> (wikipedia) · pytania: kul-44
+- <https://www.playmobil.de/> (strona instytucji) · pytania: kul-45
+- <https://en.wikipedia.org/wiki/Playmobil> (wikipedia) · pytania: kul-45
+- <https://www.erzgebirge-tourismus.de/> (strona instytucji) · pytania: kul-46
+- <https://en.wikipedia.org/wiki/Nutcracker> (wikipedia) · pytania: kul-46
+- <https://www.bayern.by/> (strona instytucji) · pytania: kul-47, spo-36
+- <https://en.wikipedia.org/wiki/Maypole> (wikipedia) · pytania: kul-47
+- <https://www.ulm.de/> (strona instytucji) · pytania: kul-48
+- <https://en.wikipedia.org/wiki/Albert_Einstein> (wikipedia) · pytania: kul-48
+- <https://www.nobelprize.org/> (strona instytucji) · pytania: kul-49
+- <https://en.wikipedia.org/wiki/Wilhelm_Röntgen> (wikipedia) · pytania: kul-49
+- <https://www.zeiss.com/> (strona instytucji) · pytania: kul-50
+- <https://en.wikipedia.org/wiki/Carl_Zeiss_AG> (wikipedia) · pytania: kul-50
+- <https://www.duden.de/> (strona instytucji) · pytania: kul-51, kul-56, spo-40
+- <https://en.wikipedia.org/wiki/ß> (wikipedia) · pytania: kul-51
+- <https://www.goethe.de/> (strona instytucji) · pytania: kul-52, kul-53
+- <https://en.wikipedia.org/wiki/German_language> (wikipedia) · pytania: kul-52, spo-40
+- <https://en.wikipedia.org/wiki/German_grammar> (wikipedia) · pytania: kul-53
+- <https://www.ins-bremen.de/> (strona instytucji) · pytania: kul-54
+- <https://en.wikipedia.org/wiki/Low_German> (wikipedia) · pytania: kul-54
+- <https://en.wikipedia.org/wiki/Moin> (wikipedia) · pytania: kul-55
+- <https://en.wikipedia.org/wiki/Schadenfreude> (wikipedia) · pytania: kul-56
+- <https://www.mendelssohn-stiftung.de/> (strona instytucji) · pytania: kul-57
+- <https://en.wikipedia.org/wiki/Felix_Mendelssohn> (wikipedia) · pytania: kul-57
+- <https://www.michaelende.de/> (strona instytucji) · pytania: kul-58
+- <https://en.wikipedia.org/wiki/The_Neverending_Story> (wikipedia) · pytania: kul-58
+- <https://en.wikipedia.org/wiki/Emil_and_the_Detectives> (wikipedia) · pytania: kul-59
+- <https://en.wikipedia.org/wiki/Baron_Munchausen> (wikipedia) · pytania: kul-60
+- <https://www.4711.com/> (strona instytucji) · pytania: kul-61
+- <https://en.wikipedia.org/wiki/4711> (wikipedia) · pytania: kul-61
+- <https://en.wikipedia.org/wiki/Labskaus> (wikipedia) · pytania: kul-62
+- <https://en.wikipedia.org/wiki/Sauerbraten> (wikipedia) · pytania: kul-63
+- <https://en.wikipedia.org/wiki/Eisbein> (wikipedia) · pytania: kul-64
+- <https://en.wikipedia.org/wiki/Apfelwein> (wikipedia) · pytania: kul-65
+- <https://www.britannica.com/biography/Immanuel-Kant> (encyklopedia) · pytania: kul-66
+- <https://en.wikipedia.org/wiki/Immanuel_Kant> (wikipedia) · pytania: kul-66
+- <https://www.kleingarten-bund.de/> (strona instytucji) · pytania: kul-67
+- <https://en.wikipedia.org/wiki/Allotment_(gardening)> (wikipedia) · pytania: kul-67
+- <https://www.bundeskanzler.de/> (strona instytucji) · pytania: spo-01, spo-43
+- <https://en.wikipedia.org/wiki/Friedrich_Merz> (wikipedia) · pytania: spo-01
+- <https://www.bundespraesident.de/> (strona instytucji) · pytania: spo-02, spo-03
+- <https://en.wikipedia.org/wiki/Frank-Walter_Steinmeier> (wikipedia) · pytania: spo-02
+- <https://en.wikipedia.org/wiki/President_of_Germany> (wikipedia) · pytania: spo-03
+- <https://en.wikipedia.org/wiki/Bundestag> (wikipedia) · pytania: spo-04
+- <https://en.wikipedia.org/wiki/Bundesrat_of_Germany> (wikipedia) · pytania: spo-05
+- <https://www.bundesverfassungsgericht.de/> (strona instytucji) · pytania: spo-06
+- <https://en.wikipedia.org/wiki/Federal_Constitutional_Court> (wikipedia) · pytania: spo-06
+- <https://www.bundeswahlleiterin.de/> (strona instytucji) · pytania: spo-07, spo-08, spo-42
+- <https://en.wikipedia.org/wiki/Electoral_system_of_Germany> (wikipedia) · pytania: spo-07, spo-08
+- <https://www.bundesnetzagentur.de/> (strona instytucji) · pytania: spo-09
+- <https://en.wikipedia.org/wiki/Telephone_numbers_in_Germany> (wikipedia) · pytania: spo-09
+- <https://www.denic.de/> (strona instytucji) · pytania: spo-10
+- <https://en.wikipedia.org/wiki/.de> (wikipedia) · pytania: spo-10
+- <https://www.adac.de/> (strona instytucji) · pytania: spo-11, spo-50
+- <https://en.wikipedia.org/wiki/Autobahn> (wikipedia) · pytania: spo-11
+- <https://www.bahn.de/> (strona instytucji) · pytania: spo-12, spo-13
+- <https://en.wikipedia.org/wiki/Deutsche_Bahn> (wikipedia) · pytania: spo-12
+- <https://en.wikipedia.org/wiki/Deutschlandticket> (wikipedia) · pytania: spo-13
+- <https://www.bmuv.de/> (strona instytucji) · pytania: spo-14, spo-39, spo-66
+- <https://en.wikipedia.org/wiki/Container-deposit_legislation> (wikipedia) · pytania: spo-14
+- <https://en.wikipedia.org/wiki/Sunday_shopping> (wikipedia) · pytania: spo-15
+- <https://www.dfb.de/> (strona instytucji) · pytania: spo-16, spo-57
+- <https://en.wikipedia.org/wiki/Germany_national_football_team> (wikipedia) · pytania: spo-16
+- <https://fcbayern.com/> (strona instytucji) · pytania: spo-17
+- <https://en.wikipedia.org/wiki/FC_Bayern_Munich> (wikipedia) · pytania: spo-17
+- <https://www.bvb.de/> (strona instytucji) · pytania: spo-18, spo-19, spo-58
+- <https://en.wikipedia.org/wiki/Robert_Lewandowski> (wikipedia) · pytania: spo-18
+- <https://en.wikipedia.org/wiki/Westfalenstadion> (wikipedia) · pytania: spo-19
+- <https://www.formula1.com/> (strona instytucji) · pytania: spo-20
+- <https://en.wikipedia.org/wiki/Michael_Schumacher> (wikipedia) · pytania: spo-20
+- <https://www.dtb-tennis.de/> (strona instytucji) · pytania: spo-21, spo-22
+- <https://en.wikipedia.org/wiki/Steffi_Graf> (wikipedia) · pytania: spo-21
+- <https://en.wikipedia.org/wiki/Boris_Becker> (wikipedia) · pytania: spo-22
+- <https://www.uefa.com/> (strona instytucji) · pytania: spo-23
+- <https://en.wikipedia.org/wiki/UEFA_Euro_2024> (wikipedia) · pytania: spo-23
+- <https://www.bmwgroup.com/> (strona instytucji) · pytania: spo-24
+- <https://en.wikipedia.org/wiki/BMW> (wikipedia) · pytania: spo-24
+- <https://www.porsche.com/> (strona instytucji) · pytania: spo-25
+- <https://en.wikipedia.org/wiki/Porsche> (wikipedia) · pytania: spo-25
+- <https://www.opel.de/> (strona instytucji) · pytania: spo-26
+- <https://en.wikipedia.org/wiki/Opel> (wikipedia) · pytania: spo-26
+- <https://www.sap.com/> (strona instytucji) · pytania: spo-27
+- <https://en.wikipedia.org/wiki/SAP> (wikipedia) · pytania: spo-27
+- <https://www.herzogenaurach.de/> (strona instytucji) · pytania: spo-28
+- <https://en.wikipedia.org/wiki/Adidas> (wikipedia) · pytania: spo-28
+- <https://www.aldi.de/> (strona instytucji) · pytania: spo-29
+- <https://en.wikipedia.org/wiki/Aldi> (wikipedia) · pytania: spo-29
+- <https://www.tagesschau.de/> (strona instytucji) · pytania: spo-30
+- <https://en.wikipedia.org/wiki/Tagesschau> (wikipedia) · pytania: spo-30
+- <https://www.axelspringer.com/> (strona instytucji) · pytania: spo-31
+- <https://en.wikipedia.org/wiki/Bild> (wikipedia) · pytania: spo-31
+- <https://www.spiegel.de/> (strona instytucji) · pytania: spo-32
+- <https://en.wikipedia.org/wiki/Der_Spiegel> (wikipedia) · pytania: spo-32
+- <https://en.wikipedia.org/wiki/Schultüte> (wikipedia) · pytania: spo-33
+- <https://www.kmk.org/> (strona instytucji) · pytania: spo-34, spo-35
+- <https://en.wikipedia.org/wiki/Abitur> (wikipedia) · pytania: spo-34
+- <https://en.wikipedia.org/wiki/Education_in_Germany> (wikipedia) · pytania: spo-35
+- <https://en.wikipedia.org/wiki/Christkind> (wikipedia) · pytania: spo-36
+- <https://en.wikipedia.org/wiki/Christmas_in_Germany> (wikipedia) · pytania: spo-37
+- <https://en.wikipedia.org/wiki/9_November_in_German_history> (wikipedia) · pytania: spo-38
+- <https://en.wikipedia.org/wiki/Waste_management> (wikipedia) · pytania: spo-39
+- <https://www.csu.de/> (strona instytucji) · pytania: spo-41
+- <https://en.wikipedia.org/wiki/Christian_Social_Union_in_Bavaria> (wikipedia) · pytania: spo-41
+- <https://en.wikipedia.org/wiki/2025_German_federal_election> (wikipedia) · pytania: spo-42
+- <https://en.wikipedia.org/wiki/Angela_Merkel> (wikipedia) · pytania: spo-43
+- <https://www.konrad-adenauer.de/> (strona instytucji) · pytania: spo-44
+- <https://en.wikipedia.org/wiki/Konrad_Adenauer> (wikipedia) · pytania: spo-44
+- <https://commission.europa.eu/> (strona instytucji) · pytania: spo-45
+- <https://en.wikipedia.org/wiki/Ursula_von_der_Leyen> (wikipedia) · pytania: spo-45
+- <https://www.polizei.de/> (strona instytucji) · pytania: spo-46
+- <https://en.wikipedia.org/wiki/Emergency_telephone_number> (wikipedia) · pytania: spo-46
+- <https://www.bundesfinanzministerium.de/> (strona instytucji) · pytania: spo-47, spo-52
+- <https://en.wikipedia.org/wiki/European_Union_value_added_tax> (wikipedia) · pytania: spo-47
+- <https://www.kba.de/> (strona instytucji) · pytania: spo-48, spo-65
+- <https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Germany> (wikipedia) · pytania: spo-48
+- <https://en.wikipedia.org/wiki/ADAC> (wikipedia) · pytania: spo-50
+- <https://www.studentenwerke.de/> (strona instytucji) · pytania: spo-51, spo-59
+- <https://en.wikipedia.org/wiki/BAföG> (wikipedia) · pytania: spo-51
+- <https://en.wikipedia.org/wiki/Church_tax> (wikipedia) · pytania: spo-52
+- <https://en.wikipedia.org/wiki/Poles_in_Germany> (wikipedia) · pytania: spo-53
+- <https://ber.berlin-airport.de/> (strona instytucji) · pytania: spo-54
+- <https://en.wikipedia.org/wiki/Berlin_Brandenburg_Airport> (wikipedia) · pytania: spo-54
+- <https://www.vierschanzentournee.com/> (strona instytucji) · pytania: spo-55
+- <https://en.wikipedia.org/wiki/Four_Hills_Tournament> (wikipedia) · pytania: spo-55
+- <https://www.liquimoly-hbl.de/> (strona instytucji) · pytania: spo-56
+- <https://en.wikipedia.org/wiki/Handball-Bundesliga> (wikipedia) · pytania: spo-56
+- <https://en.wikipedia.org/wiki/Miroslav_Klose> (wikipedia) · pytania: spo-57
+- <https://en.wikipedia.org/wiki/Revierderby> (wikipedia) · pytania: spo-58
+- <https://en.wikipedia.org/wiki/Roommate> (wikipedia) · pytania: spo-59
+- <https://www.zwickau.de/> (strona instytucji) · pytania: spo-60
+- <https://en.wikipedia.org/wiki/Trabant> (wikipedia) · pytania: spo-60
+- <https://en.wikipedia.org/wiki/Birthday> (wikipedia) · pytania: spo-61
+- <https://www.volkswagen.de/> (strona instytucji) · pytania: spo-62
+- <https://en.wikipedia.org/wiki/Volkswagen_Beetle> (wikipedia) · pytania: spo-62
+- <https://www.bmas.de/> (strona instytucji) · pytania: spo-63
+- <https://en.wikipedia.org/wiki/Annual_leave> (wikipedia) · pytania: spo-63
+- <https://en.wikipedia.org/wiki/Deutschlandlied> (wikipedia) · pytania: spo-64
+- <https://en.wikipedia.org/wiki/Federal_Motor_Transport_Authority> (wikipedia) · pytania: spo-65
+- <https://en.wikipedia.org/wiki/Nuclear_power_in_Germany> (wikipedia) · pytania: spo-66

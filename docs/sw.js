@@ -1,6 +1,6 @@
-// Service worker – wersja 6ace1f0be7
-const CACHE = 'odkryj-6ace1f0be7';
-const CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png", "data/at.js?v=6ace1f0be7", "data/cz.js?v=6ace1f0be7", "data/it.js?v=6ace1f0be7", "data/nl.js?v=6ace1f0be7", "data/sk.js?v=6ace1f0be7"];
+// Service worker – wersja a1dc877fa2
+const CACHE = 'odkryj-a1dc877fa2';
+const CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png", "data/at.js?v=a1dc877fa2", "data/cz.js?v=a1dc877fa2", "data/it.js?v=a1dc877fa2", "data/nl.js?v=a1dc877fa2", "data/sk.js?v=a1dc877fa2", "data/si.js?v=a1dc877fa2", "data/de.js?v=a1dc877fa2"];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', (e) => {

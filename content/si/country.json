@@ -1,0 +1,128 @@
+{
+  "code": "si",
+  "name": "Słowenia",
+  "nameLocal": "Slovenija",
+  "gameTitle": "Odkryj Słowenię!",
+  "palette": {
+    "primary": "#005DA4",
+    "secondary": "#FFFFFF",
+    "accent": "#ED1C24"
+  },
+  "flag": "si",
+  "regions": [
+    {
+      "id": "west",
+      "name": "Primorska",
+      "adminUnits": [
+        "Region goriški",
+        "Region nadmorsko-krasowy",
+        "Region primorsko-notrański"
+      ],
+      "color": "#2F6DB5",
+      "motifs": [
+        "Piran",
+        "Postojna",
+        "Lipica",
+        "Soča"
+      ],
+      "description": "Wybrzeże z Piranem, Kras z jaskiniami Postojna i Škocjan, lipicany oraz szmaragdowa Soča."
+    },
+    {
+      "id": "center",
+      "name": "Lublana i Gorenjska",
+      "adminUnits": [
+        "Region środkowosłoweński",
+        "Region gorenjski",
+        "Region zasawski"
+      ],
+      "color": "#C8102E",
+      "motifs": [
+        "Lublana",
+        "Bled",
+        "Triglav",
+        "Planica"
+      ],
+      "description": "Stolica ze smokami i mostami Plečnika, jezioro Bled, Triglav, Planica i górnicze Zasavje."
+    },
+    {
+      "id": "south",
+      "name": "Dolenjska i Posawie",
+      "adminUnits": [
+        "Słowenia Płd.-Wschodnia",
+        "Region posawski"
+      ],
+      "color": "#3F8F4E",
+      "motifs": [
+        "Krka",
+        "Otočec",
+        "Biała Kraina",
+        "Brežice"
+      ],
+      "description": "Dolina Krki z Novym mestem i zamkiem Otočec, lasy Kočevja, Biała Kraina nad Kolpą i zamek w Brežicach."
+    },
+    {
+      "id": "east",
+      "name": "Styria i Prekmurie",
+      "adminUnits": [
+        "Region podrawski",
+        "Region sawiński",
+        "Region koroški",
+        "Region pomurski"
+      ],
+      "color": "#D9A21B",
+      "motifs": [
+        "Maribor",
+        "Ptuj",
+        "Celje",
+        "Prekmurie"
+      ],
+      "description": "Maribor z najstarszą winoroślą świata, rzymski Ptuj, zamek w Celje, Pohorje i równiny nad Murą."
+    }
+  ],
+  "regionCodes": {
+    "w": "west",
+    "c": "center",
+    "s": "south",
+    "e": "east"
+  },
+  "regionShort": {
+    "west": "Primorska",
+    "center": "Środek",
+    "south": "Dolenjska",
+    "east": "Wschód"
+  },
+  "specialCards": {
+    "luck": {
+      "name": "Zlatorog",
+      "short": "Szczęście",
+      "flavor": "Kozica o złotych rogach strzeże skarbów: zabierz przeciwnikowi jeden jego region. Nie działa na gracza w twierdzy."
+    },
+    "detour": {
+      "name": "Burja",
+      "short": "Objazd",
+      "flavor": "Burja zamknęła drogę przez Kras! Wycofujesz się i oddajesz przeciwnikowi jeden swój region."
+    },
+    "ticket": {
+      "name": "Pletna",
+      "short": "Bilet",
+      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę jednostki."
+    },
+    "express": {
+      "name": "Kremšnita",
+      "short": "Ekspres",
+      "flavor": "Kremówka z Bledu dodaje sił! Po tej rundzie od razu rozegrasz dodatkową rundę z następną kartą."
+    }
+  },
+  "regionSplitRationale": "Słowenia nie ma regionów samorządowych, dlatego karty to 12 regionów statystycznych (NUTS 3). Grupy odpowiadają krainom historycznym: Przymorze, Kraina z Lublaną, Dolenjska z Posawiem oraz Styria z Karyntią i Prekmuriem.",
+  "contentVersion": "1.0.0",
+  "factsAsOf": "2026-11-28",
+  "nameGen": "Słowenii",
+  "nameLoc": "Słowenii",
+  "unitsLabel": "regionów",
+  "unitsCount": 12,
+  "verbHas": "ma",
+  "gameRules": {
+    "perRegion": 2,
+    "winUnits": 8
+  }
+}

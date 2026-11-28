@@ -5,7 +5,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
 from content import load, validate, country as read_country
 
-COUNTRIES = [c for c in ['at', 'cz', 'it', 'nl', 'sk'] if all(os.path.exists(os.path.join(ROOT, 'content-src', c, f + '.txt')) for f in ('zab', 'geo', 'his', 'kul', 'spo'))]  # kolejność na liście wyboru
+COUNTRIES = [c for c in ['at', 'cz', 'it', 'nl', 'sk', 'si', 'de'] if all(os.path.exists(os.path.join(ROOT, 'content-src', c, f + '.txt')) for f in ('zab', 'geo', 'his', 'kul', 'spo'))]  # kolejność na liście wyboru
 
 def rd(p):
     return open(os.path.join(ROOT, p), encoding='utf-8').read()

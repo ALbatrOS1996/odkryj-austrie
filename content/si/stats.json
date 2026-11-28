@@ -1,0 +1,127 @@
+{
+ "ZAB": {
+  "n": 72,
+  "diff": {
+   "1": 30,
+   "2": 31,
+   "3": 11
+  },
+  "region": {
+   "center": 23,
+   "west": 18,
+   "east": 13,
+   "south": 12,
+   "None": 6
+  },
+  "correctPos": {
+   "0": 25,
+   "1": 15,
+   "2": 19,
+   "3": 13
+  }
+ },
+ "GEO": {
+  "n": 70,
+  "diff": {
+   "1": 25,
+   "2": 35,
+   "3": 10
+  },
+  "region": {
+   "None": 7,
+   "center": 19,
+   "east": 18,
+   "west": 15,
+   "south": 11
+  },
+  "correctPos": {
+   "0": 12,
+   "1": 23,
+   "2": 19,
+   "3": 16
+  }
+ },
+ "HIS": {
+  "n": 66,
+  "diff": {
+   "1": 11,
+   "2": 30,
+   "3": 25
+  },
+  "region": {
+   "west": 8,
+   "center": 14,
+   "south": 2,
+   "east": 9,
+   "None": 33
+  },
+  "correctPos": {
+   "0": 15,
+   "1": 22,
+   "2": 19,
+   "3": 10
+  }
+ },
+ "KUL": {
+  "n": 66,
+  "diff": {
+   "1": 13,
+   "2": 44,
+   "3": 9
+  },
+  "region": {
+   "None": 36,
+   "east": 5,
+   "center": 12,
+   "west": 12,
+   "south": 1
+  },
+  "correctPos": {
+   "0": 11,
+   "1": 17,
+   "2": 20,
+   "3": 18
+  }
+ },
+ "SPO": {
+  "n": 66,
+  "diff": {
+   "1": 27,
+   "2": 28,
+   "3": 11
+  },
+  "region": {
+   "None": 46,
+   "center": 10,
+   "east": 5,
+   "south": 2,
+   "west": 3
+  },
+  "correctPos": {
+   "0": 11,
+   "1": 19,
+   "2": 18,
+   "3": 18
+  }
+ },
+ "ZAB+GEO": {
+  "west": 23.2,
+  "center": 29.6,
+  "south": 16.2,
+  "east": 21.8
+ },
+ "HIS epoki": {
+  "historia:starożytność": 9,
+  "historia:średniowiecze": 14,
+  "historia:nowożytność": 11,
+  "historia:xix": 10,
+  "historia:po1945": 11,
+  "historia:xx": 11
+ },
+ "HIS polska-powiazanie": 9,
+ "trudność ogółem %": {
+  "1": 31.2,
+  "2": 49.4,
+  "3": 19.4
+ }
+}
