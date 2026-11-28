@@ -1,0 +1,414 @@
+# Źródła · Słowacja
+
+Data dostępu: 2026-11-04. Lista wygenerowana przez build.py.
+
+- <https://www.visitbratislava.com/> (strona instytucji) · pytania: zab-01, zab-02, zab-03, zab-04, zab-05, zab-60, zab-62, zab-63, his-28
+- <https://en.wikipedia.org/wiki/Bratislava_Castle> (wikipedia) · pytania: zab-01, spo-06
+- <https://en.wikipedia.org/wiki/Most_SNP> (wikipedia) · pytania: zab-02
+- <https://en.wikipedia.org/wiki/St._Martin's_Cathedral,_Bratislava> (wikipedia) · pytania: zab-03, zab-63
+- <https://en.wikipedia.org/wiki/Michael's_Gate> (wikipedia) · pytania: zab-04
+- <https://en.wikipedia.org/wiki/Čumil> (wikipedia) · pytania: zab-05
+- <https://www.bratislava.sk/> (strona instytucji) · pytania: zab-06, zab-11, geo-04, geo-06, spo-58
+- <https://en.wikipedia.org/wiki/Primate's_Palace> (wikipedia) · pytania: zab-06
+- <https://www.prezident.sk/> (strona instytucji) · pytania: zab-07, zab-13, zab-14, his-57, his-59, spo-01, spo-04
+- <https://en.wikipedia.org/wiki/Grassalkovich_Palace> (wikipedia) · pytania: zab-07
+- <https://www.mmba.sk/> (strona instytucji) · pytania: zab-08, kul-29
+- <https://en.wikipedia.org/wiki/Devín_Castle> (wikipedia) · pytania: zab-08
+- <https://www.danubiana.sk/> (strona instytucji) · pytania: zab-09
+- <https://en.wikipedia.org/wiki/Museums_and_galleries_of_Bratislava> (wikipedia) · pytania: zab-09
+- <https://www.rtvs.sk/> (strona instytucji) · pytania: zab-10
+- <https://en.wikipedia.org/wiki/Slovak_Radio_Building> (wikipedia) · pytania: zab-10
+- <https://en.wikipedia.org/wiki/Slavín> (wikipedia) · pytania: zab-11
+- <https://www.snm.sk/> (strona instytucji) · pytania: zab-12, zab-43, his-05, his-14, his-16, his-36, his-39, his-40, his-41, kul-24, kul-26, kul-27, kul-28, kul-62
+- <https://en.wikipedia.org/wiki/Červený_Kameň_Castle> (wikipedia) · pytania: zab-12
+- <https://en.wikipedia.org/wiki/Coat_of_arms_of_Slovakia> (wikipedia) · pytania: zab-13, zab-14
+- <https://www.vlada.gov.sk/> (strona instytucji) · pytania: zab-15, zab-16, his-54, his-56, his-58, spo-05, spo-07, spo-29, spo-32, spo-34
+- <https://en.wikipedia.org/wiki/Flag_of_Slovakia> (wikipedia) · pytania: zab-15
+- <https://en.wikipedia.org/wiki/Nad_Tatrou_sa_blýska> (wikipedia) · pytania: zab-16
+- <https://whc.unesco.org/en/list/620> (instytucja) · pytania: zab-17, zab-18
+- <https://en.wikipedia.org/wiki/Spiš_Castle> (wikipedia) · pytania: zab-17
+- <https://en.wikipedia.org/wiki/Master_Paul_of_Levoča> (wikipedia) · pytania: zab-18
+- <https://whc.unesco.org/en/list/973> (instytucja) · pytania: zab-19
+- <https://en.wikipedia.org/wiki/Bardejov> (wikipedia) · pytania: zab-19, geo-55
+- <https://www.kosice.sk/> (strona instytucji) · pytania: zab-20, zab-21, zab-47, zab-48, zab-49, geo-22, his-60, his-61
+- <https://en.wikipedia.org/wiki/St._Elisabeth_Cathedral> (wikipedia) · pytania: zab-20
+- <https://en.wikipedia.org/wiki/Francis_II_Rákóczi> (wikipedia) · pytania: zab-21
+- <https://whc.unesco.org/en/list/1273> (instytucja) · pytania: zab-22
+- <https://en.wikipedia.org/wiki/Wooden_Churches_of_the_Slovak_part_of_the_Carpathian_Mountain_Area> (wikipedia) · pytania: zab-22
+- <https://www.kezmarok.sk/> (strona instytucji) · pytania: zab-23, his-22
+- <https://en.wikipedia.org/wiki/Kežmarok> (wikipedia) · pytania: zab-23
+- <https://www.hradlubovna.sk/> (strona instytucji) · pytania: zab-24, his-15, his-27, his-65
+- <https://en.wikipedia.org/wiki/Ľubovňa_Castle> (wikipedia) · pytania: zab-24
+- <https://www.ssj.sk/> (strona instytucji) · pytania: zab-25, zab-26, zab-66, zab-67
+- <https://en.wikipedia.org/wiki/Ochtinská_Aragonite_Cave> (wikipedia) · pytania: zab-25
+- <https://en.wikipedia.org/wiki/Dobšinská_Ice_Cave> (wikipedia) · pytania: zab-26
+- <https://whc.unesco.org/en/list/622> (instytucja) · pytania: zab-27
+- <https://en.wikipedia.org/wiki/Vlkolínec> (wikipedia) · pytania: zab-27
+- <https://whc.unesco.org/en/list/618> (instytucja) · pytania: zab-28, his-30
+- <https://en.wikipedia.org/wiki/Banská_Štiavnica> (wikipedia) · pytania: zab-28, zab-29, his-30
+- <https://www.banskastiavnica.sk/> (strona instytucji) · pytania: zab-29, kul-15, kul-32
+- <https://www.mint.sk/> (strona instytucji) · pytania: zab-30
+- <https://en.wikipedia.org/wiki/Kremnica_Mint> (wikipedia) · pytania: zab-30
+- <https://slovakia.travel/> (strona instytucji) · pytania: zab-31, geo-07, geo-15, geo-52, kul-01, kul-02, kul-04, kul-05, kul-06, kul-07, kul-08, kul-09, kul-10, kul-11, kul-12, kul-13, kul-38, kul-39, kul-40, kul-43, kul-44, kul-49, kul-51, kul-54, kul-61, kul-65, spo-43, spo-52, spo-54, spo-65
+- <https://en.wikipedia.org/wiki/Orava_Castle> (wikipedia) · pytania: zab-31
+- <https://www.bojnicecastle.sk/> (strona instytucji) · pytania: zab-32
+- <https://en.wikipedia.org/wiki/Bojnice_Castle> (wikipedia) · pytania: zab-32
+- <https://www.trencin.sk/> (strona instytucji) · pytania: zab-33, zab-34, geo-35, his-13
+- <https://en.wikipedia.org/wiki/Trenčín_Castle> (wikipedia) · pytania: zab-33, zab-34
+- <https://www.nitra.sk/> (strona instytucji) · pytania: zab-35, geo-34, geo-40, geo-65, his-07
+- <https://en.wikipedia.org/wiki/Nitra_Castle> (wikipedia) · pytania: zab-35
+- <https://www.trnava.sk/> (strona instytucji) · pytania: zab-36, geo-36
+- <https://en.wikipedia.org/wiki/Trnava> (wikipedia) · pytania: zab-36, geo-36
+- <https://www.komarno.sk/> (strona instytucji) · pytania: zab-37, geo-38
+- <https://en.wikipedia.org/wiki/Fortress_of_Komárno> (wikipedia) · pytania: zab-37
+- <https://www.piestany.sk/> (strona instytucji) · pytania: zab-38, geo-37
+- <https://en.wikipedia.org/wiki/Piešťany> (wikipedia) · pytania: zab-38, geo-37
+- <https://www.cachtice.sk/> (strona instytucji) · pytania: zab-39
+- <https://en.wikipedia.org/wiki/Čachtice_Castle> (wikipedia) · pytania: zab-39
+- <https://www.slovakia.travel/> (strona instytucji) · pytania: zab-40, geo-09, geo-14, geo-25, geo-56
+- <https://en.wikipedia.org/wiki/Strečno_Castle> (wikipedia) · pytania: zab-40
+- <https://www.tanap.sk/> (strona instytucji) · pytania: zab-41, zab-53, zab-55, geo-31, geo-32, geo-33, spo-41, spo-60
+- <https://en.wikipedia.org/wiki/Kriváň> (wikipedia) · pytania: zab-41
+- <https://www.nbs.sk/> (strona instytucji) · pytania: zab-42, geo-44, his-01, spo-61, spo-62
+- <https://en.wikipedia.org/wiki/Slovak_euro_coins> (wikipedia) · pytania: zab-42
+- <https://en.wikipedia.org/wiki/Čičmany> (wikipedia) · pytania: zab-43
+- <https://www.muzeumsnp.sk/> (strona instytucji) · pytania: zab-44, his-47
+- <https://en.wikipedia.org/wiki/Museum_of_the_Slovak_National_Uprising> (wikipedia) · pytania: zab-44
+- <https://www.banskabystrica.sk/> (strona instytucji) · pytania: zab-45, geo-16, geo-50
+- <https://en.wikipedia.org/wiki/Banská_Bystrica> (wikipedia) · pytania: zab-45, geo-16
+- <https://ich.unesco.org/> (instytucja) · pytania: zab-46, kul-19, kul-42, kul-55, kul-56, kul-57
+- <https://en.wikipedia.org/wiki/Fujara> (wikipedia) · pytania: zab-46
+- <https://en.wikipedia.org/wiki/St_Michael_Chapel> (wikipedia) · pytania: zab-47
+- <https://en.wikipedia.org/wiki/St._Urban_Tower> (wikipedia) · pytania: zab-48
+- <https://en.wikipedia.org/wiki/Košice> (wikipedia) · pytania: zab-49, geo-22, his-61
+- <https://www.npslovenskyraj.sk/> (strona instytucji) · pytania: zab-50
+- <https://en.wikipedia.org/wiki/Slovak_Paradise_National_Park> (wikipedia) · pytania: zab-50
+- <https://www.npmalafatra.sk/> (strona instytucji) · pytania: zab-51
+- <https://en.wikipedia.org/wiki/Malá_Fatra_National_Park> (wikipedia) · pytania: zab-51
+- <https://www.sav.sk/> (strona instytucji) · pytania: zab-52
+- <https://en.wikipedia.org/wiki/Smolenice_Castle> (wikipedia) · pytania: zab-52
+- <https://en.wikipedia.org/wiki/Gerlachovský_štít> (wikipedia) · pytania: zab-53
+- <https://www.vt.sk/> (strona instytucji) · pytania: zab-54, zab-56
+- <https://en.wikipedia.org/wiki/Lomnický_štít> (wikipedia) · pytania: zab-54
+- <https://en.wikipedia.org/wiki/Rysy> (wikipedia) · pytania: zab-55
+- <https://en.wikipedia.org/wiki/Štrbské_pleso> (wikipedia) · pytania: zab-56
+- <https://www.chz.sk/> (strona instytucji) · pytania: zab-57
+- <https://en.wikipedia.org/wiki/Čierny_Hron_Railway> (wikipedia) · pytania: zab-57
+- <https://www.modra.sk/> (strona instytucji) · pytania: zab-58, kul-66
+- <https://en.wikipedia.org/wiki/Modra> (wikipedia) · pytania: zab-58, kul-66
+- <https://www.senec.sk/> (strona instytucji) · pytania: zab-59
+- <https://en.wikipedia.org/wiki/Senec> (wikipedia) · pytania: zab-59
+- <https://en.wikipedia.org/wiki/Kamzík_TV_Tower> (wikipedia) · pytania: zab-60
+- <https://www.snd.sk/> (strona instytucji) · pytania: zab-61, kul-17
+- <https://en.wikipedia.org/wiki/Slovak_National_Theatre> (wikipedia) · pytania: zab-61
+- <https://en.wikipedia.org/wiki/Blue_Church> (wikipedia) · pytania: zab-62
+- <https://www.kopcany.sk/> (strona instytucji) · pytania: zab-64
+- <https://en.wikipedia.org/wiki/Church_of_St._Margaret_of_Antioch,_Kopčany> (wikipedia) · pytania: zab-64
+- <https://www.poprad.sk/> (strona instytucji) · pytania: zab-65, geo-53, geo-54
+- <https://en.wikipedia.org/wiki/Poprad> (wikipedia) · pytania: zab-65, geo-53
+- <https://en.wikipedia.org/wiki/Belianska_Cave> (wikipedia) · pytania: zab-66
+- <https://en.wikipedia.org/wiki/Demänovská_Ice_Cave> (wikipedia) · pytania: zab-67
+- <https://www.statistics.sk/> (strona instytucji) · pytania: geo-01, geo-10, geo-11, geo-12, geo-45, geo-46, geo-47, geo-60, geo-61, geo-63, kul-58, kul-59, spo-08, spo-27, spo-28
+- <https://en.wikipedia.org/wiki/Regions_of_Slovakia> (wikipedia) · pytania: geo-01
+- <https://www.britannica.com/place/Bratislava> (encyklopedia) · pytania: geo-02, geo-03, his-20, his-38
+- <https://en.wikipedia.org/wiki/Bratislava> (wikipedia) · pytania: geo-02, geo-04, his-20, his-38, spo-08, spo-58
+- <https://en.wikipedia.org/wiki/Danube> (wikipedia) · pytania: geo-03
+- <https://www.petrzalka.sk/> (strona instytucji) · pytania: geo-05
+- <https://en.wikipedia.org/wiki/Petržalka> (wikipedia) · pytania: geo-05
+- <https://en.wikipedia.org/wiki/Morava_(river)> (wikipedia) · pytania: geo-06
+- <https://en.wikipedia.org/wiki/Little_Carpathians> (wikipedia) · pytania: geo-07
+- <https://www.divokavoda.sk/> (strona instytucji) · pytania: geo-08
+- <https://en.wikipedia.org/wiki/Čunovo_Water_Sports_Centre> (wikipedia) · pytania: geo-08
+- <https://en.wikipedia.org/wiki/Žitný_ostrov> (wikipedia) · pytania: geo-09
+- <https://en.wikipedia.org/wiki/Demographics_of_Slovakia> (wikipedia) · pytania: geo-10
+- <https://en.wikipedia.org/wiki/Geography_of_Slovakia> (wikipedia) · pytania: geo-11, geo-45, geo-46, geo-47
+- <https://en.wikipedia.org/wiki/Hungary–Slovakia_border> (wikipedia) · pytania: geo-12
+- <https://www.britannica.com/place/Vah-River> (encyklopedia) · pytania: geo-13
+- <https://en.wikipedia.org/wiki/Váh> (wikipedia) · pytania: geo-13
+- <https://en.wikipedia.org/wiki/Liptovská_Mara> (wikipedia) · pytania: geo-14
+- <https://en.wikipedia.org/wiki/Orava_(reservoir)> (wikipedia) · pytania: geo-15
+- <https://www.zilina.sk/> (strona instytucji) · pytania: geo-17
+- <https://en.wikipedia.org/wiki/Žilina> (wikipedia) · pytania: geo-17
+- <https://www.jasna.sk/> (strona instytucji) · pytania: geo-18
+- <https://en.wikipedia.org/wiki/Low_Tatras> (wikipedia) · pytania: geo-18
+- <https://www.mikulas.sk/> (strona instytucji) · pytania: geo-19, his-23, his-32, kul-31
+- <https://en.wikipedia.org/wiki/Liptovský_Mikuláš> (wikipedia) · pytania: geo-19
+- <https://www.kysuce.sk/> (strona instytucji) · pytania: geo-20
+- <https://en.wikipedia.org/wiki/Kysuce> (wikipedia) · pytania: geo-20
+- <https://www.matica.sk/> (strona instytucji) · pytania: geo-21, his-33, his-34
+- <https://en.wikipedia.org/wiki/Martin,_Slovakia> (wikipedia) · pytania: geo-21
+- <https://www.presov.sk/> (strona instytucji) · pytania: geo-23
+- <https://en.wikipedia.org/wiki/Prešov> (wikipedia) · pytania: geo-23
+- <https://www.levoca.sk/> (strona instytucji) · pytania: geo-24, spo-53
+- <https://en.wikipedia.org/wiki/Spiš> (wikipedia) · pytania: geo-24
+- <https://en.wikipedia.org/wiki/Zemplínska_šírava> (wikipedia) · pytania: geo-25
+- <https://www.sopsr.sk/> (strona instytucji) · pytania: geo-26, geo-28, geo-49, spo-42
+- <https://en.wikipedia.org/wiki/Pieniny_National_Park_(Slovakia)> (wikipedia) · pytania: geo-26
+- <https://www.cervenyklastor.sk/> (strona instytucji) · pytania: geo-27
+- <https://en.wikipedia.org/wiki/Červený_Kláštor> (wikipedia) · pytania: geo-27
+- <https://en.wikipedia.org/wiki/List_of_tripoints> (wikipedia) · pytania: geo-28
+- <https://whc.unesco.org/en/list/1133> (instytucja) · pytania: geo-29
+- <https://en.wikipedia.org/wiki/Poloniny_National_Park> (wikipedia) · pytania: geo-29
+- <https://www.vhu.sk/> (strona instytucji) · pytania: geo-30, his-44, his-45, kul-53
+- <https://en.wikipedia.org/wiki/Battle_of_the_Dukla_Pass> (wikipedia) · pytania: geo-30
+- <https://en.wikipedia.org/wiki/High_Tatras> (wikipedia) · pytania: geo-31, spo-60
+- <https://en.wikipedia.org/wiki/Tatra_National_Park,_Slovakia> (wikipedia) · pytania: geo-32, geo-33, spo-41
+- <https://en.wikipedia.org/wiki/Nitra> (wikipedia) · pytania: geo-34, kul-63
+- <https://en.wikipedia.org/wiki/Trenčín> (wikipedia) · pytania: geo-35
+- <https://en.wikipedia.org/wiki/Komárno> (wikipedia) · pytania: geo-38
+- <https://www.sturovo.sk/> (strona instytucji) · pytania: geo-39
+- <https://en.wikipedia.org/wiki/Štúrovo> (wikipedia) · pytania: geo-39
+- <https://en.wikipedia.org/wiki/Nitra_(river)> (wikipedia) · pytania: geo-40
+- <https://www.puchov.sk/> (strona instytucji) · pytania: geo-41
+- <https://en.wikipedia.org/wiki/Púchov> (wikipedia) · pytania: geo-41
+- <https://www.prievidza.sk/> (strona instytucji) · pytania: geo-42
+- <https://en.wikipedia.org/wiki/Prievidza> (wikipedia) · pytania: geo-42
+- <https://www.seas.sk/> (strona instytucji) · pytania: geo-43, spo-55
+- <https://en.wikipedia.org/wiki/Bohunice_Nuclear_Power_Plant> (wikipedia) · pytania: geo-43
+- <https://en.wikipedia.org/wiki/Slovak_euro> (wikipedia) · pytania: geo-44
+- <https://www.npvf.sk/> (strona instytucji) · pytania: geo-48, geo-59
+- <https://en.wikipedia.org/wiki/Ostredok> (wikipedia) · pytania: geo-48
+- <https://en.wikipedia.org/wiki/Kráľova_hoľa> (wikipedia) · pytania: geo-49
+- <https://en.wikipedia.org/wiki/Hron> (wikipedia) · pytania: geo-50
+- <https://www.npmuranskaplanina.sk/> (strona instytucji) · pytania: geo-51
+- <https://en.wikipedia.org/wiki/Muránska_planina_National_Park> (wikipedia) · pytania: geo-51
+- <https://en.wikipedia.org/wiki/Rajecké_Teplice> (wikipedia) · pytania: geo-52
+- <https://en.wikipedia.org/wiki/Poprad_(river)> (wikipedia) · pytania: geo-54
+- <https://www.kupele-bj.sk/> (strona instytucji) · pytania: geo-55
+- <https://en.wikipedia.org/wiki/Zemplín_(region)> (wikipedia) · pytania: geo-56
+- <https://web.vucke.sk/> (strona instytucji) · pytania: geo-57
+- <https://en.wikipedia.org/wiki/Košice_Region> (wikipedia) · pytania: geo-57
+- <https://www.roznava.sk/> (strona instytucji) · pytania: geo-58
+- <https://en.wikipedia.org/wiki/Krásna_Hôrka_Castle> (wikipedia) · pytania: geo-58
+- <https://en.wikipedia.org/wiki/Fatra-Tatra_Area> (wikipedia) · pytania: geo-59
+- <https://en.wikipedia.org/wiki/Banská_Bystrica_Region> (wikipedia) · pytania: geo-60
+- <https://en.wikipedia.org/wiki/Bratislava_Region> (wikipedia) · pytania: geo-61
+- <https://www.volkswagen.sk/> (strona instytucji) · pytania: geo-62
+- <https://en.wikipedia.org/wiki/Volkswagen_Bratislava_Plant> (wikipedia) · pytania: geo-62
+- <https://en.wikipedia.org/wiki/Automotive_industry_in_Slovakia> (wikipedia) · pytania: geo-63, geo-64
+- <https://www.kia.sk/> (strona instytucji) · pytania: geo-64
+- <https://en.wikipedia.org/wiki/Jaguar_Land_Rover> (wikipedia) · pytania: geo-65
+- <https://www.martin.sk/> (strona instytucji) · pytania: geo-66
+- <https://en.wikipedia.org/wiki/Turiec> (wikipedia) · pytania: geo-66
+- <https://en.wikipedia.org/wiki/Biatec> (wikipedia) · pytania: his-01
+- <https://whc.unesco.org/en/list/1608> (instytucja) · pytania: his-02, his-03
+- <https://en.wikipedia.org/wiki/Gerulata> (wikipedia) · pytania: his-02
+- <https://en.wikipedia.org/wiki/Iža> (wikipedia) · pytania: his-03
+- <https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor> (encyklopedia) · pytania: his-04
+- <https://en.wikipedia.org/wiki/Meditations> (wikipedia) · pytania: his-04
+- <https://en.wikipedia.org/wiki/Samo> (wikipedia) · pytania: his-05
+- <https://www.britannica.com/place/Great-Moravia> (encyklopedia) · pytania: his-06
+- <https://en.wikipedia.org/wiki/Great_Moravia> (wikipedia) · pytania: his-06, his-11
+- <https://en.wikipedia.org/wiki/Pribina> (wikipedia) · pytania: his-07
+- <https://www.britannica.com/biography/Saints-Cyril-and-Methodius> (encyklopedia) · pytania: his-08
+- <https://en.wikipedia.org/wiki/Saints_Cyril_and_Methodius> (wikipedia) · pytania: his-08
+- <https://www.britannica.com/topic/Glagolitic-alphabet> (encyklopedia) · pytania: his-09
+- <https://en.wikipedia.org/wiki/Glagolitic_script> (wikipedia) · pytania: his-09
+- <https://www.britannica.com/biography/Svatopluk> (encyklopedia) · pytania: his-10
+- <https://en.wikipedia.org/wiki/Svatopluk_I_of_Moravia> (wikipedia) · pytania: his-10
+- <https://www.britannica.com/place/Slovakia> (encyklopedia) · pytania: his-11, his-12, his-35, his-43
+- <https://en.wikipedia.org/wiki/First_Mongol_invasion_of_Hungary> (wikipedia) · pytania: his-12
+- <https://en.wikipedia.org/wiki/Matthew_III_Csák> (wikipedia) · pytania: his-13
+- <https://pl.wikipedia.org/wiki/Ścibor_ze_Ściborzyc> (wikipedia) · pytania: his-14
+- <https://pl.wikipedia.org/wiki/Zastaw_spiski> (wikipedia) · pytania: his-15, his-27
+- <https://en.wikipedia.org/wiki/John_Jiskra_of_Brandýs> (wikipedia) · pytania: his-16
+- <https://www.uniba.sk/> (strona instytucji) · pytania: his-17, kul-46
+- <https://en.wikipedia.org/wiki/Academia_Istropolitana> (wikipedia) · pytania: his-17
+- <https://www.britannica.com/biography/Vladislas-II> (encyklopedia) · pytania: his-18
+- <https://en.wikipedia.org/wiki/Vladislaus_II_of_Hungary> (wikipedia) · pytania: his-18
+- <https://www.britannica.com/event/Battle-of-Mohacs> (encyklopedia) · pytania: his-19
+- <https://en.wikipedia.org/wiki/Battle_of_Mohács> (wikipedia) · pytania: his-19
+- <https://www.novezamky.sk/> (strona instytucji) · pytania: his-21
+- <https://en.wikipedia.org/wiki/Nové_Zámky> (wikipedia) · pytania: his-21
+- <https://en.wikipedia.org/wiki/Imre_Thököly> (wikipedia) · pytania: his-22
+- <https://en.wikipedia.org/wiki/Juraj_Jánošík> (wikipedia) · pytania: his-23, his-24, kul-48
+- <https://www.terchova.sk/> (strona instytucji) · pytania: his-24, his-25, kul-48
+- <https://pl.wikipedia.org/wiki/Juraj_Jánošík> (wikipedia) · pytania: his-25
+- <https://www.podolinec.sk/> (strona instytucji) · pytania: his-26
+- <https://pl.wikipedia.org/wiki/Podoliniec> (wikipedia) · pytania: his-26
+- <https://en.wikipedia.org/wiki/Maria_Theresa> (wikipedia) · pytania: his-28
+- <https://www.juls.savba.sk/> (strona instytucji) · pytania: his-29, kul-33, kul-34, kul-35, kul-36, kul-37, spo-35, spo-39, spo-48, spo-49, spo-50, spo-51
+- <https://en.wikipedia.org/wiki/Anton_Bernolák> (wikipedia) · pytania: his-29
+- <https://www.britannica.com/biography/Ludovit-Stur> (encyklopedia) · pytania: his-31
+- <https://en.wikipedia.org/wiki/Ľudovít_Štúr> (wikipedia) · pytania: his-31
+- <https://en.wikipedia.org/wiki/Demands_of_the_Slovak_Nation> (wikipedia) · pytania: his-32
+- <https://sk.wikipedia.org/wiki/Memorandum_národa_slovenského> (wikipedia) · pytania: his-33
+- <https://en.wikipedia.org/wiki/Matica_slovenská> (wikipedia) · pytania: his-34
+- <https://en.wikipedia.org/wiki/Magyarization> (wikipedia) · pytania: his-35
+- <https://en.wikipedia.org/wiki/Slovak_Americans> (wikipedia) · pytania: his-36
+- <https://www.britannica.com/biography/Jan-Kollar> (encyklopedia) · pytania: his-37
+- <https://en.wikipedia.org/wiki/Ján_Kollár> (wikipedia) · pytania: his-37
+- <https://en.wikipedia.org/wiki/Pittsburgh_Agreement> (wikipedia) · pytania: his-39
+- <https://en.wikipedia.org/wiki/Milan_Rastislav_Štefánik> (wikipedia) · pytania: his-40
+- <https://en.wikipedia.org/wiki/Tomb_of_Milan_Rastislav_Štefánik> (wikipedia) · pytania: his-41
+- <https://www.britannica.com/place/Czechoslovakia> (encyklopedia) · pytania: his-42, his-48, his-55
+- <https://en.wikipedia.org/wiki/Czechoslovakia> (wikipedia) · pytania: his-42
+- <https://en.wikipedia.org/wiki/First_Vienna_Award> (wikipedia) · pytania: his-43
+- <https://en.wikipedia.org/wiki/Slovak_invasion_of_Poland> (wikipedia) · pytania: his-44, his-45
+- <https://www.britannica.com/biography/Jozef-Tiso> (encyklopedia) · pytania: his-46
+- <https://en.wikipedia.org/wiki/Jozef_Tiso> (wikipedia) · pytania: his-46
+- <https://en.wikipedia.org/wiki/Slovak_National_Uprising> (wikipedia) · pytania: his-47
+- <https://en.wikipedia.org/wiki/1948_Czechoslovak_coup_d'état> (wikipedia) · pytania: his-48
+- <https://www.britannica.com/biography/Alexander-Dubcek> (encyklopedia) · pytania: his-49
+- <https://en.wikipedia.org/wiki/Alexander_Dubček> (wikipedia) · pytania: his-49
+- <https://www.britannica.com/event/Prague-Spring> (encyklopedia) · pytania: his-50
+- <https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia> (wikipedia) · pytania: his-50
+- <https://www.britannica.com/biography/Gustav-Husak> (encyklopedia) · pytania: his-51
+- <https://en.wikipedia.org/wiki/Gustáv_Husák> (wikipedia) · pytania: his-51
+- <https://www.upn.gov.sk/> (strona instytucji) · pytania: his-52
+- <https://en.wikipedia.org/wiki/Candle_demonstration_in_Bratislava> (wikipedia) · pytania: his-52
+- <https://www.britannica.com/event/Velvet-Revolution> (encyklopedia) · pytania: his-53
+- <https://en.wikipedia.org/wiki/Velvet_Revolution> (wikipedia) · pytania: his-53
+- <https://en.wikipedia.org/wiki/Dissolution_of_Czechoslovakia> (wikipedia) · pytania: his-54, his-55
+- <https://en.wikipedia.org/wiki/Vladimír_Mečiar> (wikipedia) · pytania: his-56
+- <https://en.wikipedia.org/wiki/Michal_Kováč> (wikipedia) · pytania: his-57
+- <https://en.wikipedia.org/wiki/2004_enlargement_of_the_European_Union> (wikipedia) · pytania: his-58
+- <https://en.wikipedia.org/wiki/Zuzana_Čaputová> (wikipedia) · pytania: his-59
+- <https://en.wikipedia.org/wiki/Battle_of_Rozgony> (wikipedia) · pytania: his-60
+- <https://www.ruzomberok.sk/> (strona instytucji) · pytania: his-62, his-64, kul-25
+- <https://en.wikipedia.org/wiki/Andrej_Hlinka> (wikipedia) · pytania: his-62
+- <https://www.britannica.com/biography/Milan-Hodza> (encyklopedia) · pytania: his-63
+- <https://en.wikipedia.org/wiki/Milan_Hodža> (wikipedia) · pytania: his-63
+- <https://en.wikipedia.org/wiki/Černová_tragedy> (wikipedia) · pytania: his-64
+- <https://en.wikipedia.org/wiki/Polish–Czechoslovak_border_conflicts> (wikipedia) · pytania: his-65
+- <https://en.wikipedia.org/wiki/Bryndzové_halušky> (wikipedia) · pytania: kul-01
+- <https://en.wikipedia.org/wiki/Bryndza> (wikipedia) · pytania: kul-02
+- <https://www.kofola.sk/> (strona instytucji) · pytania: kul-03
+- <https://en.wikipedia.org/wiki/Kofola> (wikipedia) · pytania: kul-03
+- <https://en.wikipedia.org/wiki/Oštiepok> (wikipedia) · pytania: kul-04
+- <https://en.wikipedia.org/wiki/Korbáčiky> (wikipedia) · pytania: kul-05
+- <https://en.wikipedia.org/wiki/Kapustnica> (wikipedia) · pytania: kul-06
+- <https://en.wikipedia.org/wiki/Slovak_cuisine> (wikipedia) · pytania: kul-07, kul-39, kul-54, spo-43, spo-65
+- <https://en.wikipedia.org/wiki/Slivovitz> (wikipedia) · pytania: kul-08
+- <https://en.wikipedia.org/wiki/Borovička> (wikipedia) · pytania: kul-09
+- <https://en.wikipedia.org/wiki/Tokaj_wine_region> (wikipedia) · pytania: kul-10
+- <https://en.wikipedia.org/wiki/Slovenský_Grob> (wikipedia) · pytania: kul-11
+- <https://en.wikipedia.org/wiki/Andy_Warhol_Museum_of_Modern_Art> (wikipedia) · pytania: kul-12
+- <https://en.wikipedia.org/wiki/Andy_Warhol> (wikipedia) · pytania: kul-13
+- <https://www.snk.sk/> (strona instytucji) · pytania: kul-14, kul-16
+- <https://en.wikipedia.org/wiki/Pavol_Országh_Hviezdoslav> (wikipedia) · pytania: kul-14
+- <https://en.wikipedia.org/wiki/Andrej_Sládkovič> (wikipedia) · pytania: kul-15
+- <https://en.wikipedia.org/wiki/Pavol_Dobšinský> (wikipedia) · pytania: kul-16
+- <https://en.wikipedia.org/wiki/Eugen_Suchoň> (wikipedia) · pytania: kul-17
+- <https://www.lucnica.sk/> (strona instytucji) · pytania: kul-18
+- <https://sk.wikipedia.org/wiki/Lúčnica> (wikipedia) · pytania: kul-18
+- <https://en.wikipedia.org/wiki/Terchová> (wikipedia) · pytania: kul-19
+- <https://www.festivalvychodna.sk/> (strona instytucji) · pytania: kul-20
+- <https://en.wikipedia.org/wiki/Východná> (wikipedia) · pytania: kul-20
+- <https://www.pohodafestival.sk/> (strona instytucji) · pytania: kul-21
+- <https://en.wikipedia.org/wiki/Pohoda_(music_festival)> (wikipedia) · pytania: kul-21
+- <https://www.sfu.sk/> (strona instytucji) · pytania: kul-22, kul-23
+- <https://en.wikipedia.org/wiki/Juraj_Jakubisko> (wikipedia) · pytania: kul-22
+- <https://en.wikipedia.org/wiki/The_Shop_on_Main_Street> (wikipedia) · pytania: kul-23
+- <https://en.wikipedia.org/wiki/Martin_Benka> (wikipedia) · pytania: kul-24
+- <https://en.wikipedia.org/wiki/Ľudovít_Fulla> (wikipedia) · pytania: kul-25
+- <https://en.wikipedia.org/wiki/Jozef_Murgaš> (wikipedia) · pytania: kul-26
+- <https://en.wikipedia.org/wiki/Štefan_Banič> (wikipedia) · pytania: kul-27
+- <https://en.wikipedia.org/wiki/Ján_Bahýľ> (wikipedia) · pytania: kul-28
+- <https://en.wikipedia.org/wiki/Wolfgang_von_Kempelen> (wikipedia) · pytania: kul-29
+- <https://www.spisskabela.sk/> (strona instytucji) · pytania: kul-30
+- <https://en.wikipedia.org/wiki/Joseph_Petzval> (wikipedia) · pytania: kul-30
+- <https://en.wikipedia.org/wiki/Aurel_Stodola> (wikipedia) · pytania: kul-31
+- <https://en.wikipedia.org/wiki/Maximilian_Hell> (wikipedia) · pytania: kul-32
+- <https://en.wikipedia.org/wiki/Slovak_language> (wikipedia) · pytania: kul-33, kul-34, kul-35, kul-36, kul-37, spo-48, spo-49, spo-50
+- <https://en.wikipedia.org/wiki/Pomlázka> (wikipedia) · pytania: kul-38
+- <https://en.wikipedia.org/wiki/Name_day> (wikipedia) · pytania: kul-40
+- <https://www.pmza.sk/> (strona instytucji) · pytania: kul-41
+- <https://sk.wikipedia.org/wiki/Drotár> (wikipedia) · pytania: kul-41
+- <https://sk.wikipedia.org/wiki/Modrotlač> (wikipedia) · pytania: kul-42
+- <https://en.wikipedia.org/wiki/Maypole> (wikipedia) · pytania: kul-43
+- <https://en.wikipedia.org/wiki/Elán_(band)> (wikipedia) · pytania: kul-44
+- <https://www.sng.sk/> (strona instytucji) · pytania: kul-45
+- <https://en.wikipedia.org/wiki/Slovak_National_Gallery> (wikipedia) · pytania: kul-45
+- <https://en.wikipedia.org/wiki/Comenius_University> (wikipedia) · pytania: kul-46
+- <https://www.bibiana.sk/> (strona instytucji) · pytania: kul-47
+- <https://en.wikipedia.org/wiki/Biennial_of_Illustration_Bratislava> (wikipedia) · pytania: kul-47
+- <https://en.wikipedia.org/wiki/Blaufränkisch> (wikipedia) · pytania: kul-49
+- <https://www.skalica.sk/> (strona instytucji) · pytania: kul-50
+- <https://en.wikipedia.org/wiki/Trdelník> (wikipedia) · pytania: kul-50
+- <https://en.wikipedia.org/wiki/Poppy_seed_roll> (wikipedia) · pytania: kul-51
+- <https://www.filharmonia.sk/> (strona instytucji) · pytania: kul-52
+- <https://en.wikipedia.org/wiki/Slovak_Philharmonic> (wikipedia) · pytania: kul-52
+- <https://en.wikipedia.org/wiki/Ivan_Bella> (wikipedia) · pytania: kul-53
+- <https://en.wikipedia.org/wiki/Lists_of_Intangible_Cultural_Heritage_elements> (wikipedia) · pytania: kul-55
+- <https://en.wikipedia.org/wiki/Horehronie> (wikipedia) · pytania: kul-56
+- <https://sk.wikipedia.org/wiki/Gajdy> (wikipedia) · pytania: kul-57
+- <https://en.wikipedia.org/wiki/Rusyns> (wikipedia) · pytania: kul-58
+- <https://en.wikipedia.org/wiki/Hungarians_in_Slovakia> (wikipedia) · pytania: kul-59
+- <https://www.zdiar.sk/> (strona instytucji) · pytania: kul-60
+- <https://en.wikipedia.org/wiki/Ždiar> (wikipedia) · pytania: kul-60
+- <https://en.wikipedia.org/wiki/Pierogi> (wikipedia) · pytania: kul-61
+- <https://en.wikipedia.org/wiki/Dušan_Jurkovič> (wikipedia) · pytania: kul-62
+- <https://www.nitrafest.sk/> (strona instytucji) · pytania: kul-63
+- <https://www.artfilmfest.sk/> (strona instytucji) · pytania: kul-64
+- <https://en.wikipedia.org/wiki/Art_Film_Fest> (wikipedia) · pytania: kul-64
+- <https://en.wikipedia.org/wiki/Christkind> (wikipedia) · pytania: kul-65
+- <https://en.wikipedia.org/wiki/Peter_Pellegrini> (wikipedia) · pytania: spo-01
+- <https://www.nrsr.sk/> (strona instytucji) · pytania: spo-02, spo-03, spo-06, spo-63
+- <https://en.wikipedia.org/wiki/National_Council_(Slovakia)> (wikipedia) · pytania: spo-02, spo-03, spo-63
+- <https://en.wikipedia.org/wiki/President_of_Slovakia> (wikipedia) · pytania: spo-04
+- <https://en.wikipedia.org/wiki/Summer_Archbishop's_Palace> (wikipedia) · pytania: spo-05
+- <https://en.wikipedia.org/wiki/Constitution_of_Slovakia> (wikipedia) · pytania: spo-07
+- <https://www.hockeyslovakia.sk/> (strona instytucji) · pytania: spo-09, spo-44, spo-56
+- <https://en.wikipedia.org/wiki/Slovakia_men's_national_ice_hockey_team> (wikipedia) · pytania: spo-09, spo-10
+- <https://www.olympic.sk/> (strona instytucji) · pytania: spo-10, spo-16, spo-17, spo-18, spo-20, spo-37
+- <https://www.nhl.com/> (strona instytucji) · pytania: spo-11, spo-12, spo-13, spo-57
+- <https://en.wikipedia.org/wiki/Juraj_Slafkovský> (wikipedia) · pytania: spo-11
+- <https://en.wikipedia.org/wiki/Zdeno_Chára> (wikipedia) · pytania: spo-12
+- <https://en.wikipedia.org/wiki/Marián_Hossa> (wikipedia) · pytania: spo-13
+- <https://www.uci.org/> (strona instytucji) · pytania: spo-14
+- <https://en.wikipedia.org/wiki/Peter_Sagan> (wikipedia) · pytania: spo-14, spo-15
+- <https://www.letour.fr/> (strona instytucji) · pytania: spo-15
+- <https://en.wikipedia.org/wiki/Pavol_Hochschorner> (wikipedia) · pytania: spo-16
+- <https://en.wikipedia.org/wiki/Michal_Martikán> (wikipedia) · pytania: spo-17
+- <https://en.wikipedia.org/wiki/Matej_Tóth> (wikipedia) · pytania: spo-18
+- <https://www.fis-ski.com/> (strona instytucji) · pytania: spo-19
+- <https://en.wikipedia.org/wiki/Petra_Vlhová> (wikipedia) · pytania: spo-19
+- <https://en.wikipedia.org/wiki/Anastasiya_Kuzmina> (wikipedia) · pytania: spo-20
+- <https://www.futbalsfz.sk/> (strona instytucji) · pytania: spo-21, spo-22, spo-36, spo-45, spo-46
+- <https://en.wikipedia.org/wiki/Slovakia_national_football_team> (wikipedia) · pytania: spo-21
+- <https://en.wikipedia.org/wiki/Marek_Hamšík> (wikipedia) · pytania: spo-22
+- <https://www.wtatennis.com/> (strona instytucji) · pytania: spo-23, spo-24
+- <https://en.wikipedia.org/wiki/Dominika_Cibulková> (wikipedia) · pytania: spo-23
+- <https://en.wikipedia.org/wiki/Martina_Hingis> (wikipedia) · pytania: spo-24
+- <https://www.kosicemarathon.com/> (strona instytucji) · pytania: spo-25
+- <https://en.wikipedia.org/wiki/Košice_Peace_Marathon> (wikipedia) · pytania: spo-25
+- <https://www.skslovan.com/> (strona instytucji) · pytania: spo-26
+- <https://en.wikipedia.org/wiki/ŠK_Slovan_Bratislava> (wikipedia) · pytania: spo-26
+- <https://en.wikipedia.org/wiki/Religion_in_Slovakia> (wikipedia) · pytania: spo-27, spo-28
+- <https://en.wikipedia.org/wiki/Public_holidays_in_Slovakia> (wikipedia) · pytania: spo-29
+- <https://www.zssk.sk/> (strona instytucji) · pytania: spo-30
+- <https://en.wikipedia.org/wiki/Železničná_spoločnosť_Slovensko> (wikipedia) · pytania: spo-30
+- <https://www.ndsas.sk/> (strona instytucji) · pytania: spo-31
+- <https://en.wikipedia.org/wiki/D1_motorway_(Slovakia)> (wikipedia) · pytania: spo-31
+- <https://en.wikipedia.org/wiki/Schengen_Area> (wikipedia) · pytania: spo-32
+- <https://www.stvr.sk/> (strona instytucji) · pytania: spo-33
+- <https://en.wikipedia.org/wiki/Slovak_Television_and_Radio> (wikipedia) · pytania: spo-33
+- <https://en.wikipedia.org/wiki/Robert_Fico> (wikipedia) · pytania: spo-34
+- <https://en.wikipedia.org/wiki/Spa_town> (wikipedia) · pytania: spo-35
+- <https://en.wikipedia.org/wiki/Tehelné_pole> (wikipedia) · pytania: spo-36
+- <https://en.wikipedia.org/wiki/Ondrej_Nepela_Arena> (wikipedia) · pytania: spo-37
+- <https://www.minedu.sk/> (strona instytucji) · pytania: spo-38
+- <https://en.wikipedia.org/wiki/Matura> (wikipedia) · pytania: spo-38
+- <https://en.wikipedia.org/wiki/Czech–Slovak_languages> (wikipedia) · pytania: spo-39
+- <https://www.hzs.sk/> (strona instytucji) · pytania: spo-40
+- <https://en.wikipedia.org/wiki/Mountain_rescue> (wikipedia) · pytania: spo-40
+- <https://en.wikipedia.org/wiki/Brown_bear> (wikipedia) · pytania: spo-42
+- <https://en.wikipedia.org/wiki/Sport_in_Slovakia> (wikipedia) · pytania: spo-44
+- <https://en.wikipedia.org/wiki/Martin_Škrtel> (wikipedia) · pytania: spo-45
+- <https://en.wikipedia.org/wiki/Stanislav_Lobotka> (wikipedia) · pytania: spo-46
+- <https://www.daviscup.com/> (strona instytucji) · pytania: spo-47
+- <https://en.wikipedia.org/wiki/2005_Davis_Cup> (wikipedia) · pytania: spo-47
+- <https://en.wikipedia.org/wiki/Panelák> (wikipedia) · pytania: spo-51
+- <https://en.wikipedia.org/wiki/Cottage> (wikipedia) · pytania: spo-52
+- <https://en.wikipedia.org/wiki/Levoča> (wikipedia) · pytania: spo-53
+- <https://en.wikipedia.org/wiki/Šaštín-Stráže> (wikipedia) · pytania: spo-54
+- <https://en.wikipedia.org/wiki/Nuclear_power_in_Slovakia> (wikipedia) · pytania: spo-55
+- <https://en.wikipedia.org/wiki/2019_IIHF_World_Championship> (wikipedia) · pytania: spo-56
+- <https://en.wikipedia.org/wiki/Peter_Šťastný> (wikipedia) · pytania: spo-57
+- <https://www.twincityliner.com/> (strona instytucji) · pytania: spo-59
+- <https://en.wikipedia.org/wiki/Twin_City_Liner> (wikipedia) · pytania: spo-59
+- <https://en.wikipedia.org/wiki/Slovak_koruna> (wikipedia) · pytania: spo-61
+- <https://en.wikipedia.org/wiki/National_Bank_of_Slovakia> (wikipedia) · pytania: spo-62
+- <https://www.minv.sk/> (strona instytucji) · pytania: spo-64
+- <https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Slovakia> (wikipedia) · pytania: spo-64

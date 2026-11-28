@@ -1,0 +1,124 @@
+{
+  "code": "sk",
+  "name": "Słowacja",
+  "nameLocal": "Slovensko",
+  "gameTitle": "Odkryj Słowację!",
+  "palette": {
+    "primary": "#0B4EA2",
+    "secondary": "#FFFFFF",
+    "accent": "#EE1C25"
+  },
+  "flag": "sk",
+  "regions": [
+    {
+      "id": "bratislava",
+      "name": "Bratysława",
+      "adminUnits": [
+        "Kraj bratysławski"
+      ],
+      "color": "#C8102E",
+      "motifs": [
+        "zamek bratysławski",
+        "Dunaj",
+        "Most SNP",
+        "Małe Karpaty"
+      ],
+      "description": "Stolica nad Dunajem z zamkiem, katedrą koronacyjną i „UFO” na moście, a wokół winnice Małych Karpat."
+    },
+    {
+      "id": "west",
+      "name": "Słowacja Zachodnia",
+      "adminUnits": [
+        "Kraj trnawski",
+        "Kraj trenczyński",
+        "Kraj nitrzański"
+      ],
+      "color": "#D9A21B",
+      "motifs": [
+        "zamek w Trenczynie",
+        "Nitra",
+        "Piešťany",
+        "Nizina Naddunajska"
+      ],
+      "description": "Trnawa, „słowacki Rzym”, Nitra, kolebka Wielkich Moraw, uzdrowiska Piešťany i Trenczyn z zamkiem nad Wagiem."
+    },
+    {
+      "id": "center",
+      "name": "Słowacja Środkowa",
+      "adminUnits": [
+        "Kraj żyliński",
+        "Kraj bańskobystrzycki"
+      ],
+      "color": "#3F8F4E",
+      "motifs": [
+        "Wielka Fatra",
+        "Bańska Szczawnica",
+        "Orawski Zamek",
+        "Vlkolínec"
+      ],
+      "description": "Góry Fatra, Orawa i Liptów, dawne miasta górnicze Bańska Szczawnica i Bystrzyca oraz drewniana wieś Vlkolínec."
+    },
+    {
+      "id": "east",
+      "name": "Słowacja Wschodnia",
+      "adminUnits": [
+        "Kraj preszowski",
+        "Kraj koszycki"
+      ],
+      "color": "#2F6DB5",
+      "motifs": [
+        "Tatry Wysokie",
+        "Spiski Zamek",
+        "Koszyce",
+        "Lewocza"
+      ],
+      "description": "Tatry z Łomnicą, Spisz z Lewoczą i Spiskim Zamkiem, Bardejów, drewniane cerkwie i Koszyce z gotycką katedrą."
+    }
+  ],
+  "regionCodes": {
+    "b": "bratislava",
+    "w": "west",
+    "c": "center",
+    "e": "east"
+  },
+  "regionShort": {
+    "bratislava": "Bratysława",
+    "west": "Zachód",
+    "center": "Środek",
+    "east": "Wschód"
+  },
+  "specialCards": {
+    "luck": {
+      "name": "Janosik",
+      "short": "Szczęście",
+      "flavor": "Zbójnik zabiera bogatym: zabierz przeciwnikowi jeden jego kraj. Nie działa na gracza w twierdzy."
+    },
+    "detour": {
+      "name": "Lawina",
+      "short": "Objazd",
+      "flavor": "Lawina w Tatrach zamknęła szlak! Wycofujesz się i oddajesz przeciwnikowi jeden swój kraj."
+    },
+    "ticket": {
+      "name": "Elektriczka",
+      "short": "Bilet",
+      "flavor": "Zachowaj tę kartę. Po złej odpowiedzi w swojej turze możesz jej użyć i mimo to zdobyć kartę jednostki."
+    },
+    "express": {
+      "name": "Kofola",
+      "short": "Ekspres",
+      "flavor": "Łyk Kofoli dodaje energii! Po tej rundzie od razu rozegrasz dodatkową rundę z następną kartą."
+    }
+  },
+  "regionSplitRationale": "Podział wyłącznie po granicach 8 krajów samorządowych, zgodny z regionami NUTS 2: Bratysławski, Słowacja Zachodnia, Środkowa i Wschodnia. Region bratysławski to jeden kraj, ale stolica i okolice mają wiele rozpoznawalnych zabytków.",
+  "contentVersion": "1.0.0",
+  "factsAsOf": "2026-11-28",
+  "nameGen": "Słowacji",
+  "nameLoc": "Słowacji",
+  "unitsLabel": "krajów",
+  "unitsCount": 8,
+  "verbHas": "ma",
+  "gameRules": {
+    "perRegion": 3,
+    "winUnits": 7
+  }
+}

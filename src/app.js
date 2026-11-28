@@ -128,7 +128,7 @@
   // ---------- mapa ----------
   let mapUid = 0;
   let REGION_LABEL = null;
-  const LABEL_SHIFT = { at: { east: [-40, 0], north: [0, -10] }, cz: { center: [0, 6], moravia: [10, 0] }, it: { nw: [-20, 30], ne: [10, 10], center: [-30, 0], south: [80, -120] } };
+  const LABEL_SHIFT = { at: { east: [-40, 0], north: [0, -10] }, cz: { center: [0, 6], moravia: [10, 0] }, it: { nw: [-20, 30], ne: [10, 10], center: [-30, 0], south: [80, -120] }, sk: { bratislava: [55, 105], west: [40, -15] } };
   function regionLabels() {
     if (REGION_LABEL) return REGION_LABEL;
     const pts = {};
@@ -149,8 +149,9 @@
       else if (o.progress) { fill = `var(--r-${g})`; op = 0.15 + 0.85 * (o.progress[u] || 0); }
       else if (o.owners) {
         const a = o.owners[0][u] || 0, b = o.owners[1][u] || 0;
-        if (a > 0) { fill = 'var(--mine)'; op = a >= max ? 1 : 0.6; }
-        else if (b > 0) { fill = 'var(--theirs)'; op = b >= max ? 1 : 0.6; }
+        const lvl = (n) => (max > 1 ? 0.6 + 0.4 * Math.min(n - 1, max - 1) / (max - 1) : 1);
+        if (a > 0) { fill = 'var(--mine)'; op = lvl(a); }
+        else if (b > 0) { fill = 'var(--theirs)'; op = lvl(b); }
       }
       const pop = o.pop && o.pop.includes(u) ? ' pop' : '';
       return `<path class="st${pop}" d="${s.d}" fill="${fill}" fill-opacity="${op.toFixed(2)}"><title>${esc(s.name)}</title></path>`;
@@ -658,7 +659,7 @@
       ${P[op].ticket ? `<span class="pill" title="Ma kartę ${esc(SPEC.ticket.name)}">${I.UI.gondola}bilet</span>` : ''}
       <span class="pill">${nOp} z ${N}</span></div></div></div>`;
     const counts = `<div class="score"><span><i class="sw mine"></i>Ty: <b>${nMe}</b></span><span><i class="sw theirs"></i>${esc(P[op].name.slice(0, 12))}: <b>${nOp}</b></span>
-      <span class="muted">do wygranej: ${need} z ${N}</span></div>${mx > 1 ? '<div class="small muted center" style="margin-top:4px">Pełny kolor: jednostka umocniona (' + mx + ' karty), jaśniejszy: 1 karta.</div>' : ''}`;
+      <span class="muted">do wygranej: ${need} z ${N}</span></div>${mx > 1 ? '<div class="small muted center" style="margin-top:4px">' + (mx === 2 ? 'Pełny kolor: jednostka umocniona (2 karty), jaśniejszy: 1 karta.' : 'Im pełniejszy kolor, tym mocniej umocniona jednostka (1-' + mx + ' karty).') + '</div>' : ''}`;
     const meBar = `<div class="me-bar"><div class="head"><b class="grow">${esc(P[me].name)} (ty)</b>
       ${myTurn && v.phase !== 'OVER' ? '<span class="pill turn">twoja tura</span>' : ''}
       ${P[me].ticket ? `<span class="pill on">${I.UI.gondola}bilet</span>` : ''}
@@ -967,7 +968,7 @@
         <div class="cat-grid">${CATS.map((c) => `<button class="btn ${cfg.cats.includes(c) ? '' : 'ghost'}" style="--cc:var(--c-${c})" data-click="cat" data-arg="${c}" aria-pressed="${cfg.cats.includes(c)}">${I.CAT[c]}<span>${esc(CAT_NAMES[c])}</span></button>`).join('')}</div>
         <div class="lbl">Poziom</div>
         <div class="seg">${[0, 1, 2, 3].map((d) => `<button data-click="diff" data-arg="${d}" class="${cfg.diff === d ? 'on' : ''}">${d ? ['', 'łatwe', 'średnie', 'trudne'][d] : 'wszystkie'}</button>`).join('')}</div>
-        <button class="btn primary" data-click="start">Zacznij trening</button>
+        <button class="btn primary" data-click="start">Zacznij trening (15 pytań)</button>
         ${wrongN ? `<button class="btn" data-click="wrong">Powtórz pomyłki (${wrongN})</button>` : ''}
       </div>
       <div class="panel stack"><div class="lbl">Opanowane pytania</div>${bars}</div></div>`, {
@@ -979,58 +980,71 @@
     });
     if (onlyWrong) startTraining(cfg, true);
   }
+  // trening = seria TRAIN_N losowych pytań, na końcu wynik
+  const TRAIN_N = 15;
   function startTraining(cfg, wrongOnly) {
     const st = store.get(SK(), { a: {} }).a;
     let pool = BANK.filter((q) => cfg.cats.includes(q.cat) && (!cfg.diff || q.diff === cfg.diff));
     if (wrongOnly) pool = BANK.filter((q) => st[q.id] && st[q.id].l === 0);
     if (!pool.length) return toast('Brak pytań dla tych ustawień');
-    T = { pool: pool.map((q) => q.id), due: [], n: 0, ok: 0, done: 0, cur: null, picked: null, wrongOnly };
+    const ids = pool.map((q) => q.id);
+    for (let i = ids.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [ids[i], ids[j]] = [ids[j], ids[i]]; }
+    T = { list: ids.slice(0, TRAIN_N), i: -1, ok: 0, done: 0, cur: null, picked: null, wrong: [], wrongOnly, cfg };
     nextTraining();
   }
   function nextTraining() {
-    T.n++;
-    const st = store.get(SK(), { a: {} }).a;
-    const dueIdx = T.due.findIndex((d) => d.at <= T.n);
-    let id;
-    if (dueIdx >= 0) { id = T.due[dueIdx].id; T.due.splice(dueIdx, 1); }
-    else {
-      // najpierw nieopanowane, potem rzadziej widziane
-      const cands = T.pool.filter((x) => x !== (T.cur && T.cur.id) && !T.due.some((d) => d.id === x));
-      const score = (x) => (st[x] && st[x].l === 1 ? 2 : 0) + (st[x] ? Math.min(st[x].n, 5) * 0.2 : 0) + Math.random() * 0.8;
-      cands.sort((a, b) => score(a) - score(b));
-      id = cands[0] || T.pool[0];
-    }
-    T.cur = QB[id]; T.picked = null;
+    T.i++;
+    if (T.i >= T.list.length) return trainingResult();
+    T.cur = QB[T.list[T.i]]; T.picked = null;
     renderTraining();
   }
+  function trainingResult() {
+    const n = T.done, ok = T.ok, pct = n ? Math.round(100 * ok / n) : 0;
+    const verdict = pct >= 90 ? 'Znakomicie!' : pct >= 70 ? 'Bardzo dobrze!' : pct >= 50 ? 'Nieźle!' : 'Trzeba jeszcze poćwiczyć.';
+    const wrong = T.wrong.map((id) => QB[id]).filter(Boolean);
+    render(`${top(T.wrongOnly ? 'Powtórka pomyłek' : 'Trening')}
+      <div class="stack">
+      <div class="panel center stack"><div class="lbl">Wynik</div>
+        <div class="train-score"><b>${ok}</b><span>/ ${n}</span></div>
+        <div class="bar" style="--cc:var(--mine)"><i style="width:${pct}%"></i></div>
+        <div><b>${verdict}</b> <span class="muted">(${pct}%)</span></div></div>
+      ${wrong.length ? `<div class="panel stack"><div class="lbl">Do powtórki (${wrong.length})</div>
+        ${wrong.map((q) => `<div class="item"><div class="small">${esc(q.q)}</div><div class="small train-ans">${I.UI.check}<span>${esc(q.o[q.c])}</span></div></div>`).join('')}</div>` : ''}
+      <button class="btn primary" data-click="again">Kolejne ${TRAIN_N} pytań</button>
+      <button class="btn ghost" data-click="back2">Wróć do treningu</button></div>`, {
+      back: () => { T = null; screenTrain(); },
+      back2: () => { T = null; screenTrain(); },
+      again: () => { const c = T.cfg, w = T.wrongOnly; startTraining(c, w); }
+    });
+  }
   function renderTraining() {
-    const q = T.cur, picked = T.picked !== null;
+    const q = T.cur, picked = T.picked !== null, last = T.i === T.list.length - 1;
     render(`${top(T.wrongOnly ? 'Powtórka pomyłek' : 'Trening')}
       <div class="qbox">
         <div class="qhead">${catChip(q.cat)}<span class="spacer"></span>${diffDots(q.diff)}</div>
-        <div class="small muted">Pytanie ${T.done + (picked ? 0 : 1)} · dobrze: ${T.ok}/${T.done}${T.due.length ? ` · w kolejce powtórek: ${T.due.length}` : ''}</div>
+        <div class="small muted">Pytanie ${T.i + 1} z ${T.list.length} · dobrze: ${T.ok}</div>
+        <div class="bar" style="--cc:var(--mine);margin:6px 0 2px"><i style="width:${(100 * (T.i + (picked ? 1 : 0)) / T.list.length).toFixed(1)}%"></i></div>
         <div class="qtext">${esc(q.q)}</div>
         <div class="answers">${q.o.map((o, i) => {
           const c = picked ? (i === q.c ? 'correct' : i === T.picked ? 'wrong' : '') : '';
           return `<button class="ans ${c}" data-click="ans" data-arg="${i}" ${picked ? 'disabled' : ''}><span class="k">${'ABCD'[i]}</span><span class="t">${esc(o)}</span></button>`;
         }).join('')}</div>
-        ${picked ? `<div class="result ${T.picked === q.c ? 'good' : 'bad'}">${T.picked === q.c ? I.UI.check + '<span>Dobrze!</span>' : I.UI.x + '<span>Niestety nie. To pytanie wróci po 3, 7 i 15 kolejnych.</span>'}</div>
+        ${picked ? `<div class="result ${T.picked === q.c ? 'good' : 'bad'}">${T.picked === q.c ? I.UI.check + '<span>Dobrze!</span>' : I.UI.x + '<span>Niestety nie.</span>'}</div>
           <div class="panel expl">${esc(q.e)}<div class="sources" style="margin-top:8px">Źródła: ${q.src.map((s) => `<a href="${esc(s[0])}" target="_blank" rel="noopener">${esc(s[1])}</a>`).join('')}</div></div>
-          <div class="row"><button class="btn small ghost" data-click="report">${I.UI.flag}Zgłoś błąd</button><span class="spacer"></span><button class="btn small ghost" data-click="end">Zakończ</button><button class="btn primary small" style="min-width:120px" data-click="next">Dalej</button></div>` : ''}
+          <div class="row"><button class="btn small ghost" data-click="report">${I.UI.flag}Zgłoś błąd</button><span class="spacer"></span><button class="btn small ghost" data-click="end">Zakończ</button><button class="btn primary small" style="min-width:120px" data-click="next">${last ? 'Wynik' : 'Dalej'}</button></div>` : ''}
       </div>`, {
       back: () => { T = null; screenTrain(); },
       ans: (i) => {
         if (T.picked !== null) return;
         T.picked = +i; T.done++;
         const ok = T.picked === q.c;
-        if (ok) T.ok++;
-        else [3, 7, 15].forEach((k) => T.due.push({ id: q.id, at: T.n + k }));
+        if (ok) T.ok++; else T.wrong.push(q.id);
         recordAnswer(q.id, ok, 'train');
         vibrate(ok ? 30 : [70, 50, 70]);
         renderTraining();
       },
       next: () => nextTraining(),
-      end: () => { toast(`Wynik: ${T.ok}/${T.done}`); T = null; screenTrain(); },
+      end: () => trainingResult(),
       report: () => reportModal(q.id)
     });
   }
@@ -1114,7 +1128,7 @@
   //  ZASADY
   // ======================================================================
   const RULE_SLIDES = [
-    { t: () => 'Zdobądź mapę ' + C.nameGen, art: () => mapSVG({ full: true, labels: true }), d: () => `${C.name} ${C.verbHas || 'ma'} ${C.unitsCount} ${C.unitsLabel}; każda karta to jedna z tych jednostek. Wygrywa, kto pierwszy zdobędzie ${C.gameRules.winUnits} z ${REGIONS.length}${C.gameRules.perRegion > 1 ? `. Każda jednostka ma w talii ${C.gameRules.perRegion} karty: druga ją umacnia` : ''}.` },
+    { t: () => 'Zdobądź mapę ' + C.nameGen, art: () => mapSVG({ full: true, labels: true }), d: () => `${C.name} ${C.verbHas || 'ma'} ${C.unitsCount} ${C.unitsLabel}; każda karta to jedna z tych jednostek. Wygrywa, kto pierwszy zdobędzie ${C.gameRules.winUnits} z ${REGIONS.length}${C.gameRules.perRegion > 1 ? `. Każda jednostka ma w talii ${C.gameRules.perRegion} karty: ${C.gameRules.perRegion > 2 ? 'kolejne ją umacniają' : 'druga ją umacnia'}` : ''}.` },
     { t: 'Twoja tura', art: () => regionCard(REGIONS[0]), d: 'Odsłaniasz kartę jednostki i rzucasz kostką: 5 kategorii albo Wybór (wtedy kategorię wskazuje przeciwnik). Wygrana karta zdobywa wolną jednostkę, umacnia twoją albo osłabia lub odbiera jednostkę przeciwnika.' },
     { t: 'Pojedynek', art: () => `<div class="die" style="--dc:var(--c-HIS)">${I.CAT.HIS}</div>`, d: 'Pytanie widzą obaj gracze naraz i obaj odpowiadają. Odpowiesz dobrze w swojej turze: karta jest twoja. Pomylisz się, a przeciwnik trafi: to przechwyt. Po każdym pytaniu jest krótkie objaśnienie.' },
     { t: 'Karty specjalne', art: () => specialCard('ticket'), d: () => `${SPEC.luck.name} zabiera kartę przeciwnikowi, ${SPEC.detour.name} każe oddać kartę, ${SPEC.ticket.name} ratuje po złej odpowiedzi, a ${SPEC.express.name} daje dodatkową rundę. Gracz z 3 kompletnymi regionami jest w twierdzy.` }

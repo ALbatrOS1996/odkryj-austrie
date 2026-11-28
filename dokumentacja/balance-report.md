@@ -1,6 +1,6 @@
 # Raport balansu (symulacja Monte Carlo)
 
-Wygenerowano: 2026-11-22 · 10000 partii na wariant · silnik `src/engine.js`.
+Wygenerowano: 2026-11-28 · 10000 partii na wariant · silnik `src/engine.js`.
 
 Zasady terytorialne: każda karta to jednostka administracyjna kraju. Wygrana karta zdobywa wolną jednostkę, umacnia własną albo osłabia lub odbiera jednostkę przeciwnika. Bot używa Zmiany trasy przy w pełni umocnionej jednostce i Biletu przy pierwszej okazji. „Tura” = tura jednego gracza.
 
@@ -56,6 +56,19 @@ Zasady terytorialne: każda karta to jednostka administracyjna kraju. Wygrana ka
 | nie | 80/50 | 18.8 | 18 | 27 | 94.0% | 49.5% | 0.6% |
 | nie | 70/40 | 20.1 | 19 | 29 | 94.9% | 49.5% | 0.5% |
 
+## Słowacja: 8 jednostek, 3 karty na jednostkę, wygrana: 7 z 8
+
+| Karty specjalne | Skuteczność A/B | Średnia tur | Mediana | 90. percentyl | Wygrane A | Wygrane rozpoczynającego | Remisy |
+|---|---|---|---|---|---|---|---|
+| tak | 50/50 | 20.1 | 22 | 25 | 49.8% | 49.4% | 0.3% |
+| tak | 60/60 | 19.3 | 22 | 24 | 49.8% | 49.1% | 0.6% |
+| tak | 80/50 | 17.5 | 18 | 23 | 82.4% | 48.6% | 0.5% |
+| tak | 70/40 | 18.0 | 19 | 24 | 82.3% | 48.4% | 0.3% |
+| nie | 50/50 | 30.8 | 32 | 37 | 48.6% | 49.3% | 4.8% |
+| nie | 60/60 | 27.7 | 29 | 32 | 48.2% | 49.1% | 5.0% |
+| nie | 80/50 | 22.7 | 25 | 29 | 95.9% | 49.6% | 0.9% |
+| nie | 70/40 | 24.1 | 26 | 32 | 96.5% | 49.5% | 0.8% |
+
 ## Cele z rozdz. 8 (z kartami specjalnymi)
 
 | Kraj | Mediana (60/60), cel 16-26 | 80% vs 50%, cel 70-85% | Przewaga rozpoczynającego (60/60), cel < 55% |
@@ -64,6 +77,7 @@ Zasady terytorialne: każda karta to jednostka administracyjna kraju. Wygrana ka
 | Czechy | 16 ✔ | 86.3% ✘ | 50.8% ✔ |
 | Włochy | 17 ✔ | 83.0% ✔ | 51.1% ✔ |
 | Niderlandy | 17 ✔ | 85.0% ✔ | 51.4% ✔ |
+| Słowacja | 22 ✔ | 82.4% ✔ | 49.1% ✔ |
 
 ## Wnioski
 

@@ -10,7 +10,7 @@ const bank = [];
 E.CATS.forEach((cat) => { for (let i = 0; i < 70; i++) bank.push({ id: `${cat}-${i}`, cat, diff: 1, region: null, correct: i % 4 }); });
 E.setBank(bank);
 
-const COUNTRIES = ['at', 'cz', 'it', 'nl'].map((cc) => {
+const COUNTRIES = ['at', 'cz', 'it', 'nl', 'sk'].map((cc) => {
   const cfg = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'content-src', cc, 'country.json'), 'utf8'));
   const map = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'content-src', cc, 'map.json'), 'utf8'));
   return { cc, name: cfg.name, units: map.states.map((s) => s.id), g: cfg.gameRules };

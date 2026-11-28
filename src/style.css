@@ -281,3 +281,9 @@ input[type=text]:focus, textarea:focus { outline: 2px solid var(--red); border-c
 .sw.mine { background: var(--mine); } .sw.theirs { background: var(--theirs); }
 .opp-bar .sw { width: 18px; height: 40px; border-radius: 6px; margin: 0 4px; }
 .score { display: flex; flex-wrap: wrap; gap: 6px 14px; justify-content: center; font-size: 14px; margin-top: 8px; }
+
+.train-score{display:flex;align-items:baseline;justify-content:center;gap:6px;font-family:var(--deco)}
+.train-score b{font-size:64px;line-height:1}
+.train-score span{font-size:24px;color:var(--ink2)}
+.train-ans{display:flex;align-items:center;gap:6px;color:var(--ok);margin-top:4px}
+.train-ans svg{width:16px;height:16px;flex:none}

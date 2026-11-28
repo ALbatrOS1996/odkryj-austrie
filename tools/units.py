@@ -66,6 +66,16 @@ KEYWORDS = {
         ('zh', ['holandia południowa', 'holandii południowej', 'haga', 'hadze', 'hagi', 'binnenhof', 'mauritshuis', 'scheveningen', 'pałac pokoju', 'huis ten bosch', 'noordeinde', 'prinsjesdag', 'europol', 'trybunał karny', 'rotterdam', 'erasmusbrug', 'most erazma', 'kostki', 'markthal', 'van nelle', 'maeslant', 'feyenoord', 'kapsalon', 'kinderdijk', 'delft', 'delfcie', 'lejd', 'lejdzie', 'keukenhof', 'lisse', 'gouda', 'nieuwerkerk', 'zuidplas', 'westland', 'leeuwenhoek', 'huygens', 'lorentz', 'kamerlingh', 'koolhaas', 'boijmans', 'north sea jazz', 'iffr', 'jan steen', 'dorestad']),
         ('nh', ['holandia północna', 'holandii północnej', 'amsterdam', 'kanałów z xvii', 'dam ', 'rijksmuseum', 'anna frank', 'anny frank', 'westerkerk', 'nieuwe kerk', 'zaanse', 'zaan', 'muiderslot', 'naarden', 'texel', 'haarlem', 'schiphol', 'beemster', 'alkmaar', 'edam', 'aalsmeer', 'cruijff', 'ajax', 'heineken', 'concertgebouw', 'vondel', 'van gogha', 'strajk lutowy', 'korfball', 'floris', 'hoeksen']),
     ],
+    'sk': [
+        ('ba', ['bratysław', 'bratislav', 'devín', 'čunov', 'petržalk', 'rusovc', 'gerulat', 'kamzík', 'slavín', 'čumil', 'michalsk', 'most snp', 'ufo', 'prymasowsk', 'grassalkovich', 'małe karpaty', 'małych karpat', ' modra', 'modrze', 'pezinok', 'senec', 'červený kameň', 'danubiana', 'slovenský grob', 'tehelné', 'nepel', 'twin city', 'wiednia', 'reduta', 'filharmoni', 'istropolitana', 'komeńskiego', 'św. marcina', 'devínskiej', 'volkswagen', 'maria teresa', 'manifestacja świec', 'kempelen', 'lúčnica', 'bib']),
+        ('tt', ['trnaw', 'piešťan', 'skalic', 'šaštín', 'smolenic', 'banič', 'kopčan', 'bohunic', 'žytni', 'záhori', 'pressburg']),
+        ('tn', ['trenczyn', 'trenčín', 'bojnic', 'beckov', 'čachtic', 'batory', 'púchov', 'prievidz', 'bradl', 'handlov', 'chára', 'pohoda', 'czak', 'ścibor']),
+        ('nr', ['nitr', 'komárn', 'štúrovo', 'iža', 'kelemanti', 'nowe zamki', 'jaguar', 'tóth', 'pribin']),
+        ('za', ['żylin', 'žilin', ' orawsk', ' oraw', 'liptow', 'liptovsk', 'mikułasz', 'vlkolín', 'rużomberk', 'terchov', 'jánošík', 'janosik', 'mała fatr', 'małej fatr', 'čičman', 'strečno', 'martin', 'macierz', 'kysuc', 'turiec', 'rajeck', 'wielka fatr', 'wielkiej fatr', 'ostredok', ' kia', 'východná', 'sagan', 'vlhová', 'martikán', 'stodola', 'demianowsk', 'chopok', 'jasná', 'černov', 'hlink', 'fulla', 'benk', 'kollár', 'mošovc', 'druciarstwo']),
+        ('bb', ['bańsk', 'bansk', 'kremnic', ' hron', 'hronu', 'pohroni', 'muránsk', 'czarnohroń', 'chvatimech', 'sládkovič', 'hell', 'bahýľ', 'zwoleń', 'horehroni', 'kráľova', 'hamšík', 'powstanie narodowe', 'snp', 'ochtinsk', 'słowacki kras', 'krásna', 'rożniaw']),
+        ('po', ['preszów', 'preszow', 'poprad', 'kieżmark', 'lewocz', 'bardejów', 'bardejow', 'lubowl', 'podoliniec', 'podolińc', 'tatr', 'łomnic', 'gerlach', 'krywań', 'rysy', 'szczyrbsk', 'ždiar', 'bielsk', 'pienin', 'dunajc', 'czerwony klasztor', 'medzilaborc', 'warhol', 'miková', 'rusin', 'dukiel', 'połonin', 'kremenec', 'bodružal', 'spisk', 'spisz', 'thököly', 'petzval', 'hossa', 'sabinow', 'nosiči', 'tatranky', 'mariańską']),
+        ('ke', ['koszyc', 'košic', 'kosice', 'rakoczy', 'urbana', 'michała', 'zemplin', 'tokaj', 'szirav', 'bodrog', 'dobszyńsk', 'słowacki raj', 'rozhanov', 'hingis', 'maraton pokoju', 'art film']),
+    ],
 }
 
 

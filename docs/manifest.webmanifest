@@ -2,7 +2,7 @@
  "name": "Odkryj! Pojedynek wiedzy o krajach",
  "short_name": "Odkryj!",
  "lang": "pl",
- "description": "Pojedynek wiedzy o krajach Europy na dwa telefony: Austria, Czechy, Włochy, Niderlandy.",
+ "description": "Pojedynek wiedzy o krajach Europy na dwa telefony: Austria, Czechy, Włochy, Niderlandy, Słowacja.",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",

@@ -312,6 +312,76 @@
       <path d="M46 34c-4-6 4-10 0-16M60 32c-4-6 4-10 0-16M74 34c-4-6 4-10 0-16" fill="none" stroke="var(--art-ink)" stroke-width="2" opacity=".5"/>`
   };
 
+  const REGION_ART_SK = {
+    // Bratysława: zamek z czterema wieżami nad Dunajem
+    bratislava: `${sky('var(--art-sky)')}<path d="M0 64c20-8 40-14 60-14s40 6 60 14v26H0z" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M34 54V30h52v24z" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M30 34V18h10v16zM80 34V18h10v16zM30 56V40h10v16zM80 56V40h10v16z" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M28 18l7-8 7 8zM78 18l7-8 7 8z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M44 40h6M56 40h6M68 40h6M44 48h6M56 48h6M68 48h6" stroke="var(--art-ink)" stroke-width="2"/>
+      <rect y="70" width="120" height="20" fill="var(--art-lake)"/>
+      <path d="M8 78h20M54 84h26M94 78h18" stroke="#fff" stroke-width="1.4" opacity=".7"/>`,
+    // Zachód: zamek w Trenczynie na skale
+    west: `${sky('var(--art-sky)')}<circle cx="98" cy="18" r="8" fill="var(--art-sun)"/>
+      <path d="M0 90V70c14-10 28-26 44-30s30 8 40 18 24 12 36 12v20z" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M40 42V20h12v22zM56 44V30h26v14z" fill="var(--art-stone)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M38 20l2-4h12l2 4M40 16h4v-4h4v4h4" fill="none" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M56 30l13-8 13 8z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M45 28v6M62 36h4M72 36h4" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M0 84c30-4 60 2 120-4v10H0z" fill="var(--art-lake)" opacity=".85"/>`,
+    // Środek: drewniane chaty Vlkolínca pod Wielką Fatrą
+    center: `${sky('var(--art-sky)')}<path d="M0 60 30 26l20 18 22-26 48 42v30H0z" fill="var(--art-green2)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M66 24l6-6 6 6-3 2-3-2-3 2z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.1"/>
+      <path d="M14 86V66h26v20zM52 86V62h28v24zM90 86V68h22v18z" fill="#9A6A3E" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M12 66l15-12 15 12zM50 62l16-14 16 14zM88 68l13-11 13 11z" fill="#6B4A2B" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M20 74h6M58 70h6M68 70h6M96 76h6" stroke="#fff" stroke-width="2.5"/>
+      <rect x="62" y="40" width="8" height="12" fill="#9A6A3E" stroke="var(--art-ink)" stroke-width="1.4"/>`,
+    // Wschód: Tatry z Łomnicą i Spiski Zamek
+    east: `${sky('var(--art-sky)')}<path d="M0 54 22 26l12 12 18-28 16 20 12-12 40 36v6H0z" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M46 18l6-8 6 10-4 2-3-3-3 3zM16 34l6-8 6 8-3 2-3-2-3 2z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.1"/>
+      <path d="M0 90V70c20-6 40-12 60-12s40 6 60 12v20z" fill="var(--art-green)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <path d="M58 64V48h8v-6h10v6h14v16z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.8"/>
+      <path d="M66 42l5-6 5 6" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <path d="M62 54h4M78 54h4M84 54h4" stroke="var(--art-ink)" stroke-width="2"/>`
+  };
+  const SPECIAL_ART_SK = {
+    // Janosik: kapelusz z piórkiem i ciupaga
+    luck: `<rect width="120" height="120" fill="var(--sp-luck-bg)"/>
+      <path d="M78 22 34 100" stroke="#9A6A3E" stroke-width="5" stroke-linecap="round"/>
+      <path d="M74 16c10-2 18 4 16 12l-10-2-8 8c-4-8-4-16 2-18z" fill="var(--art-stone)" stroke="var(--art-ink)" stroke-width="2"/>
+      <ellipse cx="54" cy="70" rx="34" ry="8" fill="var(--art-ink)"/>
+      <path d="M34 68c0-16 8-24 20-24s20 8 20 24z" fill="var(--art-ink)"/>
+      <path d="M36 64h36" stroke="var(--art-red)" stroke-width="4"/>
+      <path d="M70 50c8-10 16-16 24-18-4 8-12 14-22 20z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <circle cx="92" cy="88" r="9" fill="var(--art-gold)" stroke="var(--art-ink)" stroke-width="2"/>`,
+    // Lawina
+    detour: `<rect width="120" height="120" fill="var(--sp-detour-bg)"/>
+      <path d="M4 110 44 30l20 26 14-18 38 72z" fill="var(--art-rock)" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M44 30l-8 16 10 4 8-8z" fill="#fff" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <path d="M48 52c-6 10-4 20-14 28-6 6-4 16 6 18 12 2 18-8 26-14 10-8 20-6 26-16-14-2-26-8-34-16z" fill="#fff" stroke="var(--art-ink)" stroke-width="2"/>
+      <circle cx="40" cy="96" r="5" fill="#fff" stroke="var(--art-ink)" stroke-width="1.4"/><circle cx="58" cy="100" r="4" fill="#fff" stroke="var(--art-ink)" stroke-width="1.4"/>
+      <path d="M86 30l6-10 6 10z" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="1.6"/>`,
+    // Elektriczka: tatrzański tramwaj
+    ticket: `<rect width="120" height="120" fill="var(--sp-ticket-bg)"/>
+      <path d="M20 24h80" stroke="var(--art-ink)" stroke-width="2"/>
+      <path d="M50 24l10 14 10-14" fill="none" stroke="var(--art-ink)" stroke-width="2"/>
+      <rect x="14" y="38" width="92" height="46" rx="10" fill="var(--art-red)" stroke="var(--art-ink)" stroke-width="2.2"/>
+      <path d="M14 70h92" stroke="#fff" stroke-width="4"/>
+      <rect x="22" y="46" width="18" height="16" rx="2" fill="var(--art-sky)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <rect x="46" y="46" width="28" height="16" rx="2" fill="var(--art-sky)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <rect x="80" y="46" width="18" height="16" rx="2" fill="var(--art-sky)" stroke="var(--art-ink)" stroke-width="1.6"/>
+      <circle cx="34" cy="88" r="7" fill="var(--art-ink)"/><circle cx="86" cy="88" r="7" fill="var(--art-ink)"/>
+      <path d="M4 96h112" stroke="var(--art-ink)" stroke-width="3"/>`,
+    // Kofola: szklanka z ciemnym napojem
+    express: `<rect width="120" height="120" fill="var(--sp-express-bg)"/>
+      <path d="M36 30h48l-6 72H42z" fill="#fff" stroke="var(--art-ink)" stroke-width="2.4"/>
+      <path d="M39 44h42l-5 56H44z" fill="#4A2410"/>
+      <path d="M40 44h40" stroke="#C9A27A" stroke-width="4"/>
+      <circle cx="52" cy="64" r="2" fill="#fff" opacity=".7"/><circle cx="64" cy="78" r="2" fill="#fff" opacity=".7"/><circle cx="58" cy="90" r="1.6" fill="#fff" opacity=".7"/>
+      <path d="M70 20l-6 38" stroke="var(--art-red)" stroke-width="4" stroke-linecap="round"/>
+      <path d="M86 58c10 0 12 14 0 16" fill="none" stroke="var(--art-ink)" stroke-width="2" opacity=".3"/>`
+  };
+
   // logo na podstawie flagi kraju
   const LOGO = {
     at: `<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#C8102E"/>
@@ -323,11 +393,16 @@
     <rect width="22" height="64" fill="#008C45"/><rect x="21" width="22" height="64" fill="#F4F5F0"/><rect x="42" width="22" height="64" fill="#CD212A"/></g></svg>`,
     nl: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="nlc"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#nlc)">
     <rect width="64" height="22" fill="#AE1C28"/><rect y="21" width="64" height="22" fill="#fff"/><rect y="42" width="64" height="22" fill="#21468B"/></g></svg>`,
+    sk: `<svg viewBox="0 0 64 64" aria-hidden="true"><defs><clipPath id="skc"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#skc)">
+    <rect width="64" height="22" fill="#fff"/><rect y="21" width="64" height="22" fill="#0B4EA2"/><rect y="42" width="64" height="22" fill="#EE1C25"/>
+    <path d="M12 14h22v20c0 8-6 13-11 16-5-3-11-8-11-16z" fill="#EE1C25" stroke="#fff" stroke-width="2.4"/>
+    <path d="M23 18v22M17 24h12M15 30h16" stroke="#fff" stroke-width="3"/>
+    <path d="M13 40c3-3 6-3 10-1 4-2 7-2 10 1v2H13z" fill="#0B4EA2"/></g></svg>`,
     any: `<svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#2B3A55"/>
     <circle cx="32" cy="32" r="18" fill="none" stroke="#fff" stroke-width="3"/><path d="M14 32h36M32 14c-8 10-8 26 0 36M32 14c8 10 8 26 0 36" fill="none" stroke="#fff" stroke-width="2.5"/></svg>`
   };
   const logo = LOGO.at;
 
   window.ICONS = { CAT, UI, logo, LOGO,
-    REGION_ART: { at: REGION_ART, cz: REGION_ART_CZ, it: REGION_ART_IT, nl: REGION_ART_NL }, SPECIAL_ART: { at: SPECIAL_ART, cz: SPECIAL_ART_CZ, it: SPECIAL_ART_IT, nl: SPECIAL_ART_NL } };
+    REGION_ART: { at: REGION_ART, cz: REGION_ART_CZ, it: REGION_ART_IT, nl: REGION_ART_NL, sk: REGION_ART_SK }, SPECIAL_ART: { at: SPECIAL_ART, cz: SPECIAL_ART_CZ, it: SPECIAL_ART_IT, nl: SPECIAL_ART_NL, sk: SPECIAL_ART_SK } };
 })();

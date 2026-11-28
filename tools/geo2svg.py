@@ -2,6 +2,7 @@
 #  at: krajów związkowych – Statistik Austria (CC BY 4.0), oprac. Flooh Perlot
 #  it: regionów – ISTAT (CC BY 4.0), oprac. openpolis/geojson-italy
 #  nl: prowincji – CBS/PDOK (CC BY 4.0), oprac. cartomap/nl
+#  sk: krajów – ÚGKK SR, Geoportál ZBGIS, oprac. drakh/slovakia-gps-data
 #  cz: krajów – ČÚZK INSPIRE „Územní správní jednotky” (CC BY 4.0), oprac. siwekm/czech-geojson
 import json, math, os, sys
 
@@ -44,6 +45,17 @@ elif CC == 'nl':
     LAT0 = 52.2
     CREDIT = 'Granice prowincji: CBS/PDOK (CC BY 4.0), oprac. cartomap/nl, uproszczone.'
     ident = lambda f, rings: IDS[f['properties']['statcode']]
+elif CC == 'sk':
+    SRC, ENC = 'sk_kraje.json', 'utf-8'
+    IDS = {1: 'ba', 2: 'tt', 3: 'tn', 4: 'nr', 5: 'za', 6: 'bb', 7: 'po', 8: 'ke'}
+    NAMES = {'ba': 'Kraj bratysławski', 'tt': 'Kraj trnawski', 'tn': 'Kraj trenczyński', 'nr': 'Kraj nitrzański',
+             'za': 'Kraj żyliński', 'bb': 'Kraj bańskobystrzycki', 'po': 'Kraj preszowski', 'ke': 'Kraj koszycki'}
+    # makroregiony wg NUTS 2: Bratysława, Słowacja Zachodnia, Środkowa i Wschodnia
+    REGION = {'ba': 'bratislava', 'tt': 'west', 'tn': 'west', 'nr': 'west', 'za': 'center', 'bb': 'center', 'po': 'east', 'ke': 'east'}
+    ORDER = ['ba', 'tt', 'nr', 'tn', 'za', 'bb', 'po', 'ke']
+    LAT0 = 48.7
+    CREDIT = 'Granice krajów: ÚGKK SR, Geoportál ZBGIS, oprac. drakh/slovakia-gps-data, uproszczone.'
+    ident = lambda f, rings: IDS[f['properties']['IDN4']]
 else:
     SRC, ENC = 'cz_kraje.json', 'utf-8'
     # punkt wewnątrz każdego kraju (stolica kraju; dla środkowoczeskiego Kolín, bo Praga jest enklawą)
@@ -100,7 +112,7 @@ for f in d['features']:
             pr = [proj(p) for p in ring]
             out = [pr[0]]
             for q in pr[1:]:
-                if math.hypot(q[0] - out[-1][0], q[1] - out[-1][1]) >= {'at': 1.2, 'cz': 3.0, 'nl': 2.0}.get(CC, 3.0):
+                if math.hypot(q[0] - out[-1][0], q[1] - out[-1][1]) >= {'at': 1.2, 'cz': 3.0, 'nl': 2.0, 'sk': 2.5}.get(CC, 3.0):
                     out.append(q)
             if len(out) < 4:
                 continue
